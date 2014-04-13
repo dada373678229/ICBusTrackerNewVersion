@@ -1,0 +1,17 @@
+10th Street,10thst,coralville
+AM Express,amexpress,coralville
+Blue,blue,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hospital via Hancher,hosphanch,uiowa
+Lantern Park,lantern,coralville
+Manville Heights,manville,iowa-city
+Melrose Express,melrose,iowa-city
+Night Pentacrest,pentnight,uiowa
+Night/Saturday,nightsat,coralville
+Pentacrest,pentacrest,uiowa
+Plaen View,plaenview,iowa-city
+PM Express,pmexpress,coralville
+PM North Liberty,pmnorthlib,coralville
+Westside Hospital,westhosp,iowa-city
+Westwinds,westwinds,iowa-city
+Westwinds Night & Weekend,westwindsnw,iowa-city

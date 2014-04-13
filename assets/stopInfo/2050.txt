@@ -1,0 +1,10 @@
+Football Shuttle Downtown,fbdntown,uiowa
+Football Shuttle Downtown In-game,fbdntownig,uiowa
+Football Shuttle Hancher,fbhancher,uiowa
+Football Shuttle Hawkeye Lot In-game,fbhawkig,uiowa
+Football Shuttle Hawkeye Lot In-game,fbhawkig,uiowa
+Hospital via Hancher,hosphanch,uiowa
+Hospital/VA Loop,hospva,uiowa
+Pentacrest,pentacrest,uiowa
+Pentacrest,pentacrest,uiowa
+Research Park,research,uiowa

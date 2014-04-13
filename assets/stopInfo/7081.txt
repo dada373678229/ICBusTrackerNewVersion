@@ -1,0 +1,7 @@
+Broadway,brdwy,iowa-city
+Broadway Night & Weekend,brdwynw,iowa-city
+Free Shuttle South,shuttles,iowa-city
+Mall,mall,iowa-city
+Oakcrest,oakcrst,iowa-city
+Oakcrest Night & Weekend,oakcrstnw,iowa-city
+Westport,westport,iowa-city

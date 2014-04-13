@@ -1,0 +1,7 @@
+Broadway Night & Weekend,brdwynw,iowa-city
+Eastside Loop AM,esla,iowa-city
+Eastside Loop AM,esla,iowa-city
+Eastside Loop PM,eslp,iowa-city
+Eastside Loop PM,eslp,iowa-city
+Lakeside,lakeside,iowa-city
+Mall,mall,iowa-city

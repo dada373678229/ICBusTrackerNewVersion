@@ -1,0 +1,5 @@
+Football Shuttle Hawkeye Lot,fbhawk,uiowa
+Football Shuttle Hawkeye Lot In-game,fbhawkig,uiowa
+Hawk Express,hawkexpress,uiowa
+Hawk Lot/Hospital,hawklot,uiowa
+Hawkeye Hospital,hawkhosp,uiowa

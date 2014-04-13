@@ -1,0 +1,38 @@
+10th Street,10thst,coralville
+7th Avenue,7thave,iowa-city
+ABW/Studio Arts,abwstart,uiowa
+AM Express,amexpress,coralville
+AM North Liberty,amnorthlib,coralville
+Broadway,brdwy,iowa-city
+Broadway Night & Weekend,brdwynw,iowa-city
+Cross Park,crosspark,iowa-city
+Cross Park,crosspark,iowa-city
+East Side Loop SafeRide,esl,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Football Shuttle Downtown,fbdntown,uiowa
+Football Shuttle Downtown In-game,fbdntownig,uiowa
+Hawk Express,hawkexpress,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Lantern Park,lantern,coralville
+Manville Heights,manville,iowa-city
+Manville Heights Night & Weekend,manvillenw,iowa-city
+Mayflower Shuttle,mayflower,uiowa
+Melrose Express,melrose,iowa-city
+Music/Theatre Shuttle,mts,uiowa
+Night Pentacrest,pentnight,uiowa
+Night/Saturday,nightsat,coralville
+Oakcrest,oakcrst,iowa-city
+Oakcrest Night & Weekend,oakcrstnw,iowa-city
+Pentacrest,pentacrest,uiowa
+Plaen View,plaenview,iowa-city
+PM Express,pmexpress,coralville
+PM North Liberty,pmnorthlib,coralville
+Red,red,uiowa
+Rochester,rochester,iowa-city
+Studio Arts Shuttle,studart,uiowa
+Westport,westport,iowa-city
+Westport,westport,iowa-city
+Westside Hospital,westhosp,iowa-city
+Westwinds,westwinds,iowa-city
+Westwinds Night & Weekend,westwindsnw,iowa-city

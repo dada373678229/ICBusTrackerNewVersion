@@ -1,0 +1,11 @@
+10th Street,10thst,coralville
+AM Express,amexpress,coralville
+Blue,blue,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hospital/VA Loop,hospva,uiowa
+Lantern Park,lantern,coralville
+Night Pentacrest,pentnight,uiowa
+Night/Saturday,nightsat,coralville
+Pentacrest,pentacrest,uiowa
+PM Express,pmexpress,coralville
+PM North Liberty,pmnorthlib,coralville

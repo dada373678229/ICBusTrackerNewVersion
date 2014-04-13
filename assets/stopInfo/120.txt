@@ -1,0 +1,17 @@
+10th Street,10thst,coralville
+ABW/Studio Arts,abwstart,uiowa
+AM Express,amexpress,coralville
+AM North Liberty,amnorthlib,coralville
+Blue,blue,uiowa
+East Campus Shuttle,ecs,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Hawk Express,hawkexpress,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Lantern Park,lantern,coralville
+Mayflower Shuttle,mayflower,uiowa
+Night Pentacrest,pentnight,uiowa
+Night/Saturday,nightsat,coralville
+Pentacrest,pentacrest,uiowa
+PM Express,pmexpress,coralville
+Studio Arts Shuttle,studart,uiowa

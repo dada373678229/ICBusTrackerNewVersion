@@ -1,0 +1,6 @@
+East Side Loop SafeRide,esl,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Mayflower Shuttle,mayflower,uiowa
+Red,red,uiowa

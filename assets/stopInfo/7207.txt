@@ -1,0 +1,6 @@
+7th Avenue,7thave,iowa-city
+Eastside Express,eastex,iowa-city
+Manville Heights Night & Weekend,manvillenw,iowa-city
+North Dodge,ndodge,iowa-city
+North Dodge Night & Weekend,ndodgenw,iowa-city
+Rochester,rochester,iowa-city

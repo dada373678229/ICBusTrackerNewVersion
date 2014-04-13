@@ -1,0 +1,10 @@
+10th Street,10thst,coralville
+AM Express,amexpress,coralville
+Hawk Express,hawkexpress,uiowa
+Hawk Lot/Hospital,hawklot,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Lantern Park,lantern,coralville
+Night/Saturday,nightsat,coralville
+PM Express,pmexpress,coralville
+Research Park,research,uiowa

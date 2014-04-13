@@ -1,0 +1,5 @@
+Finals Week Interdorm,interdormfnls,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Mayflower Shuttle,mayflower,uiowa
+Red,red,uiowa

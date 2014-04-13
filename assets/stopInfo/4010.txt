@@ -1,0 +1,5 @@
+10th Street,10thst,coralville
+AM Express,amexpress,coralville
+Lantern Park,lantern,coralville
+Night/Saturday,nightsat,coralville
+PM Express,pmexpress,coralville

@@ -1,0 +1,12 @@
+ABW/Studio Arts,abwstart,uiowa
+East Campus Shuttle,ecs,uiowa
+East Side Loop SafeRide,esl,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Hawk Express,hawkexpress,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Mayflower Shuttle,mayflower,uiowa
+Night Pentacrest,pentnight,uiowa
+Pentacrest,pentacrest,uiowa
+Red,red,uiowa
+Studio Arts Shuttle,studart,uiowa

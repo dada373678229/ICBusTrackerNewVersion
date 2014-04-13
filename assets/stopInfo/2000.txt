@@ -1,0 +1,11 @@
+Blue,blue,uiowa
+Hawk Lot/Hospital,hawklot,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hawkeye Hospital,hawkhosp,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Hospital,hospital,uiowa
+Night Pentacrest,pentnight,uiowa
+Red,red,uiowa

@@ -1,0 +1,4 @@
+Basketball Shuttle,bskball,uiowa
+Football Shuttle Downtown In-game,fbdntownig,uiowa
+Football Shuttle Hancher,fbhancher,uiowa
+Football Shuttle Hawkeye Lot In-game,fbhawkig,uiowa

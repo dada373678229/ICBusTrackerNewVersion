@@ -1,0 +1,8 @@
+ABW/Studio Arts,abwstart,uiowa
+East Side Loop SafeRide,esl,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Music/Theatre Shuttle,mts,uiowa
+Red,red,uiowa
+Studio Arts Shuttle,studart,uiowa

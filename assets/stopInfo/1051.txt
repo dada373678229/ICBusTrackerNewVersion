@@ -1,0 +1,7 @@
+ABW/Studio Arts,abwstart,uiowa
+Blue,blue,uiowa
+East Campus Shuttle,ecs,uiowa
+Finals Week Interdorm,interdormfnls,uiowa
+Hawkeye Interdorm,hawkdorm,uiowa
+Interdorm,interdorm,uiowa
+Studio Arts Shuttle,studart,uiowa

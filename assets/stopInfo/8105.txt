@@ -1,0 +1,7 @@
+Melrose Express,melrose,iowa-city
+Oakcrest,oakcrst,iowa-city
+Oakcrest Night & Weekend,oakcrstnw,iowa-city
+Plaen View,plaenview,iowa-city
+Westside Hospital,westhosp,iowa-city
+Westwinds,westwinds,iowa-city
+Westwinds Night & Weekend,westwindsnw,iowa-city
