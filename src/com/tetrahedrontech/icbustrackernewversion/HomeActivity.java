@@ -117,7 +117,7 @@ public class HomeActivity extends Activity {
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView parent, View view, int position, long id) {
-            displayView(0);
+            displayView(1);
             mDrawerLayout.closeDrawer(mDrawerList);
  
         }
@@ -126,7 +126,6 @@ public class HomeActivity extends Activity {
     private void displayView(int position) {
         // update the main content by replacing fragments
         Fragment fragment = null;
-        Log.i("mytag","here");
         switch (position) {
         case 0:
             fragment = new HomeFragment();
