@@ -6,6 +6,7 @@ import com.tetrahedrontech.icbustrackernewversion.StopsDetailActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -30,9 +31,12 @@ public class stopListCard extends Card{
     private String stopId;
     private String stopName;
     
+    private Context context;
+    
     //constructor, use custom stop_list_card layout
 	public stopListCard(Context context) {
 		super(context, R.layout.stop_list_card);
+		this.context=context;
 		init();
     }
 	
@@ -43,10 +47,12 @@ public class stopListCard extends Card{
         setOnClickListener(new OnCardClickListener() {
 			@Override
 			public void onClick(Card card, View view) {
-				Intent i = new Intent(getContext(),StopsDetailActivity.class);
+				Intent i = new Intent(context,StopsDetailActivity.class);
 				i.putExtra("stopTitle", card.getId());
-				getContext().startActivity(i);
+				context.startActivity(i);
+				Log.i("mytag","here");
 				((Activity) getContext()).overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
+				
 			}
         });
     }

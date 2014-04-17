@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ICBusTracker</string>
+    <string name="app_name">Bongo City</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_routes_detail">RoutesDetailActivity</string>
@@ -9,23 +9,21 @@
     
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
-        <item >Weather</item>
+        <item >Favorite</item>
         <item >Stop</item>
         <item >Route</item>
-        <item >Favorite</item>
         <item >Near Me</item>
-        <item >Settings</item>
+        <item >Themes</item>
     </string-array>
      
     <!-- Nav Drawer List Item Icons -->
     <!-- Keep them in order as the titles are in -->
     <array name="nav_drawer_icons">
-        <item>@drawable/ic_weather</item>
+        <item>@drawable/ic_favorite</item>
         <item>@drawable/ic_stop</item>
         <item>@drawable/ic_route</item>
-        <item>@drawable/ic_favorite</item>
         <item>@drawable/ic_near_me</item>
-        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_themes</item>
     </array>
     
     <string name="drawer_open">Open navigation drawer</string>

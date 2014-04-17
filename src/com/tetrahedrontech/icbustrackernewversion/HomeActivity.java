@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -45,7 +46,10 @@ public class HomeActivity extends Activity {
  
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
+    
+    //*********************
 
+    //*********************
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -66,7 +70,11 @@ public class HomeActivity extends Activity {
 		 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
-		//displayView(0);
+		//***************************
+		  
+		
+		 
+		//***************************
 	}
 	/*
 	@Override
@@ -117,7 +125,7 @@ public class HomeActivity extends Activity {
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
         public void onItemClick(AdapterView parent, View view, int position, long id) {
-            displayView(1);
+        	displayView(position);
             mDrawerLayout.closeDrawer(mDrawerList);
  
         }
@@ -132,15 +140,17 @@ public class HomeActivity extends Activity {
             break;
             
         case 1:
+            fragment = new StopFragment();
+            break;
+            
+        case 2:
             fragment = new RouteFragment();
             break;
+            
+        case 4:
+            fragment = new ThemeFragment();
+            break;
             /*
-        case 2:
-            fragment = new PhotosFragment();
-            break;
-        case 3:
-            fragment = new CommunityFragment();
-            break;
         case 4:
             fragment = new PagesFragment();
             break;
@@ -155,8 +165,10 @@ public class HomeActivity extends Activity {
         
         if (fragment != null) {
             FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction()
-                    .replace(R.id.frame_container, fragment).commit();
+            FragmentTransaction ft=fragmentManager.beginTransaction();
+            ft.replace(R.id.frame_container, fragment);
+            ft.addToBackStack(null);
+            ft.commit();
             /*
             // update selected item and title, then close the drawer
             mDrawerList.setItemChecked(position, true);

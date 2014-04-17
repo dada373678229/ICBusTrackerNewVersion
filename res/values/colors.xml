@@ -18,7 +18,7 @@
 
 <resources>
     <!-- Card Color -->
-    <color name="card_background_default">#00CCFF</color>
+    <color name="card_background_default">#FFFFFF</color>
     <color name="card_background_red">#FF0000</color>
     <color name="card_background_yellow">#FFFF00</color>
     <color name="card_background_blue">#0000FF</color>
@@ -29,7 +29,9 @@
     <color name="card_expand_title_color">#B3B2B2</color>
 
     <!-- Used by selector -->
-    <color name="card_pressed">#FFFF00</color>
+    <color name="card_pressed_light_purple">#FFBFFF</color>
+    <color name="card_pressed_light_blue">#99CCFF</color>
+    <color name="card_pressed_light_green">#99FFCC</color>
     <color name="card_activated">#CFE9F3</color>
 
     <color name="card_pressed_kitkat">#10000000</color>
@@ -38,5 +40,6 @@
     <!-- Activity color -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="light_grey">#F1F1F1</color>
 
 </resources>

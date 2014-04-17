@@ -1,5 +1,6 @@
 package com.tetrahedrontech.icbustrackernewversion;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,6 +15,9 @@ public class HomeFragment extends Fragment{
             Bundle savedInstanceState) {
   
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        
+        ActionBar actionBar = getActivity().getActionBar();
+		actionBar.setTitle("Favorite");
           
         return rootView;
     }

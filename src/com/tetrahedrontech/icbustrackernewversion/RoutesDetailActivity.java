@@ -43,6 +43,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Toast;
 import android.os.Build;
 
@@ -94,7 +95,7 @@ public class RoutesDetailActivity extends Activity {
 				
 				@Override
 		        protected void onPostExecute(String result) {
-					Log.i("mytag","onPostExecute");
+					//Log.i("mytag","onPostExecute");
 		        }
 			}
 	
@@ -103,11 +104,12 @@ public class RoutesDetailActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_routes_detail);
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 		
 		String route=(String) getIntent().getExtras().get("route");
-		Toast.makeText(this, route, Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, route, Toast.LENGTH_SHORT).show();
 		initMap("red");
 		context=this;
 		
