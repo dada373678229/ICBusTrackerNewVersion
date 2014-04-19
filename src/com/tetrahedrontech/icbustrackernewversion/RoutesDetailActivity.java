@@ -57,7 +57,7 @@ public class RoutesDetailActivity extends Activity {
 	coreAPI api=new coreAPI();
 	Marker busLocationMarker;
 	private Context context;
-	final BusLocationMarkerThread getBusLocation=new BusLocationMarkerThread();
+	BusLocationMarkerThread getBusLocation;
 	
 			//this class is to show bus marker on the map, continuously
 			private class BusLocationMarkerThread extends AsyncTask<String, String, String> {
@@ -67,17 +67,22 @@ public class RoutesDetailActivity extends Activity {
 				@Override
 		        protected String doInBackground(String... params) {
 					while (true){
-					String line=api.busLocations(params[0], params[1]);
-					if (line.length() != 0){
-						publishProgress(new String[]{line});
-					}
+						if (isCancelled()) {
+							break;}
+						
+						String line=api.busLocations(params[0], params[1]);
+						if (line.length() != 0){
+							publishProgress(new String[]{line});
+						}
 					
-					try {
-						Thread.currentThread().sleep(1000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}}
+						try {
+							Thread.currentThread().sleep(1000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+					return "";
 				}
 				
 				//this method is called after publishProgress is called, the parameter is the same as the
@@ -112,26 +117,38 @@ public class RoutesDetailActivity extends Activity {
 		//Toast.makeText(this, route, Toast.LENGTH_SHORT).show();
 		initMap("red");
 		context=this;
+		 
+	}
+	
+	@Override
+	protected void onResume(){
+		super.onResume();
 		
 		//start tracking bus locations
+		getBusLocation=new BusLocationMarkerThread();
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-		    getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"uiowa","red"});
+			getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"uiowa","red"});
 		else
-		    getBusLocation.execute(new String[]{"uiowa","red"});
-		
-		 
+			getBusLocation.execute(new String[]{"uiowa","red"});
 	}
 	
 	@Override
     protected void onDestroy() {
         super.onDestroy();
+        getBusLocation.cancel(true);
     }
 	
 	@Override
     protected void onPause() {
-		getBusLocation.cancel(true);
         super.onPause();
+        getBusLocation.cancel(true);
     }
+	
+	@Override
+	protected void onStop(){
+		super.onStop();
+		getBusLocation.cancel(true);
+	}
 	
 	//animation when back button is pressed
 	@Override

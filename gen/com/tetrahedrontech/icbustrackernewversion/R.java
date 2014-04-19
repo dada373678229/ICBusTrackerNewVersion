@@ -528,6 +528,7 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f070014;
+        public static final int changeTheme=0x7f070020;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -599,8 +600,8 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f070013;
-        public static final int drawer_close=0x7f070021;
-        public static final int drawer_open=0x7f070020;
+        public static final int drawer_close=0x7f070022;
+        public static final int drawer_open=0x7f070021;
         public static final int hello_world=0x7f07001c;
         /**  Undo Controller
          */

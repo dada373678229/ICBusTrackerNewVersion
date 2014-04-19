@@ -272,6 +272,7 @@ int string auth_client_needs_update_title 0x7f070017
 int string auth_client_play_services_err_notification_msg 0x7f070018
 int string auth_client_requested_by_msg 0x7f070019
 int string auth_client_using_bad_version_title 0x7f070014
+int string changeTheme 0x7f070020
 int string common_google_play_services_enable_button 0x7f070006
 int string common_google_play_services_enable_text 0x7f070005
 int string common_google_play_services_enable_title 0x7f070004
@@ -292,8 +293,8 @@ int string common_google_play_services_update_text 0x7f070008
 int string common_google_play_services_update_title 0x7f070007
 int string common_signin_button_text 0x7f070012
 int string common_signin_button_text_long 0x7f070013
-int string drawer_close 0x7f070021
-int string drawer_open 0x7f070020
+int string drawer_close 0x7f070022
+int string drawer_open 0x7f070021
 int string hello_world 0x7f07001c
 int string list_card_undo_title 0x7f07001b
 int string title_activity_routes_detail 0x7f07001e
