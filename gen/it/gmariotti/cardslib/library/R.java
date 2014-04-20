@@ -87,19 +87,19 @@ public final class R {
 		public static final int card_selector = 0x7f02000e;
 		public static final int card_shadow = 0x7f020012;
 		public static final int card_undo = 0x7f020013;
-		public static final int ic_menu_expand_card_dark_normal = 0x7f020030;
-		public static final int ic_menu_expand_card_dark_pressed = 0x7f020031;
-		public static final int ic_menu_overflow_card_dark_normal = 0x7f020032;
-		public static final int ic_menu_overflow_card_dark_pressed = 0x7f020033;
-		public static final int ic_menu_overflow_card_rounded_dark_normal = 0x7f020034;
-		public static final int ic_menu_overflow_card_rounded_dark_pressed = 0x7f020035;
-		public static final int ic_undobar_undo = 0x7f02003e;
-		public static final int pressed_background_card = 0x7f02003f;
-		public static final int pressed_background_kitkat_card = 0x7f020040;
-		public static final int undobar = 0x7f020041;
-		public static final int undobar_button_focused = 0x7f020042;
-		public static final int undobar_button_pressed = 0x7f020043;
-		public static final int undobar_divider = 0x7f020044;
+		public static final int ic_menu_expand_card_dark_normal = 0x7f020031;
+		public static final int ic_menu_expand_card_dark_pressed = 0x7f020032;
+		public static final int ic_menu_overflow_card_dark_normal = 0x7f020033;
+		public static final int ic_menu_overflow_card_dark_pressed = 0x7f020034;
+		public static final int ic_menu_overflow_card_rounded_dark_normal = 0x7f020035;
+		public static final int ic_menu_overflow_card_rounded_dark_pressed = 0x7f020036;
+		public static final int ic_undobar_undo = 0x7f02003f;
+		public static final int pressed_background_card = 0x7f020040;
+		public static final int pressed_background_kitkat_card = 0x7f020041;
+		public static final int undobar = 0x7f020042;
+		public static final int undobar_button_focused = 0x7f020043;
+		public static final int undobar_button_pressed = 0x7f020044;
+		public static final int undobar_divider = 0x7f020045;
 	}
 	public static final class id {
 		public static final int card_content_expand_layout = 0x7f060015;

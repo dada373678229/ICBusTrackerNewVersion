@@ -26,6 +26,7 @@
         <item>@drawable/ic_route</item>
         <item>@drawable/ic_near_me</item>
         <item>@drawable/ic_themes</item>
+        <item>@drawable/ic_about</item>
     </array>
     
     <string name="drawer_open">Open navigation drawer</string>

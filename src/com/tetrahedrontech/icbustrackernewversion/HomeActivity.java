@@ -48,9 +48,6 @@ public class HomeActivity extends Activity{
     // slide menu items
     private String[] navMenuTitles;
     private TypedArray navMenuIcons;
- 
-    private ArrayList<NavDrawerItem> navDrawerItems;
-    private NavDrawerListAdapter adapter;
     
     private Fragment currentFragment;
     
@@ -63,15 +60,17 @@ public class HomeActivity extends Activity{
 		setContentView(R.layout.activity_home);
 		
 		navMenuTitles=getResources().getStringArray(R.array.nav_drawer_items);
+		navMenuIcons=getResources().obtainTypedArray(R.array.nav_drawer_icons);
 		
 		mDrawerList=(ListView) findViewById(R.id.list_nav_drawer);
-		mDrawerList.setAdapter(new NavDrawerListAdapter(this,navMenuTitles));
+		mDrawerList.setAdapter(new NavDrawerListAdapter(this,navMenuTitles,navMenuIcons));
 		
 
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		
 		mDrawerToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close){
 			public void onDrawerClosed(View view) {
+				getActionBar().setTitle(mTitle);
 				invalidateOptionsMenu();
 			}
 			public void onDrawerOpened(View drawerView) {
