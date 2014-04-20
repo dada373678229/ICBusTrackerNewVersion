@@ -21,6 +21,8 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
@@ -44,11 +46,18 @@ public class StopsDetailActivity extends Activity{
 	final LongOperation getData=new LongOperation();
 	
 	private int theme;
+	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_stops_detail);
+		
+		//set action bar background color
+		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		theme=Integer.valueOf(settings.getString("theme", "0"));
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		getActionBar().setBackgroundDrawable(cd);
 		
 		//set up action bar
 		String stopTitle=getIntent().getExtras().getString("stopTitle");
@@ -56,9 +65,6 @@ public class StopsDetailActivity extends Activity{
 		ActionBar actionBar = getActionBar();
 		actionBar.setTitle(stopTitle.split(",")[1]);
 		context=this;
-		
-		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
-		theme=Integer.valueOf(settings.getString("theme", "0"));
 		
 		//show progress dialog
 		progressDialog=createProgressDialog(this);

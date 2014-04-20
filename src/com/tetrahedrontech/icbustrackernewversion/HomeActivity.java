@@ -2,8 +2,8 @@ package com.tetrahedrontech.icbustrackernewversion;
 
 import java.util.ArrayList;
 
-import com.tetrahedrontech.icbustrackernewversion.NavDrawer.NavDrawerItem;
 import com.tetrahedrontech.icbustrackernewversion.NavDrawer.NavDrawerListAdapter;
+import com.tetrahedrontech.icbustrackernewversion.cards.themeListCard;
 
 import android.app.Activity;
 import android.app.ActionBar;
@@ -12,10 +12,14 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -43,22 +47,32 @@ public class HomeActivity extends Activity{
     private CharSequence mDrawerTitle="";
  
     // used to store app title
-    private CharSequence mTitle;
+    private CharSequence mTitle="Bongo City";
  
     // slide menu items
     private String[] navMenuTitles;
     private TypedArray navMenuIcons;
     
+    //current fragment
     private Fragment currentFragment;
     
-    //*********************
-
-    //*********************
+    //theme id, 0=light blue, 1=light purple, 2=light green
+    private int theme;
+    
+    private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home);
 		
+		//set action bar background color
+		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		theme=Integer.valueOf(settings.getString("theme", "0"));
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		getActionBar().setBackgroundDrawable(cd);
+		
+		//get drawer titles and icons from @string
 		navMenuTitles=getResources().getStringArray(R.array.nav_drawer_items);
 		navMenuIcons=getResources().obtainTypedArray(R.array.nav_drawer_icons);
 		
@@ -71,26 +85,26 @@ public class HomeActivity extends Activity{
 		mDrawerToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close){
 			public void onDrawerClosed(View view) {
 				getActionBar().setTitle(mTitle);
+				//this method will call onPrepareOptionMenu(Menu menu)
 				invalidateOptionsMenu();
 			}
 			public void onDrawerOpened(View drawerView) {
 				getActionBar().setTitle("Bongo City");
+				//this method will call onPrepareOptionMenu(Menu menu)
 				invalidateOptionsMenu();
 			}
 		};
+		mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 		mDrawerLayout.setDrawerListener(mDrawerToggle);
 		
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
-		//***************************
-		  
-		
-		 
-		//***************************
 	}
 	
+	//this method is called when invalidateOptionsMenu() is called
+	//this method is for setting up option menus
 	@Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 		if (mDrawerTitle.equals("Stops")){
@@ -211,6 +225,7 @@ public class HomeActivity extends Activity{
         }
     }
     
+    //set action bar title
     @Override
     public void setTitle(CharSequence title){
     	mTitle=title;

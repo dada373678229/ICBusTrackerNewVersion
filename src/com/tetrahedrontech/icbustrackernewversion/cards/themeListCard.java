@@ -5,6 +5,8 @@ import it.gmariotti.cardslib.library.internal.Card.OnCardClickListener;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -19,6 +21,7 @@ public class themeListCard extends Card{
 	    private String themeName;
 	    
 	    private String[] themeNames=new String[]{"Light Blue","Light_Purple","Light_Green"};
+	    private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	    
 	    private Context context;
 	    
@@ -43,6 +46,9 @@ public class themeListCard extends Card{
 					SharedPreferences.Editor editor=settings.edit();
 					editor.putString("theme", card.getId());
 					editor.commit();
+					
+					ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[Integer.valueOf(card.getId())]));
+					((Activity) getContext()).getActionBar().setBackgroundDrawable(cd);
 				}
 	        });
 	    }
