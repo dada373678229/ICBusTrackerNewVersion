@@ -11,6 +11,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 
+import com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter;
+import com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
 import com.tetrahedrontech.icbustrackernewversion.cards.routeListCard;
 import com.tetrahedrontech.icbustrackernewversion.cards.routeListDetailCard;
 import com.tetrahedrontech.icbustrackernewversion.cards.themeListCard;
@@ -47,9 +49,6 @@ public class RouteFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
   
         View rootView = inflater.inflate(R.layout.fragment_route, container, false);
-        
-        ActionBar actionBar = getActivity().getActionBar();
-		actionBar.setTitle("Routes");
 		
 		SharedPreferences settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
@@ -110,8 +109,10 @@ public class RouteFragment extends Fragment{
   	private void setList(ArrayList<Card> routeList){
   		CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(getActivity(),routeList);
   		CardListView listView = (CardListView) getActivity().findViewById(R.id.routeListView);
+  		AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
+        animCardArrayAdapter.setAbsListView(listView);
         if (listView!=null){
-            listView.setAdapter(mCardArrayAdapter);
+            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
         }
   	}
   	

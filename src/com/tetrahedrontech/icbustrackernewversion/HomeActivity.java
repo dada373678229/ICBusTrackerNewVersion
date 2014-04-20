@@ -10,6 +10,8 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -18,24 +20,27 @@ import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.SearchView.OnQueryTextListener;
 import android.os.Build;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends Activity{
 	
 	private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
     
     // nav drawer title
-    private CharSequence mDrawerTitle;
+    private CharSequence mDrawerTitle="";
  
     // used to store app title
     private CharSequence mTitle;
@@ -46,6 +51,8 @@ public class HomeActivity extends Activity {
  
     private ArrayList<NavDrawerItem> navDrawerItems;
     private NavDrawerListAdapter adapter;
+    
+    private Fragment currentFragment;
     
     //*********************
 
@@ -63,7 +70,15 @@ public class HomeActivity extends Activity {
 
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		
-		mDrawerToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close);
+		mDrawerToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close){
+			public void onDrawerClosed(View view) {
+				invalidateOptionsMenu();
+			}
+			public void onDrawerOpened(View drawerView) {
+				getActionBar().setTitle("Bongo City");
+				invalidateOptionsMenu();
+			}
+		};
 		mDrawerLayout.setDrawerListener(mDrawerToggle);
 		
 		getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -76,19 +91,36 @@ public class HomeActivity extends Activity {
 		 
 		//***************************
 	}
-	/*
+	
 	@Override
     public boolean onPrepareOptionsMenu(Menu menu) {
+		if (mDrawerTitle.equals("Stops")){
+			// Inflate the options menu from XML
+		    MenuInflater inflater = getMenuInflater();
+		    inflater.inflate(R.menu.options_menu, menu);
+
+		    // Get the SearchView and set the searchable configuration
+		    SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+		    SearchView searchView = (SearchView) menu.findItem(R.id.menu_search).getActionView();
+		    // Assumes current activity is the searchable activity
+		    searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+		    searchView.setOnQueryTextListener(new OnQueryTextListener(){
+		    	@Override
+		    	public boolean onQueryTextChange(String newText){
+		    		((StopFragment) currentFragment).searchUpdate(newText);
+		    		return true;
+		    	}
+		    	@Override
+		    	public boolean onQueryTextSubmit(String arg0) {
+		    		return false;
+		    	}
+		    });
+		}
+		
         // if nav drawer is opened, hide the action items
         boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
+        //menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);
-    }
- 
-    @Override
-    public void setTitle(CharSequence title) {
-        mTitle = title;
-        getActionBar().setTitle(mTitle);
     }
  
     /**
@@ -126,8 +158,6 @@ public class HomeActivity extends Activity {
         @Override
         public void onItemClick(AdapterView parent, View view, int position, long id) {
         	displayView(position);
-            mDrawerLayout.closeDrawer(mDrawerList);
- 
         }
     }
     
@@ -164,21 +194,28 @@ public class HomeActivity extends Activity {
         
         
         if (fragment != null) {
+        	currentFragment=fragment;
+        	
+        	//change fragment
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft=fragmentManager.beginTransaction();
             ft.replace(R.id.frame_container, fragment);
             ft.addToBackStack(null);
             ft.commit();
-            /*
-            // update selected item and title, then close the drawer
-            mDrawerList.setItemChecked(position, true);
-            mDrawerList.setSelection(position);
+            //set Title
             setTitle(navMenuTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);*/
+            mDrawerTitle=navMenuTitles[position];
+            mDrawerLayout.closeDrawer(mDrawerList);
         } else {
             // error in creating fragment
             Log.e("MainActivity", "Error in creating fragment");
         }
+    }
+    
+    @Override
+    public void setTitle(CharSequence title){
+    	mTitle=title;
+    	getActionBar().setTitle(mTitle);
     }
 
 }

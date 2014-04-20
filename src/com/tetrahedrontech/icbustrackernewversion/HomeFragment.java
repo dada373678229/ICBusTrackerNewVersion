@@ -15,9 +15,6 @@ public class HomeFragment extends Fragment{
             Bundle savedInstanceState) {
   
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        
-        ActionBar actionBar = getActivity().getActionBar();
-		actionBar.setTitle("Favorite");
           
         return rootView;
     }

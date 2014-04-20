@@ -374,30 +374,31 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f020029;
         public static final int common_signin_btn_text_pressed_dark=0x7f02002a;
         public static final int common_signin_btn_text_pressed_light=0x7f02002b;
-        public static final int ic_drawer=0x7f02002c;
-        public static final int ic_favorite=0x7f02002d;
-        public static final int ic_launcher=0x7f02002e;
-        public static final int ic_menu_expand_card_dark_normal=0x7f02002f;
-        public static final int ic_menu_expand_card_dark_pressed=0x7f020030;
-        public static final int ic_menu_overflow_card_dark_normal=0x7f020031;
-        public static final int ic_menu_overflow_card_dark_pressed=0x7f020032;
-        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020033;
-        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020034;
-        public static final int ic_near_me=0x7f020035;
-        public static final int ic_plusone_medium_off_client=0x7f020036;
-        public static final int ic_plusone_small_off_client=0x7f020037;
-        public static final int ic_plusone_standard_off_client=0x7f020038;
-        public static final int ic_plusone_tall_off_client=0x7f020039;
-        public static final int ic_route=0x7f02003a;
-        public static final int ic_stop=0x7f02003b;
-        public static final int ic_themes=0x7f02003c;
-        public static final int ic_undobar_undo=0x7f02003d;
-        public static final int pressed_background_card=0x7f02003e;
-        public static final int pressed_background_kitkat_card=0x7f02003f;
-        public static final int undobar=0x7f020040;
-        public static final int undobar_button_focused=0x7f020041;
-        public static final int undobar_button_pressed=0x7f020042;
-        public static final int undobar_divider=0x7f020043;
+        public static final int ic_action_search=0x7f02002c;
+        public static final int ic_drawer=0x7f02002d;
+        public static final int ic_favorite=0x7f02002e;
+        public static final int ic_launcher=0x7f02002f;
+        public static final int ic_menu_expand_card_dark_normal=0x7f020030;
+        public static final int ic_menu_expand_card_dark_pressed=0x7f020031;
+        public static final int ic_menu_overflow_card_dark_normal=0x7f020032;
+        public static final int ic_menu_overflow_card_dark_pressed=0x7f020033;
+        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020034;
+        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020035;
+        public static final int ic_near_me=0x7f020036;
+        public static final int ic_plusone_medium_off_client=0x7f020037;
+        public static final int ic_plusone_small_off_client=0x7f020038;
+        public static final int ic_plusone_standard_off_client=0x7f020039;
+        public static final int ic_plusone_tall_off_client=0x7f02003a;
+        public static final int ic_route=0x7f02003b;
+        public static final int ic_stop=0x7f02003c;
+        public static final int ic_themes=0x7f02003d;
+        public static final int ic_undobar_undo=0x7f02003e;
+        public static final int pressed_background_card=0x7f02003f;
+        public static final int pressed_background_kitkat_card=0x7f020040;
+        public static final int undobar=0x7f020041;
+        public static final int undobar_button_focused=0x7f020042;
+        public static final int undobar_button_pressed=0x7f020043;
+        public static final int undobar_divider=0x7f020044;
     }
     public static final class id {
         public static final int action_settings=0x7f060035;
@@ -432,6 +433,7 @@ containing a value of this type.
         public static final int list_card_undobar_button=0x7f060026;
         public static final int list_card_undobar_message=0x7f060025;
         public static final int list_nav_drawer=0x7f060007;
+        public static final int menu_search=0x7f060036;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
         public static final int number_picker=0x7f06002a;
@@ -493,6 +495,7 @@ containing a value of this type.
     }
     public static final class menu {
         public static final int home=0x7f0d0000;
+        public static final int options_menu=0x7f0d0001;
     }
     public static final class plurals {
         /**  Card selected item with CAB 

@@ -9,6 +9,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+import com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter;
+import com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
 import com.tetrahedrontech.icbustrackernewversion.cards.stopListCard;
 import com.tetrahedrontech.icbustrackernewversion.cards.themeListCard;
 
@@ -39,9 +41,6 @@ public class StopFragment extends Fragment{
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 	  
 	        View rootView = inflater.inflate(R.layout.fragment_stop, container, false);
-	        
-	        ActionBar actionBar = getActivity().getActionBar();
-			actionBar.setTitle("Stops");
 			
 			SharedPreferences settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
 			theme=Integer.valueOf(settings.getString("theme", "0"));
@@ -57,8 +56,10 @@ public class StopFragment extends Fragment{
 	    	super.onActivityCreated(savedInstanceState);
 	    	mCardArrayAdapter = new CardArrayAdapter(getActivity(),cards);
 			CardListView listView = (CardListView) getActivity().findViewById(R.id.stopListView);
+			AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
+	        animCardArrayAdapter.setAbsListView(listView);
 	        if (listView!=null){
-	            listView.setAdapter(mCardArrayAdapter);
+	            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
 	        }
 	    }
 		
@@ -88,5 +89,33 @@ public class StopFragment extends Fragment{
 			}
 			catch (Exception e){}
 			return result;
+		}
+		
+		//search stops according to user's input, and returns an arraylist of cards for adapter
+		private ArrayList<Card> search(String newText){
+			ArrayList<Card> result=new ArrayList<Card>();
+			
+			//scan all the stops
+			for (int i=0;i<stops.size();i++){
+				String stopId=stops.get(i).getStopId();
+				String stopName=stops.get(i).getStopName();
+				//if stopId contains query or stopName contains query, create a card of this stop and put it into arraylist
+				if(stopId.toLowerCase().contains(newText.toLowerCase()) | stopName.toLowerCase().contains(newText.toLowerCase())){
+					Card temp=new stopListCard(getActivity());
+					((stopListCard) temp).setContent(stopId,stopName);
+					String stopTitle=stopId+","+stopName;
+					temp.setId(stopTitle);
+					result.add(temp);
+				}
+			}
+			return result;
+		}
+		
+		public void searchUpdate(String newText) {
+			//update the arraylist for adapter, clear the data in the adapter, add new data and notify change
+			cards=search(newText);
+			mCardArrayAdapter.clear();
+			mCardArrayAdapter.addAll(cards);
+			mCardArrayAdapter.notifyDataSetChanged();
 		}
 }

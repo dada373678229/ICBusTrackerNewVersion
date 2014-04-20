@@ -8,6 +8,8 @@ import it.gmariotti.cardslib.library.view.CardListView;
 
 import java.util.ArrayList;
 
+import com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter;
+import com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
 import com.tetrahedrontech.icbustrackernewversion.API.coreAPI;
 import com.tetrahedrontech.icbustrackernewversion.cards.routeListDetailCard;
 import com.tetrahedrontech.icbustrackernewversion.cards.routeListDetailCardExpand;
@@ -103,8 +105,10 @@ public class StopsDetailActivity extends Activity{
 				if (errorCode==-1){
 					CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(context,cards);
 					CardListView listView = (CardListView) findViewById(R.id.stopDetailListView);
+					AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
+			        animCardArrayAdapter.setAbsListView(listView);
 			        if (listView!=null){
-			            listView.setAdapter(mCardArrayAdapter);
+			            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
 			        }
 				}
 				//close progress dialog and show error message
