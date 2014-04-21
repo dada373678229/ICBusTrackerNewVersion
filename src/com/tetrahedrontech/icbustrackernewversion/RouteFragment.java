@@ -84,7 +84,7 @@ public class RouteFragment extends Fragment{
   				((routeListCard) temp).setContent(data[0]);
   				temp.setId(data[0]);
   				temp.setBackgroundResourceId(pressedCardBackground[theme]);
-  				/*
+  				
   				//find different agencies and put them into corresponding arraylists
   				if (data[2].equals("coralville")){
   					//temp.setBackgroundResourceId(R.drawable.card_selector_blue);
@@ -97,7 +97,7 @@ public class RouteFragment extends Fragment{
   				else{
   					//temp.setBackgroundResourceId(R.drawable.card_selector_yellow);
   					routeListCambus.add(temp);
-  				}*/
+  				}
   				routeListAll.add(temp);
   				line=br.readLine();
   			}

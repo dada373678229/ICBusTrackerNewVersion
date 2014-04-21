@@ -94,7 +94,7 @@ public class RoutesDetailActivity extends Activity {
 					for (int i=0; i<temp.length;i++){
 						String[] temp1=temp[i].split(",");
 						LatLng busLocation=new LatLng(Float.parseFloat(temp1[1]),Float.parseFloat(temp1[2]));
-						map.addMarker(new MarkerOptions().anchor((float)0.5, (float)0.5).flat(true).title("BUS "+temp1[0]).position(busLocation).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).rotation(Integer.parseInt(temp1[3])));
+						map.addMarker(new MarkerOptions().anchor((float)0.5, (float)0.5).flat(true).title("BUS").snippet(temp1[0]).position(busLocation).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).rotation(Integer.parseInt(temp1[3])));
 					}
 				}
 				
@@ -222,12 +222,13 @@ public class RoutesDetailActivity extends Activity {
 	        map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
 	            @Override
 	            public void onInfoWindowClick(Marker marker) {
-	            	
-	               Intent i = new Intent(context,StopsDetailActivity.class);
-	               i.putExtra("stopTitle", marker.getTitle()+","+marker.getSnippet());
-	               context.startActivity(i);
-	               overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
-	               
+	            	//if the marker clicked is not a bus marker
+	            	if (!marker.getTitle().equals("BUS")){
+	            		Intent i = new Intent(context,StopsDetailActivity.class);
+	            		i.putExtra("stopTitle", marker.getTitle()+","+marker.getSnippet());
+	            		context.startActivity(i);
+	            		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
+	            	}       
 	            }
 	        });
 	       

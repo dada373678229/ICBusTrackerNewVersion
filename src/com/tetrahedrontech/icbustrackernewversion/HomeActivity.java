@@ -213,7 +213,7 @@ public class HomeActivity extends Activity{
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft=fragmentManager.beginTransaction();
             ft.replace(R.id.frame_container, fragment);
-            ft.addToBackStack(null);
+            ft.addToBackStack(navMenuTitles[position]);
             ft.commit();
             //set Title
             setTitle(navMenuTitles[position]);
@@ -231,5 +231,15 @@ public class HomeActivity extends Activity{
     	mTitle=title;
     	getActionBar().setTitle(mTitle);
     }
+    
+    //when back pressed, restore actionbar title
+    @Override
+	public void onBackPressed() {
+    	if (getFragmentManager().getBackStackEntryCount()!=1){
+    		super.onBackPressed();
+    		int firstEle=getFragmentManager().getBackStackEntryCount()-1;
+    		setTitle(getFragmentManager().getBackStackEntryAt(firstEle).getName());
+    	}
+	}
 
 }
