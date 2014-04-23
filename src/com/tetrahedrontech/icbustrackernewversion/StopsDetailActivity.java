@@ -150,11 +150,11 @@ public class StopsDetailActivity extends Activity{
 				String data[]=p.split(";");
 				for (int i=0; i<data.length;i++){		
 					//create card and card expand
-					Card temp=new routeListDetailCard(this);
+					routeListDetailCard temp=new routeListDetailCard(this);
 		            
 					//set values on card
 					String line[]=data[i].split(",");
-					((routeListDetailCard) temp).setContent(line[0],line[3],line[1]+"min");
+					temp.setContent(line[0],line[3],line[1]+"min");
 					temp.setBackgroundResourceId(pressedCardBackground[theme]);
 					
 					routeListDetailCardExpand expand = new routeListDetailCardExpand(this);

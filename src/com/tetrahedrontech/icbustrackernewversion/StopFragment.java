@@ -26,7 +26,6 @@ import android.view.ViewGroup;
 import android.widget.SearchView.OnQueryTextListener;
 
 public class StopFragment extends Fragment{
-	
 	//this arraylist contains all stops
 		private ArrayList<stopObject> stops=new ArrayList<stopObject>();
 		

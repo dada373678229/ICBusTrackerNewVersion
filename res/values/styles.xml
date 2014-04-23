@@ -31,5 +31,10 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
+    
+    <style name="card.main_contentExpand_inside">
+        <item name="android:background">@color/card_background</item>
+        <item name="android:padding">@dimen/card_expand_layout_padding</item>
+    </style>
 
 </resources>

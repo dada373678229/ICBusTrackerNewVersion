@@ -62,7 +62,7 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 	
 	//this method shows a number picker dialog
 	private void showNumberPicker(){
-		//Log.i("mytag","time:before"+Integer.toString(alertTime));
+		Log.i("mytag","time:before"+Integer.toString(alertTime));
 		final Dialog d = new Dialog(getContext());
         d.setTitle("Remind me when the bus is");
         d.setContentView(R.layout.number_picker_layout);
@@ -75,6 +75,9 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
         //set the maxValue and minValue of the number picker
         np.setMaxValue(Math.max(0,Integer.valueOf(min)-1));
         np.setMinValue(0);
+        if (alertTime != -1){
+        	np.setValue(alertTime);
+        }
         np.setWrapSelectorWheel(true);
         np.setOnValueChangedListener(this);
         

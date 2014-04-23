@@ -55,6 +55,8 @@ public class HomeActivity extends Activity{
     
     //current fragment
     private Fragment currentFragment;
+    //temp title, activate when drawer is open
+    private CharSequence tempDrawerTitle;
     
     //theme id, 0=light blue, 1=light purple, 2=light green
     private int theme;
@@ -84,11 +86,19 @@ public class HomeActivity extends Activity{
 		
 		mDrawerToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.drawer_open,R.string.drawer_close){
 			public void onDrawerClosed(View view) {
+				//if users didn't click anything in the drawer title, restore original title
+				if (mDrawerTitle.equals("")){
+					mDrawerTitle=tempDrawerTitle;
+				}
 				getActionBar().setTitle(mTitle);
 				//this method will call onPrepareOptionMenu(Menu menu)
 				invalidateOptionsMenu();
 			}
 			public void onDrawerOpened(View drawerView) {
+				//remove mDrawerTitle, so that when invoke invalidateOptionsMenu(), it won't display a searchview on stop tab
+				//the original mDrawerTitle will be saved to a temp tile --tempDrawerTitle
+				tempDrawerTitle=mDrawerTitle;
+				mDrawerTitle="";
 				getActionBar().setTitle("Bongo City");
 				//this method will call onPrepareOptionMenu(Menu menu)
 				invalidateOptionsMenu();
@@ -104,7 +114,7 @@ public class HomeActivity extends Activity{
 	}
 	
 	//this method is called when invalidateOptionsMenu() is called
-	//this method is for setting up option menus
+	//this method is to set up option menus
 	@Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 		if (mDrawerTitle.equals("Stops")){
