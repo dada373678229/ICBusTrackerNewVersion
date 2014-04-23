@@ -494,8 +494,9 @@ containing a value of this type.
         public static final int route_list_card=0x7f03001a;
         public static final int route_list_detail_card=0x7f03001b;
         public static final int route_list_detail_card_card=0x7f03001c;
-        public static final int stop_detail_expand_layout=0x7f03001d;
-        public static final int stop_list_card=0x7f03001e;
+        public static final int route_list_detail_card_inner_layout=0x7f03001d;
+        public static final int stop_detail_expand_layout=0x7f03001e;
+        public static final int stop_list_card=0x7f03001f;
     }
     public static final class menu {
         public static final int home=0x7f0d0000;

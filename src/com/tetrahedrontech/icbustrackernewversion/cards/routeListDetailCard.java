@@ -31,7 +31,7 @@ public class routeListDetailCard extends Card{
 
     //constructor, use custom route_list_detail_card layout
 	public routeListDetailCard(Context context) {
-		super(context);
+		super(context,R.layout.route_list_detail_card_inner_layout);
         init();
     }
 	

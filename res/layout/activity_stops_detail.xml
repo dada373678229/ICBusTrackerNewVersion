@@ -12,6 +12,4 @@
         android:id="@+id/stopDetailListView"
         card:list_card_layout_resourceID="@layout/route_list_detail_card_card"/>
     
-    
-    
 </LinearLayout>
