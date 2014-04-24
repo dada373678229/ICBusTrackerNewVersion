@@ -50,7 +50,6 @@ public class stopListCard extends Card{
 				Intent i = new Intent(context,StopsDetailActivity.class);
 				i.putExtra("stopTitle", card.getId());
 				context.startActivity(i);
-				Log.i("mytag","here");
 				((Activity) getContext()).overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 				
 			}

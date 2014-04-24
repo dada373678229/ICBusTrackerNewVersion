@@ -6,8 +6,12 @@ import com.tetrahedrontech.icbustrackernewversion.API.coreAPI;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.media.AudioManager;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.util.Log;
@@ -164,7 +168,9 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 		protected void onPostExecute(String result){
 			//Log.i("mytag","in onPostExecute");
 			switch(errorCode){
-			case 0:Toast.makeText(getContext(), "times up", Toast.LENGTH_LONG).show();
+			case 0:
+					timeUp();
+					//Toast.makeText(getContext(), "times up", Toast.LENGTH_LONG).show();
 					break;
 			case 1:Toast.makeText(getContext(), "sorry, lose the bus", Toast.LENGTH_LONG).show();
 					break;
@@ -220,12 +226,26 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 	}
 	
 	//this methods checks if the device is connected to the Internet and can receive data
-			private boolean isOnline(){
-				ConnectivityManager cm = (ConnectivityManager) getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
-				NetworkInfo netInfo = cm.getActiveNetworkInfo();
-				if (netInfo != null && netInfo.isConnectedOrConnecting() && cm.getActiveNetworkInfo().isAvailable() && cm.getActiveNetworkInfo().isConnected()) {
-					return true;}
-				return false;
-			}
+	private boolean isOnline(){
+		ConnectivityManager cm = (ConnectivityManager) getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+		NetworkInfo netInfo = cm.getActiveNetworkInfo();
+		if (netInfo != null && netInfo.isConnectedOrConnecting() && cm.getActiveNetworkInfo().isAvailable() && cm.getActiveNetworkInfo().isConnected()) {
+			return true;}
+		return false;
+	}
+	
+	//this method deals with the event --time up
+	private void timeUp(){
+		//get device ringer mode
+		AudioManager myAudioManager = (AudioManager) getContext().getSystemService(Context.AUDIO_SERVICE);
+		int ringer = myAudioManager.getRingerMode();
+		//if it is in normal mode, sound notification ringtone
+		if (ringer== myAudioManager.RINGER_MODE_NORMAL){
+			Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+			Ringtone r = RingtoneManager.getRingtone(getContext(), notification);
+			r.play();
+		}
+	}
+			
 		
 }

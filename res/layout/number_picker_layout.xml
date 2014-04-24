@@ -28,23 +28,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:divider="@drawable/alarm_buttons_vertical_divider"
+    	android:dividerPadding="12dip"
+    	android:showDividers="middle">
         
         <Button
         android:id="@+id/cancel_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Cancel" 
-        android:textSize="20dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="@drawable/custom_alarm_cancel_button"/>
         
         <Button
         android:id="@+id/set_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Set" 
-        android:textSize="20dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="@drawable/custom_alarm_ok_button"/>
         
         </LinearLayout>
     
