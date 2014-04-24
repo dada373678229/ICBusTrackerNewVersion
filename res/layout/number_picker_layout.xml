@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
     
     <LinearLayout
         android:layout_width="wrap_content"
@@ -24,14 +24,18 @@
         
     </LinearLayout>
     
+    <View
+    	android:layout_width="match_parent"
+    	android:layout_height="1dp"
+    	android:background="#595959"
+    	android:layout_marginLeft="7dp"
+    	android:layout_marginRight="7dp"/>
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:divider="@drawable/alarm_buttons_vertical_divider"
-    	android:dividerPadding="12dip"
-    	android:showDividers="middle">
+        android:layout_gravity="center">
         
         <Button
         android:id="@+id/cancel_btn"
@@ -39,6 +43,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="@drawable/custom_alarm_cancel_button"/>
+        
+        <View
+    		android:layout_width="1dp"
+    		android:layout_height="match_parent"
+    		android:background="#595959"
+    		android:layout_marginTop="7dp"
+    		android:layout_marginBottom="7dp" />
         
         <Button
         android:id="@+id/set_btn"
