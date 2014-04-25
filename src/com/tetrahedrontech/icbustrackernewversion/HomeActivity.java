@@ -203,10 +203,11 @@ public class HomeActivity extends Activity{
         case 4:
             fragment = new ThemeFragment();
             break;
-            /*
-        case 4:
-            fragment = new PagesFragment();
+            
+        case 3:
+            fragment = new NearMeFragment();
             break;
+        /*
         case 5:
             fragment = new WhatsHotFragment();
             break;
@@ -223,7 +224,9 @@ public class HomeActivity extends Activity{
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft=fragmentManager.beginTransaction();
             ft.replace(R.id.frame_container, fragment);
+
             ft.addToBackStack(navMenuTitles[position]);
+                
             ft.commit();
             //set Title
             setTitle(navMenuTitles[position]);
@@ -245,10 +248,13 @@ public class HomeActivity extends Activity{
     //when back pressed, restore actionbar title
     @Override
 	public void onBackPressed() {
-    	if (getFragmentManager().getBackStackEntryCount()!=1){
+    	if (!(getFragmentManager().getBackStackEntryCount()==1) && !(getFragmentManager().getBackStackEntryCount()==0)){
     		super.onBackPressed();
     		int firstEle=getFragmentManager().getBackStackEntryCount()-1;
     		setTitle(getFragmentManager().getBackStackEntryAt(firstEle).getName());
+    	}
+    	else {
+    		super.onBackPressed();
     	}
 	}
 
