@@ -413,24 +413,24 @@ containing a value of this type.
         public static final int action_settings=0x7f0b0037;
         public static final int alarm=0x7f0b0034;
         public static final int cancel_btn=0x7f0b002d;
-        public static final int card_content_expand_layout=0x7f0b0015;
+        public static final int card_content_expand_layout=0x7f0b0017;
         public static final int card_expand_inner_simple_title=0x7f0b0022;
-        public static final int card_header_button_expand=0x7f0b000d;
-        public static final int card_header_button_frame=0x7f0b000b;
-        public static final int card_header_button_other=0x7f0b000e;
-        public static final int card_header_button_overflow=0x7f0b000c;
-        public static final int card_header_inner_frame=0x7f0b000a;
+        public static final int card_header_button_expand=0x7f0b000f;
+        public static final int card_header_button_frame=0x7f0b000d;
+        public static final int card_header_button_other=0x7f0b0010;
+        public static final int card_header_button_overflow=0x7f0b000e;
+        public static final int card_header_inner_frame=0x7f0b000c;
         public static final int card_header_inner_simple_title=0x7f0b0023;
-        public static final int card_header_layout=0x7f0b0014;
-        public static final int card_main_content_layout=0x7f0b0011;
+        public static final int card_header_layout=0x7f0b0016;
+        public static final int card_main_content_layout=0x7f0b0013;
         public static final int card_main_inner_simple_title=0x7f0b0024;
-        public static final int card_main_layout=0x7f0b0013;
-        public static final int card_overlap=0x7f0b0016;
-        public static final int card_shadow_layout=0x7f0b0012;
-        public static final int card_shadow_view=0x7f0b000f;
-        public static final int card_thumb_and_content_layout=0x7f0b0017;
-        public static final int card_thumbnail_image=0x7f0b0010;
-        public static final int card_thumbnail_layout=0x7f0b0018;
+        public static final int card_main_layout=0x7f0b0015;
+        public static final int card_overlap=0x7f0b0018;
+        public static final int card_shadow_layout=0x7f0b0014;
+        public static final int card_shadow_view=0x7f0b0011;
+        public static final int card_thumb_and_content_layout=0x7f0b0019;
+        public static final int card_thumbnail_image=0x7f0b0012;
+        public static final int card_thumbnail_layout=0x7f0b001a;
         public static final int drawer_layout=0x7f0b0005;
         public static final int drawer_list_item_image_view=0x7f0b002a;
         public static final int drawer_list_item_layout=0x7f0b0029;
@@ -443,13 +443,13 @@ containing a value of this type.
         public static final int list_card_undobar_message=0x7f0b0027;
         public static final int list_nav_drawer=0x7f0b0007;
         public static final int menu_search=0x7f0b0038;
-        public static final int nearMeListView=0x7f0b001e;
-        public static final int near_me_map=0x7f0b001d;
+        public static final int nearMeListView=0x7f0b0009;
+        public static final int near_me_map=0x7f0b0008;
         public static final int none=0x7f0b0000;
         public static final int normal=0x7f0b0001;
         public static final int number_picker=0x7f0b002c;
         public static final int progressBar=0x7f0b002f;
-        public static final int routeDetailMapFragment=0x7f0b0008;
+        public static final int routeDetailMapFragment=0x7f0b000a;
         public static final int routeListView=0x7f0b001f;
         public static final int route_list_view_detail_routeDirection=0x7f0b0032;
         public static final int route_list_view_detail_routeName=0x7f0b0031;
@@ -457,16 +457,16 @@ containing a value of this type.
         public static final int route_list_view_routeName=0x7f0b0030;
         public static final int satellite=0x7f0b0002;
         public static final int set_btn=0x7f0b002e;
-        public static final int stopDetailListView=0x7f0b0009;
+        public static final int stopDetailListView=0x7f0b000b;
         public static final int stopListView=0x7f0b0020;
-        public static final int stop_detail_textView=0x7f0b001c;
+        public static final int stop_detail_textView=0x7f0b001e;
         public static final int stop_list_view_stopId=0x7f0b0035;
         public static final int stop_list_view_stopName=0x7f0b0036;
         public static final int terrain=0x7f0b0003;
         public static final int themeListView=0x7f0b0021;
-        public static final int undobar=0x7f0b0019;
-        public static final int undobar_button=0x7f0b001b;
-        public static final int undobar_message=0x7f0b001a;
+        public static final int undobar=0x7f0b001b;
+        public static final int undobar_button=0x7f0b001d;
+        public static final int undobar_message=0x7f0b001c;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070001;
@@ -474,20 +474,20 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
-        public static final int activity_routes_detail=0x7f030001;
-        public static final int activity_stops_detail=0x7f030002;
-        public static final int base_header_layout=0x7f030003;
-        public static final int base_shadow_layout=0x7f030004;
-        public static final int base_thumbnail_layout=0x7f030005;
-        public static final int card_base_layout=0x7f030006;
-        public static final int card_layout=0x7f030007;
-        public static final int card_overlay_layout=0x7f030008;
-        public static final int card_thumbnail_layout=0x7f030009;
-        public static final int card_thumbnail_overlay_layout=0x7f03000a;
-        public static final int card_undo_layout=0x7f03000b;
-        public static final int error_layout=0x7f03000c;
-        public static final int fragment_home=0x7f03000d;
-        public static final int fragment_near_me=0x7f03000e;
+        public static final int activity_near_me=0x7f030001;
+        public static final int activity_routes_detail=0x7f030002;
+        public static final int activity_stops_detail=0x7f030003;
+        public static final int base_header_layout=0x7f030004;
+        public static final int base_shadow_layout=0x7f030005;
+        public static final int base_thumbnail_layout=0x7f030006;
+        public static final int card_base_layout=0x7f030007;
+        public static final int card_layout=0x7f030008;
+        public static final int card_overlay_layout=0x7f030009;
+        public static final int card_thumbnail_layout=0x7f03000a;
+        public static final int card_thumbnail_overlay_layout=0x7f03000b;
+        public static final int card_undo_layout=0x7f03000c;
+        public static final int error_layout=0x7f03000d;
+        public static final int fragment_home=0x7f03000e;
         public static final int fragment_route=0x7f03000f;
         public static final int fragment_stop=0x7f030010;
         public static final int fragment_themes=0x7f030011;
@@ -545,7 +545,7 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f080016;
-        public static final int changeTheme=0x7f080020;
+        public static final int changeTheme=0x7f080021;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -617,12 +617,13 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f080015;
-        public static final int drawer_close=0x7f080022;
-        public static final int drawer_open=0x7f080021;
+        public static final int drawer_close=0x7f080023;
+        public static final int drawer_open=0x7f080022;
         public static final int hello_world=0x7f08001c;
         /**  Undo Controller
          */
         public static final int list_card_undo_title=0x7f080001;
+        public static final int title_activity_near_me=0x7f080020;
         public static final int title_activity_routes_detail=0x7f08001e;
         public static final int title_activity_stops_detail=0x7f08001f;
     }

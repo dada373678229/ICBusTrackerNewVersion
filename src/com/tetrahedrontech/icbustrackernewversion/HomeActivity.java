@@ -12,6 +12,7 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
@@ -205,7 +206,9 @@ public class HomeActivity extends Activity{
             break;
             
         case 3:
-            fragment = new NearMeFragment();
+            //fragment = new NearMeFragment();
+        	Intent i = new Intent(this,NearMeActivity.class);
+			startActivity(i);
             break;
         /*
         case 5:
@@ -220,6 +223,8 @@ public class HomeActivity extends Activity{
         if (fragment != null) {
         	currentFragment=fragment;
         	
+        	
+        	
         	//change fragment
             FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft=fragmentManager.beginTransaction();
@@ -232,7 +237,8 @@ public class HomeActivity extends Activity{
             setTitle(navMenuTitles[position]);
             mDrawerTitle=navMenuTitles[position];
             mDrawerLayout.closeDrawer(mDrawerList);
-        } else {
+        }
+        else {
             // error in creating fragment
             Log.e("MainActivity", "Error in creating fragment");
         }

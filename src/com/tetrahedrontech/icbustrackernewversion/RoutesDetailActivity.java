@@ -44,6 +44,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Build;
 
@@ -125,29 +126,38 @@ public class RoutesDetailActivity extends Activity {
 		super.onResume();
 		
 		//start tracking bus locations
-		getBusLocation=new BusLocationMarkerThread();
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-			getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"uiowa","red"});
-		else
-			getBusLocation.execute(new String[]{"uiowa","red"});
+		if (map != null){
+			getBusLocation=new BusLocationMarkerThread();
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
+				getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"uiowa","red"});
+			else
+				getBusLocation.execute(new String[]{"uiowa","red"});
+		}
 	}
 	
 	@Override
     protected void onDestroy() {
         super.onDestroy();
-        getBusLocation.cancel(true);
+        if (map != null){
+        	getBusLocation.cancel(true);
+        }
+        
     }
 	
 	@Override
     protected void onPause() {
         super.onPause();
-        getBusLocation.cancel(true);
+        if (map != null){
+        	getBusLocation.cancel(true);
+        }
     }
 	
 	@Override
 	protected void onStop(){
 		super.onStop();
-		getBusLocation.cancel(true);
+		if (map != null){
+        	getBusLocation.cancel(true);
+        }
 	}
 	
 	//animation when back button is pressed
@@ -164,6 +174,13 @@ public class RoutesDetailActivity extends Activity {
 	        if (map == null) {
 	            //link map with fragment1
 	            map =((MapFragment) getFragmentManager().findFragmentById(R.id.routeDetailMapFragment)).getMap();
+	            //map=null;
+	            if (map==null){
+	            	setContentView(R.layout.error_layout);
+	            	TextView t = (TextView) this.findViewById(R.id.stop_detail_textView);
+	            	t.setText("Sorry, Google Play service is not available on your phone!");
+	            	return;
+	            }
 	        }
 	        map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 	        
