@@ -14,9 +14,9 @@
         <item >Favorite</item>
         <item >Stops</item>
         <item >Routes</item>
-        <item >Near Me</item>
+        <item >Nearby</item>
         <item >Themes</item>
-        <item >About</item>
+        <item >About Us</item>
     </string-array>
      
     <!-- Nav Drawer List Item Icons -->

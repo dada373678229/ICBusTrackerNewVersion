@@ -3,8 +3,8 @@
 0100,Softball Complex,41.6686761,-91.5651445
 0120,Macbride Hall,41.66246,-91.535783
 0125,IMU,41.6623626,-91.5376186
-0145,English Philosophy Building, IMU,41.6612,-91.5403504
-0146,English Philosophy Building, IMU,41.66135,-91.5384996
+0145,English Philosophy Building--IMU,41.6612,-91.5403504
+0146,English Philosophy Building--IMU,41.66135,-91.5384996
 0241,Carver Hawkeye Arena,41.6633887,-91.5538508
 0245,Newton and Lincoln,41.6635703,-91.5512418
 0246,Dental College,41.6634819,-91.5510002
@@ -38,18 +38,18 @@
 1016,Burge,41.6656199,-91.53451
 1021,Pappajohn BB,41.6626235,-91.5346399
 1025,IMU,41.66231,-91.53773
-1030,Clinton &amp; Iowa,41.6607663,-91.5346897
-1034,Clinton &amp; College,41.6591417,-91.53469
+1030,Clinton & Iowa,41.6607663,-91.5346897
+1034,Clinton & College,41.6591417,-91.53469
 1038,Clinton Street Music,41.65675,-91.5347
-1039,Court &amp; Clinton,41.65658,-91.5348551
-1040,Clinton &amp; Prentiss,41.6545541,-91.5347469
+1039,Court & Clinton,41.65658,-91.5348551
+1040,Clinton & Prentiss,41.6545541,-91.5347469
 1050,Main Library,41.6586058,-91.53775
 1051,Communications Center,41.6592596,-91.53765
 1060,ERF,41.6573639,-91.53766
 1064,Madison St  - Lot 11,41.65603,-91.53771
-1070,Prentiss &amp; Madison,41.65446,-91.5375684
+1070,Prentiss & Madison,41.65446,-91.5375684
 2000,WCTC,41.659423,-91.5521708
-2014,Hawkins &amp; Elliott,41.6621145,-91.5541481
+2014,Hawkins & Elliott,41.6621145,-91.5541481
 2017,Arena on Hawkins,41.6623203,-91.5554711
 2020,Arena East - PM,41.6622217,-91.5562692
 2022,Arena West - PM,41.6625297,-91.5575789
@@ -67,7 +67,7 @@
 2085,Law Building,41.6583197,-91.5437977
 2100,Art Building,41.6650436,-91.5409434
 2101,Art Building West,41.6649868,-91.5410616
-2105,Riverside &amp; River St,41.6660243,-91.5406194
+2105,Riverside & River St,41.6660243,-91.5406194
 2106,Theatre Building,41.6662493,-91.5405211
 2110,Hancher/Park Road,41.6712267,-91.538201
 2112,Clapp Hall,41.6686205,-91.5392104
@@ -84,8 +84,8 @@
 3015,Research Park Exit,41.7082137,-91.6047606
 3020,Vangent,41.7088585,-91.6028584
 3025,NADS,41.7084399,-91.5998496
-3035,12th &amp; Oakdale,41.7043307,-91.5881653
-3036,12th Ave &amp; Oakdale Blvd,41.7045167,-91.5884675
+3035,12th & Oakdale,41.7043307,-91.5881653
+3036,12th Ave & Oakdale Blvd,41.7045167,-91.5884675
 3070,Holiday Inn inbound,41.6883572,-91.5642104
 3071,Holiday Inn outbound,41.6883012,-91.56401
 3072,IRL West,41.6819499,-91.56564
@@ -96,23 +96,23 @@
 3111,Recreation Fields South,41.664416,-91.5783522
 3125,Hawk Lot 1,41.663364,-91.583469
 3130,Hawk Lot 2,41.6627145,-91.5847817
-3140,Prairie Meadow &amp; Hawk Drive,41.66153,-91.5799665
+3140,Prairie Meadow & Hawk Drive,41.66153,-91.5799665
 3142,Hawk Drive 1,41.6606003,-91.5801699
 3144,Hawk Drive 2,41.6594717,-91.5801999
 3146,Hawk Drive 3,41.6583554,-91.5802199
 3151,Sports Medicine Clinic North,41.6600259,-91.5779466
 3155,Hall of Fame North,41.6599598,-91.5762705
 3200,Studio Arts Building,41.6415,-91.55676
-3300,Burlington &amp; Gilbert St,41.6577799,-91.5303992
-3310,Burlington &amp; Johnson St,41.6577799,-91.5274134
-3320,Burlington &amp; Lucas St,41.65775,-91.5244527
-3330,Governor &amp; College St,41.6587776,-91.52283
-3340,Governor &amp; Washington St,41.6598966,-91.52281
-3350,Governor &amp; Iowa Ave,41.6610437,-91.5227999
-3360,Governor &amp; Jefferson St,41.6622602,-91.5227799
-3370,Market &amp; Lucas St,41.66354,-91.524131
-3380,Market &amp; Johnson St,41.6635599,-91.527039
-3390,Market &amp; Gilbert St,41.66358,-91.5299692
+3300,Burlington & Gilbert St,41.6577799,-91.5303992
+3310,Burlington & Johnson St,41.6577799,-91.5274134
+3320,Burlington & Lucas St,41.65775,-91.5244527
+3330,Governor & College St,41.6587776,-91.52283
+3340,Governor & Washington St,41.6598966,-91.52281
+3350,Governor & Iowa Ave,41.6610437,-91.5227999
+3360,Governor & Jefferson St,41.6622602,-91.5227799
+3370,Market & Lucas St,41.66354,-91.524131
+3380,Market & Johnson St,41.6635599,-91.527039
+3390,Market & Gilbert St,41.66358,-91.5299692
 4010,Highway 6 and Hawkins,41.6662111,-91.5584739
 4015,Highway 6 and 1st Avenue - Hardees,41.66949,-91.56666
 4021,4th Avenue and Highway 6,41.6720387,-91.5712601
@@ -287,7 +287,7 @@
 7022,Southgate Avenue and Waterfront Drive,41.64065,-91.5303352
 7023,Southgate Avenue and Gilbert Street,41.64065,-91.5331312
 7024,Gilbert Street and Stevens Drive,41.6430205,-91.5335999
-7025,Hills Bank, Aldi,41.6444502,-91.5330797
+7025,Hills Bank--Aldi,41.6444502,-91.5330797
 7026,Southgate Avenue and Keokuk Street,41.6406101,-91.5251275
 7027,K-Mart,41.6406896,-91.5255028
 7028,Keokuk Street and Cross Park Avenue,41.6391536,-91.5249998
@@ -299,7 +299,7 @@
 7034,Crosspark Avenue #1,41.63904,-91.5225437
 7035,Crosspark Avenue and Broadway Street,41.6390301,-91.5206599
 7036,Broadway Street #1,41.640838,-91.5204177
-7037,Goodwill, Kmart,41.6412573,-91.5221991
+7037,Goodwill--Kmart,41.6412573,-91.5221991
 7038,Sandusky Drive and Taylor Drive,41.6369698,-91.5185133
 7039,Taylor Drive and Sandusky Drive,41.6369839,-91.518339
 7040,Taylor Drive and Hollywood Blvd.,41.640489,-91.5180105
@@ -373,7 +373,7 @@
 7121,Kirkwood Community College,41.6450375,-91.5102369
 7122,Sycamore Mall,41.6441448,-91.5093058
 7123,Lower Muscatine Avenue and Mall Drive,41.6434348,-91.5082448
-7124,Iowa DOT, IC Fire Department,41.64186,-91.50537
+7124,Iowa DOT--IC Fire Department,41.64186,-91.50537
 7125,Lower Muscatine Avenue and Fairmeadows Blvd.,41.6392088,-91.502878
 7126,Hwy 6 East and Heinze Road,41.6314852,-91.4903717
 7127,Heinz Road and Hwy 6 East,41.6320408,-91.4909793
@@ -383,9 +383,9 @@
 7131,Systems Unlimited,41.6352909,-91.48281
 7132,Heinz Road and Scott Blvd.,41.63643,-91.4833155
 7133,United Natural Foods,41.6372925,-91.4895185
-7134,Eastdale Plaza, IC Fire Department,41.6417796,-91.5062395
+7134,Eastdale Plaza--IC Fire Department,41.6417796,-91.5062395
 7135,Sycamore Mall Cinema Theater,41.64248,-91.51027
-7200,IC Library, Senior Center,41.66008,-91.5318697
+7200,IC Library--Senior Center,41.66008,-91.5318697
 7201,Washington Street and Gilbert Street,41.6600195,-91.5303778
 7202,IC Civic Center,41.6598721,-91.5301201
 7203,College Street and Gilbert Street,41.6589899,-91.5299703
@@ -608,8 +608,8 @@
 7700,Bon Aire Mobile Home Lodge,41.6314737,-91.4955207
 7701,Frontage Road and Lakeside Drive,41.6350322,-91.4976014
 7750,Kirkwood Avenue and Gilbert Street,41.6494799,-91.5321937
-8000,Hydraulics Lab, Boyd Law School,41.657276,-91.5417485
-8001,Hydraulics Lab, Boyd Law School,41.6578276,-91.5416894
+8000,Hydraulics Lab--Boyd Law School,41.657276,-91.5417485
+8001,Hydraulics Lab--Boyd Law School,41.6578276,-91.5416894
 8002,Riverside Drive and Myrtle Avenue,41.6536266,-91.5405195
 8003,Riverside Drive and Myrtle Avenue,41.6536473,-91.5403695
 8004,Riverside Drive and Riverside Court,41.6550367,-91.540869
@@ -624,8 +624,8 @@
 8013,Westport Plaza 1,41.64513,-91.55362
 8014,Westport Plaza 2,41.644798,-91.5506468
 8015,Hwy 1 West and Slagers,41.6474,-91.54417
-8016,Gateway Center, Iowa City Transit,41.64656,-91.5402299
-8017,Gateway Center, Iowa City Transit,41.6457772,-91.540221
+8016,Gateway Center--Iowa City Transit,41.64656,-91.5402299
+8017,Gateway Center--Iowa City Transit,41.6457772,-91.540221
 8018,Riverside Drive and Ruppert Road,41.6452149,-91.5400814
 8019,South Riverside Drive and Ruppert Road,41.6445104,-91.5398717
 8020,Iowa City Airport,41.6396539,-91.5389617
@@ -707,11 +707,11 @@
 8200,Dental College,41.6635701,-91.551241
 8201,Dental College,41.6634791,-91.5509854
 8202,Carver Hawkeye Arena,41.6630179,-91.554031
-8203,UI Main Hospital, Kinnick Stadium,41.65964,-91.5499899
-8204,UI Center for Disabilities, Dental College,41.6611018,-91.5506608
+8203,UI Main Hospital--Kinnick Stadium,41.65964,-91.5499899
+8204,UI Center for Disabilities--Dental College,41.6611018,-91.5506608
 8205,Hawkins Drive and Melrose Avenue,41.6570397,-91.54994
-8206,UI Main Hospital, Kinnick Stadium,41.6593028,-91.5498402
-8207,Ramp 2, Pappajohn&amp; Pomerantz,41.6577486,-91.5498614
+8206,UI Main Hospital--Kinnick Stadium,41.6593028,-91.5498402
+8207,Ramp 2--Pappajohn & Pomerantz,41.6577486,-91.5498614
 8208,Melrose Avenue and Sunset Street,41.6558397,-91.5593809
 8209,Melrose Avenue and Emerald Street,41.6558202,-91.5645113
 8210,IC Fire Station,41.6555909,-91.5639963

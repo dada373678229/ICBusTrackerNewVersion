@@ -26,7 +26,7 @@ import android.view.ViewGroup;
 import android.widget.SearchView.OnQueryTextListener;
 
 public class StopFragment extends Fragment{
-	//this arraylist contains all stops
+		//this arraylist contains all stops
 		private ArrayList<stopObject> stops=new ArrayList<stopObject>();
 		
 		private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};

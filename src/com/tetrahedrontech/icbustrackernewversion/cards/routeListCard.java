@@ -42,7 +42,7 @@ public class routeListCard extends Card{
 				Toast.makeText(getContext(), "Route "+card.getId()+" clicked", Toast.LENGTH_SHORT).show();
 				//call routeDetailActivity by intent
 				Intent i = new Intent(getContext(), RoutesDetailActivity.class);
-				i.putExtra("route", "red");
+				i.putExtra("route", card.getId());
 				getContext().startActivity(i);
 				((Activity) getContext()).overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 			}

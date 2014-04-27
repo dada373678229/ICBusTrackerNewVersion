@@ -206,7 +206,7 @@ public class HomeActivity extends Activity{
             break;
             
         case 3:
-            //fragment = new NearMeFragment();
+            fragment = null;
         	Intent i = new Intent(this,NearMeActivity.class);
 			startActivity(i);
             break;

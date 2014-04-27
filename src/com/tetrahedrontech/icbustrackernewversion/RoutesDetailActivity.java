@@ -11,6 +11,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -51,8 +52,11 @@ import android.os.Build;
 public class RoutesDetailActivity extends Activity {
 
 	//camera bound
-	private final LatLngBounds redBound = new LatLngBounds(new LatLng(41.6569098, -91.5541481), new LatLng(41.6768599, -91.53203));
+	private LatLngBounds mapBound;
 	private GoogleMap map;
+	
+	private String routeName;
+	private String routeAgency;
 	
 	//******************************************
 	coreAPI api=new coreAPI();
@@ -114,9 +118,11 @@ public class RoutesDetailActivity extends Activity {
 		setContentView(R.layout.activity_routes_detail);
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 		
-		String route=(String) getIntent().getExtras().get("route");
-		//Toast.makeText(this, route, Toast.LENGTH_SHORT).show();
-		initMap("red");
+		//get the route name and route agency from intent
+		routeName=((String) getIntent().getExtras().get("route")).split(",")[0];
+		routeAgency=((String) getIntent().getExtras().get("route")).split(",")[1];
+		
+		initMap(routeName);
 		context=this;
 		 
 	}
@@ -125,16 +131,17 @@ public class RoutesDetailActivity extends Activity {
 	protected void onResume(){
 		super.onResume();
 		
-		//start tracking bus locations
+		//start tracking bus locations only when there is a map
 		if (map != null){
 			getBusLocation=new BusLocationMarkerThread();
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
-				getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{"uiowa","red"});
+				getBusLocation.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{routeAgency,routeName});
 			else
-				getBusLocation.execute(new String[]{"uiowa","red"});
+				getBusLocation.execute(new String[]{routeAgency,routeName});
 		}
 	}
 	
+	//cancel bus location track when pause/stop/destroy
 	@Override
     protected void onDestroy() {
         super.onDestroy();
@@ -169,12 +176,11 @@ public class RoutesDetailActivity extends Activity {
 	
 	//this method initiates the map fragment
 	public void initMap(String route){
-		String file;
 		try{
 	        if (map == null) {
 	            //link map with fragment1
 	            map =((MapFragment) getFragmentManager().findFragmentById(R.id.routeDetailMapFragment)).getMap();
-	            //map=null;
+	            //map=null, show error msg
 	            if (map==null){
 	            	setContentView(R.layout.error_layout);
 	            	TextView t = (TextView) this.findViewById(R.id.stop_detail_textView);
@@ -184,25 +190,13 @@ public class RoutesDetailActivity extends Activity {
 	        }
 	        map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 	        
-	        //get time to determine which map we are going to use
-	        Calendar c = Calendar.getInstance();
-	        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-	        String strTime = sdf.format(c.getTime());
-	        String[] time=strTime.split(":");
-	        
-	        if ((Integer.parseInt(time[0])==19 && Integer.parseInt(time[1])>=25) || (Integer.parseInt(time[0])>19)){
-	        	file=route+"Night.txt";
-	        }
-	        else{
-	        	file=route+"Day.txt";
-	        }
-	        
-	        //read stop information
+	        //read stop information and add stop markers
 	        AssetManager am = this.getAssets();
-	        InputStream is = am.open("routeInfo/stops/"+file);
+	        InputStream is = am.open("routeInfo/stops/"+route+".txt");
 	        InputStreamReader isr = new InputStreamReader(is);
 	        BufferedReader br = new BufferedReader(isr);
 	        String line = br.readLine();
+	        
 	        //rawData contains stopId, stopTitle, stopLat, stopLng
 	        String[] rawData;
 	        while (line != null){
@@ -216,20 +210,35 @@ public class RoutesDetailActivity extends Activity {
 	        isr.close();
 	        br.close();
 	        
-	        
-	        //draw polyline for route path
-	        is = am.open("routeInfo/path/"+file);
+	        //open route path file
+	        is = am.open("routeInfo/path/"+route+".txt");
 	        isr=new InputStreamReader(is);
 	        br=new BufferedReader(isr);
 	        line = br.readLine();
-	        PolylineOptions routeOptions = new PolylineOptions();
+	        
+	        //get map boundary, (the first line of the txt file)
+	        String[] mapBoundTemp=line.split(",");
+	        mapBound = new LatLngBounds(new LatLng(Double.valueOf(mapBoundTemp[0]), Double.valueOf(mapBoundTemp[1])), new LatLng(Double.valueOf(mapBoundTemp[2]), Double.valueOf(mapBoundTemp[3])));
+	        line=br.readLine();
+	        
+	        //add path points to an arraylist, which will be passed to addMarkers(markers)
+	        ArrayList<LatLng> markers = new ArrayList<LatLng>();
 	        while (line != null){
-            	rawData=line.split(",");
-            	routeOptions.add(new LatLng(Double.parseDouble(rawData[0]),Double.parseDouble(rawData[1])));
+	        	//blocks are separated by ";"
+	        	//when we reach a ";", draw current line segment, and clear current arraylist
+	        	if (line.equals(";")){
+	    	        addMarkers(markers);
+	    	        markers.clear();
+	        	}
+	        	//if it is in the same block, keep adding point into arraylist
+	        	else{
+	        		rawData=line.split(",");
+	            	markers.add(new LatLng(Double.parseDouble(rawData[0]),Double.parseDouble(rawData[1])));
+	        	}
+            	
 	            line=br.readLine();
 	        }
-	        routeOptions.color(Color.CYAN);
-	        Polyline polyLine=map.addPolyline(routeOptions);
+	        addMarkers(markers);
 	        is.close();            
 	        isr.close();
 	        br.close();
@@ -248,28 +257,26 @@ public class RoutesDetailActivity extends Activity {
 	            	}       
 	            }
 	        });
-	       
-	        //for test uses
-	        //map.addMarker(new MarkerOptions().position(center).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).flat(true).rotation(88));
-	        /*
-	        is=am.open("MoreredRoutePoints1.txt");
-	        isr=new InputStreamReader(is);
-	        br=new BufferedReader(isr);
-	        line=br.readLine();
-	        while(line!=null){
-	          	rawData=line.split(",");
-	           	map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(rawData[1]), Double.parseDouble(rawData[2]))).title(rawData[0]).icon(BitmapDescriptorFactory.fromAsset("reddot.png")).alpha(0.7f));
-	           	line=br.readLine();           
-	        }*/
 	            
 	        //set camera position
 	        //CameraPosition cameraPosition = new CameraPosition.Builder().target(center).zoom(13).build();
 	        //map.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 	        //map.animateCamera(CameraUpdateFactory.newLatLngZoom(redBound.getCenter(),13));
-	        map.moveCamera(CameraUpdateFactory.newLatLngZoom(redBound.getCenter(), 14));
+	        map.moveCamera(CameraUpdateFactory.newLatLngZoom(mapBound.getCenter(), 14));
 	        map.setMyLocationEnabled(true);
-	        //map.setTrafficEnabled(true);
 		}
-		catch (Exception e){}
+		catch (Exception e){
+			Log.i("mytag","shouldn't be here");
+		}
+	}
+	
+	//drawer line segment using given points stored in the arraylist
+	private void addMarkers(ArrayList<LatLng> markers){
+		PolylineOptions routeOptions = new PolylineOptions();
+		for (int i=0; i<markers.size(); i++){
+			routeOptions.add(markers.get(i));
+		}
+		routeOptions.color(Color.CYAN);
+        Polyline polyLine=map.addPolyline(routeOptions);
 	}
 }
