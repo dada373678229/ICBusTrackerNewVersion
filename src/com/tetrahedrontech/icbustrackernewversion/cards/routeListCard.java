@@ -39,7 +39,7 @@ public class routeListCard extends Card{
         setOnClickListener(new OnCardClickListener() {
 			@Override
 			public void onClick(Card card, View view) {
-				Toast.makeText(getContext(), "Route "+card.getId()+" clicked", Toast.LENGTH_SHORT).show();
+				//Toast.makeText(getContext(), "Route "+card.getId()+" clicked", Toast.LENGTH_SHORT).show();
 				//call routeDetailActivity by intent
 				Intent i = new Intent(getContext(), RoutesDetailActivity.class);
 				i.putExtra("route", card.getId());

@@ -13,13 +13,16 @@ import java.util.Comparator;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesClient;
+import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.location.LocationClient;
-import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter;
 import com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
@@ -30,35 +33,45 @@ import com.tetrahedrontech.icbustrackernewversion.cards.stopListCard;
 import com.tetrahedrontech.icbustrackernewversion.cards.themeListCard;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.content.IntentSender;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-public class NearMeActivity extends Activity implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, LocationListener{
+public class NearMeActivity extends Activity{// implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, LocationListener{
 	private GoogleMap map;
 	private int theme;
 	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	
-	private LocationClient mLocationClient;
 	private Location currentLocation;
 	
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
-	ArrayList<Card> NearStops = new ArrayList<Card>();
+	ArrayList<Card> nearStops = new ArrayList<Card>();
 	CardArrayAdapter mCardArrayAdapter;
+	
+	ArrayList<Marker> markersOnMap = new ArrayList<Marker>();
+	
+	//error code: -1=normal, 0=failed to find a map, 1=Location service not available
+	private int errorCode=-1;
+	
+	private Context context;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_near_me);
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
+		context=this;
 		
 		//set action bar background color
 		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
@@ -67,82 +80,86 @@ public class NearMeActivity extends Activity implements GooglePlayServicesClient
 		getActionBar().setBackgroundDrawable(cd);
 		getActionBar().setTitle("Near me");
 		
+		Log.i("mytag", String.valueOf(servicesConnected()));
+
 		initMap();
+
+		LocationManager locationManager = (LocationManager) this.getSystemService(this.LOCATION_SERVICE);
+		if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER) || locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+			LocationListener locationListener = new LocationListener() {
+			    public void onLocationChanged(Location location) {
+			    	currentLocation=location;
+			    	setUpThings();
+			    }
+
+			    public void onStatusChanged(String provider, int status, Bundle extras) {}
+
+			    public void onProviderEnabled(String provider) {}
+
+			    public void onProviderDisabled(String provider) {}
+			  };
+			locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 15000, 20, locationListener);
+			locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 10, locationListener);
+		}
+		else{
+			errorCode=1;
+			errorHandler();
+		}
 		
+		//set up listener to response to click on info window
+        //here, we need to go to the stop detail page that user clicked
+        map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
+            @Override
+            public void onInfoWindowClick(Marker marker) {
+            	//if the marker clicked is not a bus marker
+            	if (!marker.getTitle().equals("BUS")){
+            		Intent i = new Intent(context,StopsDetailActivity.class);
+            		i.putExtra("stopTitle", marker.getTitle()+","+marker.getSnippet());
+            		context.startActivity(i);
+            		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
+            	}       
+            }
+        });
 	}
 	
-	@Override
-	protected void onStart(){
-		super.onStart();
-		mLocationClient.connect();
-		//mLocationClient = new LocationClient(this, this, this);
-        //mLocationClient.connect();
-		
-	}
-	
-	@Override
-	protected void onStop(){
-		super.onStop();
-		mLocationClient.disconnect();
+	//// Check that Google Play services is available
+	private boolean servicesConnected() {
+        // Check that Google Play services is available
+        int resultCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+        // If Google Play services is available
+        if (ConnectionResult.SUCCESS == resultCode) {
+        	return true;
+        }
+        else{
+        	return false;
+        }
 	}
 	
 	private void initMap(){
 		if (map == null) {
-            //link map with fragment1
+            //link map with fragment
             map =((MapFragment) getFragmentManager().findFragmentById(R.id.near_me_map)).getMap();
+            //if still didn't get map, call errorHandler()
             if (map==null){
-            	setContentView(R.layout.error_layout);
-            	TextView t = (TextView) this.findViewById(R.id.stop_detail_textView);
-            	t.setText("Sorry, Google Play service is not available on your phone!");
+            	errorCode=0;
+            	errorHandler();
             	return;
             }
         }
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         map.setMyLocationEnabled(true);
         
-        mLocationClient = new LocationClient(this, this, this);
-        mLocationClient.connect();
-        
-	}
-
-	@Override
-	public void onConnectionFailed(ConnectionResult connectionResult) {
-		
-	}
-
-	@Override
-	public void onConnected(Bundle arg0) {
-		currentLocation=mLocationClient.getLastLocation();
-		LatLng latlng=new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude());
-		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latlng, 15);
-		map.animateCamera(cameraUpdate);
-		NearStops=setCards();
-		
-		mCardArrayAdapter = new CardArrayAdapter(this,NearStops);
-		CardListView listView = (CardListView) findViewById(R.id.nearMeListView);
-		//AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
-        //animCardArrayAdapter.setAbsListView(listView);
-        if (listView!=null){
-            listView.setAdapter(mCardArrayAdapter);
-        }
-	}
-
-	@Override
-	public void onDisconnected() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void onLocationChanged(Location arg0) {
-		//currentLocation=arg0;
-		//LatLng latlng=new LatLng(arg0.getLatitude(),arg0.getLongitude());
-		//CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latlng, 15);
-		//map.animateCamera(cameraUpdate);
 	}
 	
-	private ArrayList<Card> setCards(){
+	private ArrayList<Card> setCardsAndMarkers(){
 		ArrayList<Card> result = new ArrayList<Card>();
+		
+		//remove current markers
+		for (int i=0; i<markersOnMap.size();i++){
+			markersOnMap.get(i).remove();
+		}
+		markersOnMap.clear();
+		
 		try{
 			//open file and read stops
 			AssetManager am=getAssets();
@@ -165,11 +182,15 @@ public class NearMeActivity extends Activity implements GooglePlayServicesClient
 				distance=(int) (currentLocation.distanceTo(stopLoc)*3.28084);
 				
 				if (distance<=1700){
+					//add card to the arraylist
 					String stopTitle=data[0]+","+data[1];
 					temp.setId(stopTitle);
 					temp.setContent(data[0],data[1],String.valueOf(distance)+" ft");
 					temp.setBackgroundResourceId(pressedCardBackground[theme]);
 					result.add(temp);
+					
+					//add markers on the map
+					markersOnMap.add(map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(data[2]), Double.parseDouble(data[3]))).title(data[0]).snippet(data[1]).icon(BitmapDescriptorFactory.defaultMarker(200)).alpha(0.7f)));
 				}
 				line=br.readLine();
 			}
@@ -179,8 +200,45 @@ public class NearMeActivity extends Activity implements GooglePlayServicesClient
 		Collections.sort(result, new nearMeCardComparator());
 		return result;
 	}
+	
+	//set up camera position and card list view
+	private void setUpThings(){
+		LatLng latlng=new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude());
+		CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latlng, 15);
+		map.animateCamera(cameraUpdate);
+		nearStops=setCardsAndMarkers();
+		mCardArrayAdapter = new CardArrayAdapter(this,nearStops);
+		CardListView listView = (CardListView) findViewById(R.id.nearMeListView);
+        if (listView!=null){
+            listView.setAdapter(mCardArrayAdapter);
+        }
+	}
 
+	//display error msg according to errorCode
+	private void errorHandler(){
+		TextView t;
+		switch (errorCode){
+		case -1:
+			return;
+		case 0:
+			setContentView(R.layout.error_layout);
+	    	t = (TextView) this.findViewById(R.id.stop_detail_textView);
+	    	t.setText("Sorry, Google Map service is not available on your phone!");
+	    	break;
+		case 1:
+			setContentView(R.layout.error_layout);
+	    	t = (TextView) this.findViewById(R.id.stop_detail_textView);
+	    	t.setText("Location Services is not available!\nPlease check your location settings!");
+	    	break;
+	    default:
+	    	break;
+		}
+	}
 	
-	
-	
+	//animation when back button is pressed
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
+	}
 }
