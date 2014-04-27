@@ -1,0 +1,28 @@
+1,Clinton & Washington - Downtown Iowa City,41.6607733,-91.53469
+146,Hubbard Park,41.6613499,-91.5385042
+263,Student Health,41.6627164,-91.5435105
+257,Newton Road - Parking Ramp,41.6634,-91.5460061
+253,VA Hospital and University Hospitals,41.66267,-91.54862
+245,Newton and Lincoln,41.6635703,-91.5512418
+241,Carver Hawkeye Arena on Elliott,41.6633882,-91.5538512
+365,Holiday Road and Lakewood Hills,41.69298,-91.56827
+361,Holiday Road and Old Hickory Lane,41.693518,-91.570652
+355,Holiday Road and Eastview,41.69334,-91.5751768
+351,Holiday Road and Oak Lake Park Road,41.69495,-91.5805
+5201,Holiday Road and 12th Avenue,41.6949602,-91.5827062
+5800,Front Street and Vandello,41.7253,-91.59811
+5810,Front Street and Weston,41.73552,-91.59797
+5820,Front Street and Zeller,41.74466,-91.59794
+5830,Front Street and Cherry Street,41.7484248,-91.59796
+5840,North Liberty Rec Center,41.750534,-91.60615
+5876,W Zeller Street and Sugar Creek Lane,41.7449786,-91.6088497
+5871,Sugar Creek Lane and Praire Ridge Road,41.742374,-91.6089801
+5866,Sugar Creek Lane and Augusta Circle,41.7398495,-91.6101705
+5861,Augusta Circle and Fairview Lane,41.7377899,-91.6099799
+5856,Golfview Drive at the Holiday MH Park,41.7370715,-91.6062752
+5851,Golfview Drive and Rebecca Street,41.7368801,-91.5988551
+5811,Front Street and Weston,41.7357923,-91.59804
+5801,Front and Vandello,41.7253064,-91.5981898
+5202,12th Avenue and Holiday Road,41.6950158,-91.5829111
+5210,12th Avenue and Ozark Ridge,41.6915803,-91.58257
+5220,12th Avenue and 10th Street,41.68685,-91.58157

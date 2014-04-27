@@ -1,0 +1,42 @@
+1,Clinton &amp; Washington - Downtown Iowa City,41.66077,-91.53469
+146,Hubbard Park,41.6613499,-91.5385042
+263,Student Health,41.6627164,-91.5435105
+257,Newton Road - Parking Ramp,41.6634,-91.5460061
+253,VA Hospital and University Hospitals,41.66267,-91.54862
+245,Newton and Lincoln,41.6635703,-91.5512418
+241,Carver Hawkeye Arena on Elliott,41.6633882,-91.5538512
+4010,Highway 6 and Hawkins,41.6662111,-91.5584739
+4015,Highway 6 and 1st Avenue - Hardees,41.66949,-91.56666
+5010,Highway 6 and 6th Avenue,41.671881,-91.5750435
+5020,Highway 6 and 10th Avenue,41.6732999,-91.5791898
+5030,Highway 6 Park Place Stop,41.6762009,-91.5849419
+5040,Highway 6 and 22nd Ave.,41.6807681,-91.5938264
+5050,Commerce Drive and Highway 965 - Walmart,41.69594,-91.61054
+5060,Commerce Drive and Commercial Park,41.6956506,-91.613632
+5070,Heartland Drive and Commercial Park - Rockwell Collins,41.6985175,-91.6137255
+5080,Heartland Place and Heartland Drive,41.7000861,-91.6100699
+5090,Goodwill,41.6989048,-91.6097679
+5100,Holiday Road and North Coral Street,41.69862,-91.60563
+5110,Holiday Road - North Ridge Park,41.6948589,-91.5964174
+5120,Lynncrest Drive and Holiday Road.,41.69656,-91.5923
+5130,Lynncrest Drive and North Ridge Drive,41.6986547,-91.5933573
+5140,North Ridge Drive and Waterford,41.6985906,-91.5911682
+5150,North Ridge Drive and Farrell Drive,41.69856,-91.5892651
+5160,North Ridge Drive and 12th Ave.,41.6999478,-91.5861747
+5170,12th Avenue and South Ridge Drive,41.6986502,-91.5850901
+346,12th Avenue and Liberty Lane,41.6961537,-91.5831617
+5190,Liberty Lane and Holiday Road,41.6955623,-91.5865272
+5200,Holiday Road and 12th Ave.,41.6948697,-91.5830115
+5210,12th Avenue and Ozark Ridge,41.6915851,-91.5825704
+5220,12th Avenue and 10th Street,41.6868537,-91.5815712
+5230,12th Avenue and 8th Street,41.6818947,-91.5804837
+4101,12th Avenue and 7th Street,41.6785556,-91.5804298
+5250,Highway 6 - Dairy Queen,41.6721512,-91.5763443
+100,Softball Complex,41.6686816,-91.5651441
+246,Dental College,41.6634814,-91.5509976
+254,Hardin Library,41.66264,-91.54841
+256,MERF,41.6632813,-91.5450153
+264,IIBD,41.6624947,-91.5436291
+145,EPB,41.6612,-91.5403442
+125,IMU,41.6623627,-91.5376186
+120,Macbride Hall,41.66246,-91.5357761

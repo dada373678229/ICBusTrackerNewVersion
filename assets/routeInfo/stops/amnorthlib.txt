@@ -1,0 +1,28 @@
+5221,12th Avenue and 10th Street,41.6866179,-91.5814092
+5211,12th Avenue and Ozark Ridge,41.6913615,-91.5824305
+5201,12th Avenue and Holiday Road,41.6947655,-91.582789
+5800,Front Street and Vandello,41.7253065,-91.5981098
+5810,Front Street and Weston,41.7355277,-91.5979699
+5850,Golfview Dr and Heidi Lane,41.7369498,-91.5997264
+5855,Golfview Drive at the Holiday MH Park,41.7371399,-91.6065135
+5860,Fairview Lane and Augusta Circle,41.7378497,-91.6097568
+5865,Augusta Circle and Sugar Creek Lane,41.7396917,-91.6102692
+5870,Sugar Creek Lane and Praire Ridge Road,41.7423744,-91.6089
+5875,Sugar Creek Lane and W Zeller Street,41.7448753,-91.6088823
+5840,North Liberty Rec Center,41.750534,-91.60615
+5831,Front Street and Cherry Street,41.74832,-91.59803
+5821,Front Street and Zeller,41.7448809,-91.59802
+5811,Front Street and Weston,41.7357937,-91.59804
+5801,Front and Vandello,41.7253085,-91.5981898
+5202,12th Avenue and Holiday Road,41.6950187,-91.5829117
+350,Holiday Road and Oak Lake Park Road,41.6949603,-91.5808127
+354,Holiday Road and Westview,41.6934103,-91.5763818
+360,Holiday Road and High Country Road,41.6934889,-91.5733273
+366,Holiday Road and Lakewood Hills,41.69295,-91.56838
+246,Dental College,41.6634817,-91.5509993
+254,Hardin Library,41.66264,-91.54841
+256,MERF,41.6632812,-91.5450156
+264,IIBD,41.6624947,-91.5436291
+145,EPB,41.6612,-91.5403442
+125,IMU,41.6623626,-91.5376186
+120,Macbride Hall,41.66246,-91.5357761

@@ -8,9 +8,11 @@ import java.util.ArrayList;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.OnCameraChangeListener;
 import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
@@ -245,11 +247,17 @@ public class RoutesDetailActivity extends Activity {
 	            }
 	        });
 	            
-	        //set camera position
-	        //CameraPosition cameraPosition = new CameraPosition.Builder().target(center).zoom(13).build();
-	        //map.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
-	        //map.animateCamera(CameraUpdateFactory.newLatLngZoom(redBound.getCenter(),13));
-	        map.moveCamera(CameraUpdateFactory.newLatLngZoom(mapBound.getCenter(), 14));
+	        //set camera position using mapBounds with padding 40
+	        map.setOnCameraChangeListener(new OnCameraChangeListener() {
+	            @Override
+	            public void onCameraChange(CameraPosition arg0) {
+	                // Move camera.
+	            	map.moveCamera(CameraUpdateFactory.newLatLngBounds(mapBound, 40));
+	                // Remove listener to prevent position reset on camera move.
+	                map.setOnCameraChangeListener(null);
+	            }
+	        });
+	        
 	        map.setMyLocationEnabled(true);
 		}
 		catch (Exception e){
