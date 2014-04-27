@@ -1,18 +1,10 @@
 package com.tetrahedrontech.icbustrackernewversion;
 
-import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
-
-import it.gmariotti.cardslib.library.view.CardListView;
-
 import java.io.BufferedReader;
-
-
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -23,44 +15,33 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.tetrahedrontech.icbustrackernewversion.API.coreAPI;
-//import com.tetrahedron.ICBusTracker.R;
 
 import android.app.Activity;
-import android.app.ActionBar;
-import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.os.Build;
 
 public class RoutesDetailActivity extends Activity {
 
-	//camera bound
+	//camera boundary
 	private LatLngBounds mapBound;
 	private GoogleMap map;
 	
 	private String routeName;
 	private String routeAgency;
+	private ArrayList<Marker> busLocationMarkers=new ArrayList<Marker>();
 	
 	//******************************************
 	coreAPI api=new coreAPI();
-	Marker busLocationMarker;
 	private Context context;
 	BusLocationMarkerThread getBusLocation;
 	
@@ -95,18 +76,25 @@ public class RoutesDetailActivity extends Activity {
 				//this method creates bus markers on the map
 				@Override
 				protected void onProgressUpdate(String... result){
+					//before adding new bus location markers, remove old markers and clear the arraylist
+					for (int i=0;i<busLocationMarkers.size();i++){
+						busLocationMarkers.get(i).remove();
+					}
+					busLocationMarkers.clear();
+					
+					//to keep track of all bus location markers, store it in an arraylist
 					String[] temp=result[0].split(";");
 					for (int i=0; i<temp.length;i++){
 						String[] temp1=temp[i].split(",");
 						LatLng busLocation=new LatLng(Float.parseFloat(temp1[1]),Float.parseFloat(temp1[2]));
-						map.addMarker(new MarkerOptions().anchor((float)0.5, (float)0.5).flat(true).title("BUS").snippet(temp1[0]).position(busLocation).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).rotation(Integer.parseInt(temp1[3])));
+						busLocationMarkers.add(map.addMarker(new MarkerOptions().anchor((float)0.5, (float)0.5).flat(true).title("BUS").snippet(temp1[0]).position(busLocation).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).rotation(Integer.parseInt(temp1[3]))));
 					}
 				}
-				
+				/*
 				@Override
 		        protected void onPostExecute(String result) {
 					//Log.i("mytag","onPostExecute");
-		        }
+		        }*/
 			}
 	
 	//*******************************************
@@ -201,7 +189,6 @@ public class RoutesDetailActivity extends Activity {
 	        String[] rawData;
 	        while (line != null){
 	            rawData=line.split(",");
-	            String markerStopId=rawData[0];
 	            //add marker
 	            map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(rawData[2]), Double.parseDouble(rawData[3]))).title(rawData[0]).snippet(rawData[1]).icon(BitmapDescriptorFactory.defaultMarker(200)).alpha(0.7f));
 	            line=br.readLine();
@@ -277,6 +264,6 @@ public class RoutesDetailActivity extends Activity {
 			routeOptions.add(markers.get(i));
 		}
 		routeOptions.color(Color.CYAN);
-        Polyline polyLine=map.addPolyline(routeOptions);
+        map.addPolyline(routeOptions);
 	}
 }
