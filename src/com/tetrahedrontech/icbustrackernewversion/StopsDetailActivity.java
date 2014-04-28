@@ -6,6 +6,8 @@ import it.gmariotti.cardslib.library.internal.ViewToClickToExpand;
 import it.gmariotti.cardslib.library.view.CardListView;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 import com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter;
 import com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
@@ -48,6 +50,7 @@ public class StopsDetailActivity extends Activity{
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
 	private boolean favorite;
+	private Set<String> favoriteStops;
 	private String stopId;
 	
 	protected void onCreate(Bundle savedInstanceState) {
@@ -68,8 +71,8 @@ public class StopsDetailActivity extends Activity{
 		context=this;
 		
 		//check if this stop is in favorite
-		//the key value for it is the stop id
-		favorite=settings.getBoolean(stopId, false);
+		favoriteStops=settings.getStringSet("favorite", new HashSet<String>());
+		favorite=favoriteStops.contains(stopId);
 		
 		//show progress dialog
 		progressDialog=createProgressDialog(this);
@@ -162,11 +165,15 @@ public class StopsDetailActivity extends Activity{
         	//if it is not favorite button, turn it to favorite
         	//and save changes to settings
 		    switch (item.getItemId()) {
+		    	//is currently favorite
 		        case R.id.stopDetail_favorite_icon:
-		        	editor.putBoolean(stopId, false);
+		        	favoriteStops.remove(stopId);
+		        	editor.putStringSet("favorite", favoriteStops);
 		        	break;
+		        //is currently not favorite
 		        case R.id.stopDetail_not_favorite_icon:
-		        	editor.putBoolean(stopId, true);
+		        	favoriteStops.add(stopId);
+		        	editor.putStringSet("favorite",favoriteStops);
 		        	break;
 		        default:
 		            return super.onOptionsItemSelected(item);
