@@ -53,6 +53,8 @@ public class StopsDetailActivity extends Activity{
 	private Set<String> favoriteStops;
 	private String stopId;
 	
+	private boolean firstTimeRunning=true;
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_stops_detail);
@@ -84,14 +86,14 @@ public class StopsDetailActivity extends Activity{
 		else
 		    getData.execute(new String[]{stopId});
 		 
-		//if it takes more than 3 seconds to fetch data from the Internet,
+		//if it takes more than 5 seconds to fetch data from the Internet,
 		//stop AsyncTask and show error page
 		Handler handler = new Handler();
 		handler.postDelayed(new Runnable()
 		{
 		  @Override
 		  public void run() {
-		      if ( getData.getStatus() == AsyncTask.Status.RUNNING ){
+		      if ( getData.getStatus() == AsyncTask.Status.RUNNING && firstTimeRunning){
 		          getData.cancel(true);
 		      	  progressDialog.cancel();
 				  errorHandler(1);
@@ -117,6 +119,7 @@ public class StopsDetailActivity extends Activity{
 	        protected void onPostExecute(String result) {
 				//if we don't have any error, set the cardlist
 				if (errorCode==-1){
+					firstTimeRunning=false;
 					CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(context,cards);
 					CardListView listView = (CardListView) findViewById(R.id.stopDetailListView);
 					AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
@@ -125,6 +128,7 @@ public class StopsDetailActivity extends Activity{
 			            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
 			        }
 				}
+				
 				//close progress dialog and show error message
 				progressDialog.cancel();
 				errorHandler(errorCode);			
