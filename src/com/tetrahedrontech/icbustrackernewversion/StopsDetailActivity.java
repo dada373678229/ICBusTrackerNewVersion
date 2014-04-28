@@ -30,6 +30,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -96,43 +97,68 @@ public class StopsDetailActivity extends Activity{
 		      if ( getData.getStatus() == AsyncTask.Status.RUNNING && firstTimeRunning){
 		          getData.cancel(true);
 		      	  progressDialog.cancel();
-				  errorHandler(1);
+		      	  errorCode=1;
+				  errorHandler();
 		      }
 		  }
 		}, 5000);
+		
 	}
 	
 		//this class can do heavy tasks in the background. Here, we want it to set cardlist
-		private class LongOperation extends AsyncTask<String, Void, String> {
+		private class LongOperation extends AsyncTask<String, String, String> {
 			
 			//this method sets the arraylist of cards, params can be viewed as String[]
 			@Override
 	        protected String doInBackground(String... params) {
 				int stopId=Integer.parseInt(params[0]);
-				cards=setPredictionItem(stopId);
+				while(true){
+					if (isCancelled()) {
+						//Log.i("mytag","breaked");
+						break;
+					}
+					cards=setPredictionItem(stopId);
+					publishProgress(new String[]{});
+					
+					try {
+						Thread.currentThread().sleep(1000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
 				return "";
 			}
 			
 			//since we CANNOT update user interface UNTIL the doInBackground is finished, so we
 			//have to update the UI AFTER getting the predictions
 			@Override
-	        protected void onPostExecute(String result) {
+	        protected void onProgressUpdate(String... result) {
+				if (progressDialog.isShowing()){
+					//close progress dialog and show error message
+					progressDialog.cancel();
+				}
+				
 				//if we don't have any error, set the cardlist
 				if (errorCode==-1){
 					firstTimeRunning=false;
 					CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(context,cards);
 					CardListView listView = (CardListView) findViewById(R.id.stopDetailListView);
-					AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
-			        animCardArrayAdapter.setAbsListView(listView);
+					//AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
+			        //animCardArrayAdapter.setAbsListView(listView);
 			        if (listView!=null){
-			            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
+			            //listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
+			        	listView.setAdapter(mCardArrayAdapter);
 			        }
 				}
-				
-				//close progress dialog and show error message
-				progressDialog.cancel();
-				errorHandler(errorCode);			
 	        }
+			
+			@Override
+			protected void onCancelled(String result){
+				if (errorCode!=-1){
+					errorHandler();
+				}
+			}
 		}
 		
 		//animation when back button is pressed
@@ -141,6 +167,14 @@ public class StopsDetailActivity extends Activity{
 		    super.onBackPressed();
 		    overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
 		}
+		
+		@Override
+	    protected void onDestroy() {
+	        super.onDestroy();
+	        if (! getData.isCancelled()){
+				getData.cancel(true);
+			}
+	    }
 		
 		//set up option menu
 		@Override
@@ -202,6 +236,7 @@ public class StopsDetailActivity extends Activity{
 				String p=api.busPrediction(stopId);
 				//if there is no bus prediction
 				if (p.length()==0) {
+					getData.cancel(true);
 					errorCode=2;
 					return result;
 				}
@@ -228,6 +263,7 @@ public class StopsDetailActivity extends Activity{
 			}
 			//no connected to Internet
 			else{
+				getData.cancel(true);
 				errorCode=0;
 			}
 			return result;
@@ -258,7 +294,13 @@ public class StopsDetailActivity extends Activity{
 		
 		//this method is called everytime we fetch api data.
 		//if errorCode is not -1 (means no error), we show error message on screen
-		private void errorHandler(int errorCode){
+		private void errorHandler(){
+			if ((!getData.isCancelled()) && (errorCode != -1)){
+				getData.cancel(true);
+			}
+			if (progressDialog.isShowing()){
+				progressDialog.cancel();
+			}
 			if (errorCode!=-1){
 				setContentView(R.layout.error_layout);
 				TextView t = (TextView) this.findViewById(R.id.stop_detail_textView);

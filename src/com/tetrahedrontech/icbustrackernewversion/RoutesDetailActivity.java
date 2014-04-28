@@ -135,7 +135,7 @@ public class RoutesDetailActivity extends Activity {
 	@Override
     protected void onDestroy() {
         super.onDestroy();
-        if (map != null){
+        if (map != null && (!getBusLocation.isCancelled())){
         	getBusLocation.cancel(true);
         }
         
@@ -144,7 +144,7 @@ public class RoutesDetailActivity extends Activity {
 	@Override
     protected void onPause() {
         super.onPause();
-        if (map != null){
+        if (map != null && (!getBusLocation.isCancelled())){
         	getBusLocation.cancel(true);
         }
     }
@@ -152,7 +152,7 @@ public class RoutesDetailActivity extends Activity {
 	@Override
 	protected void onStop(){
 		super.onStop();
-		if (map != null){
+		if (map != null && (!getBusLocation.isCancelled())){
         	getBusLocation.cancel(true);
         }
 	}
