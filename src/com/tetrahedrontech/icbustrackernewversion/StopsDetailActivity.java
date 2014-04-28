@@ -2,7 +2,6 @@ package com.tetrahedrontech.icbustrackernewversion;
 
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
-import it.gmariotti.cardslib.library.internal.CardExpand;
 import it.gmariotti.cardslib.library.internal.ViewToClickToExpand;
 import it.gmariotti.cardslib.library.view.CardListView;
 
@@ -29,11 +28,10 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup.LayoutParams;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.WindowManager.BadTokenException;
-import android.widget.Button;
 import android.widget.TextView;
 
 public class StopsDetailActivity extends Activity{
@@ -49,6 +47,9 @@ public class StopsDetailActivity extends Activity{
 	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
+	private boolean favorite;
+	private String stopId;
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_stops_detail);
@@ -61,10 +62,14 @@ public class StopsDetailActivity extends Activity{
 		
 		//set up action bar
 		String stopTitle=getIntent().getExtras().getString("stopTitle");
-		String stopId=stopTitle.split(",")[0];
+		stopId=stopTitle.split(",")[0];
 		ActionBar actionBar = getActionBar();
 		actionBar.setTitle(stopTitle.split(",")[1]);
 		context=this;
+		
+		//check if this stop is in favorite
+		//the key value for it is the stop id
+		favorite=settings.getBoolean(stopId, false);
 		
 		//show progress dialog
 		progressDialog=createProgressDialog(this);
@@ -128,6 +133,49 @@ public class StopsDetailActivity extends Activity{
 		public void onBackPressed() {
 		    super.onBackPressed();
 		    overridePendingTransition(R.anim.slide_in_from_left, R.anim.slide_out_to_right);
+		}
+		
+		//set up option menu
+		@Override
+	    public boolean onPrepareOptionsMenu(Menu menu) {
+			// Inflate the menu items for use in the action bar
+		    MenuInflater inflater = getMenuInflater();
+		    //if the stop is in favorite, load solid five star button
+		    //if not, load empty five star button
+		    if (favorite){
+		    	inflater.inflate(R.menu.favorite, menu);
+		    }
+		    else{
+		    	inflater.inflate(R.menu.not_favorite, menu);
+		    }
+		    return super.onCreateOptionsMenu(menu);
+		}
+		
+		//when menu item is selected
+		@Override
+		public boolean onOptionsItemSelected(MenuItem item) {
+			//open settings
+			SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+        	SharedPreferences.Editor editor=settings.edit();
+			
+		    //get item id, if it is favorite button, turn it to not favorite
+        	//if it is not favorite button, turn it to favorite
+        	//and save changes to settings
+		    switch (item.getItemId()) {
+		        case R.id.stopDetail_favorite_icon:
+		        	editor.putBoolean(stopId, false);
+		        	break;
+		        case R.id.stopDetail_not_favorite_icon:
+		        	editor.putBoolean(stopId, true);
+		        	break;
+		        default:
+		            return super.onOptionsItemSelected(item);
+		    }
+		    editor.commit();
+		    favorite= !favorite;
+		    //refresh option menu
+		    invalidateOptionsMenu();
+		    return true;
 		}
 		
 		//this method returns an arraylist of cards where each card is a bus prediction

@@ -382,35 +382,37 @@ containing a value of this type.
         public static final int ic_action_accept=0x7f020031;
         public static final int ic_action_alarms=0x7f020032;
         public static final int ic_action_cancel=0x7f020033;
-        public static final int ic_action_search=0x7f020034;
-        public static final int ic_drawer=0x7f020035;
-        public static final int ic_favorite=0x7f020036;
-        public static final int ic_launcher=0x7f020037;
-        public static final int ic_logo=0x7f020038;
-        public static final int ic_menu_expand_card_dark_normal=0x7f020039;
-        public static final int ic_menu_expand_card_dark_pressed=0x7f02003a;
-        public static final int ic_menu_overflow_card_dark_normal=0x7f02003b;
-        public static final int ic_menu_overflow_card_dark_pressed=0x7f02003c;
-        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f02003d;
-        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f02003e;
-        public static final int ic_near_me=0x7f02003f;
-        public static final int ic_plusone_medium_off_client=0x7f020040;
-        public static final int ic_plusone_small_off_client=0x7f020041;
-        public static final int ic_plusone_standard_off_client=0x7f020042;
-        public static final int ic_plusone_tall_off_client=0x7f020043;
-        public static final int ic_route=0x7f020044;
-        public static final int ic_stop=0x7f020045;
-        public static final int ic_themes=0x7f020046;
-        public static final int ic_undobar_undo=0x7f020047;
-        public static final int pressed_background_card=0x7f020048;
-        public static final int pressed_background_kitkat_card=0x7f020049;
-        public static final int undobar=0x7f02004a;
-        public static final int undobar_button_focused=0x7f02004b;
-        public static final int undobar_button_pressed=0x7f02004c;
-        public static final int undobar_divider=0x7f02004d;
+        public static final int ic_action_important=0x7f020034;
+        public static final int ic_action_not_important=0x7f020035;
+        public static final int ic_action_search=0x7f020036;
+        public static final int ic_drawer=0x7f020037;
+        public static final int ic_favorite=0x7f020038;
+        public static final int ic_launcher=0x7f020039;
+        public static final int ic_logo=0x7f02003a;
+        public static final int ic_menu_expand_card_dark_normal=0x7f02003b;
+        public static final int ic_menu_expand_card_dark_pressed=0x7f02003c;
+        public static final int ic_menu_overflow_card_dark_normal=0x7f02003d;
+        public static final int ic_menu_overflow_card_dark_pressed=0x7f02003e;
+        public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f02003f;
+        public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020040;
+        public static final int ic_near_me=0x7f020041;
+        public static final int ic_plusone_medium_off_client=0x7f020042;
+        public static final int ic_plusone_small_off_client=0x7f020043;
+        public static final int ic_plusone_standard_off_client=0x7f020044;
+        public static final int ic_plusone_tall_off_client=0x7f020045;
+        public static final int ic_route=0x7f020046;
+        public static final int ic_stop=0x7f020047;
+        public static final int ic_themes=0x7f020048;
+        public static final int ic_undobar_undo=0x7f020049;
+        public static final int pressed_background_card=0x7f02004a;
+        public static final int pressed_background_kitkat_card=0x7f02004b;
+        public static final int undobar=0x7f02004c;
+        public static final int undobar_button_focused=0x7f02004d;
+        public static final int undobar_button_pressed=0x7f02004e;
+        public static final int undobar_divider=0x7f02004f;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0037;
+        public static final int action_settings=0x7f0b0038;
         public static final int alarm=0x7f0b0034;
         public static final int cancel_btn=0x7f0b002d;
         public static final int card_content_expand_layout=0x7f0b0017;
@@ -442,7 +444,7 @@ containing a value of this type.
         public static final int list_card_undobar_button=0x7f0b0028;
         public static final int list_card_undobar_message=0x7f0b0027;
         public static final int list_nav_drawer=0x7f0b0007;
-        public static final int menu_search=0x7f0b0038;
+        public static final int menu_search=0x7f0b003a;
         public static final int nearMeListView=0x7f0b0009;
         public static final int near_me_map=0x7f0b0008;
         public static final int none=0x7f0b0000;
@@ -458,6 +460,8 @@ containing a value of this type.
         public static final int satellite=0x7f0b0002;
         public static final int set_btn=0x7f0b002e;
         public static final int stopDetailListView=0x7f0b000b;
+        public static final int stopDetail_favorite_icon=0x7f0b0037;
+        public static final int stopDetail_not_favorite_icon=0x7f0b0039;
         public static final int stopListView=0x7f0b0020;
         public static final int stop_detail_textView=0x7f0b001e;
         public static final int stop_list_view_stopId=0x7f0b0035;
@@ -508,8 +512,10 @@ containing a value of this type.
         public static final int stop_list_card=0x7f030020;
     }
     public static final class menu {
-        public static final int home=0x7f0d0000;
-        public static final int options_menu=0x7f0d0001;
+        public static final int favorite=0x7f0d0000;
+        public static final int home=0x7f0d0001;
+        public static final int not_favorite=0x7f0d0002;
+        public static final int options_menu=0x7f0d0003;
     }
     public static final class plurals {
         /**  Card selected item with CAB 
