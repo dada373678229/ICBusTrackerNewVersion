@@ -26,8 +26,7 @@
     </PreferenceCategory>
     
     <PreferenceCategory 
-        android:title="@string/nearby_settings"
-        android:key="near_me_unit_settings">
+        android:title="@string/nearby_settings">
     	
         <ListPreference
             android:title="@string/nearby_distance_unit"

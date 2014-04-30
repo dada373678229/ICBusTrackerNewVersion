@@ -44,6 +44,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.TextView;
 
@@ -83,9 +84,8 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		getActionBar().setTitle("Near me");
 		
 		//get distance unit
-		distanceUnit=" "+settings.getString("near_me_unit", "ft");
-		
-		Log.i("mytag", String.valueOf(servicesConnected()));
+		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+		distanceUnit=" "+sharedPref.getString("near_me_unit", "ft");
 
 		initMap();
 
@@ -175,7 +175,8 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 			String data[];
 			
 			Location stopLoc=new Location("compare");
-			int distance;
+			int distanceM;
+			int distanceFt;
 			
 			//get a single line and analyze stop infomation
 			while (line != null){
@@ -184,13 +185,20 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 				
 				stopLoc.setLatitude(Double.valueOf(data[2]));
 				stopLoc.setLongitude(Double.valueOf(data[3]));
-				distance=(int) (currentLocation.distanceTo(stopLoc)*3.28084);
+				distanceFt=(int) (currentLocation.distanceTo(stopLoc)*3.28084);
+				distanceM=(int) (currentLocation.distanceTo(stopLoc));
 				
-				if (distance<=1700){
+				if (distanceM<=500){
 					//add card to the arraylist
 					String stopTitle=data[0]+","+data[1];
 					temp.setId(stopTitle);
-					temp.setContent(data[0],data[1],String.valueOf(distance)+distanceUnit);
+					if (distanceUnit.equals(" ft")){
+						temp.setContent(data[0],data[1],String.valueOf(distanceFt)+distanceUnit);
+					}
+					else{
+						temp.setContent(data[0],data[1],String.valueOf(distanceM)+distanceUnit);
+					}
+					
 					temp.setBackgroundResourceId(pressedCardBackground[theme]);
 					result.add(temp);
 					

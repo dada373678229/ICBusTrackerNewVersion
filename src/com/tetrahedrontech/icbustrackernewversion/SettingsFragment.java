@@ -24,13 +24,13 @@ public class SettingsFragment extends PreferenceFragment implements OnSharedPref
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 		if (key.equals("auto_refresh")) {
             SwitchPreference connectionPref = (SwitchPreference) findPreference(key);
-            if (getPreferenceManager().getSharedPreferences().getBoolean("alarm", false)){
+            if (sharedPreferences.getBoolean("alarm", false)){
             	connectionPref.setChecked(false);
             }
         }
 		if (key.equals("alarm")){
 			SwitchPreference connectionPref = (SwitchPreference) findPreference(key);
-			if (getPreferenceManager().getSharedPreferences().getBoolean("auto_refresh", true)){
+			if (sharedPreferences.getBoolean("auto_refresh", true)){
             	connectionPref.setChecked(false);
             }
 		}
