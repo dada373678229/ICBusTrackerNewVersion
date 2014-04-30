@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory 
+        android:title="@string/bus_prediction_settings"
+        android:key="bus_predictions_settings">
+        
+        <SwitchPreference
+        	android:key="auto_refresh"
+        	android:title="@string/auto_refresh_title"
+        	android:summaryOn="@string/auto_refresh_summary_on"
+        	android:summaryOff="@string/auto_refresh_summary_off"
+        	android:defaultValue="true"
+        	android:switchTextOn="@string/on"
+        	android:switchTextOff="@string/off"/>
+    
+    	<SwitchPreference
+        	android:key="alarm"
+        	android:title="@string/alarm_title"
+        	android:summaryOn="@string/alarm_summary_on"
+        	android:summaryOff="@string/alarm_summary_off"
+        	android:defaultValue="false"
+        	android:switchTextOn="@string/on"
+        	android:switchTextOff="@string/off"/>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/nearby_settings"
+        android:key="near_me_unit_settings">
+    	
+        <ListPreference
+            android:title="@string/nearby_distance_unit"
+            android:key="near_me_unit"
+            android:defaultValue="ft"
+            android:entries="@array/unitListArray"
+            android:entryValues="@array/unitListValues" />
+        
+    </PreferenceCategory>
+    
+    
+    
+</PreferenceScreen>

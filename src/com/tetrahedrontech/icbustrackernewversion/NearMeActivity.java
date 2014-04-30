@@ -54,6 +54,8 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 	
 	private Location currentLocation;
 	
+	private String distanceUnit;
+	
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
 	ArrayList<Card> nearStops = new ArrayList<Card>();
@@ -79,6 +81,9 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);
 		getActionBar().setTitle("Near me");
+		
+		//get distance unit
+		distanceUnit=" "+settings.getString("near_me_unit", "ft");
 		
 		Log.i("mytag", String.valueOf(servicesConnected()));
 
@@ -185,7 +190,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 					//add card to the arraylist
 					String stopTitle=data[0]+","+data[1];
 					temp.setId(stopTitle);
-					temp.setContent(data[0],data[1],String.valueOf(distance)+" ft");
+					temp.setContent(data[0],data[1],String.valueOf(distance)+distanceUnit);
 					temp.setBackgroundResourceId(pressedCardBackground[theme]);
 					result.add(temp);
 					

@@ -24,6 +24,8 @@ public final class R {
         /**  Nav Drawer Menu Items 
          */
         public static final int nav_drawer_items=0x7f0c0000;
+        public static final int unitListArray=0x7f0c0002;
+        public static final int unitListValues=0x7f0c0003;
     }
     public static final class attr {
         /** 
@@ -495,23 +497,24 @@ containing a value of this type.
         public static final int error_layout=0x7f03000d;
         public static final int fragment_home=0x7f03000e;
         public static final int fragment_route=0x7f03000f;
-        public static final int fragment_stop=0x7f030010;
-        public static final int fragment_themes=0x7f030011;
-        public static final int inner_base_expand=0x7f030012;
-        public static final int inner_base_header=0x7f030013;
-        public static final int inner_base_main=0x7f030014;
-        public static final int list_card_layout=0x7f030015;
-        public static final int list_card_thumbnail_layout=0x7f030016;
-        public static final int list_card_undo_message=0x7f030017;
-        public static final int nav_drawer_list_item_layout=0x7f030018;
-        public static final int number_picker_layout=0x7f030019;
-        public static final int progress_dialog=0x7f03001a;
-        public static final int route_list_card=0x7f03001b;
-        public static final int route_list_detail_card=0x7f03001c;
-        public static final int route_list_detail_card_card=0x7f03001d;
-        public static final int route_list_detail_card_inner_layout=0x7f03001e;
-        public static final int stop_detail_expand_layout=0x7f03001f;
-        public static final int stop_list_card=0x7f030020;
+        public static final int fragment_settings=0x7f030010;
+        public static final int fragment_stop=0x7f030011;
+        public static final int fragment_themes=0x7f030012;
+        public static final int inner_base_expand=0x7f030013;
+        public static final int inner_base_header=0x7f030014;
+        public static final int inner_base_main=0x7f030015;
+        public static final int list_card_layout=0x7f030016;
+        public static final int list_card_thumbnail_layout=0x7f030017;
+        public static final int list_card_undo_message=0x7f030018;
+        public static final int nav_drawer_list_item_layout=0x7f030019;
+        public static final int number_picker_layout=0x7f03001a;
+        public static final int progress_dialog=0x7f03001b;
+        public static final int route_list_card=0x7f03001c;
+        public static final int route_list_detail_card=0x7f03001d;
+        public static final int route_list_detail_card_card=0x7f03001e;
+        public static final int route_list_detail_card_inner_layout=0x7f03001f;
+        public static final int stop_detail_expand_layout=0x7f030020;
+        public static final int stop_list_card=0x7f030021;
     }
     public static final class menu {
         public static final int favorite=0x7f0d0000;
@@ -529,6 +532,9 @@ containing a value of this type.
     }
     public static final class string {
         public static final int action_settings=0x7f08001d;
+        public static final int alarm_summary_off=0x7f08002b;
+        public static final int alarm_summary_on=0x7f08002a;
+        public static final int alarm_title=0x7f080029;
         public static final int app_name=0x7f080000;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
@@ -553,6 +559,12 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f080016;
+        public static final int auto_refresh_summary_off=0x7f080026;
+        public static final int auto_refresh_summary_on=0x7f080025;
+        /**  Settings 
+         */
+        public static final int auto_refresh_title=0x7f080024;
+        public static final int bus_prediction_settings=0x7f08002c;
         public static final int changeTheme=0x7f080021;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
@@ -627,10 +639,16 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f080015;
         public static final int drawer_close=0x7f080023;
         public static final int drawer_open=0x7f080022;
+        public static final int feet=0x7f080030;
         public static final int hello_world=0x7f08001c;
         /**  Undo Controller
          */
         public static final int list_card_undo_title=0x7f080001;
+        public static final int meter=0x7f08002f;
+        public static final int nearby_distance_unit=0x7f08002e;
+        public static final int nearby_settings=0x7f08002d;
+        public static final int off=0x7f080028;
+        public static final int on=0x7f080027;
         public static final int title_activity_near_me=0x7f080020;
         public static final int title_activity_routes_detail=0x7f08001e;
         public static final int title_activity_stops_detail=0x7f08001f;

@@ -16,6 +16,7 @@
         <item >Routes</item>
         <item >Nearby</item>
         <item >Themes</item>
+        <item >Settings</item>
         <item >About Us</item>
     </string-array>
      
@@ -27,10 +28,35 @@
         <item>@drawable/ic_route</item>
         <item>@drawable/ic_near_me</item>
         <item>@drawable/ic_themes</item>
+        <item>@drawable/ic_themes</item>
         <item>@drawable/ic_about</item>
     </array>
     
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    
+    <!-- Settings -->
+    <string name="auto_refresh_title">Auto-Refresh</string>
+    <string name="auto_refresh_summary_on">Bus arrival times will be updated frequently. Auto-Refresh may increase your data usage.</string>
+    <string name="auto_refresh_summary_off">Bus arrival times will not be updated. To turn on, Bus Arrival Alarm should be off.</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="alarm_title">Bus Arrival Alarm</string>
+    <string name="alarm_summary_on">You can set an alarm on an upcoming bus.</string>
+    <string name="alarm_summary_off">You are not able to set an alarm on an upcoming bus. To turn on, Auto_Refresh should be off.</string>
+    <string name="bus_prediction_settings">Bus Predictions Settings</string>
+    <string name="nearby_settings">Nearby Settings</string>
+    <string name="nearby_distance_unit">Choose the unit of distance</string>
+    <string name="meter">Meter</string>
+    <string name="feet">Feet</string>
+    <string-array name="unitListArray">
+        <item>Meter</item>
+        <item>Feet</item>
+    </string-array>
+    
+    <string-array name="unitListValues">
+        <item>m</item>
+        <item>ft</item>
+    </string-array>
 
 </resources>

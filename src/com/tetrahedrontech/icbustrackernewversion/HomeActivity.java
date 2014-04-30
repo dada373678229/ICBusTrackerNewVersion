@@ -210,11 +210,11 @@ public class HomeActivity extends Activity{
         	Intent i = new Intent(this,NearMeActivity.class);
 			startActivity(i);
             break;
-        /*
+        
         case 5:
-            fragment = new WhatsHotFragment();
+            fragment = new SettingsFragment();
             break;
- 		*/
+ 		
         default:
             break;
         }

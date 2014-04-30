@@ -141,12 +141,12 @@ public final class R {
 		public static final int card_thumbnail_layout = 0x7f03000a;
 		public static final int card_thumbnail_overlay_layout = 0x7f03000b;
 		public static final int card_undo_layout = 0x7f03000c;
-		public static final int inner_base_expand = 0x7f030012;
-		public static final int inner_base_header = 0x7f030013;
-		public static final int inner_base_main = 0x7f030014;
-		public static final int list_card_layout = 0x7f030015;
-		public static final int list_card_thumbnail_layout = 0x7f030016;
-		public static final int list_card_undo_message = 0x7f030017;
+		public static final int inner_base_expand = 0x7f030013;
+		public static final int inner_base_header = 0x7f030014;
+		public static final int inner_base_main = 0x7f030015;
+		public static final int list_card_layout = 0x7f030016;
+		public static final int list_card_thumbnail_layout = 0x7f030017;
+		public static final int list_card_undo_message = 0x7f030018;
 	}
 	public static final class plurals {
 		public static final int card_selected_items = 0x7f090001;
