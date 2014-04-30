@@ -64,7 +64,7 @@ public class RoutesDetailActivity extends Activity {
 						}
 					
 						try {
-							Thread.currentThread().sleep(1000);
+							Thread.currentThread().sleep(5000);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();

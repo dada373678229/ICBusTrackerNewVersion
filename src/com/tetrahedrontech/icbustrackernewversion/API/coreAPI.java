@@ -40,6 +40,7 @@ public class coreAPI
 		}
 		return result;
 	}
+	
 	//these are the only two public method you can call to get API information
 	public String busPrediction(int stopNumber)
 	{	

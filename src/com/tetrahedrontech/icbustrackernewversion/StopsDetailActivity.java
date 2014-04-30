@@ -53,8 +53,14 @@ public class StopsDetailActivity extends Activity{
 	private boolean favorite;
 	private Set<String> favoriteStops;
 	private String stopId;
+	private String stopName;
 	
+	//this is to help determine whether to show progress dialog
+	//if firstTimeRunning is true, show progress dialog
+	//if false, means it is in refresh state, don't show progress dialog
 	private boolean firstTimeRunning=true;
+	
+	CardArrayAdapter mCardArrayAdapter;
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -69,13 +75,16 @@ public class StopsDetailActivity extends Activity{
 		//set up action bar
 		String stopTitle=getIntent().getExtras().getString("stopTitle");
 		stopId=stopTitle.split(",")[0];
+		stopName=stopTitle.split(",")[1];
 		ActionBar actionBar = getActionBar();
 		actionBar.setTitle(stopTitle.split(",")[1]);
 		context=this;
 		
 		//check if this stop is in favorite
 		favoriteStops=settings.getStringSet("favorite", new HashSet<String>());
-		favorite=favoriteStops.contains(stopId);
+		String stopKey=stopId+","+stopName;
+		favorite=favoriteStops.contains(stopKey);
+		
 		
 		//show progress dialog
 		progressDialog=createProgressDialog(this);
@@ -141,15 +150,23 @@ public class StopsDetailActivity extends Activity{
 				
 				//if we don't have any error, set the cardlist
 				if (errorCode==-1){
-					firstTimeRunning=false;
-					CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(context,cards);
 					CardListView listView = (CardListView) findViewById(R.id.stopDetailListView);
-					//AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
-			        //animCardArrayAdapter.setAbsListView(listView);
-			        if (listView!=null){
-			            //listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
-			        	listView.setAdapter(mCardArrayAdapter);
-			        }
+					//at initial stage, use animation to show cards
+					if (firstTimeRunning){
+						firstTimeRunning=false;
+						mCardArrayAdapter = new CardArrayAdapter(context,cards);
+						AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
+				        animCardArrayAdapter.setAbsListView(listView);
+				        if (listView!=null){
+				            listView.setExternalAdapter(animCardArrayAdapter,mCardArrayAdapter);
+				        }
+					}
+					//at refresh stage, just update data
+					else{
+						mCardArrayAdapter.clear();
+						mCardArrayAdapter.addAll(cards);
+						mCardArrayAdapter.notifyDataSetChanged();
+					}
 				}
 	        }
 			
@@ -202,15 +219,16 @@ public class StopsDetailActivity extends Activity{
 		    //get item id, if it is favorite button, turn it to not favorite
         	//if it is not favorite button, turn it to favorite
         	//and save changes to settings
+        	String stopKey=stopId+","+stopName;
 		    switch (item.getItemId()) {
 		    	//is currently favorite
 		        case R.id.stopDetail_favorite_icon:
-		        	favoriteStops.remove(stopId);
+		        	favoriteStops.remove(stopKey);
 		        	editor.putStringSet("favorite", favoriteStops);
 		        	break;
 		        //is currently not favorite
 		        case R.id.stopDetail_not_favorite_icon:
-		        	favoriteStops.add(stopId);
+		        	favoriteStops.add(stopKey);
 		        	editor.putStringSet("favorite",favoriteStops);
 		        	break;
 		        default:
