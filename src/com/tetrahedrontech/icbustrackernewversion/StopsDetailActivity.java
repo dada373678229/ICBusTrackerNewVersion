@@ -167,6 +167,7 @@ public class StopsDetailActivity extends Activity{
 			@Override
 			protected void onPostExecute(String result){
 				setUpUI();
+				firstTimeRunning=true;
 			}
 			
 			@Override
@@ -227,11 +228,21 @@ public class StopsDetailActivity extends Activity{
 		    MenuInflater inflater = getMenuInflater();
 		    //if the stop is in favorite, load solid five star button
 		    //if not, load empty five star button
-		    if (favorite){
-		    	inflater.inflate(R.menu.favorite, menu);
+		    if (favorite && !autoRefresh){
+		    	Log.i("mytag","favorite && !autoRefresh");
+		    	inflater.inflate(R.menu.favorite_not_autorefresh, menu);
 		    }
-		    else{
-		    	inflater.inflate(R.menu.not_favorite, menu);
+		    else if (!favorite & !autoRefresh){
+		    	Log.i("mytag","!favorite && !autoRefresh");
+		    	inflater.inflate(R.menu.not_favorite_not_autorefresh, menu);
+		    }
+		    else if(favorite && autoRefresh){
+		    	Log.i("mytag","favorite && autoRefresh");
+		    	inflater.inflate(R.menu.favorite_autorefresh, menu);
+		    }
+		    else {
+		    	Log.i("mytag","!favorite && autoRefresh");
+		    	inflater.inflate(R.menu.not_favorite_autorefresh, menu);
 		    }
 		    return super.onCreateOptionsMenu(menu);
 		}
@@ -258,6 +269,34 @@ public class StopsDetailActivity extends Activity{
 		        	favoriteStops.add(stopKey);
 		        	editor.putStringSet("favorite",favoriteStops);
 		        	break;
+		        	
+		        case R.id.stopDetail_refresh_icon:{
+		        	setContentView(R.layout.activity_stops_detail);
+		        	
+		        	final LongOperation getData2=new LongOperation();
+		        	//now begin to do the heavy job: get bus predictions
+		    		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
+		    		    getData2.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new String[]{stopId});
+		    		else
+		    		    getData2.execute(new String[]{stopId});
+		    		 
+		    		//if it takes more than 5 seconds to fetch data from the Internet,
+		    		//stop AsyncTask and show error page
+		    		Handler handler = new Handler();
+		    		handler.postDelayed(new Runnable()
+		    		{
+		    		  @Override
+		    		  public void run() {
+		    		      if ( getData2.getStatus() == AsyncTask.Status.RUNNING && firstTimeRunning){
+		    		          getData2.cancel(true);
+		    		      	  progressDialog.cancel();
+		    		      	  errorCode=1;
+		    				  errorHandler();
+		    		      }
+		    		  }
+		    		}, 5000);
+		    		errorHandler();
+		        	}
 		        default:
 		            return super.onOptionsItemSelected(item);
 		    }
