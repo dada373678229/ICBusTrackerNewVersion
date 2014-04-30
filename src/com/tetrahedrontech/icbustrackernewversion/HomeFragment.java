@@ -17,6 +17,7 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,7 @@ public class HomeFragment extends Fragment{
 	
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
-	private SharedPreferences settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
+	private SharedPreferences settings;
 	private int theme;
 	
 	public HomeFragment(){}
@@ -38,7 +39,7 @@ public class HomeFragment extends Fragment{
             Bundle savedInstanceState) {
   
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        
+        settings=getActivity().getSharedPreferences("mySettings",0);
         theme=Integer.valueOf(settings.getString("theme", "0"));
         cards=setCardList();
         return rootView;
@@ -70,7 +71,15 @@ public class HomeFragment extends Fragment{
     		temp.setId(stop);
     		temp.setBackgroundResourceId(pressedCardBackground[theme]);
     		temp.setContent(stopId, stopName);
+    		temp.setSwipeable(true);
     		result.add(temp);
+    		
+    		temp.setOnSwipeListener(new Card.OnSwipeListener() {
+                @Override
+                public void onSwipe(Card card) {
+                	settings.getStringSet("favorite", new HashSet<String>()).remove(card.getId());
+                }
+            });
     	}
     	
     	return result;
