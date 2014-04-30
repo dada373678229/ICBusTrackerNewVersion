@@ -82,6 +82,7 @@ public class StopsDetailActivity extends Activity{
 		stopName=stopTitle.split(",")[1];
 		ActionBar actionBar = getActionBar();
 		actionBar.setTitle(stopTitle.split(",")[1]);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		context=this;
 		
 		//check if this stop is in favorite
@@ -228,6 +229,7 @@ public class StopsDetailActivity extends Activity{
 		    MenuInflater inflater = getMenuInflater();
 		    //if the stop is in favorite, load solid five star button
 		    //if not, load empty five star button
+		    //if auto-refresh disabled, show manual refresh button
 		    if (favorite && !autoRefresh){
 		    	Log.i("mytag","favorite && !autoRefresh");
 		    	inflater.inflate(R.menu.favorite_not_autorefresh, menu);
@@ -269,7 +271,7 @@ public class StopsDetailActivity extends Activity{
 		        	favoriteStops.add(stopKey);
 		        	editor.putStringSet("favorite",favoriteStops);
 		        	break;
-		        	
+		        //refresh button pressed	
 		        case R.id.stopDetail_refresh_icon:{
 		        	setContentView(R.layout.activity_stops_detail);
 		        	
@@ -297,6 +299,9 @@ public class StopsDetailActivity extends Activity{
 		    		}, 5000);
 		    		errorHandler();
 		        	}
+		        case android.R.id.home:
+		        	onBackPressed();
+		        	break;
 		        default:
 		            return super.onOptionsItemSelected(item);
 		    }

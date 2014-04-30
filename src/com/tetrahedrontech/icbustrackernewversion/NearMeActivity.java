@@ -46,6 +46,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class NearMeActivity extends Activity{// implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, LocationListener{
@@ -76,18 +77,21 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 		context=this;
 		
-		//set action bar background color
+		//set action bar
 		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);
-		getActionBar().setTitle("Near me");
+		getActionBar().setTitle("Nearby");
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 		
 		//get distance unit
 		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 		distanceUnit=" "+sharedPref.getString("near_me_unit", "ft");
 
-		initMap();
+		if (servicesConnected()){
+			initMap();
+		}
 
 		LocationManager locationManager = (LocationManager) this.getSystemService(this.LOCATION_SERVICE);
 		if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER) || locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
@@ -127,7 +131,20 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
         });
 	}
 	
-	//// Check that Google Play services is available
+	//when menu item is selected
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			onBackPressed();
+			break;
+		default:
+			break;
+		}
+		return true;
+	}
+	
+	// Check that Google Play services is available
 	private boolean servicesConnected() {
         // Check that Google Play services is available
         int resultCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);

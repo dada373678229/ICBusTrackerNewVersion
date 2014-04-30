@@ -82,7 +82,7 @@ public class RouteFragment extends Fragment{
   				Card temp=new routeListCard(getActivity());
   				data=line.split(",");
   				((routeListCard) temp).setContent(data[0]);
-  				temp.setId(data[1]+","+data[2]);
+  				temp.setId(data[1]+","+data[2]+","+data[0]);
   				temp.setBackgroundResourceId(pressedCardBackground[theme]);
   				
   				//find different agencies and put them into corresponding arraylists

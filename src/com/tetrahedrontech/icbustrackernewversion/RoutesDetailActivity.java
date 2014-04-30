@@ -19,15 +19,19 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.tetrahedrontech.icbustrackernewversion.API.coreAPI;
+import com.tetrahedrontech.icbustrackernewversion.cards.themeListCard;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.Window;
 import android.widget.TextView;
 import android.os.Build;
@@ -39,8 +43,12 @@ public class RoutesDetailActivity extends Activity {
 	private GoogleMap map;
 	
 	private String routeName;
+	private String routeDisplayName;
 	private String routeAgency;
 	private ArrayList<Marker> busLocationMarkers=new ArrayList<Marker>();
+	
+	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
+	private int theme;
 	
 	//******************************************
 	coreAPI api=new coreAPI();
@@ -104,13 +112,21 @@ public class RoutesDetailActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_routes_detail);
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 		
 		//get the route name and route agency from intent
 		routeName=((String) getIntent().getExtras().get("route")).split(",")[0];
 		routeAgency=((String) getIntent().getExtras().get("route")).split(",")[1];
+		routeDisplayName=((String) getIntent().getExtras().get("route")).split(",")[2];
+		
+		//set up action bar
+		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		theme=Integer.valueOf(settings.getString("theme", "0"));
+		getActionBar().setTitle(routeDisplayName);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		getActionBar().setBackgroundDrawable(cd);
 		
 		initMap(routeName);
 		context=this;
@@ -155,6 +171,19 @@ public class RoutesDetailActivity extends Activity {
 		if (map != null && (!getBusLocation.isCancelled())){
         	getBusLocation.cancel(true);
         }
+	}
+	
+	//when menu item is selected
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			onBackPressed();
+			break;
+		default:
+			break;
+		}
+		return true;
 	}
 	
 	//animation when back button is pressed
