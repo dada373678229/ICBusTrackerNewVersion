@@ -265,11 +265,13 @@ public class StopsDetailActivity extends Activity{
 		        case R.id.stopDetail_favorite_icon:
 		        	favoriteStops.remove(stopKey);
 		        	editor.putStringSet("favorite", favoriteStops);
+		        	favorite= !favorite;
 		        	break;
 		        //is currently not favorite
 		        case R.id.stopDetail_not_favorite_icon:
 		        	favoriteStops.add(stopKey);
 		        	editor.putStringSet("favorite",favoriteStops);
+		        	favorite= !favorite;
 		        	break;
 		        //refresh button pressed	
 		        case R.id.stopDetail_refresh_icon:{
@@ -298,6 +300,7 @@ public class StopsDetailActivity extends Activity{
 		    		  }
 		    		}, 5000);
 		    		errorHandler();
+		    		break;
 		        	}
 		        case android.R.id.home:
 		        	onBackPressed();
@@ -306,7 +309,7 @@ public class StopsDetailActivity extends Activity{
 		            return super.onOptionsItemSelected(item);
 		    }
 		    editor.commit();
-		    favorite= !favorite;
+		    
 		    //refresh option menu
 		    invalidateOptionsMenu();
 		    return true;
