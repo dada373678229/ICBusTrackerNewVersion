@@ -30,6 +30,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -54,6 +55,9 @@ public class StopsDetailActivity extends Activity{
 	private Set<String> favoriteStops;
 	private String stopId;
 	private String stopName;
+	
+	private boolean autoRefresh;
+	private boolean alarm;
 	
 	//this is to help determine whether to show progress dialog
 	//if firstTimeRunning is true, show progress dialog
@@ -84,6 +88,11 @@ public class StopsDetailActivity extends Activity{
 		favoriteStops=settings.getStringSet("favorite", new HashSet<String>());
 		String stopKey=stopId+","+stopName;
 		favorite=favoriteStops.contains(stopKey);
+		
+		//check if auto-refresh or alarm is enabled
+		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+		autoRefresh=sharedPref.getBoolean("auto_refresh", true);
+		alarm=sharedPref.getBoolean("alarm", false);
 		
 		
 		//show progress dialog
@@ -121,28 +130,53 @@ public class StopsDetailActivity extends Activity{
 			@Override
 	        protected String doInBackground(String... params) {
 				int stopId=Integer.parseInt(params[0]);
-				while(true){
-					if (isCancelled()) {
-						//Log.i("mytag","breaked");
-						break;
+				//if auto refresh enabled
+				if (autoRefresh){
+					while(true){
+						if (isCancelled()) {
+							//Log.i("mytag","breaked");
+							break;
+						}
+						cards=setPredictionItem(stopId);
+						publishProgress(new String[]{});
+						
+						try {
+							Thread.currentThread().sleep(1000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 					}
-					cards=setPredictionItem(stopId);
-					publishProgress(new String[]{});
-					
-					try {
-						Thread.currentThread().sleep(1000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
+					return "";
 				}
-				return "";
+				//if auto refresh is off
+				else{
+					cards=setPredictionItem(stopId);
+					return "";
+				}
+				
 			}
 			
 			//since we CANNOT update user interface UNTIL the doInBackground is finished, so we
 			//have to update the UI AFTER getting the predictions
 			@Override
 	        protected void onProgressUpdate(String... result) {
+				setUpUI();
+	        }
+			
+			@Override
+			protected void onPostExecute(String result){
+				setUpUI();
+			}
+			
+			@Override
+			protected void onCancelled(String result){
+				if (errorCode!=-1){
+					errorHandler();
+				}
+			}
+			
+			protected void setUpUI(){
 				if (progressDialog.isShowing()){
 					//close progress dialog and show error message
 					progressDialog.cancel();
@@ -167,13 +201,6 @@ public class StopsDetailActivity extends Activity{
 						mCardArrayAdapter.addAll(cards);
 						mCardArrayAdapter.notifyDataSetChanged();
 					}
-				}
-	        }
-			
-			@Override
-			protected void onCancelled(String result){
-				if (errorCode!=-1){
-					errorHandler();
 				}
 			}
 		}
@@ -269,10 +296,14 @@ public class StopsDetailActivity extends Activity{
 					temp.setContent(line[0],line[3],line[1]+"min");
 					temp.setBackgroundResourceId(pressedCardBackground[theme]);
 					
-					routeListDetailCardExpand expand = new routeListDetailCardExpand(this);
-					expand.setInnerLayout(R.layout.stop_detail_expand_layout);
-					expand.setContent(line[0], line[1], stopId);
-					temp.addCardExpand(expand);
+					//show alarm expand only when alarm is enabled
+					if(alarm){
+						routeListDetailCardExpand expand = new routeListDetailCardExpand(this);
+						expand.setInnerLayout(R.layout.stop_detail_expand_layout);
+						expand.setContent(line[0], line[1], stopId);
+						temp.addCardExpand(expand);
+					}
+					
 					ViewToClickToExpand viewToClickToExpand = ViewToClickToExpand.builder().setupCardElement(ViewToClickToExpand.CardElementUI.CARD);
 		            temp.setViewToClickToExpand(viewToClickToExpand);
 		            

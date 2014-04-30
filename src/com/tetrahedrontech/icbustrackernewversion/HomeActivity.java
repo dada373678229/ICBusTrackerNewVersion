@@ -111,6 +111,8 @@ public class HomeActivity extends Activity{
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
+        
+        displayView(0);
 
 	}
 	

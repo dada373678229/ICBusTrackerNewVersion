@@ -46,7 +46,7 @@
     <string name="alarm_summary_off">You are not able to set an alarm on an upcoming bus. To turn on, Auto_Refresh should be off.</string>
     <string name="bus_prediction_settings">Bus Predictions Settings</string>
     <string name="nearby_settings">Nearby Settings</string>
-    <string name="nearby_distance_unit">Choose the unit of distance</string>
+    <string name="nearby_distance_unit">Unit of Distance</string>
     <string name="meter">Meter</string>
     <string name="feet">Feet</string>
     <string-array name="unitListArray">
@@ -58,5 +58,16 @@
         <item>m</item>
         <item>ft</item>
     </string-array>
+    
+    <string-array name="alarmListArray">
+        <item>Auto</item>
+        <item>Sound</item>
+        <item>Vibrate</item>
+        <item>Silence</item>
+    </string-array>
+    
+    <string name="alarm_mode">Alarm Behavior</string>
+    <string name="alarm_mode_dialogTitle">Type of Alarm</string>
+    <string name="alarm_mode_summary">Set alarm\'s behaviour when times up</string>
 
 </resources>

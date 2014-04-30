@@ -17,6 +17,7 @@ public final class R {
         public static final int slide_out_to_right=0x7f040005;
     }
     public static final class array {
+        public static final int alarmListArray=0x7f0c0004;
         /**  Nav Drawer List Item Icons 
  Keep them in order as the titles are in 
          */
@@ -532,6 +533,9 @@ containing a value of this type.
     }
     public static final class string {
         public static final int action_settings=0x7f08001d;
+        public static final int alarm_mode=0x7f080031;
+        public static final int alarm_mode_dialogTitle=0x7f080032;
+        public static final int alarm_mode_summary=0x7f080033;
         public static final int alarm_summary_off=0x7f08002b;
         public static final int alarm_summary_on=0x7f08002a;
         public static final int alarm_title=0x7f080029;

@@ -22,6 +22,16 @@
         	android:defaultValue="false"
         	android:switchTextOn="@string/on"
         	android:switchTextOff="@string/off"/>
+    	
+    	<ListPreference
+    	    android:dependency="alarm"
+            android:title="@string/alarm_mode"
+            android:dialogTitle="@string/alarm_mode_dialogTitle"
+            android:summary="@string/alarm_mode_summary"
+            android:key="alarm_mode"
+            android:defaultValue="Auto"
+            android:entries="@array/alarmListArray"
+            android:entryValues="@array/alarmListArray"/>
         
     </PreferenceCategory>
     

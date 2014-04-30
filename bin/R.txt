@@ -4,6 +4,7 @@ int anim slide_in_from_left 0x7f040002
 int anim slide_in_from_right 0x7f040003
 int anim slide_out_to_left 0x7f040004
 int anim slide_out_to_right 0x7f040005
+int array alarmListArray 0x7f0c0004
 int array nav_drawer_icons 0x7f0c0001
 int array nav_drawer_items 0x7f0c0000
 int array unitListArray 0x7f0c0002
@@ -293,6 +294,9 @@ int menu options_menu 0x7f0d0003
 int plurals card_selected_items 0x7f090001
 int plurals list_card_undo_items 0x7f090000
 int string action_settings 0x7f08001d
+int string alarm_mode 0x7f080031
+int string alarm_mode_dialogTitle 0x7f080032
+int string alarm_mode_summary 0x7f080033
 int string alarm_summary_off 0x7f08002b
 int string alarm_summary_on 0x7f08002a
 int string alarm_title 0x7f080029
