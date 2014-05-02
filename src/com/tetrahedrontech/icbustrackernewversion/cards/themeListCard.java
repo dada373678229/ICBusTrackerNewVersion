@@ -25,7 +25,7 @@ public class themeListCard extends Card{
 	    
 	    private Context context;
 	    
-	    public static final String PREFS_NAME="mySettings";
+	    public final String PREFS_NAME="mySettings";
 
 	    //constructor, use custom route_list_card layout
 		public themeListCard(Context context) {

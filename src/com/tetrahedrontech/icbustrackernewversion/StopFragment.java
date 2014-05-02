@@ -41,7 +41,7 @@ public class StopFragment extends Fragment{
 	  
 	        View rootView = inflater.inflate(R.layout.fragment_stop, container, false);
 			
-			SharedPreferences settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
+			SharedPreferences settings=getActivity().getSharedPreferences("mySettings",0);
 			theme=Integer.valueOf(settings.getString("theme", "0"));
 			
 			//"cards" contains cards, each card is a stop

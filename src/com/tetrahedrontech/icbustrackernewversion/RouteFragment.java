@@ -50,7 +50,7 @@ public class RouteFragment extends Fragment{
   
         View rootView = inflater.inflate(R.layout.fragment_route, container, false);
 		
-		SharedPreferences settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
+		SharedPreferences settings=getActivity().getSharedPreferences("mySettings",0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		
 		//setActionBar();

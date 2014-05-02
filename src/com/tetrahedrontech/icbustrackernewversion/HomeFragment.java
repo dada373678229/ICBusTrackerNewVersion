@@ -31,6 +31,7 @@ public class HomeFragment extends Fragment{
 	
 	private SharedPreferences settings;
 	private int theme;
+	Set<String> favoriteStops=new HashSet<String>();
 	
 	public HomeFragment(){}
     
@@ -49,6 +50,7 @@ public class HomeFragment extends Fragment{
     public void onActivityCreated(Bundle savedInstanceState){
     	super.onActivityCreated(savedInstanceState);
     	mCardArrayAdapter = new CardArrayAdapter(getActivity(),cards);
+    	//mCardArrayAdapter.setEnableUndo(true);
 		CardListView listView = (CardListView) getActivity().findViewById(R.id.favoriteListView);
 		AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
         animCardArrayAdapter.setAbsListView(listView);
@@ -60,28 +62,30 @@ public class HomeFragment extends Fragment{
     public ArrayList<Card> setCardList(){
     	ArrayList<Card> result=new ArrayList<Card>();
     	
-    	settings=getActivity().getSharedPreferences(themeListCard.PREFS_NAME,0);
-    	Set<String> favorite=new HashSet<String>();
-    	favorite=settings.getStringSet("favorite", new HashSet<String>());
-    	
-    	for (String stop: favorite){
+    	settings=getActivity().getSharedPreferences("mySettings",0);
+    	favoriteStops=settings.getStringSet("favorite", null);
+    	if (favoriteStops==null){
+    		return result;
+    	}
+    	Log.i("mytag","Reading favorite stops: "+String.valueOf(favoriteStops.size()));
+    	for (String stop: favoriteStops){
     		stopListCard temp = new stopListCard(getActivity());
     		String stopId=stop.split(",")[0];
     		String stopName=stop.split(",")[1];
     		temp.setId(stop);
     		temp.setBackgroundResourceId(pressedCardBackground[theme]);
     		temp.setContent(stopId, stopName);
-    		temp.setSwipeable(true);
+    		//temp.setSwipeable(true);
     		result.add(temp);
-    		
+    		/*
     		temp.setOnSwipeListener(new Card.OnSwipeListener() {
                 @Override
                 public void onSwipe(Card card) {
                 	settings.getStringSet("favorite", new HashSet<String>()).remove(card.getId());
                 }
-            });
+            });*/
     	}
-    	
+    	//Log.i("mytag",String.valueOf(result.size()));
     	return result;
     }
 

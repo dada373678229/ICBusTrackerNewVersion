@@ -70,7 +70,7 @@ public class HomeActivity extends Activity{
 		setContentView(R.layout.activity_home);
 		
 		//set action bar background color
-		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		SharedPreferences settings=getSharedPreferences("mySettings",0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);

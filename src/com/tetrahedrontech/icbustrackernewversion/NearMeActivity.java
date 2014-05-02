@@ -78,7 +78,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		context=this;
 		
 		//set action bar
-		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		SharedPreferences settings=getSharedPreferences("mySettings",0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);

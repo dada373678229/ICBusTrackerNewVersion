@@ -121,7 +121,7 @@ public class RoutesDetailActivity extends Activity {
 		routeDisplayName=((String) getIntent().getExtras().get("route")).split(",")[2];
 		
 		//set up action bar
-		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
+		SharedPreferences settings=getSharedPreferences("mySettings",0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		getActionBar().setTitle(routeDisplayName);
 		getActionBar().setDisplayHomeAsUpEnabled(true);

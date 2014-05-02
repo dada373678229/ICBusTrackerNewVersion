@@ -50,9 +50,9 @@ public class StopsDetailActivity extends Activity{
 	private int theme;
 	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
-	
-	private boolean favorite;
-	private Set<String> favoriteStops;
+
+	private SharedPreferences settings;
+	private boolean favorite=false;
 	private String stopId;
 	private String stopName;
 	
@@ -69,9 +69,10 @@ public class StopsDetailActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_stops_detail);
+
+		settings=getSharedPreferences("mySettings",0);
 		
 		//set action bar background color
-		SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);
@@ -86,9 +87,8 @@ public class StopsDetailActivity extends Activity{
 		context=this;
 		
 		//check if this stop is in favorite
-		favoriteStops=settings.getStringSet("favorite", new HashSet<String>());
 		String stopKey=stopId+","+stopName;
-		favorite=favoriteStops.contains(stopKey);
+		favorite=settings.getStringSet("favorite", new HashSet<String>()).contains(stopKey);
 		
 		//check if auto-refresh or alarm is enabled
 		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
@@ -231,19 +231,19 @@ public class StopsDetailActivity extends Activity{
 		    //if not, load empty five star button
 		    //if auto-refresh disabled, show manual refresh button
 		    if (favorite && !autoRefresh){
-		    	Log.i("mytag","favorite && !autoRefresh");
+		    	//Log.i("mytag","favorite && !autoRefresh");
 		    	inflater.inflate(R.menu.favorite_not_autorefresh, menu);
 		    }
 		    else if (!favorite & !autoRefresh){
-		    	Log.i("mytag","!favorite && !autoRefresh");
+		    	//Log.i("mytag","!favorite && !autoRefresh");
 		    	inflater.inflate(R.menu.not_favorite_not_autorefresh, menu);
 		    }
 		    else if(favorite && autoRefresh){
-		    	Log.i("mytag","favorite && autoRefresh");
+		    	//Log.i("mytag","favorite && autoRefresh");
 		    	inflater.inflate(R.menu.favorite_autorefresh, menu);
 		    }
 		    else {
-		    	Log.i("mytag","!favorite && autoRefresh");
+		    	//Log.i("mytag","!favorite && autoRefresh");
 		    	inflater.inflate(R.menu.not_favorite_autorefresh, menu);
 		    }
 		    return super.onCreateOptionsMenu(menu);
@@ -252,9 +252,6 @@ public class StopsDetailActivity extends Activity{
 		//when menu item is selected
 		@Override
 		public boolean onOptionsItemSelected(MenuItem item) {
-			//open settings
-			SharedPreferences settings=getSharedPreferences(themeListCard.PREFS_NAME,0);
-        	SharedPreferences.Editor editor=settings.edit();
 			
 		    //get item id, if it is favorite button, turn it to not favorite
         	//if it is not favorite button, turn it to favorite
@@ -263,14 +260,22 @@ public class StopsDetailActivity extends Activity{
 		    switch (item.getItemId()) {
 		    	//is currently favorite
 		        case R.id.stopDetail_favorite_icon:
+		        	Set<String> favoriteStops=settings.getStringSet("favorite", new HashSet<String>());
 		        	favoriteStops.remove(stopKey);
+		        	SharedPreferences.Editor editor=settings.edit();
+		        	editor.clear();
 		        	editor.putStringSet("favorite", favoriteStops);
+		        	editor.commit();
 		        	favorite= !favorite;
 		        	break;
 		        //is currently not favorite
 		        case R.id.stopDetail_not_favorite_icon:
-		        	favoriteStops.add(stopKey);
-		        	editor.putStringSet("favorite",favoriteStops);
+		        	Set<String> favoriteStops2=settings.getStringSet("favorite", new HashSet<String>());
+		        	favoriteStops2.add(stopKey);
+		        	SharedPreferences.Editor editor2=settings.edit();
+		        	editor2.clear();
+		        	editor2.putStringSet("favorite",favoriteStops2);
+		        	editor2.commit();
 		        	favorite= !favorite;
 		        	break;
 		        //refresh button pressed	
@@ -308,7 +313,6 @@ public class StopsDetailActivity extends Activity{
 		        default:
 		            return super.onOptionsItemSelected(item);
 		    }
-		    editor.commit();
 		    
 		    //refresh option menu
 		    invalidateOptionsMenu();
