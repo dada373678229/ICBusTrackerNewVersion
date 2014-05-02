@@ -1,0 +1,61 @@
+1,Downtown Interchange,41.66017,-91.5359
+7082,Washington Street and Madison Street,41.66015,-91.5374557
+146,English Philosophy Building--IMU,41.66135,-91.5384996
+263,UI Student Health,41.6627106,-91.5435114
+257,Newton Road Ramp,41.6634,-91.5459966
+253,VA Hospital,41.6626701,-91.5486194
+8200,Dental College,41.6635701,-91.551241
+241,Carver Hawkeye Arena,41.6633887,-91.5538508
+8203,UI Main Hospital--Kinnick Stadium,41.65964,-91.5499899
+8205,Hawkins Drive and Melrose Avenue,41.6570397,-91.54994
+8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545606
+8107,Melrose Avenue and George Street,41.6563803,-91.5571586
+8208,Melrose Avenue and Sunset Street,41.65584,-91.55938
+8209,Melrose Avenue and Emerald Street,41.65582,-91.5645104
+8211,Melrose Avenue and Westgate Street,41.65603,-91.5663105
+8213,Melrose Avenue and Macbride Road,41.65627,-91.5690507
+8215,Melrose Avenue and Finkbine Lane,41.65627,-91.5690507
+8330,Mormon Trek Blvd. and Bartelt Road,41.6568701,-91.572451
+8228,Mormon Trek Blvd. and Cameron Way,41.6517381,-91.57408
+8331,Mormon Trek Blvd. and Rohret Road,41.6459023,-91.5741999
+8332,Coll Drive and Coll Court,41.64656,-91.57837
+8333,Jensen Street and Jensen Court,41.6485098,-91.5775492
+8334,Irving Avenue and Shannon Drive,41.6479133,-91.5810418
+8335,Shannon Drive and Rohret Road,41.6462626,-91.5807495
+8336,Rohret Road and Duck Creek Drive,41.6461897,-91.5856645
+8337,Deerfield Drive and Duck Creek Drive,41.6486956,-91.58976
+8338,Duck Creek Drive and Partridge Court,41.6494197,-91.5927839
+8339,Duck Creek Drive and Wild Prairie Drive,41.6495177,-91.5957547
+8340,Wild Prairie Drive and Prairie Grass Lane,41.6487013,-91.598228
+8341,Wild Prairie Drive and Laredo Drive,41.6473097,-91.5987397
+8342,Laredo Drive and Santa Fe Drive,41.6473785,-91.5998972
+8343,Santa Fe Drive and Phoenix Drive,41.6467691,-91.6014908
+8344,Phoenix Drive and Tuscon Place,41.6449337,-91.60088
+8345,Phoenix Drive and Rohret Road,41.64356,-91.60037
+8346,Irving Weber School,41.6440982,-91.5968
+8347,Rohret Road and Hunters Run,41.6453584,-91.5902466
+8348,Rohret Road and Duck Creek Drive,41.64613,-91.585688
+8349,Rohret Road and Shannon Drive,41.6460999,-91.5808182
+8350,Rohret Road and Ranier Drive,41.64608,-91.5786097
+8290,Morman Trek Blvd. and Benton Street,41.6488543,-91.5740201
+8229,Walden Plaza,41.650879,-91.5755828
+8230,Westwinds Drive #2,41.65124,-91.5774319
+8231,Westwinds Drive #3,41.6523505,-91.57829
+8223,Westinds Drive and Hawaii Court,41.6554366,-91.5777412
+8221,Westwinds Drive and Melrose Avenue,41.6564166,-91.5775597
+8217,Melrose Avenue and Morman Trek Blvd.,41.6568697,-91.574355
+8216,Melrose Avenue and Finkbine Lane,41.6566898,-91.5723987
+8214,Melrose Avenue and MacBride Road,41.6560802,-91.5688924
+8210,IC Fire Station,41.6555898,-91.5639889
+8150,Melrose Avenue and Sunset Street,41.6555396,-91.5602412
+8108,Melrose Avenue and George Street,41.6563806,-91.5568372
+8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542801
+8207,Ramp 2--Pappajohn& Pomerantz,41.6577477,-91.5498614
+8206,UI Main Hospital--Kinnick Stadium,41.6593,-91.54984
+8204,UI Center for Disabilities--Dental College,41.6611001,-91.55066
+8202,Carver Hawkeye Arena,41.6630061,-91.5540369
+8201,Dental College,41.6634821,-91.551001
+254,VA Hospital,41.6626705,-91.548379
+256,MERF,41.66328,-91.5450199
+145,English Philosophy Building--IMU,41.6612,-91.5403504
+7090,Iowa Avenue and Madison Street,41.6612397,-91.5378993

@@ -1,0 +1,60 @@
+7135,Sycamore Mall Cinema Theater,41.64248,-91.51027
+7600,Eastdale Plaza,41.6424999,-91.5047202
+7601,South East Junior High,41.6452482,-91.5019299
+7228,Hy Vee,41.6501305,-91.50194
+7231,Friendship Street and Third Avenue,41.6537006,-91.50485
+7232,Friendship Street and 5th Avenue,41.6539882,-91.5072733
+7233,Friendship Street and Garden Street,41.6547285,-91.5098149
+7234,Friendship Street and 7th Avenue,41.6551881,-91.5113538
+7235,7th Avenue and Court Street,41.6565803,-91.51157
+7602,City High School,41.6589592,-91.50863
+7414,Rochester Avenue and Ashwood Drive,41.6636891,-91.5075384
+7416,Rochester Avenue and Rita Lyn Court,41.6652527,-91.5043104
+7418,Regina Education Center,41.6659246,-91.5032799
+7420,Rochester Avenue and 1st Avenue,41.6663904,-91.501428
+7422,Rochester Avenue and Post Road,41.6667798,-91.4998004
+7424,Rochester Avenue and Mount Vernon Drive,41.6671117,-91.4957327
+7426,Rochester Avenue and Larch Lane,41.6664301,-91.4933717
+7427,Amhurst Street and Lower West Branch Road,41.6667883,-91.4870309
+7428,Amhurst Street and Tulane Avenue,41.6657882,-91.4872499
+7429,Amhurst Street and Hastings Avenue,41.6638674,-91.486
+7430,Lemme Elementary,41.6624568,-91.4860398
+7431,Amhurst Street and Oberlin Street,41.6610095,-91.4842388
+7432,Amhurst Street and Washington Street,41.6602918,-91.48391
+7319,Friendship Street and Court Street,41.6571235,-91.48471
+7327,Court Street  and Peterson Street,41.65698,-91.4830765
+7328,Court Street  and Elmira Street,41.6569805,-91.4792551
+7329,Court Street  and Kenneth Drive,41.6571532,-91.4736179
+7330,Court Street  and Camden Road,41.6575004,-91.4712618
+7331,Arlington Drive and Court Street,41.6569627,-91.469209
+7332,Arlington Drive and Cumberland Lane,41.6556428,-91.4692436
+7603,Arlington Drive and Canterbury Court,41.65346,-91.47007
+7604,Arlington Drive and American Legion Road,41.6478069,-91.4690811
+7605,American Legion Road and Scott Blvd.,41.6498299,-91.4825984
+7266,Muscatine Avenue and Maplewood Lane,41.64975,-91.4881682
+7267,Autumn Park Apartments,41.6496999,-91.4910415
+7268,Muscatine Avenue and Dover Street,41.6496599,-91.4938321
+7269,Muscatine Avenue and Arthur Street,41.64962,-91.497866
+7259,Towncrest Medical Offices,41.6484718,-91.4987699
+7260,South East Junior High,41.6475204,-91.49876
+7261,Wayne Avenue and Arthur Street,41.6474499,-91.4972837
+7262,Wayne Avenue and Dover Street,41.6474799,-91.4940426
+7263,Wayne Avenue and Village Road,41.6469395,-91.4911889
+7606,Wellington Drive and Scott Blvd.,41.6451,-91.48291
+7607,Scott Blvd. #1,41.6386427,-91.48289
+7130,ACT,41.6307708,-91.4829
+7049,Lakeside Drive and Hwy6,41.6350333,-91.4978765
+7052,Lakeside Drive and Whispering Prairie Avenue,41.6334205,-91.4998562
+7053,Lakeside Drive and Nevada Avenue,41.63343,-91.5016023
+7054,Lakeside Drive and Miami Drive,41.6334599,-91.5044004
+7055,Miami Drive and California Avenue,41.635254,-91.5030567
+7056,California Avenue and Union Avenue,41.636309,-91.5048713
+7057,Grantwood Elementary,41.63633,-91.507284
+7058,California Avenue and Sycamore Street,41.6361802,-91.5114694
+7059,Burns Avenue and California Avenue,41.6360186,-91.5140922
+7060,Burns Avenue and Taylor Drive,41.6354857,-91.5182761
+7039,Taylor Drive and Sandusky Drive,41.6369839,-91.518339
+7033,Sandusky Drive and Broadway Street,41.6375792,-91.5207144
+8244,Crosspark Avenue and Broadway Street,41.6389878,-91.5204439
+7036,Broadway Street #1,41.640838,-91.5204177
+7061,Sycamore Mall,41.6429927,-91.5115898

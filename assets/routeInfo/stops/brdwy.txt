@@ -1,0 +1,36 @@
+1,Downtown Interchange,41.66017,-91.5359
+7080,UI Main Library,41.6595409,-91.53775
+7077,Court Street and Capitol Street,41.65659,-91.53642
+7075,Capitol Street and Prentiss Street,41.6545395,-91.53626
+7073,City Carton,41.6515475,-91.5362863
+7013,Kirkwood Avenue and Gilbert Street,41.6493899,-91.5321959
+7014,Gilbert Street and 3rd Avenue,41.6463007,-91.5320799
+7025,Hills Bank--Aldi,41.6444502,-91.5330797
+7024,Gilbert Street and Stevens Drive,41.6430205,-91.5335999
+7023,Southgate Avenue and Gilbert Street,41.64065,-91.5331312
+7022,Southgate Avenue and Waterfront Drive,41.64065,-91.5303352
+7021,Southgate Avenue and Boyrum Street,41.64064,-91.5278639
+7026,Southgate Avenue and Keokuk Street,41.6406101,-91.5251275
+7034,Crosspark Avenue #1,41.63904,-91.5225437
+7035,Crosspark Avenue and Broadway Street,41.6390301,-91.5206599
+7036,Broadway Street #1,41.6408,-91.52042
+7037,Goodwill--Kmart,41.6412573,-91.5221991
+7061,Sycamore Mall,41.6429909,-91.51159
+7062,Kirkwood College - Sycamore St,41.6438843,-91.5115703
+7063,Kirkwood College - Highland Ave,41.6458299,-91.51215
+7064,Highland Avenue and Pine Street,41.6458299,-91.5134817
+7065,Highland Avenue and Franklin Street,41.64581,-91.5159339
+7066,Highland Avenue and Ridge,41.64582,-91.519071
+7067,Highland Avenue and Lukurk Street,41.64585,-91.5206804
+7068,Highland Avenue and Keokuk Street,41.64593,-91.52332
+7069,Highland Avenue and Boyrum Street,41.64584,-91.5277489
+7070,Highland Avenue and Gilbert Court,41.64582,-91.5303666
+7016,Highland Avenue and Gilbert Street,41.6458296,-91.5317848
+7750,Kirkwood Avenue and Gilbert Street,41.6494799,-91.5321937
+7071,Benton Street and Clinton Street,41.65114,-91.53457
+7072,Benton Street and Capitol Street,41.6511599,-91.5360688
+7074,Capitol Street and Prentiss Street,41.654307,-91.53618
+7076,Capitol Street and Harrison Street,41.655387,-91.53617
+7078,Court Street  and Madison Street,41.65666,-91.5375118
+7079,UI Lindquist Center,41.6585464,-91.53764
+7081,Madison Street and Washington Street,41.6599019,-91.5376392

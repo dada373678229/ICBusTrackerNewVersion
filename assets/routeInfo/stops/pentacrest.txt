@@ -1,5 +1,5 @@
 120,Macbride Hall,41.66246,-91.53579
-1030,Clinton &amp; Iowa,41.6607706,-91.5346899
+1030,Clinton & Iowa,41.6607706,-91.5346899
 1,Downtown Interchange - Schaeffer Hall,41.66017,-91.5359
 146,Hubbard Park,41.6613499,-91.538504
 263,Student Health,41.6627163,-91.5435105

@@ -1,0 +1,29 @@
+1,Downtown Interchange,41.66017,-91.5358999
+7080,UI Main Library,41.6595398,-91.53775
+8000,Hydraulics Lab--Boyd Law School,41.657276,-91.5417485
+8004,Riverside Drive and Riverside Court,41.6550367,-91.540869
+8002,Riverside Drive and Myrtle Avenue,41.6536266,-91.5405195
+8005,Benton Street and Riverside Drive,41.65039,-91.54083
+8007,Benton Street and Giblin Drive,41.6503799,-91.5439389
+8008,Benton Street and Hudson Avenue,41.65037,-91.5454375
+8009,Miller Avenue and Hwy 1 West,41.6476311,-91.54654
+8011,The Lodge Apartments,41.6474203,-91.5489878
+8013,Westport Plaza 1,41.6451231,-91.5536308
+8014,Westport Plaza 2,41.6447998,-91.5506497
+8012,Ruppert Road and Hwy 1 West,41.6468404,-91.5498999
+8010,Hwy 1 West and Miller Avenue,41.64735,-91.5466991
+8016,Gateway Center--Iowa City Transit,41.64656,-91.5402299
+8018,Riverside Drive and Ruppert Road,41.6452149,-91.5400814
+8020,Iowa City Airport,41.6396539,-91.5389617
+8021,Colonial Lanes,41.63105,-91.5426899
+8022,Riverside Drive/ Old Hwy 218 and South Riverside Drive,41.6282678,-91.5436008
+8023,Thatcher/Baculus Trailer Park,41.6316736,-91.5385303
+8024,South Riverside Drive and Commercial Drive,41.63394,-91.5392799
+8025,Moore,41.6364765,-91.5386307
+8019,South Riverside Drive and Ruppert Road,41.6445104,-91.5398717
+8017,Gateway Center--Iowa City Transit,41.6457772,-91.540221
+8006,Riverside Drive and Benton Street,41.6501862,-91.5400898
+8003,Riverside Drive and Myrtle Avenue,41.6536502,-91.54037
+8001,Hydraulics Lab--Boyd Law School,41.6578306,-91.5416898
+7079,UI Lindquist Center,41.65854,-91.53764
+7081,Madison Street and Washington Street,41.6599001,-91.5376399

@@ -1,0 +1,50 @@
+1,Downtown Interchange,41.66017,-91.5359
+7082,Washington Street and Madison Street,41.66015,-91.537452
+146,English Philosophy Building--IMU,41.66135,-91.538496
+263,UI Student Health,41.6627222,-91.5435111
+257,Newton Road Ramp,41.6634,-91.5459976
+253,VA Hospital,41.6626713,-91.5486163
+8200,Dental College,41.66357,-91.5512403
+241,Carver Hawkeye Arena,41.6633882,-91.5538512
+8203,UI Main Hospital--Kinnick Stadium,41.659639,-91.5499899
+8205,Hawkins Drive and Melrose Avenue,41.6570388,-91.5499402
+8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545619
+8107,Melrose Avenue and George Street,41.65638,-91.5571598
+8208,Melrose Avenue and Sunset Street,41.65584,-91.55938
+8209,Melrose Avenue and Emerald Street,41.65582,-91.5645104
+8254,Westgate Street and Gilmore Court,41.6550538,-91.5667398
+8253,Westgate Street and Keswick Drive,41.6529954,-91.5667394
+8235,Westgate Street and Benton Street,41.6497894,-91.5667699
+8237,Horn Elementary,41.6496,-91.5640083
+8238,Denbigh Drive and Hafor Drive,41.6470039,-91.5638598
+8239,Denbigh Drive and Penkridge Drive,41.64555,-91.5628807
+8240,Denbigh Drive and Sunset Street,41.6454708,-91.5596432
+8129,Sunset Street and Aber Avenue,41.6433302,-91.5601499
+8270,Westside Drive and Earl Road,41.6387727,-91.5657604
+8271,Westside Drive and Jeffrey Street,41.6411797,-91.5669432
+8272,Westside Drive and Earl Road,41.6390831,-91.5682501
+8273,Westside Drive and Mormon Trek,41.6375193,-91.5680299
+8275,Morman Trek Blvd. and Gryn Drive,41.639711,-91.5722409
+8286,Morman Trek Blvd. and Cae Drive,41.6455824,-91.5740799
+8290,Morman Trek Blvd. and Benton Street,41.6488651,-91.57402
+8229,Walden Plaza,41.6508794,-91.5755818
+8230,Westwinds Drive #2,41.65124,-91.5774302
+8231,Westwinds Drive #3,41.6523478,-91.57829
+8226,Pheasant Ridge Neighborhood Center,41.65385,-91.57648
+8227,Bartelt Road and Morman Trek Blvd.,41.6541105,-91.5741867
+8218,Morman Trek Blvd. and Melrose Avenue,41.6566652,-91.5738208
+8216,Melrose Avenue and Finkbine Lane,41.6566908,-91.5724158
+8214,Melrose Avenue and MacBride Road,41.6560819,-91.5689092
+8210,IC Fire Station,41.6555922,-91.5640056
+8150,Melrose Avenue and Sunset Street,41.6555358,-91.560257
+8108,Melrose Avenue and George Street,41.6563809,-91.5568359
+8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542788
+8207,Ramp 2--Pappajohn& Pomerantz,41.6577486,-91.5498614
+8206,UI Main Hospital--Kinnick Stadium,41.6593,-91.54984
+8204,UI Center for Disabilities--Dental College,41.6610991,-91.5506596
+8202,Carver Hawkeye Arena,41.6630153,-91.5540323
+8201,Dental College,41.6634798,-91.550989
+254,VA Hospital,41.6626705,-91.548379
+256,MERF,41.66328,-91.5450199
+145,English Philosophy Building--IMU,41.6612,-91.5403504
+7090,Iowa Avenue and Madison Street,41.6612397,-91.5378993

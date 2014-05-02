@@ -1,0 +1,16 @@
+9200,Downtown Interchange,41.6606,-91.53457
+7400,Clinton Street and Jefferson Street,41.6623239,-91.5345386
+7401,Jefferson Street and Linn Street,41.66243,-91.5317949
+7402,Jefferson Street and Van Buren Street,41.66241,-91.5288428
+7444,Johnson Street and Bloomington Street,41.66448,-91.52716
+7445,Bloomington Street and Gilbert Street,41.6646899,-91.5299546
+7446,Gilbert Street and Fairchild Street,41.6667506,-91.5300601
+7447,Gilbert Street and Church Street,41.6678637,-91.5300598
+7448,Church Street and Linn Street,41.66801,-91.5314381
+7449,Church Street and Dubuque Street,41.66801,-91.5328591
+7450,Dubuque Street and Fairchild Street,41.6669951,-91.5331
+7451,Dubuque Street and Davenport Street,41.6659026,-91.5331
+7452,Dubuque Street and Bloomington Street,41.6647994,-91.53311
+7453,Dubuque Street and Market Street,41.66372,-91.53313
+7454,IMU,41.66231,-91.53773
+7455,UI Main Library,41.6605266,-91.5377401

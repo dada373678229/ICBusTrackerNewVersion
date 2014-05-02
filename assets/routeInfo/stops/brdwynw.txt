@@ -1,0 +1,45 @@
+1,Downtown Interchange,41.66017,-91.5359
+7080,UI Main Library,41.6595409,-91.53775
+7077,Court Street and Capitol Street,41.65659,-91.53642
+7075,Capitol Street and Prentiss Street,41.6545395,-91.53626
+7073,City Carton,41.6515475,-91.5362863
+7013,Kirkwood Avenue and Gilbert Street,41.6493899,-91.5321959
+7014,Gilbert Street and 3rd Avenue,41.6463007,-91.5320799
+7025,Hills Bank--Aldi,41.6444502,-91.5330797
+7024,Gilbert Street and Stevens Drive,41.6430205,-91.5335999
+7023,Southgate Avenue and Gilbert Street,41.64065,-91.5331312
+7022,Southgate Avenue and Waterfront Drive,41.64065,-91.5303352
+7021,Southgate Avenue and Boyrum Street,41.64064,-91.5278639
+7026,Southgate Avenue and Keokuk Street,41.6406101,-91.5251275
+7034,Crosspark Avenue #1,41.63904,-91.5225437
+7035,Crosspark Avenue and Broadway Street,41.6390301,-91.5206599
+7036,Broadway Street #1,41.6407922,-91.5204201
+7037,Goodwill--Kmart,41.6412573,-91.5221991
+7126,Hwy 6 East and Heinze Road,41.6314852,-91.4903717
+7128,Goodwill Warehouse,41.6303883,-91.4803201
+7129,ACT,41.6306694,-91.4826856
+7131,Systems Unlimited,41.6352909,-91.48281
+7132,Heinz Road and Scott Blvd.,41.63643,-91.4833155
+7133,United Natural Foods,41.6372925,-91.4895185
+7127,Heinz Road and Hwy 6 East,41.6320408,-91.4909793
+7134,Eastdale Plaza--IC Fire Department,41.6417796,-91.5062395
+7135,Sycamore Mall Cinema Theater,41.64248,-91.51027
+7123,Lower Muscatine Avenue and Mall Drive,41.6434348,-91.5082448
+7121,Kirkwood Community College,41.6450375,-91.5102369
+7117,Lower Muscatine Avenue and Pine Street,41.6476681,-91.5134477
+7115,Kirkwood Avenue and Franklin Street,41.649369,-91.5155587
+7116,Kirkwood Avenue and Roosevelt Street,41.64948,-91.5180611
+7113,Kirkwood Avenue and Summit Street,41.64947,-91.5208193
+7111,Kirkwood Avenue and Keokuk Street,41.6494699,-91.5233102
+7109,Kirkwood Avenue and Dodge Street,41.6494699,-91.5259274
+7107,Dodge Street and Walnut Street,41.6506671,-91.5260799
+7105,Dodge Street and Bowery Street,41.6534385,-91.52579
+7103,Bowery Street  and Johnson Street,41.65413,-91.5271892
+7101,Bowery Street  and Van Buren Street,41.65413,-91.5286509
+7100,Bowery Street  and Gilbert Street,41.6541407,-91.5300229
+7006,Court Street  and Maiden Lane,41.65662,-91.5310538
+7003,Court Street  and Dubuque Street,41.65663,-91.532679
+7004,Court Street Transportation Center,41.65663,-91.5334639
+7078,Court Street  and Madison Street,41.65666,-91.5375106
+7079,UI Lindquist Center,41.6585455,-91.53764
+7081,Madison Street and Washington Street,41.6599011,-91.5376395

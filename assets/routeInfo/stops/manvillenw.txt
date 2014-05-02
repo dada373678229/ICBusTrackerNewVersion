@@ -1,0 +1,29 @@
+1,Downtown Interchange,41.66017,-91.5359
+7082,Washington Street and Madison Street,41.66015,-91.537456
+7091,Dubuque Street and Market Street,41.6634525,-91.5330101
+7092,Dubuque Street and Davenport Street,41.665683,-91.5329801
+7093,Dubuque Street and Church Street,41.6678493,-91.53295
+8072,Dubuque Street and Kimball Road,41.6729457,-91.5325703
+8074,Mayflower Dorm,41.6768693,-91.5320302
+8076,Dubuque Street and Ridge Road,41.678524,-91.532193
+8079,Foster Road and Laura Drive,41.68114,-91.5377
+8083,Foster Road and Idyllwild Drive,41.6813994,-91.5399348
+8085,Foster Road and Algonquin Road,41.67998,-91.5483286
+8087,Foster Road and 900 Block,41.6794055,-91.5531359
+8088,Foster Road and Swisher Street,41.6771594,-91.5545713
+8090,Walker Circle and Moses Bloom Lane,41.6763123,-91.5565264
+8089,Swisher Street and Foster Road,41.6770076,-91.5546703
+8086,Foster Road and Algonquin Road,41.67993,-91.5481996
+8084,Foster Road and Idyllwild Drive,41.6813704,-91.540125
+8082,Forest View Trailer Park,41.68426,-91.54052
+8080,Laura Drive and Foster Road,41.6813262,-91.5379936
+8081,Foster Road and Laura Drive,41.6810402,-91.5373319
+8078,Foster Road and Dubuque Street,41.6809278,-91.5355468
+8077,Dubuque Street and Taft Speedway,41.679555,-91.5334353
+8075,Mayflower Dorm,41.6766171,-91.5324685
+8073,Dubuque Street and Park Road,41.6719268,-91.532849
+7450,Dubuque Street and Fairchild Street,41.6669994,-91.5331
+7451,Dubuque Street and Davenport Street,41.6659069,-91.5331
+7452,Dubuque Street and Bloomington Street,41.6648037,-91.5331099
+7453,Dubuque Street and Market Street,41.6637219,-91.5331299
+7207,Clinton Street and Jefferson Street,41.6626219,-91.5346399

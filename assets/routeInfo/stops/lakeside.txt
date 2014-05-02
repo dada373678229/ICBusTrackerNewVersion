@@ -1,0 +1,56 @@
+2,Downtown Interchange,41.66004,-91.53498
+7001,US Post Office,41.6567475,-91.5347
+7002,Court Street  and Dubuque Street,41.6565501,-91.5333346
+7005,Court Street  and Gilbert Street,41.65655,-91.5304428
+7007,Gilbert Street and Prentiss Street,41.6544878,-91.5303098
+7009,Gilbert Street and Benton Street,41.6511681,-91.5317006
+7011,Gilbert Street and Kirkwood Avenue,41.64957,-91.53206
+7014,Gilbert Street and 3rd Avenue,41.6463015,-91.5320799
+7017,Hy Vee,41.6422827,-91.5280598
+7019,Boyrum Street and Southgate Avenue,41.6408142,-91.5280899
+7026,Southgate Avenue and Keokuk Street,41.64061,-91.5251331
+7028,Keokuk Street and Cross Park Avenue,41.6391536,-91.5249998
+7030,Sandusky Drive and Hickory Court,41.63777,-91.5242062
+7032,Sandusky Drive and Broadway Street,41.6371782,-91.520747
+7038,Sandusky Drive and Taylor Drive,41.6369698,-91.5185133
+7040,Taylor Drive and Hollywood Blvd.,41.640489,-91.5180105
+7041,Hollywood Blvd. Mid -block,41.6403599,-91.5147088
+7042,Hollywood Blvd. and Sycamore Street,41.6403,-91.51182
+7608,Sycamore Street and Hollywood Blvd. (Evening Only),41.6403742,-91.5115778
+7061,Sycamore Mall (Evening Only),41.6429918,-91.5115898
+7135,Sycamore Mall Cinema Theater (Evening Only),41.6424799,-91.5102686
+7123,Lower Muscatine Avenue and Mall Drive (Evening Only),41.6434407,-91.5082508
+7121,Kirkwood Community College,41.6450572,-91.5102608
+7043,Hollywood Blvd. and Delwood Drive,41.6393197,-91.5104055
+7044,Hollywood Blvd. and Grantwood Street,41.639791,-91.5074436
+7045,Hollywood Blvd. and Fairmeadows Blvd.,41.6382393,-91.5041089
+7046,Hollywood Blvd. and Frontage Road,41.636355,-91.5010279
+7047,Dolphin Point Enclave,41.6360363,-91.4993494
+7048,Frontage Road and Lakeside Drive,41.6349047,-91.4975069
+7050,Frontage Road,41.6331678,-91.4944326
+7700,Bon Aire Mobile Home Lodge,41.6314737,-91.4955207
+7051,Riviera Drive and Frontage Road,41.6325852,-91.4936347
+7701,Frontage Road and Lakeside Drive,41.6350322,-91.4976014
+7052,Lakeside Drive and Nevada Avenue,41.63343,-91.5016126
+7053,Lakeside Drive and Whispering Prairie Avenue,41.63342,-91.4998663
+7054,Lakeside Drive and Miami Drive,41.6334591,-91.5044105
+7055,Miami Drive and California Avenue,41.63526,-91.50305
+7056,California Avenue and Union Avenue,41.63631,-91.5048837
+7057,Grantwood Elementary,41.63633,-91.5072966
+7058,California Avenue and Sycamore Street,41.6361797,-91.5114827
+7059,Burns Avenue and California Avenue,41.63539,-91.5140368
+7060,Burns Avenue and Taylor Drive,41.6353695,-91.5181143
+7039,Taylor Drive and Sandusky Drive,41.6368301,-91.51831
+7033,Sandusky Drive and Broadway Street,41.6375775,-91.521177
+7031,Sandusky Drive and Keokuk Street,41.6378496,-91.5246994
+7029,Keokuk Street and Cross Park Avenue,41.6384881,-91.5248801
+7027,K-Mart,41.6406896,-91.5255028
+7020,Southgate Avenue and Boyrum Street,41.64071,-91.5278258
+7018,Hy Vee,41.6427835,-91.5279598
+7015,Gilbert Street and 3rd Avenue,41.6463427,-91.53194
+7012,Gilbert Street and Kirkwood Avenue,41.6493396,-91.53194
+7010,Gilbert Street and Benton Street,41.6510004,-91.5316098
+7008,Gilbert Street and Bowery Street,41.6539983,-91.5301502
+7006,Court Street  and Maiden Lane,41.65662,-91.5310502
+7003,Court Street  and Dubuque Street,41.65663,-91.5326753
+7004,Court Street Transportation Center,41.65663,-91.5334604

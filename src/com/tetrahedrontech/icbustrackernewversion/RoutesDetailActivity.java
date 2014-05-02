@@ -219,6 +219,7 @@ public class RoutesDetailActivity extends Activity {
 	        //rawData contains stopId, stopTitle, stopLat, stopLng
 	        String[] rawData;
 	        while (line != null){
+	        	Log.i("mytag",line);
 	            rawData=line.split(",");
 	            //add marker
 	            map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(rawData[2]), Double.parseDouble(rawData[3]))).title(rawData[0]).snippet(rawData[1]).icon(BitmapDescriptorFactory.defaultMarker(200)).alpha(0.7f));

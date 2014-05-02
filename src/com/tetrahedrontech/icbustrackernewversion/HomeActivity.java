@@ -143,6 +143,10 @@ public class HomeActivity extends Activity{
 		    });
 		}
 		
+		if (mDrawerTitle.equals("Routes")){
+			
+		}
+		
         // if nav drawer is opened, hide the action items
         boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
         //menu.findItem(R.id.action_settings).setVisible(!drawerOpen);

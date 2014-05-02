@@ -1,4 +1,4 @@
-1,Clinton &amp; Washington - Downtown Iowa City,41.66077,-91.5346899
+1,Clinton & Washington - Downtown Iowa City,41.66077,-91.5346899
 146,Hubbard Park,41.6613499,-91.5385042
 263,Student Health,41.6627164,-91.5435105
 257,Newton Road - Parking Ramp,41.6634,-91.5460061

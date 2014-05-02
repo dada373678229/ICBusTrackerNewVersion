@@ -1,0 +1,59 @@
+2,Downtown Interchange,41.66004,-91.53498
+7400,Clinton Street and Jefferson Street,41.6623264,-91.5345378
+7401,Jefferson Street and Linn Street,41.66243,-91.5317913
+7402,Jefferson Street and Van Buren Street,41.6624099,-91.5288352
+7403,Jefferson Street and Dodge Street,41.6623799,-91.5258752
+7404,Jefferson Street and Governor Street,41.66236,-91.52296
+7405,Clapp Street and Hotz Avenue,41.6628768,-91.5194
+7406,Clapp Street and Rochester Avenue,41.663813,-91.5193701
+7408,Rochester Avenue and Pleasant Street,41.6639,-91.5171905
+7410,Rochester Avenue and Memler Court,41.66388,-91.5150388
+7412,Rochester Avenue and 7th Avenue,41.66388,-91.5119902
+7414,Rochester Avenue and Ashwood Drive,41.66369,-91.5075298
+7416,Rochester Avenue and Rita Lyn Court,41.6652573,-91.5043038
+7418,Regina Education Center,41.6659285,-91.5032726
+7420,Rochester Avenue and 1st Avenue,41.6663903,-91.5014285
+7422,Rochester Avenue and Post Road,41.6667797,-91.4998008
+7424,Rochester Avenue and Mount Vernon Drive,41.6671118,-91.4957329
+7426,Rochester Avenue and Larch Lane,41.6664302,-91.4933722
+7427,Amhurst Street and Lower West Branch Road,41.66679,-91.48703
+7428,Amhurst Street and Tulane Avenue,41.6657894,-91.4872499
+7429,Amhurst Street and Hastings Avenue,41.6638685,-91.486
+7430,Lemme Elementary - Amhurst St,41.6624579,-91.4860398
+7431,Amhurst Street and Oberlin Street,41.6610104,-91.4842414
+7432,Amhurst Street and Washington Street,41.660293,-91.48391
+7433,Washington Street and Raven Street,41.6603409,-91.4853314
+7434,Lemme Elementary - Washington St,41.6610801,-91.488137
+7435,Washington Street and Westminster Street,41.6605704,-91.4922561
+7436,Washington Street and Green Mountain Drive,41.66055,-91.4952501
+7437,Washington Street and Mount Vernon Drive,41.66053,-91.4983333
+7438,Mount Vernon Drive and Concord Circle,41.6630904,-91.4972899
+7439,Mount Vernon Drive,41.6650967,-91.4965061
+7425,Mount Vernon Drive and Rochester Avenue,41.6668176,-91.4955818
+7423,Rochester Avenue and Post Road,41.6668385,-91.4998349
+7421,Rochester Avenue and 1st Avenue,41.6664589,-91.5014748
+9001,Scott Blvd. and Stuart Court,41.6699345,-91.5018777
+7516,Northgate Drive #1,41.6899578,-91.4944563
+7517,Northgate Drive #2,41.6888198,-91.4935499
+7518,Pearson and Northgate Drive,41.6878656,-91.4925912
+7520,Northgate Drive #3,41.6883095,-91.4926081
+7521,Pearson Main Entrance,41.6893148,-91.4999031
+7522,Pearsons Drive and North Dodge Street,41.6902849,-91.4976894
+7523,North Dodge Street and ACT Circle,41.6829789,-91.504722
+7511,Iowa City Press Citizen,41.6799478,-91.5108042
+7524,North Dodge Street and Bristol Drive,41.6788485,-91.5130028
+7509,Hy Vee,41.67684,-91.51712
+7525,Prairie du Chien Road and North Dodge Street,41.6756896,-91.52115
+7526,Prairie du Chien Road and Caroline Court,41.6787393,-91.5211999
+7527,Caroline Avenue and Prairie du Chien Road,41.6796899,-91.5217128
+7528,Whiting Avenue and Kimball Road,41.6784499,-91.5234676
+7529,Kimball Road and Kimball Court,41.6761555,-91.5236005
+7530,Governor Street and Kimball Road,41.6750723,-91.5239225
+7531,North Dodge Street #1,41.6731816,-91.5243083
+7532,North Dodge Street #2,41.6717215,-91.5254489
+7533,North Dodge Street and Brown Street,41.6702225,-91.5256899
+7534,Horace Mann Elementary,41.6673628,-91.52573
+7442,North Dodge Street and Market Street,41.66398,-91.52577
+7443,Mercy Hospital,41.6635799,-91.5285325
+7206,Market Street and Linn Street,41.66359,-91.5314302
+7207,Clinton Street and Jefferson Street,41.6626264,-91.5346398

@@ -87,15 +87,12 @@ public class RouteFragment extends Fragment{
   				
   				//find different agencies and put them into corresponding arraylists
   				if (data[2].equals("coralville")){
-  					//temp.setBackgroundResourceId(R.drawable.card_selector_blue);
   					routeListCoralville.add(temp);
   				}
   				else if(data[2].equals("iowa-city")){
-  					//temp.setBackgroundResourceId(R.drawable.card_selector_red);
   					routeListIC.add(temp);
   				}
   				else{
-  					//temp.setBackgroundResourceId(R.drawable.card_selector_yellow);
   					routeListCambus.add(temp);
   				}
   				routeListAll.add(temp);

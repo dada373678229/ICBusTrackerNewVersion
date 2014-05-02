@@ -1,0 +1,35 @@
+2,Downtown Interchange,41.66004,-91.53498
+7200,IC Library--Senior Center,41.66008,-91.5318697
+7201,Washington Street and Gilbert Street,41.6600195,-91.5303778
+7204,IC Recreaton Center,41.65889,-91.529881
+7208,College Street and Dodge Street,41.6588801,-91.5259583
+7211,College Street and Summit Street,41.65884,-91.5213502
+7214,Summit Street and Court Street,41.6568219,-91.52124
+7215,Summit Street and Bowery Street,41.6541956,-91.5212298
+7216,Longfellow Elementary,41.6522199,-91.5207456
+7217,Sheridan Street and Roosevelt Street,41.6522099,-91.5184271
+7218,Sheridan Street and Oakland Street,41.6522199,-91.5165544
+7219,Sheridan Street and Rundell Street,41.6522099,-91.5140662
+7220,Sheridan Street and 7th Avenue,41.6522099,-91.5117427
+7221,7th Avenue and F Street,41.650699,-91.5115801
+7222,F Street and 6th Avenue,41.65059,-91.5096081
+7223,F Street and Muscatine Avenue,41.65059,-91.5064124
+7226,Walgreens,41.6495199,-91.5035322
+7228,Hy Vee,41.6501365,-91.50194
+7229,D Street and 3rd Avenue,41.6528,-91.504751
+7230,3rd Avenue and Friendship Street,41.6537064,-91.50485
+7232,Friendship Street and 5th Avenue,41.6539905,-91.5072818
+7233,Friendship Street and Garden Street,41.65473,-91.50982
+7234,Friendship Street and 7th Avenue,41.6551897,-91.5113589
+7235,7th Avenue and Court Street,41.6565787,-91.51157
+7238,City High School,41.6588601,-91.5121689
+7239,College Street and Fairview Street,41.65881,-91.5142692
+7240,College Street and Muscatine Avenue,41.65881,-91.5176629
+7212,College Street and Summit Street,41.6589099,-91.5210598
+7213,College Street and Governor street,41.6589299,-91.5226999
+7209,College Street and Dodge Street,41.65894,-91.5256057
+7203,College Street and Gilbert Street,41.6589899,-91.5299703
+7202,IC Civic Center,41.6598721,-91.5301201
+7205,Gilbert Street and Jefferson Street,41.6622158,-91.53009
+7206,Market Street and Linn Street,41.66359,-91.53143
+7207,Clinton Street and Jefferson Street,41.6626233,-91.5346399

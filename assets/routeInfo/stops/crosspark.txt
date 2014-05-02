@@ -1,0 +1,24 @@
+1,Downtown Interchange,41.66017,-91.5359
+7080,UI Main Library,41.6595409,-91.53775
+7077,Court Street and Capitol Street,41.65659,-91.53642
+7075,Capitol Street and Prentiss Street,41.6545395,-91.53626
+7073,City Carton,41.6515475,-91.5362863
+7013,Kirkwood Avenue and Gilbert Street,41.6493899,-91.5321959
+7014,Gilbert Street and 3rd Avenue,41.6463007,-91.5320799
+7025,Hills Bank--Aldi,41.6444502,-91.5330797
+7023,Southgate Avenue and Gilbert Street,41.64065,-91.5331312
+7022,Southgate Avenue and Waterfront Drive,41.64065,-91.5303352
+7021,Southgate Avenue and Boyrum Street,41.64064,-91.5278639
+7026,Southgate Avenue and Keokuk Street,41.6406101,-91.5251275
+7034,Crosspark Avenue #1,41.63904,-91.5225437
+7035,Crosspark Avenue and Broadway Street,41.6390301,-91.5206599
+7036,Broadway Street #1,41.6408,-91.52042
+7037,Goodwill--Kmart,41.6412619,-91.5222014
+7069,Highland Avenue and Boyrum Street,41.64584,-91.52775
+7070,Highland Avenue and Gilbert Court,41.64582,-91.5303663
+7016,Highland Avenue and Gilbert Street,41.6458296,-91.5317845
+7750,Kirkwood Avenue and Gilbert Street,41.6494799,-91.5321934
+7071,Benton Street and Clinton Street,41.65114,-91.53457
+7072,Benton Street and Capitol Street,41.6511599,-91.5360688
+7074,Capitol Street and Prentiss Street,41.654307,-91.53618
+7076,Capitol Street and Harrison Street,41.655387,-91.53617
