@@ -5,17 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_grey">
-
-    <it.gmariotti.cardslib.library.view.CardView
+    
+    <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/favorite_linear"
+        android:orientation="vertical">
+        
+        <it.gmariotti.cardslib.library.view.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:id="@+id/favoriteWeatherCard"/>
+        
+        <include layout="@layout/list_card_undo_message"/>
+
+    </LinearLayout>
     
     <it.gmariotti.cardslib.library.view.CardListView
-        android:layout_below="@id/favoriteWeatherCard"
+        android:layout_below="@id/favorite_linear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/favoriteListView"/>
+    
     
 </RelativeLayout>
 

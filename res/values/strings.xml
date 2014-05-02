@@ -66,8 +66,13 @@
         <item>Silence</item>
     </string-array>
     
+    <!-- alarm -->
     <string name="alarm_mode">Alarm Behavior</string>
     <string name="alarm_mode_dialogTitle">Type of Alarm</string>
     <string name="alarm_mode_summary">Set alarm\'s behaviour when times up</string>
+    
+    <plurals name="list_card_undo_items">
+        <item quantity="one">Stop removed. Regret?</item>
+    </plurals>
 
 </resources>

@@ -2,7 +2,9 @@ package com.tetrahedrontech.icbustrackernewversion;
 
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
+import it.gmariotti.cardslib.library.internal.CardHeader;
 import it.gmariotti.cardslib.library.view.CardListView;
+import it.gmariotti.cardslib.library.view.CardView;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -49,8 +51,22 @@ public class HomeFragment extends Fragment{
     @Override
     public void onActivityCreated(Bundle savedInstanceState){
     	super.onActivityCreated(savedInstanceState);
+    	
+    	Card weather=new Card(getActivity());
+    	CardHeader title=new CardHeader(getActivity());
+    	title.setTitle("weather card");
+    	weather.addCardHeader(title);
+    	weather.setClickable(true);
+    	weather.setOnClickListener(new Card.OnCardClickListener() {
+            @Override
+            public void onClick(Card card, View view) {
+            }
+        });
+    	CardView cardView = (CardView) getActivity().findViewById(R.id.favoriteWeatherCard);
+        cardView.setCard(weather);
+        
     	mCardArrayAdapter = new CardArrayAdapter(getActivity(),cards);
-    	//mCardArrayAdapter.setEnableUndo(true);
+    	mCardArrayAdapter.setEnableUndo(true);
 		CardListView listView = (CardListView) getActivity().findViewById(R.id.favoriteListView);
 		AnimationAdapter animCardArrayAdapter = new AlphaInAnimationAdapter(mCardArrayAdapter);
         animCardArrayAdapter.setAbsListView(listView);
@@ -67,7 +83,6 @@ public class HomeFragment extends Fragment{
     	if (favoriteStops==null){
     		return result;
     	}
-    	Log.i("mytag","Reading favorite stops: "+String.valueOf(favoriteStops.size()));
     	for (String stop: favoriteStops){
     		stopListCard temp = new stopListCard(getActivity());
     		String stopId=stop.split(",")[0];
@@ -75,15 +90,15 @@ public class HomeFragment extends Fragment{
     		temp.setId(stop);
     		temp.setBackgroundResourceId(pressedCardBackground[theme]);
     		temp.setContent(stopId, stopName);
-    		//temp.setSwipeable(true);
+    		temp.setSwipeable(true);
     		result.add(temp);
-    		/*
+ 
     		temp.setOnSwipeListener(new Card.OnSwipeListener() {
                 @Override
                 public void onSwipe(Card card) {
                 	settings.getStringSet("favorite", new HashSet<String>()).remove(card.getId());
                 }
-            });*/
+            });
     	}
     	//Log.i("mytag",String.valueOf(result.size()));
     	return result;
