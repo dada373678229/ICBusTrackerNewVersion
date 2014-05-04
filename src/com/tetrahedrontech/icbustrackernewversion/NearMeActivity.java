@@ -54,7 +54,11 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 	private int theme;
 	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	
+	private LocationManager locationManager;
+	private LocationListener locationListener;
 	private Location currentLocation;
+	private boolean network=false;
+	private boolean gps=false;
 	
 	private String distanceUnit;
 	
@@ -92,28 +96,25 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		if (servicesConnected()){
 			initMap();
 		}
+		
+		locationManager = (LocationManager) this.getSystemService(NearMeActivity.LOCATION_SERVICE);
+		network=locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+		gps=locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+		
+		locationListener = new LocationListener() {
+			   public void onLocationChanged(Location location) {
+				   currentLocation=location;
+				   setUpThings();
+			   }
 
-		LocationManager locationManager = (LocationManager) this.getSystemService(this.LOCATION_SERVICE);
-		if (locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER) || locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
-			LocationListener locationListener = new LocationListener() {
-			    public void onLocationChanged(Location location) {
-			    	currentLocation=location;
-			    	setUpThings();
-			    }
+			   public void onStatusChanged(String provider, int status, Bundle extras) {Log.i("mytag","changed: "+provider);}
 
-			    public void onStatusChanged(String provider, int status, Bundle extras) {}
+			   public void onProviderEnabled(String provider) {}
 
-			    public void onProviderEnabled(String provider) {}
-
-			    public void onProviderDisabled(String provider) {}
-			  };
-			locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 15000, 20, locationListener);
-			locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 10, locationListener);
-		}
-		else{
-			errorCode=1;
-			errorHandler();
-		}
+			   public void onProviderDisabled(String provider) {}
+		};
+		locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 		
 		//set up listener to response to click on info window
         //here, we need to go to the stop detail page that user clicked
@@ -129,6 +130,12 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
             	}       
             }
         });
+	}
+	
+	@Override
+	public void onPause(){
+		super.onPause();
+		locationManager.removeUpdates(locationListener);
 	}
 	
 	//when menu item is selected

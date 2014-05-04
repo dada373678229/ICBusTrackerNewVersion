@@ -20,9 +20,12 @@ public final class R {
         public static final int alarmListArray=0x7f0c0004;
         /**  Nav Drawer List Item Icons 
  Keep them in order as the titles are in 
+ Nav Drawer List Item Icons 
+ Keep them in order as the titles are in 
          */
         public static final int nav_drawer_icons=0x7f0c0001;
         /**  Nav Drawer Menu Items 
+ Nav Drawer Menu Items 
          */
         public static final int nav_drawer_items=0x7f0c0000;
         public static final int unitListArray=0x7f0c0002;
@@ -539,6 +542,7 @@ containing a value of this type.
     public static final class string {
         public static final int action_settings=0x7f08001d;
         /**  alarm 
+ alarm 
          */
         public static final int alarm_mode=0x7f080031;
         public static final int alarm_mode_dialogTitle=0x7f080032;
@@ -573,6 +577,7 @@ containing a value of this type.
         public static final int auto_refresh_summary_off=0x7f080026;
         public static final int auto_refresh_summary_on=0x7f080025;
         /**  Settings 
+ Settings 
          */
         public static final int auto_refresh_title=0x7f080024;
         public static final int bus_prediction_settings=0x7f08002c;
