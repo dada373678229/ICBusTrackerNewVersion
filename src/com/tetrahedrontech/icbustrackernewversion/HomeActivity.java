@@ -60,9 +60,9 @@ public class HomeActivity extends Activity{
     private CharSequence tempDrawerTitle;
     
     //theme id, 0=light blue, 1=light purple, 2=light green
-    private int theme;
-    
-    private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
+    public static int theme;
+    public static String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
+    public static int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +70,7 @@ public class HomeActivity extends Activity{
 		setContentView(R.layout.activity_home);
 		
 		//set action bar background color
-		SharedPreferences settings=getSharedPreferences("mySettings",0);
+		SharedPreferences settings=getSharedPreferences("themeSettings",0);
 		theme=Integer.valueOf(settings.getString("theme", "0"));
 		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
 		getActionBar().setBackgroundDrawable(cd);

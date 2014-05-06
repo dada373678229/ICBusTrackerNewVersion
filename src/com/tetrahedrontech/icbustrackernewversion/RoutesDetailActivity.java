@@ -47,9 +47,6 @@ public class RoutesDetailActivity extends Activity {
 	private String routeAgency;
 	private ArrayList<Marker> busLocationMarkers=new ArrayList<Marker>();
 	
-	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
-	private int theme;
-	
 	//******************************************
 	coreAPI api=new coreAPI();
 	private Context context;
@@ -121,11 +118,9 @@ public class RoutesDetailActivity extends Activity {
 		routeDisplayName=((String) getIntent().getExtras().get("route")).split(",")[2];
 		
 		//set up action bar
-		SharedPreferences settings=getSharedPreferences("mySettings",0);
-		theme=Integer.valueOf(settings.getString("theme", "0"));
 		getActionBar().setTitle(routeDisplayName);
 		getActionBar().setDisplayHomeAsUpEnabled(true);
-		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(HomeActivity.actionBarColors[HomeActivity.theme]));
 		getActionBar().setBackgroundDrawable(cd);
 		
 		initMap(routeName);

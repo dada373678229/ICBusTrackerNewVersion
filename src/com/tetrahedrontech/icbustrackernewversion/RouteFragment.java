@@ -39,19 +39,12 @@ public class RouteFragment extends Fragment{
 	//routeAgencies contains items shown in the drop down menu on action bar
 	private String[] routeAgencies=new String[]{"Show All","Cambus","Iowa-City","Coralville"};
 	
-	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
-	
-	private int theme;
-	
 	public RouteFragment(){}
     
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
   
         View rootView = inflater.inflate(R.layout.fragment_route, container, false);
-		
-		SharedPreferences settings=getActivity().getSharedPreferences("mySettings",0);
-		theme=Integer.valueOf(settings.getString("theme", "0"));
 		
 		//setActionBar();
 		initRouteList();
@@ -83,7 +76,7 @@ public class RouteFragment extends Fragment{
   				data=line.split(",");
   				((routeListCard) temp).setContent(data[0]);
   				temp.setId(data[1]+","+data[2]+","+data[0]);
-  				temp.setBackgroundResourceId(pressedCardBackground[theme]);
+  				temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
   				
   				//find different agencies and put them into corresponding arraylists
   				if (data[2].equals("coralville")){

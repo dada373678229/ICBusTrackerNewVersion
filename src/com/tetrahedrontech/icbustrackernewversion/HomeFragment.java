@@ -28,11 +28,8 @@ public class HomeFragment extends Fragment{
 	private ArrayList<Card> cards=new ArrayList<Card>();
 	
 	private CardArrayAdapter mCardArrayAdapter;
-	
-	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
-	
+
 	private SharedPreferences settings;
-	private int theme;
 	Set<String> favoriteStops=new HashSet<String>();
 	
 	public HomeFragment(){}
@@ -43,7 +40,6 @@ public class HomeFragment extends Fragment{
   
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
         settings=getActivity().getSharedPreferences("mySettings",0);
-        theme=Integer.valueOf(settings.getString("theme", "0"));
         cards=setCardList();
         return rootView;
     }
@@ -88,7 +84,7 @@ public class HomeFragment extends Fragment{
     		String stopId=stop.split(",")[0];
     		String stopName=stop.split(",")[1];
     		temp.setId(stop);
-    		temp.setBackgroundResourceId(pressedCardBackground[theme]);
+    		temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
     		temp.setContent(stopId, stopName);
     		temp.setSwipeable(true);
     		result.add(temp);

@@ -20,8 +20,7 @@ public class ThemeFragment extends Fragment{
 		private ArrayList<Card> themes=new ArrayList<Card>();
 		CardArrayAdapter mCardArrayAdapter;
 			
-		private String[] themeNames=new String[]{"Light Blue","Light_Purple","Light_Green"};
-		private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
+		public static String[] themeNames=new String[]{"Light Blue","Light_Purple","Light_Green"};
 		
 		@Override
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
@@ -47,7 +46,7 @@ public class ThemeFragment extends Fragment{
 			for (int i=0;i<3;i++){
 				Card theme=new themeListCard(getActivity());
 				((themeListCard) theme).setContent(themeNames[i]);
-				theme.setBackgroundResourceId(pressedCardBackground[i]);
+				theme.setBackgroundResourceId(HomeActivity.pressedCardBackground[i]);
 				theme.setId(Integer.toString(i));
 				themes.add(theme);
 			}

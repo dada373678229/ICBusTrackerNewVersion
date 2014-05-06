@@ -51,8 +51,6 @@ import android.widget.TextView;
 
 public class NearMeActivity extends Activity{// implements GooglePlayServicesClient.ConnectionCallbacks, GooglePlayServicesClient.OnConnectionFailedListener, LocationListener{
 	private GoogleMap map;
-	private int theme;
-	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
 	
 	private LocationManager locationManager;
 	private LocationListener locationListener;
@@ -61,8 +59,6 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 	private boolean gps=false;
 	
 	private String distanceUnit;
-	
-	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 	
 	ArrayList<Card> nearStops = new ArrayList<Card>();
 	CardArrayAdapter mCardArrayAdapter;
@@ -82,9 +78,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 		context=this;
 		
 		//set action bar
-		SharedPreferences settings=getSharedPreferences("mySettings",0);
-		theme=Integer.valueOf(settings.getString("theme", "0"));
-		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(HomeActivity.actionBarColors[HomeActivity.theme]));
 		getActionBar().setBackgroundDrawable(cd);
 		getActionBar().setTitle("Nearby");
 		getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -223,7 +217,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 						temp.setContent(data[0],data[1],String.valueOf(distanceM)+distanceUnit);
 					}
 					
-					temp.setBackgroundResourceId(pressedCardBackground[theme]);
+					temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
 					result.add(temp);
 					
 					//add markers on the map

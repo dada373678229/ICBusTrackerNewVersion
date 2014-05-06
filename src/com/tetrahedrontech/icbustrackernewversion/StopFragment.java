@@ -28,21 +28,14 @@ import android.widget.SearchView.OnQueryTextListener;
 public class StopFragment extends Fragment{
 		//this arraylist contains all stops
 		private ArrayList<stopObject> stops=new ArrayList<stopObject>();
-		
-		private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
-		
+
 		ArrayList<Card> cards = new ArrayList<Card>();
 		CardArrayAdapter mCardArrayAdapter;
-		
-		private int theme;
 
 		@Override
 	    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 	  
 	        View rootView = inflater.inflate(R.layout.fragment_stop, container, false);
-			
-			SharedPreferences settings=getActivity().getSharedPreferences("mySettings",0);
-			theme=Integer.valueOf(settings.getString("theme", "0"));
 			
 			//"cards" contains cards, each card is a stop
 			cards =setListItem();
@@ -80,7 +73,7 @@ public class StopFragment extends Fragment{
 					((stopListCard) temp).setContent(data[0],data[1]);
 					String stopTitle=data[0]+","+data[1];
 					temp.setId(stopTitle);
-					temp.setBackgroundResourceId(pressedCardBackground[theme]);
+					temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
 					result.add(temp);
 					stops.add(new stopObject(data[0],data[1]));
 					line=br.readLine();

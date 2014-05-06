@@ -46,10 +46,6 @@ public class StopsDetailActivity extends Activity{
 	//errorCode -1=no error, 0=no internet connection, 1=internet timeout, 2=no predictions
 	private int errorCode=-1;
 	final LongOperation getData=new LongOperation();
-	
-	private int theme;
-	private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
-	private int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
 
 	private SharedPreferences settings;
 	private boolean favorite=false;
@@ -73,8 +69,7 @@ public class StopsDetailActivity extends Activity{
 		settings=getSharedPreferences("mySettings",0);
 		
 		//set action bar background color
-		theme=Integer.valueOf(settings.getString("theme", "0"));
-		ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[theme]));
+		ColorDrawable cd=new ColorDrawable(Color.parseColor(HomeActivity.actionBarColors[HomeActivity.theme]));
 		getActionBar().setBackgroundDrawable(cd);
 		
 		//set up action bar
@@ -345,7 +340,7 @@ public class StopsDetailActivity extends Activity{
 					//set values on card
 					String line[]=data[i].split(",");
 					temp.setContent(line[0],line[3],line[1]+"min");
-					temp.setBackgroundResourceId(pressedCardBackground[theme]);
+					temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
 					
 					//show alarm expand only when alarm is enabled
 					if(alarm){

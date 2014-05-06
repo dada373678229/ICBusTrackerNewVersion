@@ -12,7 +12,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.tetrahedrontech.icbustrackernewversion.HomeActivity;
 import com.tetrahedrontech.icbustrackernewversion.R;
+import com.tetrahedrontech.icbustrackernewversion.ThemeFragment;
 
 public class themeListCard extends Card{
 		//the view of routeName
@@ -20,12 +22,7 @@ public class themeListCard extends Card{
 	    //the value of routeName
 	    private String themeName;
 	    
-	    private String[] themeNames=new String[]{"Light Blue","Light_Purple","Light_Green"};
-	    private String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
-	    
 	    private Context context;
-	    
-	    public final String PREFS_NAME="mySettings";
 
 	    //constructor, use custom route_list_card layout
 		public themeListCard(Context context) {
@@ -41,13 +38,15 @@ public class themeListCard extends Card{
 	        setOnClickListener(new OnCardClickListener() {
 				@Override
 				public void onClick(Card card, View view) {
-					Toast.makeText(getContext(), "Theme "+themeNames[Integer.valueOf(card.getId())]+" is set!", Toast.LENGTH_SHORT).show();
-					SharedPreferences settings=context.getSharedPreferences(PREFS_NAME,0);
+					Toast.makeText(getContext(), "Theme "+ThemeFragment.themeNames[Integer.valueOf(card.getId())]+" is set!", Toast.LENGTH_SHORT).show();
+					SharedPreferences settings=context.getSharedPreferences("themeSettings",0);
 					SharedPreferences.Editor editor=settings.edit();
+					editor.clear();
 					editor.putString("theme", card.getId());
 					editor.commit();
 					
-					ColorDrawable cd=new ColorDrawable(Color.parseColor(actionBarColors[Integer.valueOf(card.getId())]));
+					HomeActivity.theme=Integer.valueOf(card.getId());
+					ColorDrawable cd=new ColorDrawable(Color.parseColor(HomeActivity.actionBarColors[Integer.valueOf(card.getId())]));
 					((Activity) getContext()).getActionBar().setBackgroundDrawable(cd);
 				}
 	        });
