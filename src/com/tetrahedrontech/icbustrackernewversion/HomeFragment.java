@@ -1,6 +1,7 @@
 package com.tetrahedrontech.icbustrackernewversion;
 
 import it.gmariotti.cardslib.library.internal.Card;
+import it.gmariotti.cardslib.library.internal.Card.OnUndoSwipeListListener;
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
 import it.gmariotti.cardslib.library.internal.CardHeader;
 import it.gmariotti.cardslib.library.view.CardListView;
@@ -88,11 +89,28 @@ public class HomeFragment extends Fragment{
     		temp.setContent(stopId, stopName);
     		temp.setSwipeable(true);
     		result.add(temp);
- 
+    		//listen to swipe action. when swipe, remove the stop from favorite
     		temp.setOnSwipeListener(new Card.OnSwipeListener() {
                 @Override
                 public void onSwipe(Card card) {
-                	settings.getStringSet("favorite", new HashSet<String>()).remove(card.getId());
+                	Set<String> favoriteStops2=settings.getStringSet("favorite", new HashSet<String>());
+                	favoriteStops2.remove(card.getId());
+                	SharedPreferences.Editor editor=settings.edit();
+		        	editor.clear();
+		        	editor.putStringSet("favorite",favoriteStops2);
+		        	editor.commit();
+                }
+            });
+    		//listen to undo action. when undo, add the stop back to favorite
+    		temp.setOnUndoSwipeListListener(new OnUndoSwipeListListener() {
+                @Override
+                public void onUndoSwipe(Card card) {
+                	Set<String> favoriteStops2=settings.getStringSet("favorite", new HashSet<String>());
+                	favoriteStops2.add(card.getId());
+                	SharedPreferences.Editor editor=settings.edit();
+		        	editor.clear();
+		        	editor.putStringSet("favorite",favoriteStops2);
+		        	editor.commit();
                 }
             });
     	}
