@@ -74,18 +74,20 @@ public class RouteFragment extends Fragment{
   			while (line != null){
   				Card temp=new routeListCard(getActivity());
   				data=line.split(",");
-  				((routeListCard) temp).setContent(data[0]);
   				temp.setId(data[1]+","+data[2]+","+data[0]);
   				temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
   				
   				//find different agencies and put them into corresponding arraylists
   				if (data[2].equals("coralville")){
+  					((routeListCard) temp).setContent(data[0],"blue");
   					routeListCoralville.add(temp);
   				}
   				else if(data[2].equals("iowa-city")){
+  					((routeListCard) temp).setContent(data[0],"red");
   					routeListIC.add(temp);
   				}
   				else{
+  					((routeListCard) temp).setContent(data[0],"yellow");
   					routeListCambus.add(temp);
   				}
   				routeListAll.add(temp);

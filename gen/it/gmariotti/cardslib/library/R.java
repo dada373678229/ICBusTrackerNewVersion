@@ -96,10 +96,10 @@ public final class R {
 		public static final int ic_undobar_undo = 0x7f02004a;
 		public static final int pressed_background_card = 0x7f02004b;
 		public static final int pressed_background_kitkat_card = 0x7f02004c;
-		public static final int undobar = 0x7f02004d;
-		public static final int undobar_button_focused = 0x7f02004e;
-		public static final int undobar_button_pressed = 0x7f02004f;
-		public static final int undobar_divider = 0x7f020050;
+		public static final int undobar = 0x7f020050;
+		public static final int undobar_button_focused = 0x7f020051;
+		public static final int undobar_button_pressed = 0x7f020052;
+		public static final int undobar_divider = 0x7f020053;
 	}
 	public static final class id {
 		public static final int card_content_expand_layout = 0x7f0b0017;

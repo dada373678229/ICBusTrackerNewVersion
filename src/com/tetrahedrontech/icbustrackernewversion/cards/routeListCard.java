@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +26,9 @@ public class routeListCard extends Card{
 	protected TextView routeNameView;
     //the value of routeName
     private String routeName;
+    //color border view
+    private ImageView colorBorderView;
+    private String color;
 
     //constructor, use custom route_list_card layout
 	public routeListCard(Context context) {
@@ -52,16 +56,29 @@ public class routeListCard extends Card{
 	//this method sets the data to display on the card
 	@Override
     public void setupInnerViewElements(ViewGroup parent, View view) {
-        //get the routeName view
+        //get views
         routeNameView = (TextView) parent.findViewById(R.id.route_list_view_routeName);
+        colorBorderView = (ImageView) parent.findViewById(R.id.route_list_color_border);
 
         //if the routeNmae is not empty, assign view the value
-        if (routeName!=null)
+        if (routeName!=null){
             routeNameView.setText(routeName);
+        }
+        
+        if (color.equals("red")){
+        	colorBorderView.setBackgroundResource(R.drawable.rectangle_red);
+        }
+        else if (color.equals("blue")){
+        	colorBorderView.setBackgroundResource(R.drawable.rectangle_blue);
+        }
+        else{
+        	colorBorderView.setBackgroundResource(R.drawable.rectangle_yellow);
+        }
     }
 	
 	//this methods receive data from outside of the class
-	public void setContent(String routeName){
+	public void setContent(String routeName, String color){
 		this.routeName=routeName;
+		this.color=color;
 	}
 }
