@@ -6,6 +6,7 @@ import com.tetrahedrontech.icbustrackernewversion.API.coreAPI;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.media.AudioManager;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -14,6 +15,8 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.os.Vibrator;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -236,14 +239,47 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 	
 	//this method deals with the event --time up
 	private void timeUp(){
-		//get device ringer mode
+		//get mode settings
+		SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
+		String alarmMode=sharedPref.getString("alarm_mode", "auto");
+		Log.i("mytag","time up");
+		Log.i("mytag","mode in settings: "+alarmMode);
+		
+		//get current device ringer mode
 		AudioManager myAudioManager = (AudioManager) getContext().getSystemService(Context.AUDIO_SERVICE);
 		int ringer = myAudioManager.getRingerMode();
-		//if it is in normal mode, sound notification ringtone
-		if (ringer== myAudioManager.RINGER_MODE_NORMAL){
+		
+		//logic
+		if ((alarmMode.equals("Auto") && ringer == myAudioManager.RINGER_MODE_NORMAL) || (alarmMode.equals("Sound"))){
+			ringAlarm(0);
+		}
+		else if ((alarmMode.equals("Auto") && ringer == myAudioManager.RINGER_MODE_VIBRATE) || alarmMode.equals("Vibrate")){
+			ringAlarm(1);
+		}
+		else if ((alarmMode.equals("Auto") && ringer == myAudioManager.RINGER_MODE_SILENT) || alarmMode.equals("Silence")){
+			ringAlarm(2);
+		}
+	}
+	
+	//ring alarm
+	//0=sound, 1=vibrate, 2=silence
+	private void ringAlarm(int mode){
+		Log.i("mytag",String.valueOf(mode));
+		switch (mode){
+		case 0 : {
 			Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 			Ringtone r = RingtoneManager.getRingtone(getContext(), notification);
 			r.play();
+			break;
+		}
+		case 1 : {
+			Vibrator v = (Vibrator) getContext().getSystemService(Context.VIBRATOR_SERVICE);
+			v.vibrate(1000);
+			break;
+		}
+		case 2 : {
+			break;
+		}
 		}
 	}
 			

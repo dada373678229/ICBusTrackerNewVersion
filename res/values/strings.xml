@@ -41,7 +41,7 @@
     <string name="auto_refresh_summary_off">Bus arrival times will not be updated. To turn on, Bus Arrival Alarm should be off.</string>
     <string name="on">On</string>
     <string name="off">Off</string>
-    <string name="alarm_title">Bus Arrival Alarm</string>
+    <string name="alarm_title">Bus Arrival Alarm (beta)</string>
     <string name="alarm_summary_on">You can set an alarm on an upcoming bus.</string>
     <string name="alarm_summary_off">You are not able to set an alarm on an upcoming bus. To turn on, Auto_Refresh should be off.</string>
     <string name="bus_prediction_settings">Bus Predictions Settings</string>
