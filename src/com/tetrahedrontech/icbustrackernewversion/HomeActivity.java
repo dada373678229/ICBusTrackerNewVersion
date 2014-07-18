@@ -61,8 +61,8 @@ public class HomeActivity extends Activity{
     
     //theme id, 0=light blue, 1=light purple, 2=light green
     public static int theme;
-    public static String[] actionBarColors=new String[]{"#99CCFF","#FFBFFF","#99FFCC"};
-    public static int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green};
+    public static String[] actionBarColors=new String[]{"#87CEFA","#FFBFFF","#90EE90","#FFB6C1","#FFA07A","#FFD700","#00FFFF"};
+    public static int[] pressedCardBackground=new int[]{R.drawable.card_selector_light_blue,R.drawable.card_selector_light_purple,R.drawable.card_selector_light_green,R.drawable.card_selector_light_pink,R.drawable.card_selector_light_salmon,R.drawable.card_selector_gold,R.drawable.card_selector_cyan};
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

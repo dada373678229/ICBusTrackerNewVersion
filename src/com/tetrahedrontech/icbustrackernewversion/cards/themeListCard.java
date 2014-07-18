@@ -17,9 +17,9 @@ import com.tetrahedrontech.icbustrackernewversion.R;
 import com.tetrahedrontech.icbustrackernewversion.ThemeFragment;
 
 public class themeListCard extends Card{
-		//the view of routeName
+		//the view of themeName
 		protected TextView themeView;
-	    //the value of routeName
+	    //the value of themeName
 	    private String themeName;
 	    
 	    private Context context;
@@ -38,7 +38,7 @@ public class themeListCard extends Card{
 	        setOnClickListener(new OnCardClickListener() {
 				@Override
 				public void onClick(Card card, View view) {
-					Toast.makeText(getContext(), "Theme "+ThemeFragment.themeNames[Integer.valueOf(card.getId())]+" is set!", Toast.LENGTH_SHORT).show();
+					//Toast.makeText(getContext(), "Theme "+ThemeFragment.themeNames[Integer.valueOf(card.getId())]+" is set!", Toast.LENGTH_SHORT).show();
 					SharedPreferences settings=context.getSharedPreferences("themeSettings",0);
 					SharedPreferences.Editor editor=settings.edit();
 					editor.clear();
