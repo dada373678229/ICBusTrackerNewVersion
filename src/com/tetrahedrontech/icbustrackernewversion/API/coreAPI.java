@@ -17,10 +17,10 @@ public class coreAPI
 		for (int i=0;i<listSize;i++){
 			Information temp=Infor.get(i);
 			if(i<listSize-1){
-				result+=temp.getId()+","+temp.getLat()+","+temp.getLng()+","+temp.getHeading()+";";
+				result+=temp.getId()+";"+temp.getLat()+";"+temp.getLng()+";"+temp.getHeading()+"?";
 			}
 			else{
-				result+=temp.getId()+","+temp.getLat()+","+temp.getLng()+","+temp.getHeading();
+				result+=temp.getId()+";"+temp.getLat()+";"+temp.getLng()+";"+temp.getHeading();
 			}
 		}
 		return result;
@@ -32,10 +32,10 @@ public class coreAPI
 		for (int i=0;i<listSize;i++){
 			Information temp=Infor.get(i);
 			if(i<listSize-1){
-				result+=temp.getTitle()+","+temp.getMinutes()+","+temp.getAgency()+","+temp.getDirection()+","+temp.getStopname()+";";
+				result+=temp.getTitle()+";"+temp.getMinutes()+";"+temp.getAgency()+";"+temp.getDirection()+";"+temp.getStopname()+"?";
 			}
 			else{
-				result+=temp.getTitle()+","+temp.getMinutes()+","+temp.getAgency()+","+temp.getDirection()+","+temp.getStopname();
+				result+=temp.getTitle()+";"+temp.getMinutes()+";"+temp.getAgency()+";"+temp.getDirection()+";"+temp.getStopname();
 			}
 		}
 		return result;

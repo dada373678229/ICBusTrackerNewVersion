@@ -1,2 +1,2 @@
-Plaen View,plaenview,iowa-city
-Westwinds Night & Weekend,westwindsnw,iowa-city
+Plaen View;plaenview;iowa-city
+Westwinds Night & Weekend;westwindsnw;iowa-city

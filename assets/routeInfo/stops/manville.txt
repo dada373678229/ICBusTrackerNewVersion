@@ -1,49 +1,51 @@
-1,Downtown Interchange,41.66017,-91.5359
-7082,Washington Street and Madison Street,41.66015,-91.537456
-146,English Philosophy Building--IMU,41.66135,-91.5384999
-263,UI Student Health,41.6627132,-91.543511
-257,Newton Road Ramp,41.6634,-91.546
-253,VA Hospital - Newton Rd,41.6626701,-91.5486194
-8050,VA Hospital - Woolf Ave,41.6638178,-91.54976
-8052,Woolf Avenue and Bayard Street,41.6656108,-91.5497099
-8054,Woolf Avenue and River Street,41.6675067,-91.5496501
-8056,River Street and Lee Street,41.6677896,-91.5512709
-8058,Lee Street and Highwood Street,41.6689069,-91.5511605
-8060,Lee Street and Park Road,41.6712353,-91.5507807
-8062,Park Road and Lexington Avenue,41.67132,-91.548463
-8064,Park Road and Magowen Avenue,41.67134,-91.5458909
-8066,Park Road and Beldon Avenue,41.67135,-91.5433176
-8068,Upper City Park,41.6713499,-91.54064
-8070,Lower City Park,41.6714398,-91.5354107
-8072,Dubuque Street and Kimball Road,41.6729497,-91.53257
-8074,Mayflower Dorm,41.6768691,-91.5320302
-8076,Dubuque Street and Ridge Road,41.6785238,-91.5321928
-8079,Foster Road and Laura Drive,41.68114,-91.5377
-8083,Foster Road and Idyllwild Drive,41.6813994,-91.5399348
-8085,Foster Road and Algonquin Road,41.67998,-91.5483286
-8087,Foster Road and 900 Block,41.6794055,-91.5531359
-8088,Foster Road and Swisher Street,41.6771594,-91.5545713
-8090,Walker Circle and Moses Bloom Lane,41.6763123,-91.5565264
-8089,Swisher Street and Foster Road,41.6770076,-91.5546703
-8086,Foster Road and Algonquin Road,41.67993,-91.5481996
-8084,Foster Road and Idyllwild Drive,41.6813704,-91.540125
-8082,Forest View Trailer Park,41.68426,-91.54052
-8080,Laura Drive and Foster Road,41.6813262,-91.5379936
-8081,Foster Road and Laura Drive,41.6810402,-91.5373319
-8078,Foster Road and Dubuque Street,41.6809278,-91.5355468
-8077,Dubuque Street and Taft Speedway,41.679555,-91.5334353
-8075,Mayflower Dorm,41.6766171,-91.5324685
-8073,Dubuque Street and Park Road,41.6719268,-91.532849
-8071,Lower City Park entrance,41.6715311,-91.535461
-8069,Upper City Park,41.6713999,-91.5402613
-8067,Park Road and Beldon Avenue,41.6714,-91.5433276
-8063,Park Road and Lexington Avenue,41.67138,-91.5484406
-8061,Park Road and Normandy Drive,41.67138,-91.5498182
-8059,Lee Street and Highwood Street,41.6688752,-91.551239
-8055,River Street and Woolf Avenue,41.66771,-91.5499082
-8053,Woolf  Avenue and Rider Street,41.6658541,-91.5497702
-8051,VA Hospital - Woolf Ave,41.6638148,-91.5498202
-254,VA Hospital - Newton Rd,41.6626703,-91.5483792
-256,MERF,41.66328,-91.5450199
-145,English Philosophy Building--IMU,41.6612,-91.5403504
-7090,Iowa Avenue and Madison Street,41.66124,-91.5378992
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7082;Washington Street and Madison Street;41.66015;-91.537456
+146;English Philosophy Building, IMU;41.66135;-91.5384999
+263;UI Student Health;41.6627132;-91.543511
+257;Newton Road Ramp;41.6634;-91.546
+253;VA Hospital - Newton Rd;41.6626701;-91.5486194
+8050;VA Hospital - Woolf Ave;41.6638178;-91.54976
+8052;Woolf Avenue and Bayard Street;41.6656108;-91.5497099
+8054;Woolf Avenue and River Street;41.6675067;-91.5496501
+8056;River Street and Lee Street;41.6677896;-91.5512709
+8058;Lee Street and Highwood Street;41.6689069;-91.5511605
+8060;Lee Street and Park Road;41.6712353;-91.5507807
+8062;Park Road and Lexington Avenue;41.67132;-91.548463
+8064;Park Road and Magowen Avenue;41.67134;-91.5458909
+8066;Park Road and Beldon Avenue;41.67135;-91.5433176
+8068;Upper City Park;41.6713499;-91.54064
+8070;Lower City Park;41.6714398;-91.5354107
+8072;Dubuque Street and Kimball Road;41.6729497;-91.53257
+8074;Mayflower Dorm;41.6768691;-91.5320302
+8076;Dubuque Street and Ridge Road;41.6785238;-91.5321928
+8079;Foster Road and Laura Drive;41.68114;-91.5377
+8083;Foster Road and Idyllwild Drive;41.6813994;-91.5399348
+8085;Foster Road and Algonquin Road;41.67998;-91.5483286
+8087;Foster Road and 900 Block;41.6794055;-91.5531359
+8088;Foster Road and Swisher Street;41.6771594;-91.5545713
+8090;Walker Circle and Moses Bloom Lane;41.6763123;-91.5565264
+8089;Swisher Street and Foster Road;41.6770076;-91.5546703
+Inbound
+8086;Foster Road and Algonquin Road;41.67993;-91.5481996
+8084;Foster Road and Idyllwild Drive;41.6813704;-91.540125
+8082;Forest View Trailer Park;41.68426;-91.54052
+8080;Laura Drive and Foster Road;41.6813262;-91.5379936
+8081;Foster Road and Laura Drive;41.6810402;-91.5373319
+8078;Foster Road and Dubuque Street;41.6809278;-91.5355468
+8077;Dubuque Street and Taft Speedway;41.679555;-91.5334353
+8075;Mayflower Dorm;41.6766171;-91.5324685
+8073;Dubuque Street and Park Road;41.6719268;-91.532849
+8071;Lower City Park entrance;41.6715311;-91.535461
+8069;Upper City Park;41.6713999;-91.5402613
+8067;Park Road and Beldon Avenue;41.6714;-91.5433276
+8063;Park Road and Lexington Avenue;41.67138;-91.5484406
+8061;Park Road and Normandy Drive;41.67138;-91.5498182
+8059;Lee Street and Highwood Street;41.6688752;-91.551239
+8055;River Street and Woolf Avenue;41.66771;-91.5499082
+8053;Woolf  Avenue and Rider Street;41.6658541;-91.5497702
+8051;VA Hospital - Woolf Ave;41.6638148;-91.5498202
+254;VA Hospital - Newton Rd;41.6626703;-91.5483792
+256;MERF;41.66328;-91.5450199
+145;English Philosophy Building, IMU;41.6612;-91.5403504
+7090;Iowa Avenue and Madison Street;41.66124;-91.5378992

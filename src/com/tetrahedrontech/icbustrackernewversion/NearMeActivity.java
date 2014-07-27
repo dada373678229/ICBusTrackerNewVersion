@@ -118,7 +118,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
             	//if the marker clicked is not a bus marker
             	if (!marker.getTitle().equals("BUS")){
             		Intent i = new Intent(context,StopsDetailActivity.class);
-            		i.putExtra("stopTitle", marker.getTitle()+","+marker.getSnippet());
+            		i.putExtra("stopTitle", marker.getTitle()+";"+marker.getSnippet());
             		context.startActivity(i);
             		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
             	}       
@@ -199,7 +199,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 			//get a single line and analyze stop infomation
 			while (line != null){
 				nearMeCard temp=new nearMeCard(this);
-				data=line.split(",");
+				data=line.split(";");
 				
 				stopLoc.setLatitude(Double.valueOf(data[2]));
 				stopLoc.setLongitude(Double.valueOf(data[3]));
@@ -208,7 +208,7 @@ public class NearMeActivity extends Activity{// implements GooglePlayServicesCli
 				
 				if (distanceM<=500){
 					//add card to the arraylist
-					String stopTitle=data[0]+","+data[1];
+					String stopTitle=data[0]+";"+data[1];
 					temp.setId(stopTitle);
 					if (distanceUnit.equals(" ft")){
 						temp.setContent(data[0],data[1],String.valueOf(distanceFt)+distanceUnit);

@@ -1,51 +1,53 @@
-1,Downtown Interchange,41.66017,-91.5359
-7082,Washington Street and Madison Street,41.66015,-91.5374516
-146,English Philosophy Building--IMU,41.66135,-91.5384955
-263,UI Student Health,41.662722,-91.543511
-257,Newton Road Ramp,41.6634,-91.5459966
-253,VA Hospital - Newton Rd,41.6626713,-91.5486163
-8200,Dental College,41.66357,-91.5512403
-241,Carver Hawkeye Arena,41.6633882,-91.5538512
-8203,UI Main Hospital--Kinnick Stadium,41.659639,-91.5499899
-8205,Hawkins Drive and Melrose Avenue,41.6570388,-91.5499402
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545619
-8107,Melrose Avenue and George Street,41.65638,-91.5571598
-8208,Melrose Avenue and Sunset Street,41.65584,-91.55938
-8209,Melrose Avenue and Emerald Street,41.65582,-91.5645104
-8211,Melrose Avenue and Westgate Street,41.65603,-91.5663105
-8213,Melrose Avenue and Macbride Road,41.65627,-91.5690507
-8215,Melrose Avenue and Finkbine Lane,41.6568701,-91.572451
-8222,Westwinds Drive and Willowwind Place,41.6563641,-91.577639
-8224,Westwinds Drive and Roberts Road,41.6534527,-91.57821
-8226,Pheasant Ridge Neighborhood Center,41.65385,-91.57648
-8227,Bartelt Road and Morman Trek Blvd.,41.6541105,-91.5741867
-8228,Walden Plaza,41.6517471,-91.5740798
-8291,Benton Street and Jema Court,41.6495998,-91.572994
-8232,Benton Street and Spencer Drive,41.64962,-91.5707321
-8233,Benton Street and Keswick Drive,41.6496299,-91.5683054
-8234,Benton Street and Westgate Street,41.6496202,-91.5668748
-8237,Horn Elementary,41.6496003,-91.5640201
-8238,Denbigh Drive and Hafor Drive,41.6470127,-91.5638594
-8239,Denbigh Drive and Penkridge Drive,41.6455502,-91.5628925
-8240,Denbigh Drive and Sunset Street,41.6454738,-91.5596547
-8243,Sunset Street and Kineton Green,41.6467677,-91.558901
-8245,Sunset Street and Arbury Drive,41.6486378,-91.5593293
-8246,Benton Street and Sunset Street,41.6504999,-91.5603586
-8236,Horn Elementary,41.64966,-91.5642657
-8249,Westgate Street and Westgate Court,41.6503391,-91.56667
-8250,Westgate Street Midblock,41.651561,-91.56665
-8252,Westgate Street and Keswick Drive,41.6530949,-91.56665
-8212,Westgate Street and Melrose Avenue,41.65578,-91.56659
-8210,IC Fire Station,41.6555908,-91.5639961
-8150,Melrose Avenue and Sunset Street,41.6555955,-91.5602678
-8108,Melrose Avenue and George Street,41.6563789,-91.5568442
-8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542874
-8207,Ramp 2--Pappajohn& Pomerantz,41.6577421,-91.5498616
-8206,UI Main Hospital--Kinnick Stadium,41.6592963,-91.54984
-8204,UI Center for Disabilities--Dental College,41.6610991,-91.5506596
-8202,Carver Hawkeye Arena,41.6630153,-91.5540323
-8201,Dental College,41.6634798,-91.550989
-254,VA Hospital,41.6626705,-91.548379
-256,MERF,41.66328,-91.5450199
-145,English Philosophy Building--IMU,41.6612,-91.5403504
-7090,Iowa Avenue and Madison Street,41.6612397,-91.5378993
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7082;Washington Street and Madison Street;41.66015;-91.5374516
+146;English Philosophy Building, IMU;41.66135;-91.5384955
+263;UI Student Health;41.662722;-91.543511
+257;Newton Road Ramp;41.6634;-91.5459966
+253;VA Hospital - Newton Rd;41.6626713;-91.5486163
+8200;Dental College;41.66357;-91.5512403
+241;Carver Hawkeye Arena;41.6633882;-91.5538512
+8203;UI Main Hospital, Kinnick Stadium;41.659639;-91.5499899
+8205;Hawkins Drive and Melrose Avenue;41.6570388;-91.5499402
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545619
+8107;Melrose Avenue and George Street;41.65638;-91.5571598
+8208;Melrose Avenue and Sunset Street;41.65584;-91.55938
+8209;Melrose Avenue and Emerald Street;41.65582;-91.5645104
+8211;Melrose Avenue and Westgate Street;41.65603;-91.5663105
+8213;Melrose Avenue and Macbride Road;41.65627;-91.5690507
+8215;Melrose Avenue and Finkbine Lane;41.6568701;-91.572451
+8222;Westwinds Drive and Willowwind Place;41.6563641;-91.577639
+8224;Westwinds Drive and Roberts Road;41.6534527;-91.57821
+8226;Pheasant Ridge Neighborhood Center;41.65385;-91.57648
+Inbound
+8227;Bartelt Road and Morman Trek Blvd.;41.6541105;-91.5741867
+8228;Walden Plaza;41.6517471;-91.5740798
+8291;Benton Street and Jema Court;41.6495998;-91.572994
+8232;Benton Street and Spencer Drive;41.64962;-91.5707321
+8233;Benton Street and Keswick Drive;41.6496299;-91.5683054
+8234;Benton Street and Westgate Street;41.6496202;-91.5668748
+8237;Horn Elementary;41.6496003;-91.5640201
+8238;Denbigh Drive and Hafor Drive;41.6470127;-91.5638594
+8239;Denbigh Drive and Penkridge Drive;41.6455502;-91.5628925
+8240;Denbigh Drive and Sunset Street;41.6454738;-91.5596547
+8243;Sunset Street and Kineton Green;41.6467677;-91.558901
+8245;Sunset Street and Arbury Drive;41.6486378;-91.5593293
+8246;Benton Street and Sunset Street;41.6504999;-91.5603586
+8236;Horn Elementary;41.64966;-91.5642657
+8249;Westgate Street and Westgate Court;41.6503391;-91.56667
+8250;Westgate Street Midblock;41.651561;-91.56665
+8252;Westgate Street and Keswick Drive;41.6530949;-91.56665
+8212;Westgate Street and Melrose Avenue;41.65578;-91.56659
+8210;IC Fire Station;41.6555908;-91.5639961
+8150;Melrose Avenue and Sunset Street;41.6555955;-91.5602678
+8108;Melrose Avenue and George Street;41.6563789;-91.5568442
+8106;Melrose Avenue and Koser Avenue;41.65687;-91.5542874
+8207;Ramp 2, Pappajohn& Pomerantz;41.6577421;-91.5498616
+8206;UI Main Hospital, Kinnick Stadium;41.6592963;-91.54984
+8204;UI Center for Disabilities, Dental College;41.6610991;-91.5506596
+8202;Carver Hawkeye Arena;41.6630153;-91.5540323
+8201;Dental College;41.6634798;-91.550989
+254;VA Hospital;41.6626705;-91.548379
+256;MERF;41.66328;-91.5450199
+145;English Philosophy Building, IMU;41.6612;-91.5403504
+7090;Iowa Avenue and Madison Street;41.6612397;-91.5378993

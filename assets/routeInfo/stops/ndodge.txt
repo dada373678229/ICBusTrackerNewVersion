@@ -1,43 +1,45 @@
-2,Downtown Interchange,41.66004,-91.53498
-7400,Clinton Street and Jefferson Street,41.6623264,-91.5345378
-7401,Jefferson Street and Linn Street,41.66243,-91.5317913
-7402,Jefferson Street and Van Buren Street,41.6624099,-91.5288352
-7403,Jefferson Street and Dodge Street,41.6623799,-91.5258752
-7500,Governor Street and Jefferson Street,41.6625892,-91.52278
-7501,Governor Street and Market Street,41.6633991,-91.52277
-7502,Governor Street and Davenport Street,41.6655946,-91.5227399
-7503,Governor Street and Church Street,41.6680959,-91.52271
-7504,Governor Street and Brown Street,41.6700253,-91.5226899
-7505,Governor Street,41.6724179,-91.5230391
-7506,Governor Street and North Dodge Street,41.67407,-91.52306
-7507,North Dodge Street and Summit Street,41.6751401,-91.5213896
-7508,Hy Vee,41.676809,-91.5168615
-7510,Iowa City Press Citizen,41.6798503,-91.5108492
-7512,North Dodge Street and Scott Blvd.,41.68115,-91.50816
-7513,ACT #1,41.6800362,-91.5027658
-7514,ACT #2,41.6809567,-91.502181
-7515,ACT #3,41.6826,-91.503269
-7516,Northgate Drive #1,41.68996,-91.49446
-7517,Northgate Drive #2,41.6888233,-91.4935505
-7518,Pearson and Northgate Drive,41.6878624,-91.4925921
-7520,Northgate Drive #3,41.6883084,-91.4926036
-7521,Pearson Main Entrance,41.6893169,-91.4998994
-7522,Pearsons Drive and North Dodge Street,41.6902856,-91.497694
-7523,North Dodge Street and ACT Circle,41.6829789,-91.504722
-7511,Iowa City Press Citizen,41.6799478,-91.5108042
-7524,North Dodge Street and Bristol Drive,41.6788485,-91.5130028
-7509,Hy Vee,41.67684,-91.51712
-7525,Prairie du Chien Road and North Dodge Street,41.6756896,-91.52115
-7526,Prairie du Chien Road and Caroline Court,41.6787393,-91.5211999
-7527,Caroline Avenue and Prairie du Chien Road,41.67969,-91.5217092
-7528,Whiting Avenue and Kimball Road,41.6784498,-91.5234648
-7529,Kimball Road and Kimball Court,41.6761577,-91.5236007
-7530,Governor Street and Kimball Road,41.6750739,-91.5239243
-7531,North Dodge Street #1,41.6731857,-91.5243042
-7532,North Dodge Street #2,41.671726,-91.5254457
-7533,North Dodge Street and Brown Street,41.6702277,-91.5256898
-7534,Horace Mann Elementary,41.6673679,-91.52573
-7442,North Dodge Street and Market Street,41.6639837,-91.5257699
-7443,Mercy Hospital,41.6635799,-91.5285325
-7206,Market Street and Linn Street,41.66359,-91.5314302
-7207,Clinton Street and Jefferson Street,41.6626264,-91.5346398
+Outbound
+2;Downtown Interchange;41.66004;-91.53498
+7400;Clinton Street and Jefferson Street;41.6623264;-91.5345378
+7401;Jefferson Street and Linn Street;41.66243;-91.5317913
+7402;Jefferson Street and Van Buren Street;41.6624099;-91.5288352
+7403;Jefferson Street and Dodge Street;41.6623799;-91.5258752
+7500;Governor Street and Jefferson Street;41.6625892;-91.52278
+7501;Governor Street and Market Street;41.6633991;-91.52277
+7502;Governor Street and Davenport Street;41.6655946;-91.5227399
+7503;Governor Street and Church Street;41.6680959;-91.52271
+7504;Governor Street and Brown Street;41.6700253;-91.5226899
+7505;Governor Street;41.6724179;-91.5230391
+7506;Governor Street and North Dodge Street;41.67407;-91.52306
+7507;North Dodge Street and Summit Street;41.6751401;-91.5213896
+7508;Hy Vee;41.676809;-91.5168615
+7510;Iowa City Press Citizen;41.6798503;-91.5108492
+7512;North Dodge Street and Scott Blvd.;41.68115;-91.50816
+7513;ACT #1;41.6800362;-91.5027658
+7514;ACT #2;41.6809567;-91.502181
+7515;ACT #3;41.6826;-91.503269
+7516;Northgate Drive #1;41.68996;-91.49446
+7517;Northgate Drive #2;41.6888233;-91.4935505
+7518;Pearson and Northgate Drive;41.6878624;-91.4925921
+Inbound
+7520;Northgate Drive #3;41.6883084;-91.4926036
+7521;Pearson Main Entrance;41.6893169;-91.4998994
+7522;Pearsons Drive and North Dodge Street;41.6902856;-91.497694
+7523;North Dodge Street and ACT Circle;41.6829789;-91.504722
+7511;Iowa City Press Citizen;41.6799478;-91.5108042
+7524;North Dodge Street and Bristol Drive;41.6788485;-91.5130028
+7509;Hy Vee;41.67684;-91.51712
+7525;Prairie du Chien Road and North Dodge Street;41.6756896;-91.52115
+7526;Prairie du Chien Road and Caroline Court;41.6787393;-91.5211999
+7527;Caroline Avenue and Prairie du Chien Road;41.67969;-91.5217092
+7528;Whiting Avenue and Kimball Road;41.6784498;-91.5234648
+7529;Kimball Road and Kimball Court;41.6761577;-91.5236007
+7530;Governor Street and Kimball Road;41.6750739;-91.5239243
+7531;North Dodge Street #1;41.6731857;-91.5243042
+7532;North Dodge Street #2;41.671726;-91.5254457
+7533;North Dodge Street and Brown Street;41.6702277;-91.5256898
+7534;Horace Mann Elementary;41.6673679;-91.52573
+7442;North Dodge Street and Market Street;41.6639837;-91.5257699
+7443;Mercy Hospital;41.6635799;-91.5285325
+7206;Market Street and Linn Street;41.66359;-91.5314302
+7207;Clinton Street and Jefferson Street;41.6626264;-91.5346398

@@ -1,1 +1,1 @@
-Basketball Shuttle,bskball,uiowa
+Basketball Shuttle;bskball;uiowa

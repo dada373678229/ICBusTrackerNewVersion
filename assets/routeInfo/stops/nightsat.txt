@@ -1,55 +1,57 @@
-1,Clinton & Washington - Downtown Iowa City,41.66077,-91.5346899
-146,Hubbard Park,41.6613499,-91.5385042
-263,Student Health,41.6627164,-91.5435105
-257,Newton Road - Parking Ramp,41.6634,-91.5460061
-253,VA Hospital and University Hospitals,41.66267,-91.54862
-245,Newton and Lincoln,41.6635703,-91.5512418
-241,Carver Hawkeye Arena on Elliott,41.6633882,-91.5538512
-4010,Highway 6 and Hawkins,41.6662111,-91.5584739
-385,Clear Creek,41.6697357,-91.56534
-4381,5th Street and 2nd Avenue Place,41.6738007,-91.5680777
-4372,5th Street and 4th Avenue,41.6740901,-91.5711213
-4361,5th Street and 6th Avenue,41.6743307,-91.5736177
-4351,5th Street and 8th Avenue,41.6745505,-91.5758955
-4341,5th Street and 10th Avenue - Post Office,41.67481,-91.57812
-4331,5th Street and 12th Avenue - Library,41.6769294,-91.5823988
-4321,5th Street and 7th Street - City Hall,41.6777071,-91.5839343
-4311,5th Street and 18th Avenue - Coral Village,41.6793585,-91.5879142
-4301,20th Avenue and 5th Street,41.680959,-91.5907304
-4291,8th Street and 20th Avenue,41.68228,-91.5915601
-4281,20th Avenue and 9th Street,41.6837265,-91.5897207
-4271,9th Street and 20th Avenue Place,41.6838699,-91.5912839
-4261,9th Street and 21st Avenue,41.6834907,-91.5942948
-4251,9th Street and Oakleaf,41.6854102,-91.5946875
-4241,9th Street and 23rd Avenue,41.6850302,-91.5974782
-4192,23th Avenue and 10th Street,41.6878296,-91.5967401
-4200,10th Street and North Boston Way,41.68822,-91.5993929
-4210,10th Street and 25th Avenue,41.6879912,-91.6032138
-4220,Coral Ridge Mall,41.69012,-91.60053
-4230,10th Street and South Boston Way,41.6879489,-91.6017342
-4191,10th Street and 23rd Avenue,41.6879512,-91.5968841
-4181,10th Street and 22nd Avenue,41.6879696,-91.5938763
-4171,10th Street and 10th Street Ct.,41.6873529,-91.5915439
-4161,10th Street and 20th Avenue,41.6868101,-91.5898053
-4141,10th Street and 17th Avenue,41.68676,-91.5859354
-4131,14th Avenue and 10th Street.,41.68671,-91.5823538
-4121,14th Avenue and 9th Street,41.6843468,-91.5822398
-4111,14th Avenue and 8th Street,41.68188,-91.5824
-4105,8th Street and 12th Avenue,41.68172,-91.5805647
-4101,12th Avenue and 7th Street,41.6785582,-91.5804298
-4091,7th Street and 10th Avenue,41.67839,-91.5782533
-4081,7th Street and 7th Avenue,41.6780705,-91.5748757
-4071,7th Street and 6th Avenue,41.6779506,-91.573706
-4061,7th Street and 4th Avenue Place.,41.67765,-91.5702015
-4055,4th Ave. and 6th Street,41.6764904,-91.5697499
-4051,6th Street and 4th Ave. - Scotsdale,41.6763599,-91.5688916
-4041,6th Street and 1st Avenue,41.6764398,-91.566254
-4031,1st Avenue and 5th Street,41.6731237,-91.5656309
-100,Softball Complex,41.6686761,-91.5651445
-246,Dental College,41.6634819,-91.5510002
-254,Hardin Library,41.6626399,-91.54841
-256,MERF,41.6632812,-91.5450156
-264,IIBD,41.6624947,-91.5436291
-145,EPB,41.6612,-91.5403442
-125,IMU,41.6623626,-91.5376186
-120,Macbride Hall,41.66246,-91.5357761
+Outbound
+1;Clinton & Washington - Downtown Iowa City;41.66077;-91.5346899
+146;Hubbard Park;41.6613499;-91.5385042
+263;Student Health;41.6627164;-91.5435105
+257;Newton Road - Parking Ramp;41.6634;-91.5460061
+253;VA Hospital and University Hospitals;41.66267;-91.54862
+245;Newton and Lincoln;41.6635703;-91.5512418
+241;Carver Hawkeye Arena on Elliott;41.6633882;-91.5538512
+4010;Highway 6 and Hawkins;41.6662111;-91.5584739
+385;Clear Creek;41.6697357;-91.56534
+4381;5th Street and 2nd Avenue Place;41.6738007;-91.5680777
+4372;5th Street and 4th Avenue;41.6740901;-91.5711213
+4361;5th Street and 6th Avenue;41.6743307;-91.5736177
+4351;5th Street and 8th Avenue;41.6745505;-91.5758955
+4341;5th Street and 10th Avenue - Post Office;41.67481;-91.57812
+4331;5th Street and 12th Avenue - Library;41.6769294;-91.5823988
+4321;5th Street and 7th Street - City Hall;41.6777071;-91.5839343
+4311;5th Street and 18th Avenue - Coral Village;41.6793585;-91.5879142
+4301;20th Avenue and 5th Street;41.680959;-91.5907304
+4291;8th Street and 20th Avenue;41.68228;-91.5915601
+4281;20th Avenue and 9th Street;41.6837265;-91.5897207
+4271;9th Street and 20th Avenue Place;41.6838699;-91.5912839
+4261;9th Street and 21st Avenue;41.6834907;-91.5942948
+4251;9th Street and Oakleaf;41.6854102;-91.5946875
+4241;9th Street and 23rd Avenue;41.6850302;-91.5974782
+4192;23th Avenue and 10th Street;41.6878296;-91.5967401
+4200;10th Street and North Boston Way;41.68822;-91.5993929
+4210;10th Street and 25th Avenue;41.6879912;-91.6032138
+Inbound
+4220;Coral Ridge Mall;41.69012;-91.60053
+4230;10th Street and South Boston Way;41.6879489;-91.6017342
+4191;10th Street and 23rd Avenue;41.6879512;-91.5968841
+4181;10th Street and 22nd Avenue;41.6879696;-91.5938763
+4171;10th Street and 10th Street Ct.;41.6873529;-91.5915439
+4161;10th Street and 20th Avenue;41.6868101;-91.5898053
+4141;10th Street and 17th Avenue;41.68676;-91.5859354
+4131;14th Avenue and 10th Street.;41.68671;-91.5823538
+4121;14th Avenue and 9th Street;41.6843468;-91.5822398
+4111;14th Avenue and 8th Street;41.68188;-91.5824
+4105;8th Street and 12th Avenue;41.68172;-91.5805647
+4101;12th Avenue and 7th Street;41.6785582;-91.5804298
+4091;7th Street and 10th Avenue;41.67839;-91.5782533
+4081;7th Street and 7th Avenue;41.6780705;-91.5748757
+4071;7th Street and 6th Avenue;41.6779506;-91.573706
+4061;7th Street and 4th Avenue Place.;41.67765;-91.5702015
+4055;4th Ave. and 6th Street;41.6764904;-91.5697499
+4051;6th Street and 4th Ave. - Scotsdale;41.6763599;-91.5688916
+4041;6th Street and 1st Avenue;41.6764398;-91.566254
+4031;1st Avenue and 5th Street;41.6731237;-91.5656309
+100;Softball Complex;41.6686761;-91.5651445
+246;Dental College;41.6634819;-91.5510002
+254;Hardin Library;41.6626399;-91.54841
+256;MERF;41.6632812;-91.5450156
+264;IIBD;41.6624947;-91.5436291
+145;EPB;41.6612;-91.5403442
+125;IMU;41.6623626;-91.5376186
+120;Macbride Hall;41.66246;-91.5357761

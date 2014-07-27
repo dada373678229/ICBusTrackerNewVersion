@@ -1,19 +1,20 @@
-2,Downtown Interchange,41.66004,-91.53498
-7200,IC Library--Senior Center,41.66008,-91.5318705
-7201,Washington Street and Gilbert Street,41.66002,-91.5303801
-7456,Washington Street and Van Buren Street,41.66002,-91.5288139
-7457,Washington Street and Dodge Street,41.65999,-91.5260422
-7210,Dodge Street and College Street,41.6590304,-91.5258199
-7458,Dodge Street and Burlington Street,41.6579426,-91.5258301
-7459,Dodge Street and Court Street,41.6566677,-91.52583
-7460,Dodge Street #4,41.6552413,-91.52584
-7105,Dodge Street and Bowery Street,41.65422,-91.52584
-7103,Bowery Street and Johnson Street,41.65413,-91.5271876
-7101,Bowery Street and Van Buren Street,41.65413,-91.5286493
-7100,Bowery Street and Gilbert Street,41.65414,-91.5300188
-7006,Court Street  and Maiden Lane,41.65662,-91.5310534
-7003,Court Street and Dubuque Street,41.65663,-91.5326785
-7004,Court Street Transportation Center,41.65663,-91.53346
-7078,Court Street and Madison Street,41.6566599,-91.5375097
-7079,UI Linquist Center,41.65854,-91.53764
-7081,Madison Street and Washington Street,41.6599,-91.5376399
+Loop
+2;Downtown Interchange;41.66004;-91.53498
+7200;IC Library, Senior Center;41.66008;-91.5318705
+7201;Washington Street and Gilbert Street;41.66002;-91.5303801
+7456;Washington Street and Van Buren Street;41.66002;-91.5288139
+7457;Washington Street and Dodge Street;41.65999;-91.5260422
+7210;Dodge Street and College Street;41.6590304;-91.5258199
+7458;Dodge Street and Burlington Street;41.6579426;-91.5258301
+7459;Dodge Street and Court Street;41.6566677;-91.52583
+7460;Dodge Street #4;41.6552413;-91.52584
+7105;Dodge Street and Bowery Street;41.65422;-91.52584
+7103;Bowery Street and Johnson Street;41.65413;-91.5271876
+7101;Bowery Street and Van Buren Street;41.65413;-91.5286493
+7100;Bowery Street and Gilbert Street;41.65414;-91.5300188
+7006;Court Street  and Maiden Lane;41.65662;-91.5310534
+7003;Court Street and Dubuque Street;41.65663;-91.5326785
+7004;Court Street Transportation Center;41.65663;-91.53346
+7078;Court Street and Madison Street;41.6566599;-91.5375097
+7079;UI Linquist Center;41.65854;-91.53764
+7081;Madison Street and Washington Street;41.6599;-91.5376399

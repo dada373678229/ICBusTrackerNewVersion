@@ -1,2 +1,2 @@
-Broadway,brdwy,iowa-city
-Cross Park,crosspark,iowa-city
+Broadway;brdwy;iowa-city
+Cross Park;crosspark;iowa-city

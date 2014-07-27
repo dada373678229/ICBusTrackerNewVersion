@@ -1,34 +1,36 @@
-1,Downtown Interchange,41.66017,-91.5359
-7080,UI Main Library,41.6595407,-91.53775
-8100,UI Hospital Emergency Entrance,41.6585899,-91.54532
-8101,UI Family Care,41.6569099,-91.5473631
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545608
-8107,Melrose Avenue and George Street,41.6563802,-91.5571588
-8109,Sunset Street and Melrose Avenue,41.6554656,-91.5596903
-8111,Sunset Street and Marietta Avenue,41.6534251,-91.5595898
-8113,Sunset Street and Oakcrest Street,41.6519097,-91.5595399
-8115,Oaknoll Retirement Center #1,41.6519104,-91.5563774
-8116,Oaknoll Retirement Center #2,41.652039,-91.5543038
-8117,Oakcrest Street #3,41.6517785,-91.552639
-8118,Oakcrest Street and Woodside Drive,41.6527,-91.5515268
-8119,Oakcrest Street #5,41.6536397,-91.5502929
-8120,Woodside Place and Greenwood Drive,41.6522991,-91.5486372
-8121,Greenwood Drive and Benton Street,41.6505415,-91.5503293
-8122,Seville Apartments,41.6504699,-91.5524894
-8123,Benton Street and Oaknoll Drive,41.65049,-91.5545407
-8124,Benton Street and George Street,41.65048,-91.5567692
-8125,Benton Street and Streb Street,41.65047,-91.5582953
-8126,Sunset Street and Arbury Drive,41.6489166,-91.5594995
-8127,Sunset Street and Penfro Drive,41.6472665,-91.5590197
-8128,Sunset Street and Denbigh Drive,41.6455906,-91.5594197
-8129,Sunset Street and Aber Avenue,41.6433302,-91.5601499
-8013,Westport Plaza 1,41.64513,-91.55362
-8014,Westport Plaza 2,41.644798,-91.5506468
-8012,Ruppert Road and Hwy 1 West,41.6468391,-91.5499
-8010,Hwy 1 West and Miller Avenue,41.6473499,-91.546706
-8015,Hwy 1 West and Slagers,41.6474,-91.54417
-8006,Riverside Drive and Benton Street,41.6501898,-91.5400899
-8003,Riverside Drive and Myrtle Avenue,41.6536473,-91.5403695
-8001,Hydraulics Lab--Boyd Law School,41.6578276,-91.5416894
-7079,UI Lindquist Center,41.6585424,-91.53764
-7081,Madison Street and Washington Street,41.659898,-91.53764
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7080;UI Main Library;41.6595407;-91.53775
+8100;UI Hospital Emergency Entrance;41.6585899;-91.54532
+8101;UI Family Care;41.6569099;-91.5473631
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545608
+8107;Melrose Avenue and George Street;41.6563802;-91.5571588
+8109;Sunset Street and Melrose Avenue;41.6554656;-91.5596903
+8111;Sunset Street and Marietta Avenue;41.6534251;-91.5595898
+8113;Sunset Street and Oakcrest Street;41.6519097;-91.5595399
+8115;Oaknoll Retirement Center #1;41.6519104;-91.5563774
+8116;Oaknoll Retirement Center #2;41.652039;-91.5543038
+8117;Oakcrest Street #3;41.6517785;-91.552639
+8118;Oakcrest Street and Woodside Drive;41.6527;-91.5515268
+8119;Oakcrest Street #5;41.6536397;-91.5502929
+8120;Woodside Place and Greenwood Drive;41.6522991;-91.5486372
+8121;Greenwood Drive and Benton Street;41.6505415;-91.5503293
+8122;Seville Apartments;41.6504699;-91.5524894
+8123;Benton Street and Oaknoll Drive;41.65049;-91.5545407
+8124;Benton Street and George Street;41.65048;-91.5567692
+8125;Benton Street and Streb Street;41.65047;-91.5582953
+8126;Sunset Street and Arbury Drive;41.6489166;-91.5594995
+8127;Sunset Street and Penfro Drive;41.6472665;-91.5590197
+8128;Sunset Street and Denbigh Drive;41.6455906;-91.5594197
+8129;Sunset Street and Aber Avenue;41.6433302;-91.5601499
+Inbound
+8013;Westport Plaza 1;41.64513;-91.55362
+8014;Westport Plaza 2;41.644798;-91.5506468
+8012;Ruppert Road and Hwy 1 West;41.6468391;-91.5499
+8010;Hwy 1 West and Miller Avenue;41.6473499;-91.546706
+8015;Hwy 1 West and Slagers;41.6474;-91.54417
+8006;Riverside Drive and Benton Street;41.6501898;-91.5400899
+8003;Riverside Drive and Myrtle Avenue;41.6536473;-91.5403695
+8001;Hydraulics Lab, Boyd Law School;41.6578276;-91.5416894
+7079;UI Lindquist Center;41.6585424;-91.53764
+7081;Madison Street and Washington Street;41.659898;-91.53764

@@ -1,4 +1,4 @@
-Finals Week Interdorm,interdormfnls,uiowa
-Hawkeye Interdorm,hawkdorm,uiowa
-Interdorm,interdorm,uiowa
-Red,red,uiowa
+Finals Week Interdorm;interdormfnls;uiowa
+Hawkeye Interdorm;hawkdorm;uiowa
+Interdorm;interdorm;uiowa
+Red;red;uiowa

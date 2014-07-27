@@ -1,808 +1,806 @@
-0001,Downtown Interchange,41.66017,-91.5359
-0002,Downtown Interchange,41.66004,-91.53498
-0100,Softball Complex,41.6686761,-91.5651445
-0120,Macbride Hall,41.66246,-91.535783
-0125,IMU,41.6623626,-91.5376186
-0145,English Philosophy Building--IMU,41.6612,-91.5403504
-0146,English Philosophy Building--IMU,41.66135,-91.5384996
-0241,Carver Hawkeye Arena,41.6633887,-91.5538508
-0245,Newton and Lincoln,41.6635703,-91.5512418
-0246,Dental College,41.6634819,-91.5510002
-0253,VA Hospital,41.6626701,-91.5486194
-0254,VA Hospital,41.662671,-91.5483781
-0256,MERF,41.66328,-91.5450199
-0257,Newton Road Ramp,41.6634,-91.5459966
-0263,UI Student Health,41.6627106,-91.5435114
-0264,IIBD,41.6624947,-91.5436291
-0320,The Lodge,41.6474507,-91.5491329
-0340,12th/North Ridge,41.7001336,-91.5862129
-0341,12th Avenue and North Ridge Drive,41.6999383,-91.5860106
-0345,12th/Liberty Lane,41.695978,-91.583047
-0346,12th Avenue and Liberty Lane,41.6961537,-91.5831617
-0350,Holiday Road and Oak Lake Park Road,41.6949603,-91.5808127
-0351,Holiday Road and Oak Lake Park Road,41.69495,-91.5805
-0354,Holiday Road and Westview,41.6934103,-91.5763818
-0355,Holiday Road and Eastview,41.69334,-91.5751768
-0360,Holiday Road and High Country Road,41.6934889,-91.5733273
-0361,Holiday Road and Old Hickory Lane,41.693518,-91.570652
-0365,Holiday Road and Lakewood Hills,41.69298,-91.56827
-0366,Holiday Road and Lakewood Hills,41.69295,-91.56838
-0375,Coral Center,41.6783269,-91.5659203
-0385,Clear Creek,41.6697357,-91.56534
-1000,Mayflower Hall,41.6768599,-91.53203
-1005,Park Road South,41.6714601,-91.5337446
-1006,Park Road Bridge North,41.67157,-91.5337499
-1010,Church Street North,41.6680199,-91.5334499
-1011,Church Street South,41.6679699,-91.53345
-1015,Currier,41.66591,-91.5345999
-1016,Burge,41.6656199,-91.53451
-1021,Pappajohn BB,41.6626235,-91.5346399
-1025,IMU,41.66231,-91.53773
-1030,Clinton & Iowa,41.6607663,-91.5346897
-1034,Clinton & College,41.6591417,-91.53469
-1038,Clinton Street Music,41.65675,-91.5347
-1039,Court & Clinton,41.65658,-91.5348551
-1040,Clinton & Prentiss,41.6545541,-91.5347469
-1050,Main Library,41.6586058,-91.53775
-1051,Communications Center,41.6592596,-91.53765
-1060,ERF,41.6573639,-91.53766
-1064,Madison St  - Lot 11,41.65603,-91.53771
-1070,Prentiss & Madison,41.65446,-91.5375684
-2000,WCTC,41.659423,-91.5521708
-2014,Hawkins & Elliott,41.6621145,-91.5541481
-2017,Arena on Hawkins,41.6623203,-91.5554711
-2020,Arena East - PM,41.6622217,-91.5562692
-2022,Arena West - PM,41.6625297,-91.5575789
-2025,Finkbine Entrance,41.662884,-91.5587379
-2030,Finkbine North,41.6619779,-91.5610071
-2031,Finkbine South,41.66106,-91.56081
-2040,Dental on Elliott,41.663007,-91.5540364
-2041,Carver Hawkeye Arena,41.66339,-91.55385
-2042,Carver Special,41.6640792,-91.5535585
-2050,VA Loop,41.6624296,-91.54886
-2070,Family Care,41.6569098,-91.5473614
-2071,Melrose Court,41.6568102,-91.5471072
-2080,Rienow Hall,41.6585399,-91.5447099
-2081,Slater Hall,41.65841,-91.5446599
-2085,Law Building,41.6583197,-91.5437977
-2100,Art Building,41.6650436,-91.5409434
-2101,Art Building West,41.6649868,-91.5410616
-2105,Riverside & River St,41.6660243,-91.5406194
-2106,Theatre Building,41.6662493,-91.5405211
-2110,Hancher/Park Road,41.6712267,-91.538201
-2112,Clapp Hall,41.6686205,-91.5392104
-2114,Hancher Lot East,41.6694557,-91.53921
-2115,Hancher Lot West,41.6695146,-91.5392598
-2120,Hancher/North Riverside,41.6679094,-91.5401154
-2121,Levitt Center,41.6711169,-91.53825
-2125,Parklawn,41.671165,-91.5404479
-3000,Postal Road/Old Hospital Rd,41.7063083,-91.6021354
-3001,Research Park East Lot,41.70468,-91.59693
-3002,Research Park West Lot,41.7062798,-91.6016678
-3004,North Lawn,41.70635,-91.6030142
-3010,IREH,41.7072194,-91.60403
-3015,Research Park Exit,41.7082137,-91.6047606
-3020,Vangent,41.7088585,-91.6028584
-3025,NADS,41.7084399,-91.5998496
-3035,12th & Oakdale,41.7043307,-91.5881653
-3036,12th Ave & Oakdale Blvd,41.7045167,-91.5884675
-3070,Holiday Inn inbound,41.6883572,-91.5642104
-3071,Holiday Inn outbound,41.6883012,-91.56401
-3072,IRL West,41.6819499,-91.56564
-3073,IRL East,41.6819299,-91.56557
-3076,McDonalds,41.6783587,-91.5660395
-3106,Hawk Court 2,41.6670399,-91.5717899
-3110,Recreation Fields North,41.66447,-91.5784411
-3111,Recreation Fields South,41.664416,-91.5783522
-3125,Hawk Lot 1,41.663364,-91.583469
-3130,Hawk Lot 2,41.6627145,-91.5847817
-3140,Prairie Meadow & Hawk Drive,41.66153,-91.5799665
-3142,Hawk Drive 1,41.6606003,-91.5801699
-3144,Hawk Drive 2,41.6594717,-91.5801999
-3146,Hawk Drive 3,41.6583554,-91.5802199
-3151,Sports Medicine Clinic North,41.6600259,-91.5779466
-3155,Hall of Fame North,41.6599598,-91.5762705
-3200,Studio Arts Building,41.6415,-91.55676
-3300,Burlington & Gilbert St,41.6577799,-91.5303992
-3310,Burlington & Johnson St,41.6577799,-91.5274134
-3320,Burlington & Lucas St,41.65775,-91.5244527
-3330,Governor & College St,41.6587776,-91.52283
-3340,Governor & Washington St,41.6598966,-91.52281
-3350,Governor & Iowa Ave,41.6610437,-91.5227999
-3360,Governor & Jefferson St,41.6622602,-91.5227799
-3370,Market & Lucas St,41.66354,-91.524131
-3380,Market & Johnson St,41.6635599,-91.527039
-3390,Market & Gilbert St,41.66358,-91.5299692
-4010,Highway 6 and Hawkins,41.6662111,-91.5584739
-4015,Highway 6 and 1st Avenue - Hardees,41.66949,-91.56666
-4021,4th Avenue and Highway 6,41.6720387,-91.5712601
-4030,1st Avenue and 5th Street,41.6731409,-91.5654801
-4031,1st Avenue and 5th Street,41.6731232,-91.5656308
-4040,6th Street and 1st Avenue - Scotch Pine,41.67645,-91.5674499
-4041,6th Street and 1st Avenue,41.6764398,-91.566254
-4050,6th Street and 4th Ave,41.6764,-91.5692396
-4051,6th Street and 4th Ave. - Scotsdale,41.6763599,-91.5688916
-4055,4th Ave. and 6th Street,41.6764904,-91.5697499
-4060,7th Street and 4th Avenue Place,41.6776998,-91.5701475
-4061,7th Street and 4th Avenue Place.,41.67765,-91.5702015
-4070,7th Street and 6th Avenue,41.6779797,-91.5734474
-4071,7th Street and 6th Avenue,41.6779506,-91.573706
-4080,7th Street and 7th Avenue,41.6780996,-91.5746166
-4081,7th Street and 7th Avenue,41.6780705,-91.5748757
-4090,7th Street and 10th Avenue,41.6784195,-91.577966
-4091,7th Street and 10th Avenue,41.67839,-91.5782533
-4100,7th Street and 12th Avenue,41.6784598,-91.5802591
-4101,12th Avenue and 7th Street,41.6785582,-91.5804298
-4102,12th Avenue and 7th Street,41.6783528,-91.58038
-4105,8th Street and 12th Avenue,41.68172,-91.5805647
-4110,14th Avenue and 8th Street,41.6819343,-91.58233
-4111,14th Avenue and 8th Street,41.68188,-91.5824
-4120,14th Avenue and 9th Street,41.6841561,-91.5821605
-4121,14th Avenue and 9th Street,41.6843468,-91.5822398
-4130,14th Avenue and 10th Street,41.6866191,-91.58214
-4131,14th Avenue and 10th Street.,41.68671,-91.5823538
-4140,10th Street and 17th Avenue,41.68681,-91.5860127
-4141,10th Street and 17th Avenue,41.68676,-91.5859354
-4151,10th Street and 19th Avenue,41.68679,-91.5879664
-4160,10th Street and 20th Avenue,41.6868502,-91.5894998
-4161,10th Street and 20th Avenue,41.6868101,-91.5898053
-4162,20th Avenue and 10th Street,41.68672,-91.58963
-4170,10 th Street and 10th Street Ct.,41.6872752,-91.5913076
-4171,10th Street and 10th Street Ct.,41.6873529,-91.5915439
-4180,10th Street and 22nd Avenue,41.68802,-91.5936465
-4181,10th Street and 22nd Avenue,41.6879696,-91.5938763
-4190,10th Street and 23th Avenue,41.6879099,-91.5965599
-4191,10th Street and 23rd Avenue,41.6879512,-91.5968841
-4192,23th Avenue and 10th Street,41.6878296,-91.5967401
-4200,10th Street and North Boston Way,41.6882199,-91.599386
-4210,10th Street and 25th Avenue,41.6879899,-91.6032075
-4220,Coral Ridge Mall,41.6901202,-91.6005274
-4230,10th Street and South Boston Way,41.6879489,-91.6017342
-4240,23rd Avenue and 9th Street,41.6851015,-91.5976699
-4241,9th Street and 23rd Avenue,41.6850302,-91.5974782
-4250,9th Street and Oakleaf Street,41.6853694,-91.5947239
-4251,9th Street and Oakleaf,41.6854102,-91.5946875
-4260,9th Street and 21st Avenue,41.68339,-91.5946796
-4261,9th Street and 21st Avenue,41.6834907,-91.5942948
-4265,22nd Avenue and 10th Street Place,41.6867215,-91.5936703
-4270,9th Street and 20th Avenue Place,41.6838197,-91.5914932
-4271,9th Street and 20th Avenue Place,41.6838699,-91.5912839
-4280,9th Street and 20th Avenue,41.6837998,-91.5899093
-4281,20th Avenue and 9th Street,41.6837265,-91.5897207
-4290,20th Avenue and 8th Street,41.6824053,-91.5917276
-4291,8th Street and 20th Avenue,41.68228,-91.5915601
-4300,20th Avenue and 5th Street,41.6809365,-91.5909767
-4301,20th Avenue and 5th Street,41.680959,-91.5907304
-4310,5th Street and 18th Avenue - Coral Village,41.67941,-91.5883303
-4311,5th Street and 18th Avenue - Coral Village,41.6793585,-91.5879142
-4320,5th Street and 7th Street - City Hall,41.6780821,-91.5847943
-4321,5th Street and 7th Street - City Hall,41.6777071,-91.5839343
-4330,5th Street and 12th Avenue - West Music,41.6764306,-91.5815113
-4331,5th Street and 12th Avenue - Library,41.6769294,-91.5823988
-4340,5th Street and 10th Avenue - Post Office,41.6748803,-91.5784307
-4341,5th Street and 10th Avenue - Post Office,41.67481,-91.57812
-4351,5th Street and 8th Avenue,41.6745505,-91.5758955
-4360,5th Street and 6th Avenue,41.6743399,-91.5742098
-4361,5th Street and 6th Avenue,41.6743307,-91.5736177
-4370,5th Street and 4th Avenue,41.6740705,-91.5714557
-4371,4th Avenue and 5th Street,41.6739845,-91.5712702
-4372,5th Street and 4th Avenue,41.6740901,-91.5711213
-4380,5th Street and 2nd Avenue Place,41.6737599,-91.5681693
-4381,5th Street and 2nd Avenue Place,41.6738007,-91.5680777
-5010,Highway 6 and 6th Avenue,41.671881,-91.5750435
-5020,Highway 6 and 10th Avenue,41.6732999,-91.5791898
-5030,Highway 6 Park Place Stop,41.6762009,-91.5849419
-5040,Highway 6 and 22nd Ave.,41.6807681,-91.5938264
-5041,Highway 6 and 22nd Avenue,41.6813123,-91.5952344
-5050,Commerce Drive and Highway 965 - Walmart,41.69594,-91.61054
-5051,Commerce Drive and Highway 965 - Walmart,41.69574,-91.61108
-5060,Commerce Drive and Commercial Park,41.6956506,-91.613632
-5061,Commerce Drive and Commercial Park,41.6955305,-91.6132247
-5070,Heartland Drive and Commercial Park - Rockwell Collins,41.6985175,-91.6137255
-5071,Heartland Drive and Commercial Park - Rockwell Collins,41.6985699,-91.61374
-5080,Heartland Place and Heartland Drive,41.7000861,-91.6100699
-5090,Goodwill,41.6989048,-91.6097679
-5100,Holiday Road and North Coral Street,41.69862,-91.60563
-5101,Holiday Road and North Coral Street - Hope House,41.6984,-91.6055
-5110,Holiday Road - North Ridge Park,41.6948589,-91.5964174
-5111,Holiday Road - North Ridge Park,41.6949097,-91.5964353
-5120,Lynncrest Drive and Holiday Road.,41.69656,-91.5923
-5121,Lynncrest Drive and Holiday Road,41.6963935,-91.5922818
-5130,Lynncrest Drive and North Ridge Drive,41.6986547,-91.5933573
-5131,North Ridge Drive and Lynncrest Drive,41.6988116,-91.5933141
-5140,North Ridge Drive and Waterford,41.6985906,-91.5911682
-5141,North Ridge Drive and Waterford,41.6986299,-91.5909591
-5150,North Ridge Drive and Farrell Drive,41.69856,-91.5892651
-5151,North Ridge Drive and Farrell Drive,41.6986001,-91.5892585
-5160,North Ridge Drive and 12th Ave.,41.6999478,-91.5861747
-5170,12th Avenue and South Ridge Drive,41.6986502,-91.5850901
-5171,12th Avenue and South Ridge Drive,41.6984539,-91.584863
-5181,Liberty Lane and 12th Avenue,41.6959611,-91.5832254
-5190,Liberty Lane and Holiday Road,41.6955623,-91.5865272
-5191,Holiday Road and Liberty Lane,41.6953867,-91.5864856
-5200,Holiday Road and 12th Ave.,41.6948697,-91.5830115
-5201,12th Avenue and Holiday Road,41.6947655,-91.582789
-5202,12th Avenue and Holiday Road,41.6950187,-91.5829117
-5210,12th Avenue and Ozark Ridge,41.6915851,-91.5825704
-5211,12th Avenue and Ozark Ridge,41.6913615,-91.5824305
-5220,12th Avenue and 10th Street,41.6868537,-91.5815712
-5221,12th Avenue and 10th Street,41.68662,-91.58141
-5222,10th Street and 12th Avenue,41.6867,-91.5816211
-5230,12th Avenue and 8th Street,41.6818947,-91.5804837
-5231,12th Avenue and 8th Street,41.6808955,-91.5803098
-5250,Highway 6 - Dairy Queen,41.6721512,-91.5763443
-5260,12th Avenue and 6th Street,41.6767136,-91.5804099
-5280,Holiday Road and Southridge Drive,41.69636,-91.5897736
-5290,Holiday Road and Waterford,41.69636,-91.5909443
-5800,Front Street and Vandello,41.7253065,-91.5981098
-5801,Front and Vandello,41.7253085,-91.5981898
-5810,Front Street and Weston,41.7355277,-91.5979699
-5811,Front Street and Weston,41.7357937,-91.59804
-5820,Front Street and Zeller,41.74466,-91.59794
-5821,Front Street and Zeller,41.7448809,-91.59802
-5830,Front Street and Cherry Street,41.7484248,-91.59796
-5831,Front Street and Cherry Street,41.74832,-91.59803
-5840,North Liberty Rec Center,41.750534,-91.60615
-5850,Golfview Dr and Heidi Lane,41.7369498,-91.5997264
-5851,Golfview Drive and Rebecca Street,41.7368801,-91.5988551
-5855,Golfview Drive at the Holiday MH Park,41.7371399,-91.6065135
-5856,Golfview Drive at the Holiday MH Park,41.7370715,-91.6062752
-5860,Fairview Lane and Augusta Circle,41.7378497,-91.6097568
-5861,Augusta Circle and Fairview Lane,41.7377899,-91.6099799
-5865,Augusta Circle and Sugar Creek Lane,41.7396917,-91.6102692
-5866,Sugar Creek Lane and Augusta Circle,41.7398495,-91.6101705
-5870,Sugar Creek Lane and Praire Ridge Road,41.7423744,-91.6089
-5871,Sugar Creek Lane and Praire Ridge Road,41.742374,-91.6089801
-5875,Sugar Creek Lane and W Zeller Street,41.7448753,-91.6088823
-5876,W Zeller Street and Sugar Creek Lane,41.7449786,-91.6088497
-5900,2nd Avenue and 7th Street,41.67893,-91.56411
-5910,6th Street and 5th Avenue - Coralville Central,41.6757894,-91.57251
-5920,6th Street and 6th Avenue,41.6758518,-91.5735747
-5930,Northwest Jr. High,41.68182,-91.58438
-5940,8th Street and 18th Avenue,41.6820187,-91.5875558
-5950,18th Ave. and 20th Avenue,41.6838396,-91.5895747
-5960,Southridge Court,41.6938064,-91.5929851
-5970,Quarry Road and 7th Street,41.678964,-91.5612976
-7001,US Post Office,41.6567475,-91.5347
-7002,Court Street  and Dubuque Street,41.6565501,-91.5333346
-7003,Court Street and Dubuque Street,41.65663,-91.5326785
-7004,Court Street Transportation Center,41.65663,-91.53346
-7005,Court Street  and Gilbert Street,41.65655,-91.5304428
-7006,Court Street  and Maiden Lane,41.65662,-91.5310534
-7007,Gilbert Street and Prentiss Street,41.6544878,-91.5303098
-7008,Gilbert Street and Bowery Street,41.6539983,-91.5301502
-7009,Gilbert Street and Benton Street,41.6511681,-91.5317006
-7010,Gilbert Street and Benton Street,41.6510004,-91.5316098
-7011,Gilbert Street and Kirkwood Avenue,41.64957,-91.53206
-7012,Gilbert Street and Kirkwood Avenue,41.6493396,-91.53194
-7013,Kirkwood Avenue and Gilbert Street,41.6493899,-91.5321959
-7014,Gilbert Street and 3rd Avenue,41.6463007,-91.5320799
-7015,Gilbert Street and 3rd Avenue,41.6463427,-91.53194
-7016,Highland Avenue and Gilbert Street,41.6458296,-91.5317848
-7017,Hy Vee,41.6422827,-91.5280598
-7018,Hy Vee,41.6427835,-91.5279598
-7019,Boyrum Street and Southgate Avenue,41.6408142,-91.5280899
-7020,Southgate Avenue and Boyrum Street,41.64071,-91.5278258
-7021,Southgate Avenue and Boyrum Street,41.64064,-91.5278639
-7022,Southgate Avenue and Waterfront Drive,41.64065,-91.5303352
-7023,Southgate Avenue and Gilbert Street,41.64065,-91.5331312
-7024,Gilbert Street and Stevens Drive,41.6430205,-91.5335999
-7025,Hills Bank--Aldi,41.6444502,-91.5330797
-7026,Southgate Avenue and Keokuk Street,41.6406101,-91.5251275
-7027,K-Mart,41.6406896,-91.5255028
-7028,Keokuk Street and Cross Park Avenue,41.6391536,-91.5249998
-7029,Keokuk Street and Cross Park Avenue,41.6384881,-91.5248801
-7030,Sandusky Drive and Hickory Court,41.63777,-91.5242062
-7031,Sandusky Drive and Keokuk Street,41.6378496,-91.5246994
-7032,Sandusky Drive and Broadway Street,41.6371782,-91.520747
-7033,Sandusky Drive and Broadway Street,41.6375792,-91.5207144
-7034,Crosspark Avenue #1,41.63904,-91.5225437
-7035,Crosspark Avenue and Broadway Street,41.6390301,-91.5206599
-7036,Broadway Street #1,41.640838,-91.5204177
-7037,Goodwill--Kmart,41.6412573,-91.5221991
-7038,Sandusky Drive and Taylor Drive,41.6369698,-91.5185133
-7039,Taylor Drive and Sandusky Drive,41.6369839,-91.518339
-7040,Taylor Drive and Hollywood Blvd.,41.640489,-91.5180105
-7041,Hollywood Blvd. Mid -block,41.6403599,-91.5147088
-7042,Hollywood Blvd. and Sycamore Street,41.6403,-91.51182
-7043,Hollywood Blvd. and Delwood Drive,41.6393197,-91.5104055
-7044,Hollywood Blvd. and Grantwood Street,41.639791,-91.5074436
-7045,Hollywood Blvd. and Fairmeadows Blvd.,41.6382393,-91.5041089
-7046,Hollywood Blvd. and Frontage Road,41.636355,-91.5010279
-7047,Dolphin Point Enclave,41.6360363,-91.4993494
-7048,Frontage Road and Lakeside Drive,41.6349047,-91.4975069
-7049,Lakeside Drive and Hwy6,41.6350333,-91.4978765
-7050,Frontage Road,41.6331678,-91.4944326
-7051,Riviera Drive and Frontage Road,41.6325852,-91.4936347
-7052,Lakeside Drive and Whispering Prairie Avenue,41.6334205,-91.4998562
-7053,Lakeside Drive and Nevada Avenue,41.63343,-91.5016023
-7054,Lakeside Drive and Miami Drive,41.6334599,-91.5044004
-7055,Miami Drive and California Avenue,41.635254,-91.5030567
-7056,California Avenue and Union Avenue,41.636309,-91.5048713
-7057,Grantwood Elementary,41.63633,-91.507284
-7058,California Avenue and Sycamore Street,41.6361802,-91.5114694
-7059,Burns Avenue and California Avenue,41.6360186,-91.5140922
-7060,Burns Avenue and Taylor Drive,41.6354857,-91.5182761
-7061,Sycamore Mall,41.6429927,-91.5115898
-7062,Kirkwood College - Sycamore St,41.6438843,-91.5115703
-7063,Kirkwood College - Highland Ave,41.6458299,-91.51215
-7064,Highland Avenue and Pine Street,41.6458299,-91.5134817
-7065,Highland Avenue and Franklin Street,41.64581,-91.5159339
-7066,Highland Avenue and Ridge,41.64582,-91.519071
-7067,Highland Avenue and Lukurk Street,41.64585,-91.5206804
-7068,Highland Avenue and Keokuk Street,41.64593,-91.52332
-7069,Highland Avenue and Boyrum Street,41.64584,-91.5277489
-7070,Highland Avenue and Gilbert Court,41.64582,-91.5303666
-7071,Benton Street and Clinton Street,41.65114,-91.53457
-7072,Benton Street and Capitol Street,41.6511599,-91.5360688
-7073,City Carton,41.6515475,-91.5362863
-7074,Capitol Street and Prentiss Street,41.654307,-91.53618
-7075,Capitol Street and Prentiss Street,41.6545395,-91.53626
-7076,Capitol Street and Harrison Street,41.655387,-91.53617
-7077,Court Street and Capitol Street,41.65659,-91.53642
-7078,Court Street and Madison Street,41.6566599,-91.5375097
-7079,UI Lindquist Center,41.6585444,-91.53764
-7080,UI Main Library,41.6595407,-91.53775
-7081,Madison Street and Washington Street,41.6599,-91.5376399
-7082,Washington Street and Madison Street,41.66015,-91.5374557
-7090,Iowa Avenue and Madison Street,41.6612397,-91.5378993
-7091,Dubuque Street and Market Street,41.6634525,-91.5330101
-7092,Dubuque Street and Davenport Street,41.665683,-91.5329801
-7093,Dubuque Street and Church Street,41.6678493,-91.53295
-7100,Bowery Street and Gilbert Street,41.65414,-91.5300188
-7101,Bowery Street and Van Buren Street,41.65413,-91.5286493
-7102,Bowery Street  and Johnson Street,41.6540899,-91.5274713
-7103,Bowery Street and Johnson Street,41.65413,-91.5271876
-7104,Bowery Street  and Dodge Street,41.65407,-91.52603
-7105,Dodge Street and Bowery Street,41.65422,-91.52584
-7106,Dodge Street and Walnut Street,41.6506464,-91.5261899
-7107,Dodge Street and Walnut Street,41.6506671,-91.5260799
-7108,Kirkwood Avenue and Dodge Street,41.64941,-91.5257941
-7109,Kirkwood Avenue and Dodge Street,41.6494699,-91.5259274
-7110,Kirkwood Avenue and Keokuk Street,41.64941,-91.5234773
-7111,Kirkwood Avenue and Keokuk Street,41.6494699,-91.5233102
-7112,Kirkwood Avenue and Howell Street,41.6494199,-91.5203052
-7113,Kirkwood Avenue and Summit Street,41.64947,-91.5208193
-7114,Kirkwood Avenue and Franklin Street,41.6494297,-91.5158479
-7115,Kirkwood Avenue and Franklin Street,41.649369,-91.5155587
-7116,Kirkwood Avenue and Roosevelt Street,41.64948,-91.5180611
-7117,Lower Muscatine Avenue and Pine Street,41.6476681,-91.5134477
-7118,Lower Muscatine Avenue and Pine Street,41.647751,-91.5136312
-7119,Mid American Energy,41.6461702,-91.5116902
-7120,Kirkwood Community College,41.64517,-91.51046
-7121,Kirkwood Community College,41.6450375,-91.5102369
-7122,Sycamore Mall,41.6441448,-91.5093058
-7123,Lower Muscatine Avenue and Mall Drive,41.6434348,-91.5082448
-7124,Iowa DOT--IC Fire Department,41.64186,-91.50537
-7125,Lower Muscatine Avenue and Fairmeadows Blvd.,41.6392088,-91.502878
-7126,Hwy 6 East and Heinze Road,41.6314852,-91.4903717
-7127,Heinz Road and Hwy 6 East,41.6320408,-91.4909793
-7128,Goodwill Warehouse,41.6303883,-91.4803201
-7129,ACT,41.6306694,-91.4826856
-7130,ACT,41.6307708,-91.4829
-7131,Systems Unlimited,41.6352909,-91.48281
-7132,Heinz Road and Scott Blvd.,41.63643,-91.4833155
-7133,United Natural Foods,41.6372925,-91.4895185
-7134,Eastdale Plaza--IC Fire Department,41.6417796,-91.5062395
-7135,Sycamore Mall Cinema Theater,41.64248,-91.51027
-7200,IC Library--Senior Center,41.66008,-91.5318697
-7201,Washington Street and Gilbert Street,41.6600195,-91.5303778
-7202,IC Civic Center,41.6598721,-91.5301201
-7203,College Street and Gilbert Street,41.6589899,-91.5299703
-7204,IC Recreaton Center,41.65889,-91.529881
-7205,Gilbert Street and Jefferson Street,41.6622158,-91.53009
-7206,Market Street and Linn Street,41.66359,-91.53143
-7207,Clinton Street and Jefferson Street,41.6626233,-91.5346399
-7208,College Street and Dodge Street,41.6588801,-91.5259583
-7209,College Street and Dodge Street,41.65894,-91.5256057
-7210,Dodge Street and College Street,41.6590304,-91.5258199
-7211,College Street and Summit Street,41.65884,-91.5213502
-7212,College Street and Summit Street,41.6589099,-91.5210598
-7213,College Street and Governor street,41.6589299,-91.5226999
-7214,Summit Street and Court Street,41.6568219,-91.52124
-7215,Summit Street and Bowery Street,41.6541956,-91.5212298
-7216,Longfellow Elementary,41.6522199,-91.5207456
-7217,Sheridan Street and Roosevelt Street,41.6522099,-91.5184271
-7218,Sheridan Street and Oakland Street,41.6522199,-91.5165544
-7219,Sheridan Street and Rundell Street,41.6522099,-91.5140662
-7220,Sheridan Street and 7th Avenue,41.6522099,-91.5117427
-7221,7th Avenue and F Street,41.650699,-91.5115801
-7222,F Street and 6th Avenue,41.65059,-91.5096081
-7223,F Street and Muscatine Avenue,41.65059,-91.5064124
-7224,Muscatine Avenue and 4th Avenue,41.6508265,-91.5062249
-7225,Muscatine Avenue and 4th Avenue,41.6509003,-91.5064404
-7226,Walgreens,41.6495199,-91.5035322
-7227,Walgreens,41.64957,-91.50331
-7228,Hy Vee,41.6501365,-91.50194
-7229,D Street and 3rd Avenue,41.6528,-91.504751
-7230,3rd Avenue and Friendship Street,41.6537064,-91.50485
-7231,Friendship Street and Third Avenue,41.6537006,-91.50485
-7232,Friendship Street and 5th Avenue,41.6539905,-91.5072818
-7233,Friendship Street and Garden Street,41.65473,-91.50982
-7234,Friendship Street and 7th Avenue,41.6551897,-91.5113589
-7235,7th Avenue and Court Street,41.6565787,-91.51157
-7236,Court Street and 7th Avenue,41.6567399,-91.5117401
-7237,Court Street and 7th Avenue,41.6567796,-91.5114363
-7238,City High School,41.6588601,-91.5121689
-7239,College Street and Fairview Street,41.65881,-91.5142692
-7240,College Street and Muscatine Avenue,41.65881,-91.5176629
-7241,Burlington Street and Johnson Street,41.6577799,-91.5274136
-7242,Burlington Street and Johnson Street,41.6578701,-91.5271287
-7243,IC Recreation Center,41.65791,-91.5299756
-7244,Burlington Street and Dubuque Street,41.65792,-91.5329157
-7245,Burlington Street and Lucas Street,41.65775,-91.5244529
-7246,Burlington Street and Lucas Street,41.6578502,-91.5242011
-7247,Burlington Street and Summit Street,41.65773,-91.5213631
-7248,Burlington Street and Summit Street,41.65784,-91.52103
-7249,Burlington Street and Muscatine Avenue,41.65777,-91.5165811
-7250,Muscatine Avenue and Burlington Street,41.6577217,-91.5162238
-7251,Muscatine Avenue and Rundell Street,41.6562484,-91.5142477
-7252,Muscatine Avenue and Court Street,41.6565274,-91.5145064
-7253,Muscatine Avenue and 7th Avenue,41.65448,-91.51169
-7254,Muscatine Avenue and 7th Avenue,41.65441,-91.51149
-7255,Muscatine Avenue and 5th Avenue,41.6518242,-91.5078161
-7256,Muscatine Avenue and 5th Avenue,41.6518376,-91.5077065
-7257,Muscatine Avenue and Wade Street,41.64953,-91.5008884
-7258,Hy Vee,41.6495899,-91.5010343
-7259,Towncrest Medical Offices,41.6484718,-91.4987699
-7260,South East Junior High,41.6475204,-91.49876
-7261,Wayne Avenue and Arthur Street,41.6474499,-91.4972837
-7262,Wayne Avenue and Dover Street,41.6474799,-91.4940426
-7263,Wayne Avenue and Village Road,41.6469395,-91.4911889
-7264,Village Road and Brighton Green,41.6477679,-91.4892561
-7265,Village Road and Village Green Blvd.,41.6480387,-91.4881356
-7266,Muscatine Avenue and Maplewood Lane,41.64975,-91.4881682
-7267,Autumn Park Apartments,41.6496999,-91.4910415
-7268,Muscatine Avenue and Dover Street,41.6496599,-91.4938321
-7269,Muscatine Avenue and Arthur Street,41.64962,-91.497866
-7301,Court Street and Muscatine Avenue,41.6567099,-91.5143601
-7302,Court Street and Muscatine Avenue,41.6567503,-91.5146037
-7303,Court Street and Morningside Drive,41.65674,-91.5083983
-7304,Court Street and Morningside Drive,41.65679,-91.5085523
-7306,City High School,41.6567599,-91.50645
-7307,City High School,41.6568099,-91.5062332
-7308,Hoover Elementary,41.6567502,-91.5035432
-7309,Court Street and 2nd Avenue,41.65682,-91.5032541
-7310,Court Street and 1st Avenue,41.65677,-91.50221
-7311,Court Street and 1st Avenue,41.6568303,-91.5017884
-7312,Court Street and Upland Avenue,41.6567899,-91.5003168
-7313,Upland Avenue and Court Street,41.6566733,-91.5001106
-7314,Court Street and Crestview Avenue,41.6568099,-91.4981113
-7315,Court Street and Linden Court,41.65684,-91.4948704
-7316,Court Street and Westminster Street,41.6568699,-91.4917713
-7317,Court Street and Dartmouth Street,41.6569351,-91.4879149
-7318,Court Street and Friendship Avenue,41.65697,-91.48487
-7319,Friendship Street and Court Street,41.6571235,-91.48471
-7321,Friendship Avenue and Arbor Street,41.6551999,-91.4869984
-7322,Friendship Avenue and Clover Street,41.6551888,-91.4905309
-7323,Friendship Avenue and Norwood Circle,41.6550905,-91.4929278
-7324,Friendship Avenue and Meadow Street,41.6537036,-91.4956332
-7325,Friendship Avenue and Terrace Road,41.6534396,-91.4978139
-7326,Upland Avenue and Crestview Avenue,41.6543067,-91.5003502
-7327,Court Street  and Peterson Street,41.6569799,-91.4830813
-7328,Court Street  and Elmira Street,41.6569806,-91.47926
-7329,Court Street  and Kenneth Drive,41.657152,-91.4736224
-7330,Court Street  and Camden Road,41.6575001,-91.4712667
-7331,Arlington Drive and Court Street,41.6569652,-91.4692094
-7332,Arlington Drive and Cumberland Lane,41.655645,-91.4692425
-7333,Huntington Drive and Arlington Drive,41.6544594,-91.4692674
-7334,Huntington Drive and Cardigan Lane,41.6552999,-91.46587
-7335,Huntington Drive and Court Street,41.6568734,-91.4655293
-7336,Court Street and Camden Road,41.6575802,-91.4710214
-7337,Ashford Place and Chadwick Place,41.6607643,-91.46885
-7338,Ashford Place and York Place,41.6622138,-91.46884
-7339,York Place and Brentwood Lane,41.6633197,-91.4719713
-7340,Brentwood and Camden Street,41.6603411,-91.472187
-7341,Camden Road and Ashford Place,41.6598133,-91.4706444
-7342,Court Street and Kenneth Drive,41.6572774,-91.4733598
-7343,Court Street and Lindeman Drive,41.65704,-91.4777502
-7344,Scott Park Drive and Elgin Drive,41.65782,-91.4802799
-7345,Regency Heights Apts.,41.6603606,-91.4808929
-7346,Scott Blvd. and Lower West Branch Road,41.6648865,-91.48291
-7347,Lower West Branch Road and Middlebury Road,41.6668442,-91.48291
-7400,Clinton Street and Jefferson Street,41.6623264,-91.5345378
-7401,Jefferson Street and Linn Street,41.66243,-91.5317913
-7402,Jefferson Street and Van Buren Street,41.6624099,-91.5288352
-7403,Jefferson Street and Dodge Street,41.6623799,-91.5258752
-7404,Jefferson Street and Governor Street,41.66236,-91.52296
-7405,Clapp Street and Hotz Avenue,41.6628768,-91.5194
-7406,Clapp Street and Rochester Avenue,41.663813,-91.5193701
-7407,Rochester Avenue and Elizabeth Street,41.6639499,-91.5195876
-7408,Rochester Avenue and Pleasant Street,41.6639,-91.5171905
-7409,Rochester Avenue and Pleasant Street,41.6639399,-91.5167398
-7410,Rochester Avenue and Memler Court,41.66388,-91.5150388
-7411,Rochester Avenue and Memler Court,41.66392,-91.5150392
-7412,Rochester Avenue and 7th Avenue,41.66388,-91.5119902
-7413,Rochester Avenue and 7th Avenue,41.66392,-91.51161
-7414,Rochester Avenue and Ashwood Drive,41.6636891,-91.5075384
-7415,Rochester Avenue and Windsor Court,41.6637403,-91.5083251
-7416,Rochester Avenue and Rita Lyn Court,41.6652527,-91.5043104
-7417,Rochester Avenue and Rita Lyn Court,41.6651998,-91.5044602
-7418,Regina Education Center,41.6659246,-91.5032799
-7419,Regina Education Center,41.6659891,-91.5032715
-7420,Rochester Avenue and 1st Avenue,41.6663904,-91.501428
-7421,Rochester Avenue and 1st Avenue,41.66646,-91.50147
-7422,Rochester Avenue and Post Road,41.6667798,-91.4998004
-7423,Rochester Avenue and Post Road,41.6668379,-91.499837
-7424,Rochester Avenue and Mount Vernon Drive,41.6671117,-91.4957327
-7425,Mount Vernon Drive and Rochester Avenue,41.6668158,-91.4955832
-7426,Rochester Avenue and Larch Lane,41.6664301,-91.4933717
-7427,Amhurst Street and Lower West Branch Road,41.6667883,-91.4870309
-7428,Amhurst Street and Tulane Avenue,41.6657882,-91.4872499
-7429,Amhurst Street and Hastings Avenue,41.6638674,-91.486
-7430,Lemme Elementary,41.6624568,-91.4860398
-7431,Amhurst Street and Oberlin Street,41.6610095,-91.4842388
-7432,Amhurst Street and Washington Street,41.6602918,-91.48391
-7433,Washington Street and Raven Street,41.6603404,-91.4853307
-7434,Lemme Elementary - Washington St,41.6610801,-91.488137
-7435,Washington Street and Westminster Street,41.6605704,-91.4922561
-7436,Washington Street and Green Mountain Drive,41.66055,-91.4952501
-7437,Washington Street and Mount Vernon Drive,41.66053,-91.4983333
-7438,Mount Vernon Drive and Concord Circle,41.6630904,-91.4972899
-7439,Mount Vernon Drive,41.6650967,-91.4965061
-7440,Market Street and Governor Street,41.6635298,-91.5225692
-7441,Market Street and Dodge Street,41.6635499,-91.5255773
-7442,North Dodge Street and Market Street,41.6639837,-91.5257699
-7443,Mercy Hospital,41.6635799,-91.5285389
-7444,Johnson Street and Bloomington Street,41.66448,-91.52716
-7445,Bloomington Street and Gilbert Street,41.6646899,-91.5299546
-7446,Gilbert Street and Fairchild Street,41.6667506,-91.5300601
-7447,Gilbert Street and Church Street,41.6678637,-91.5300598
-7448,Church Street and Linn Street,41.66801,-91.5314381
-7449,Church Street and Dubuque Street,41.66801,-91.5328591
-7450,Dubuque Street and Fairchild Street,41.6669994,-91.5331
-7451,Dubuque Street and Davenport Street,41.6659069,-91.5331
-7452,Dubuque Street and Bloomington Street,41.6648037,-91.5331099
-7453,Dubuque Street and Market Street,41.6637219,-91.5331299
-7454,IMU,41.66231,-91.53773
-7455,UI Main Library,41.6605266,-91.5377401
-7456,Washington Street and Van Buren Street,41.66002,-91.5288139
-7457,Washington Street and Dodge Street,41.65999,-91.5260422
-7458,Dodge Street and Burlington Street,41.6579426,-91.5258301
-7459,Dodge Street and Court Street,41.6566677,-91.52583
-7460,Dodge Street #4,41.6552413,-91.52584
-7500,Governor Street and Jefferson Street,41.6625892,-91.52278
-7501,Governor Street and Market Street,41.6633991,-91.52277
-7502,Governor Street and Davenport Street,41.6655946,-91.5227399
-7503,Governor Street and Church Street,41.6680959,-91.52271
-7504,Governor Street and Brown Street,41.6700253,-91.5226899
-7505,Governor Street,41.6724179,-91.5230391
-7506,Governor Street and North Dodge Street,41.67407,-91.52306
-7507,North Dodge Street and Summit Street,41.6751401,-91.5213896
-7508,Hy Vee,41.676809,-91.5168615
-7509,Hy Vee,41.67684,-91.51712
-7510,Iowa City Press Citizen,41.6798503,-91.5108492
-7511,Iowa City Press Citizen,41.6799478,-91.5108042
-7512,North Dodge Street and Scott Blvd.,41.68115,-91.50816
-7513,ACT #1,41.6800362,-91.5027658
-7514,ACT #2,41.6809567,-91.502181
-7515,ACT #3,41.6826,-91.503269
-7516,Northgate Drive #1,41.68996,-91.49446
-7517,Northgate Drive #2,41.6888233,-91.4935505
-7518,Pearson and Northgate Drive,41.6878624,-91.4925921
-7520,Northgate Drive #3,41.6883084,-91.4926036
-7521,Pearson Main Entrance,41.6893169,-91.4998994
-7522,Pearsons Drive and North Dodge Street,41.6902856,-91.497694
-7523,North Dodge Street and ACT Circle,41.6829789,-91.504722
-7524,North Dodge Street and Bristol Drive,41.6788485,-91.5130028
-7525,Prairie du Chien Road and North Dodge Street,41.6756896,-91.52115
-7526,Prairie du Chien Road and Caroline Court,41.6787393,-91.5211999
-7527,Caroline Avenue and Prairie du Chien Road,41.67969,-91.5217092
-7528,Whiting Avenue and Kimball Road,41.6784498,-91.5234648
-7529,Kimball Road and Kimball Court,41.6761577,-91.5236007
-7530,Governor Street and Kimball Road,41.6750739,-91.5239243
-7531,North Dodge Street #1,41.6731857,-91.5243042
-7532,North Dodge Street #2,41.671726,-91.5254457
-7533,North Dodge Street and Brown Street,41.6702277,-91.5256898
-7534,Horace Mann Elementary,41.6673679,-91.52573
-7600,Eastdale Plaza,41.6424999,-91.5047202
-7601,South East Junior High,41.6452482,-91.5019299
-7602,City High School,41.6589592,-91.50863
-7603,Arlington Drive and Canterbury Court,41.65346,-91.47007
-7604,Arlington Drive and American Legion Road,41.6478069,-91.4690811
-7605,American Legion Road and Scott Blvd.,41.6498299,-91.4825984
-7606,Wellington Drive and Scott Blvd.,41.6451,-91.48291
-7607,Scott Blvd. #1,41.6386427,-91.48289
-7608,Sycamore Street and Hollywood Blvd.,41.6403766,-91.5115766
-7609,Wellington Drive and Scott Blvd.,41.6451,-91.48291
-7700,Bon Aire Mobile Home Lodge,41.6314737,-91.4955207
-7701,Frontage Road and Lakeside Drive,41.6350322,-91.4976014
-7750,Kirkwood Avenue and Gilbert Street,41.6494799,-91.5321937
-8000,Hydraulics Lab--Boyd Law School,41.657276,-91.5417485
-8001,Hydraulics Lab--Boyd Law School,41.6578276,-91.5416894
-8002,Riverside Drive and Myrtle Avenue,41.6536266,-91.5405195
-8003,Riverside Drive and Myrtle Avenue,41.6536473,-91.5403695
-8004,Riverside Drive and Riverside Court,41.6550367,-91.540869
-8005,Benton Street and Riverside Drive,41.65039,-91.54083
-8006,Riverside Drive and Benton Street,41.6501898,-91.5400899
-8007,Benton Street and Giblin Drive,41.6503799,-91.5439389
-8008,Benton Street and Hudson Avenue,41.65037,-91.5454375
-8009,Miller Avenue and Hwy 1 West,41.6476311,-91.54654
-8010,Hwy 1 West and Miller Avenue,41.6473499,-91.546706
-8011,The Lodge Apartments,41.6474203,-91.5489878
-8012,Ruppert Road and Hwy 1 West,41.6468391,-91.5499
-8013,Westport Plaza 1,41.64513,-91.55362
-8014,Westport Plaza 2,41.644798,-91.5506468
-8015,Hwy 1 West and Slagers,41.6474,-91.54417
-8016,Gateway Center--Iowa City Transit,41.64656,-91.5402299
-8017,Gateway Center--Iowa City Transit,41.6457772,-91.540221
-8018,Riverside Drive and Ruppert Road,41.6452149,-91.5400814
-8019,South Riverside Drive and Ruppert Road,41.6445104,-91.5398717
-8020,Iowa City Airport,41.6396539,-91.5389617
-8021,Colonial Lanes,41.63105,-91.5426899
-8022,Riverside Drive/ Old Hwy 218 and South Riverside Drive,41.6282678,-91.5436008
-8023,Thatcher/Baculus Trailer Park,41.6316736,-91.5385303
-8024,South Riverside Drive and Commercial Drive,41.63394,-91.5392799
-8025,Moore,41.6364765,-91.5386307
-8050,VA Hospital - Woolf Ave,41.6638178,-91.54976
-8051,VA Hospital - Woolf Ave,41.6638148,-91.5498202
-8052,Woolf Avenue and Bayard Street,41.6656108,-91.5497099
-8053,Woolf  Avenue and Rider Street,41.6658541,-91.5497702
-8054,Woolf Avenue and River Street,41.6675067,-91.5496501
-8055,River Street and Woolf Avenue,41.66771,-91.5499082
-8056,River Street and Lee Street,41.6677896,-91.5512709
-8058,Lee Street and Highwood Street,41.6689069,-91.5511605
-8059,Lee Street and Highwood Street,41.6688752,-91.551239
-8060,Lee Street and Park Road,41.6712353,-91.5507807
-8061,Park Road and Normandy Drive,41.67138,-91.5498182
-8062,Park Road and Lexington Avenue,41.67132,-91.548463
-8063,Park Road and Lexington Avenue,41.67138,-91.5484406
-8064,Park Road and Magowen Avenue,41.67134,-91.5458909
-8066,Park Road and Beldon Avenue,41.67135,-91.5433176
-8067,Park Road and Beldon Avenue,41.6714,-91.5433276
-8068,Upper City Park,41.6713499,-91.54064
-8069,Upper City Park,41.6713999,-91.5402613
-8070,Lower City Park,41.6714398,-91.5354107
-8071,Lower City Park entrance,41.6715311,-91.535461
-8072,Dubuque Street and Kimball Road,41.6729497,-91.53257
-8073,Dubuque Street and Park Road,41.6719268,-91.532849
-8074,Mayflower Dorm,41.6768691,-91.5320302
-8075,Mayflower Dorm,41.6766171,-91.5324685
-8076,Dubuque Street and Ridge Road,41.6785238,-91.5321928
-8077,Dubuque Street and Taft Speedway,41.679555,-91.5334353
-8078,Foster Road and Dubuque Street,41.6809278,-91.5355468
-8079,Foster Road and Laura Drive,41.68114,-91.5377
-8080,Laura Drive and Foster Road,41.6813262,-91.5379936
-8081,Foster Road and Laura Drive,41.6810402,-91.5373319
-8082,Forest View Trailer Park,41.68426,-91.54052
-8083,Foster Road and Idyllwild Drive,41.6813994,-91.5399348
-8084,Foster Road and Idyllwild Drive,41.6813704,-91.540125
-8085,Foster Road and Algonquin Road,41.67998,-91.5483286
-8086,Foster Road and Algonquin Road,41.67993,-91.5481996
-8087,Foster Road and 900 Block,41.6794055,-91.5531359
-8088,Foster Road and Swisher Street,41.6771594,-91.5545713
-8089,Swisher Street and Foster Road,41.6770076,-91.5546703
-8090,Walker Circle and Moses Bloom Lane,41.6763123,-91.5565264
-8100,UI Hospital Emergency Entrance,41.6585899,-91.54532
-8101,UI Family Care,41.6569099,-91.5473631
-8102,UI Family Care,41.65681,-91.5471057
-8103,Melrose Avenue and South Grand Avenue,41.6567799,-91.5446784
-8104,Melrose Avenue and Hawkins Drive,41.65683,-91.5501474
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545606
-8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542876
-8107,Melrose Avenue and George Street,41.6563803,-91.5571586
-8108,Melrose Avenue and George Street,41.6563801,-91.5568448
-8109,Sunset Street and Melrose Avenue,41.6554656,-91.5596903
-8110,Sunset Street and Melrose Avenue,41.6556071,-91.5596098
-8111,Sunset Street and Marietta Avenue,41.6534251,-91.5595898
-8112,Sunset Street and Marietta Avenue,41.6532441,-91.5595098
-8113,Sunset Street and Oakcrest Street,41.65191,-91.55954
-8114,Sunset Street and Oakcrest Street,41.6516781,-91.5594599
-8115,Oaknoll Retirement Center #1,41.6519082,-91.5563876
-8116,Oaknoll Retirement Center #2,41.6520404,-91.5543142
-8117,Oakcrest Street #3,41.6517799,-91.5526494
-8118,Oakcrest Street and Woodside Drive,41.65269,-91.55153
-8119,Oakcrest Street #5,41.6536401,-91.5503068
-8120,Woodside Place and Greenwood Drive,41.6523088,-91.5486397
-8121,Greenwood Drive and Benton Street,41.65054,-91.55033
-8122,Seville Apartments,41.6504699,-91.5524894
-8123,Benton Street and Oaknoll Drive,41.65049,-91.5545407
-8124,Benton Street and George Street,41.65048,-91.5567692
-8125,Benton Street and Streb Street,41.65047,-91.5582953
-8126,Sunset Street and Arbury Drive,41.6489166,-91.5594995
-8127,Sunset Street and Penfro Drive,41.6472665,-91.5590197
-8128,Sunset Street and Denbigh Drive,41.6455906,-91.5594197
-8129,Sunset Street and Aber Avenue,41.6433302,-91.5601499
-8150,Melrose Avenue and Sunset Street,41.6555345,-91.5602469
-8200,Dental College,41.6635701,-91.551241
-8201,Dental College,41.6634791,-91.5509854
-8202,Carver Hawkeye Arena,41.6630179,-91.554031
-8203,UI Main Hospital--Kinnick Stadium,41.65964,-91.5499899
-8204,UI Center for Disabilities--Dental College,41.6611018,-91.5506608
-8205,Hawkins Drive and Melrose Avenue,41.6570397,-91.54994
-8206,UI Main Hospital--Kinnick Stadium,41.6593028,-91.5498402
-8207,Ramp 2--Pappajohn & Pomerantz,41.6577486,-91.5498614
-8208,Melrose Avenue and Sunset Street,41.6558397,-91.5593809
-8209,Melrose Avenue and Emerald Street,41.6558202,-91.5645113
-8210,IC Fire Station,41.6555909,-91.5639963
-8211,Melrose Avenue and Westgate Street,41.6560301,-91.5663115
-8212,Westgate Street and Melrose Avenue,41.65578,-91.56659
-8213,Melrose Avenue and Macbride Road,41.6562701,-91.5690518
-8214,Melrose Avenue and MacBride Road,41.6560845,-91.5688992
-8215,Melrose Avenue and Finkbine Lane,41.6568702,-91.572452
-8216,Melrose Avenue and Finkbine Lane,41.6566895,-91.5724065
-8217,Melrose Avenue and Morman Trek Blvd.,41.6568654,-91.5743628
-8218,Morman Trek Blvd. and Melrose Avenue,41.6566652,-91.5738208
-8219,Melrose Avenue and Westwinds Drive,41.6571,-91.5774348
-8220,Melrose Avenue and Westwinds Drive,41.6569317,-91.5777847
-8221,Westwinds Drive and Melrose Avenue,41.6564157,-91.5775596
-8222,Westwinds Drive and Willowwind Place,41.6563641,-91.577639
-8223,Westwinds Drive and Hawaii Court,41.6554358,-91.5777415
-8224,Westwinds Drive and Roberts Road,41.6534527,-91.57821
-8226,Pheasant Ridge Neighborhood Center,41.65385,-91.57648
-8227,Bartelt Road and Morman Trek Blvd.,41.6541105,-91.5741867
-8228,Mormon Trek Blvd. and Cameron Way,41.6517381,-91.57408
-8229,Walden Plaza,41.6508803,-91.5755786
-8230,Westwinds Drive #2,41.6512397,-91.5774283
-8231,Westwinds Drive #3,41.6523463,-91.5782901
-8232,Benton Street and Spencer Drive,41.64962,-91.5707321
-8233,Benton Street and Keswick Drive,41.6496299,-91.5683054
-8234,Benton Street and Westgate Street,41.6496202,-91.5668748
-8235,Westgate Street and Benton Street,41.6497894,-91.5667699
-8236,Horn Elementary,41.64966,-91.5642657
-8237,Horn Elementary,41.6496003,-91.5640201
-8238,Denbigh Drive and Hafor Drive,41.6470127,-91.5638594
-8239,Denbigh Drive and Penkridge Drive,41.6455502,-91.5628925
-8240,Denbigh Drive and Sunset Street,41.6454738,-91.5596547
-8243,Sunset Street and Kineton Green,41.6467677,-91.558901
-8244,Crosspark Avenue and Broadway Street,41.6389878,-91.5204439
-8245,Sunset Street and Arbury Drive,41.6486378,-91.5593293
-8246,Benton Street and Sunset Street,41.6504999,-91.5603586
-8247,Sunset Street and Benton Street,41.6505891,-91.5595393
-8249,Westgate Street and Westgate Court,41.6503391,-91.56667
-8250,Westgate Street Midblock,41.651561,-91.56665
-8252,Westgate Street and Keswick Drive,41.6530949,-91.56665
-8253,Westgate Street and Keswick Drive,41.6529954,-91.5667394
-8254,Westgate Street and Gilmore Court,41.6550538,-91.5667398
-8270,Westside Drive and Earl Road,41.6387761,-91.5657602
-8271,Westside Drive and Jeffrey Street,41.64118,-91.56695
-8272,Westside Drive and Earl Road,41.6390832,-91.5682501
-8273,Westside Drive and Morman Trek Blvd.,41.6375193,-91.5680299
-8275,Morman Trek Blvd. and Gryn Drive,41.63971,-91.5722399
-8276,Gryn Drive and Plaen View Drive,41.6400471,-91.5718733
-8277,Plaen View Drive and Little Creek Lane,41.6403306,-91.5702894
-8278,Plaen View Drive,41.6418669,-91.5708636
-8279,Plean View Drive and Morman Trek Blvd.,41.64232,-91.5727949
-8281,Abbey Lane and Dolen Place,41.64336,-91.5734544
-8282,Abbey Lane and Cae Drive,41.6433696,-91.5719717
-8283,Cae Drive and Burry Drive,41.6449782,-91.5711678
-8284,Cae Drive and Cambria Court,41.6458099,-91.5728893
-8285,Cae Drive and Morman Trek Blvd.,41.64576,-91.5738998
-8286,Morman Trek Blvd. and Cae Drive,41.6455824,-91.5740799
-8290,Morman Trek Blvd. and Benton Street,41.6488641,-91.57402
-8291,Benton Street and Jema Court,41.6495998,-91.572994
-8300,Melrose Avenue and Hawkeye Drive,41.65713,-91.5830129
-8301,Melrose Avenue and Hawkeye Drive,41.65697,-91.5834883
-8302,Melrose Avenue and Dublin Drive,41.65714,-91.5858258
-8303,Melrose Avenue and Dublin Drive,41.65697,-91.5859022
-8304,Melrose Avenue and Kennedy Parkway,41.65716,-91.5885958
-8305,Melrose Avenue and Galway Drive,41.6569899,-91.5884579
-8306,Chatam Oaks Residential Facility,41.6566199,-91.6027
-8330,Mormon Trek Blvd. and Bartelt Road,41.6568701,-91.572451
-8331,Mormon Trek Blvd. and Rohret Road,41.6459023,-91.5741999
-8332,Coll Drive and Coll Court,41.64656,-91.57837
-8333,Jensen Street and Jensen Court,41.6485098,-91.5775492
-8334,Irving Avenue and Shannon Drive,41.6479133,-91.5810418
-8335,Shannon Drive and Rohret Road,41.6462626,-91.5807495
-8336,Rohret Road and Duck Creek Drive,41.6461897,-91.5856645
-8337,Deerfield Drive and Duck Creek Drive,41.6486956,-91.58976
-8338,Duck Creek Drive and Partridge Court,41.6494197,-91.5927839
-8339,Duck Creek Drive and Wild Prairie Drive,41.6495177,-91.5957547
-8340,Wild Prairie Drive and Prairie Grass Lane,41.6487013,-91.598228
-8341,Wild Prairie Drive and Laredo Drive,41.6473097,-91.5987397
-8342,Laredo Drive and Santa Fe Drive,41.6473785,-91.5998972
-8343,Santa Fe Drive and Phoenix Drive,41.6467691,-91.6014908
-8344,Phoenix Drive and Tuscon Place,41.6449337,-91.60088
-8345,Phoenix Drive and Rohret Road,41.64356,-91.60037
-8346,Irving Weber School,41.6440982,-91.5968
-8347,Rohret Road and Hunters Run,41.6453584,-91.5902466
-8348,Rohret Road and Duck Creek Drive,41.64613,-91.585688
-8349,Rohret Road and Shannon Drive,41.6460999,-91.5808182
-8350,Rohret Road and Ranier Drive,41.64608,-91.5786097
-9001,Scott Blvd. and Stuart Court,41.6699345,-91.5018777
-9100,Mall Drive #1,41.6434515,-91.5074548
-9101,Mall Drive #2,41.6438919,-91.5059627
-9102,Mall Drive #3,41.6446212,-91.5034901
-9103,Fairmeadows Blvd. and Hollywood Blvd.,41.6382717,-91.5038374
-9104,Hollywood Blvd. and Grantwood Street,41.6398594,-91.5074382
-9200,Downtown Interchange,41.6606,-91.53457
+1;Downtown Interchange;41.66017;-91.5359
+2;Downtown Interchange;41.66004;-91.53498
+100;Softball Complex;41.6686761;-91.5651445
+120;Macbride Hall;41.66246;-91.535783
+125;IMU;41.6623626;-91.5376186
+145;English Philosophy Building, IMU;41.6612;-91.5403504
+146;English Philosophy Building, IMU;41.66135;-91.5384996
+241;Carver Hawkeye Arena;41.6633887;-91.5538508
+245;Newton and Lincoln;41.6635703;-91.5512418
+246;Dental College;41.6634819;-91.5510002
+253;VA Hospital;41.6626701;-91.5486194
+254;VA Hospital;41.662671;-91.5483781
+256;MERF;41.66328;-91.5450199
+257;Newton Road Ramp;41.6634;-91.5459966
+263;UI Student Health;41.6627106;-91.5435114
+264;IIBD;41.6624947;-91.5436291
+340;12th/North Ridge;41.7001336;-91.5862129
+341;12th Avenue and North Ridge Drive;41.6999383;-91.5860106
+345;12th/Liberty Lane;41.695978;-91.583047
+346;12th Avenue and Liberty Lane;41.6961537;-91.5831617
+350;Holiday Road and Oak Lake Park Road;41.6949603;-91.5808127
+351;Holiday Road and Oak Lake Park Road;41.69495;-91.5805
+354;Holiday Road and Westview;41.6934103;-91.5763818
+355;Holiday Road and Eastview;41.69334;-91.5751768
+360;Holiday Road and High Country Road;41.6934889;-91.5733273
+361;Holiday Road and Old Hickory Lane;41.693518;-91.570652
+365;Holiday Road and Lakewood Hills;41.69298;-91.56827
+366;Holiday Road and Lakewood Hills;41.69295;-91.56838
+375;Coral Center;41.6783269;-91.5659203
+385;Clear Creek;41.6697357;-91.56534
+1000;Mayflower Hall;41.6768599;-91.53203
+1005;Park Road South;41.6714601;-91.5337446
+1006;Park Road Bridge North;41.67157;-91.5337499
+1010;Church Street North;41.6680199;-91.5334499
+1011;Church Street South;41.6679699;-91.53345
+1015;Currier;41.66591;-91.5345999
+1016;Burge;41.6656199;-91.53451
+1021;Pappajohn BB;41.6626235;-91.5346399
+1025;IMU;41.66231;-91.53773
+1030;Clinton & Iowa;41.6607663;-91.5346897
+1034;Clinton & College;41.6591417;-91.53469
+1038;Clinton Street Music;41.65675;-91.5347
+1039;Court & Clinton;41.65658;-91.5348551
+1040;Clinton & Prentiss;41.6545541;-91.5347469
+1050;Main Library;41.6586058;-91.53775
+1051;Communications Center;41.6592596;-91.53765
+1060;ERF;41.6573639;-91.53766
+1064;Madison St  - Lot 11;41.65603;-91.53771
+1070;Prentiss & Madison;41.65446;-91.5375684
+2000;WCTC;41.659423;-91.5521708
+2014;Hawkins & Elliott;41.6621145;-91.5541481
+2017;Arena on Hawkins;41.6623203;-91.5554711
+2020;Arena East - PM;41.6622217;-91.5562692
+2022;Arena West - PM;41.6625297;-91.5575789
+2025;Finkbine Entrance;41.662884;-91.5587379
+2030;Finkbine North;41.6619779;-91.5610071
+2031;Finkbine South;41.66106;-91.56081
+2040;Dental on Elliott;41.663007;-91.5540364
+2041;Carver Hawkeye Arena;41.66339;-91.55385
+2042;Carver Special;41.6640792;-91.5535585
+2050;VA Loop;41.6624296;-91.54886
+2070;Family Care;41.6569098;-91.5473614
+2071;Melrose Court;41.6568102;-91.5471072
+2080;Rienow Hall;41.6585399;-91.5447099
+2081;Slater Hall;41.65841;-91.5446599
+2085;Law Building;41.6583197;-91.5437977
+2100;Art Building;41.6650436;-91.5409434
+2101;Art Building West;41.6649868;-91.5410616
+2105;Riverside & River St;41.6660243;-91.5406194
+2106;Theatre Building;41.6662493;-91.5405211
+2110;Hancher/Park Road;41.6712267;-91.538201
+2112;Clapp Hall;41.6686205;-91.5392104
+2114;Hancher Lot East;41.6694557;-91.53921
+2115;Hancher Lot West;41.6695146;-91.5392598
+2120;Hancher/North Riverside;41.6679094;-91.5401154
+2121;Levitt Center;41.6711169;-91.53825
+2125;Parklawn;41.671165;-91.5404479
+3000;Postal Road/Old Hospital Rd;41.7063083;-91.6021354
+3001;Research Park East Lot;41.70468;-91.59693
+3002;Research Park West Lot;41.7062798;-91.6016678
+3004;North Lawn;41.70635;-91.6030142
+3010;IREH;41.7072194;-91.60403
+3015;Research Park Exit;41.7082137;-91.6047606
+3020;Vangent;41.7088585;-91.6028584
+3025;NADS;41.7084399;-91.5998496
+3035;12th & Oakdale;41.7043307;-91.5881653
+3036;12th Ave & Oakdale Blvd;41.7045167;-91.5884675
+3070;Holiday Inn inbound;41.6883572;-91.5642104
+3071;Holiday Inn outbound;41.6883012;-91.56401
+3072;IRL West;41.6819499;-91.56564
+3073;IRL East;41.6819299;-91.56557
+3076;McDonalds;41.6783587;-91.5660395
+3106;Hawk Court 2;41.6670399;-91.5717899
+3110;Recreation Fields North;41.66447;-91.5784411
+3111;Recreation Fields South;41.664416;-91.5783522
+3125;Hawk Lot 1;41.663364;-91.583469
+3130;Hawk Lot 2;41.6627145;-91.5847817
+3140;Prairie Meadow & Hawk Drive;41.66153;-91.5799665
+3142;Hawk Drive 1;41.6606003;-91.5801699
+3144;Hawk Drive 2;41.6594717;-91.5801999
+3146;Hawk Drive 3;41.6583554;-91.5802199
+3151;Sports Medicine Clinic North;41.6600259;-91.5779466
+3155;Hall of Fame North;41.6599598;-91.5762705
+3200;Studio Arts Building;41.6415;-91.55676
+3300;Burlington & Gilbert St;41.6577799;-91.5303992
+3310;Burlington & Johnson St;41.6577799;-91.5274134
+3320;Burlington & Lucas St;41.65775;-91.5244527
+3330;Governor & College St;41.6587776;-91.52283
+3340;Governor & Washington St;41.6598966;-91.52281
+3350;Governor & Iowa Ave;41.6610437;-91.5227999
+3360;Governor & Jefferson St;41.6622602;-91.5227799
+3370;Market & Lucas St;41.66354;-91.524131
+3380;Market & Johnson St;41.6635599;-91.527039
+3390;Market & Gilbert St;41.66358;-91.5299692
+4010;Highway 6 and Hawkins;41.6662111;-91.5584739
+4015;Highway 6 and 1st Avenue - Hardees;41.66949;-91.56666
+4021;4th Avenue and Highway 6;41.6720387;-91.5712601
+4030;1st Avenue and 5th Street;41.6731409;-91.5654801
+4031;1st Avenue and 5th Street;41.6731232;-91.5656308
+4040;6th Street and 1st Avenue - Scotch Pine;41.67645;-91.5674499
+4041;6th Street and 1st Avenue;41.6764398;-91.566254
+4050;6th Street and 4th Ave;41.6764;-91.5692396
+4051;6th Street and 4th Ave. - Scotsdale;41.6763599;-91.5688916
+4055;4th Ave. and 6th Street;41.6764904;-91.5697499
+4060;7th Street and 4th Avenue Place;41.6776998;-91.5701475
+4061;7th Street and 4th Avenue Place.;41.67765;-91.5702015
+4070;7th Street and 6th Avenue;41.6779797;-91.5734474
+4071;7th Street and 6th Avenue;41.6779506;-91.573706
+4080;7th Street and 7th Avenue;41.6780996;-91.5746166
+4081;7th Street and 7th Avenue;41.6780705;-91.5748757
+4090;7th Street and 10th Avenue;41.6784195;-91.577966
+4091;7th Street and 10th Avenue;41.67839;-91.5782533
+4100;7th Street and 12th Avenue;41.6784598;-91.5802591
+4101;12th Avenue and 7th Street;41.6785582;-91.5804298
+4102;12th Avenue and 7th Street;41.6783528;-91.58038
+4105;8th Street and 12th Avenue;41.68172;-91.5805647
+4110;14th Avenue and 8th Street;41.6819343;-91.58233
+4111;14th Avenue and 8th Street;41.68188;-91.5824
+4120;14th Avenue and 9th Street;41.6841561;-91.5821605
+4121;14th Avenue and 9th Street;41.6843468;-91.5822398
+4130;14th Avenue and 10th Street;41.6866191;-91.58214
+4131;14th Avenue and 10th Street.;41.68671;-91.5823538
+4140;10th Street and 17th Avenue;41.68681;-91.5860127
+4141;10th Street and 17th Avenue;41.68676;-91.5859354
+4151;10th Street and 19th Avenue;41.68679;-91.5879664
+4160;10th Street and 20th Avenue;41.6868502;-91.5894998
+4161;10th Street and 20th Avenue;41.6868101;-91.5898053
+4162;20th Avenue and 10th Street;41.6867199;-91.58963
+4170;10 th Street and 10th Street Ct.;41.6872752;-91.5913076
+4171;10th Street and 10th Street Ct.;41.6873529;-91.5915439
+4180;10th Street and 22nd Avenue;41.68802;-91.5936465
+4181;10th Street and 22nd Avenue;41.6879696;-91.5938763
+4190;10th Street and 23th Avenue;41.6879099;-91.5965599
+4191;10th Street and 23rd Avenue;41.6879512;-91.5968841
+4192;23th Avenue and 10th Street;41.6878296;-91.5967401
+4200;10th Street and North Boston Way;41.6882199;-91.599386
+4210;10th Street and 25th Avenue;41.6879899;-91.6032075
+4220;Coral Ridge Mall;41.6901202;-91.6005274
+4230;10th Street and South Boston Way;41.6879489;-91.6017342
+4240;23rd Avenue and 9th Street;41.6851015;-91.5976699
+4241;9th Street and 23rd Avenue;41.6850302;-91.5974782
+4250;9th Street and Oakleaf Street;41.6853694;-91.5947239
+4251;9th Street and Oakleaf;41.6854102;-91.5946875
+4260;9th Street and 21st Avenue;41.68339;-91.5946796
+4261;9th Street and 21st Avenue;41.6834907;-91.5942948
+4265;22nd Avenue and 10th Street Place;41.6867215;-91.5936703
+4270;9th Street and 20th Avenue Place;41.6838197;-91.5914932
+4271;9th Street and 20th Avenue Place;41.6838699;-91.5912839
+4280;9th Street and 20th Avenue;41.6837998;-91.5899093
+4281;20th Avenue and 9th Street;41.6837265;-91.5897207
+4290;20th Avenue and 8th Street;41.6824053;-91.5917276
+4291;8th Street and 20th Avenue;41.68228;-91.5915601
+4300;20th Avenue and 5th Street;41.6809365;-91.5909767
+4301;20th Avenue and 5th Street;41.680959;-91.5907304
+4310;5th Street and 18th Avenue - Coral Village;41.67941;-91.5883303
+4311;5th Street and 18th Avenue - Coral Village;41.6793585;-91.5879142
+4320;5th Street and 7th Street - City Hall;41.6780821;-91.5847943
+4321;5th Street and 7th Street - City Hall;41.6777071;-91.5839343
+4330;5th Street and 12th Avenue - West Music;41.6764306;-91.5815113
+4331;5th Street and 12th Avenue - Library;41.6769294;-91.5823988
+4340;5th Street and 10th Avenue - Post Office;41.6748803;-91.5784307
+4341;5th Street and 10th Avenue - Post Office;41.67481;-91.57812
+4351;5th Street and 8th Avenue;41.6745505;-91.5758955
+4360;5th Street and 6th Avenue;41.6743399;-91.5742098
+4361;5th Street and 6th Avenue;41.6743307;-91.5736177
+4370;5th Street and 4th Avenue;41.6740705;-91.5714557
+4371;4th Avenue and 5th Street;41.6739845;-91.5712702
+4372;5th Street and 4th Avenue;41.6740901;-91.5711213
+4380;5th Street and 2nd Avenue Place;41.6737599;-91.5681693
+4381;5th Street and 2nd Avenue Place;41.6738007;-91.5680777
+5010;Highway 6 and 6th Avenue;41.671881;-91.5750435
+5020;Highway 6 and 10th Avenue;41.6732999;-91.5791898
+5030;Highway 6 Park Place Stop;41.6762009;-91.5849419
+5040;Highway 6 and 22nd Ave.;41.6807681;-91.5938264
+5041;Highway 6 and 22nd Avenue;41.6813123;-91.5952344
+5050;Commerce Drive and Highway 965 - Walmart;41.69594;-91.6105399
+5051;Commerce Drive and Highway 965 - Walmart;41.69574;-91.61108
+5060;Commerce Drive and Commercial Park;41.6956506;-91.613632
+5061;Commerce Drive and Commercial Park;41.6955305;-91.6132247
+5070;Heartland Drive and Commercial Park - Rockwell Collins;41.6985175;-91.6137255
+5071;Heartland Drive and Commercial Park - Rockwell Collins;41.6985699;-91.61374
+5080;Heartland Place and Heartland Drive;41.7000861;-91.6100699
+5090;Goodwill;41.6989048;-91.6097679
+5100;Holiday Road and North Coral Street;41.69862;-91.60563
+5101;Holiday Road and North Coral Street - Hope House;41.6984;-91.6055
+5110;Holiday Road - North Ridge Park;41.6948589;-91.5964174
+5111;Holiday Road - North Ridge Park;41.6949097;-91.5964353
+5120;Lynncrest Drive and Holiday Road.;41.6965607;-91.5922998
+5121;Lynncrest Drive and Holiday Road;41.6963935;-91.5922818
+5130;Lynncrest Drive and North Ridge Drive;41.6986547;-91.5933573
+5131;North Ridge Drive and Lynncrest Drive;41.6988116;-91.5933141
+5140;North Ridge Drive and Waterford;41.6985906;-91.5911682
+5141;North Ridge Drive and Waterford;41.6986299;-91.5909591
+5150;North Ridge Drive and Farrell Drive;41.69856;-91.5892651
+5151;North Ridge Drive and Farrell Drive;41.6986001;-91.5892585
+5160;North Ridge Drive and 12th Ave.;41.6999478;-91.5861747
+5170;12th Avenue and South Ridge Drive;41.6986502;-91.5850901
+5171;12th Avenue and South Ridge Drive;41.6984539;-91.584863
+5181;Liberty Lane and 12th Avenue;41.6959611;-91.5832254
+5190;Liberty Lane and Holiday Road;41.6955623;-91.5865272
+5191;Holiday Road and Liberty Lane;41.6953867;-91.5864856
+5200;Holiday Road and 12th Ave.;41.6948697;-91.5830115
+5201;12th Avenue and Holiday Road;41.6947655;-91.582789
+5202;12th Avenue and Holiday Road;41.6950187;-91.5829117
+5210;12th Avenue and Ozark Ridge;41.6915851;-91.5825704
+5211;12th Avenue and Ozark Ridge;41.6913615;-91.5824305
+5220;12th Avenue and 10th Street;41.6868537;-91.5815712
+5221;12th Avenue and 10th Street;41.68662;-91.58141
+5222;10th Street and 12th Avenue;41.6867;-91.5816211
+5230;12th Avenue and 8th Street;41.6818947;-91.5804837
+5231;12th Avenue and 8th Street;41.6808955;-91.5803098
+5250;Highway 6 - Dairy Queen;41.6721512;-91.5763443
+5260;12th Avenue and 6th Street;41.6767136;-91.5804099
+5280;Holiday Road and Southridge Drive;41.69636;-91.5897736
+5290;Holiday Road and Waterford;41.69636;-91.5909443
+5800;Front Street and Vandello;41.7253065;-91.5981098
+5801;Front and Vandello;41.7253085;-91.5981898
+5810;Front Street and Weston;41.7355277;-91.5979699
+5811;Front Street and Weston;41.7357937;-91.59804
+5820;Front Street and Zeller;41.74466;-91.59794
+5821;Front Street and Zeller;41.7448809;-91.59802
+5830;Front Street and Cherry Street;41.7484248;-91.59796
+5831;Front Street and Cherry Street;41.74832;-91.59803
+5840;North Liberty Rec Center;41.750534;-91.60615
+5850;Golfview Dr and Heidi Lane;41.7369498;-91.5997264
+5851;Golfview Drive and Rebecca Street;41.7368801;-91.5988551
+5855;Golfview Drive at the Holiday MH Park;41.7371399;-91.6065135
+5856;Golfview Drive at the Holiday MH Park;41.7370715;-91.6062752
+5860;Fairview Lane and Augusta Circle;41.7378497;-91.6097568
+5861;Augusta Circle and Fairview Lane;41.7377899;-91.6099799
+5865;Augusta Circle and Sugar Creek Lane;41.7396917;-91.6102692
+5866;Sugar Creek Lane and Augusta Circle;41.7398495;-91.6101705
+5870;Sugar Creek Lane and Praire Ridge Road;41.7423744;-91.6089
+5871;Sugar Creek Lane and Praire Ridge Road;41.742374;-91.6089801
+5875;Sugar Creek Lane and W Zeller Street;41.7448753;-91.6088823
+5876;W Zeller Street and Sugar Creek Lane;41.7449786;-91.6088497
+5900;2nd Avenue and 7th Street;41.67893;-91.5641099
+5910;6th Street and 5th Avenue - Coralville Central;41.6757894;-91.57251
+5920;6th Street and 6th Avenue;41.6758518;-91.5735747
+5930;Northwest Jr. High;41.68182;-91.58438
+5940;8th Street and 18th Avenue;41.6820187;-91.5875558
+5950;18th Ave. and 20th Avenue;41.6838396;-91.5895747
+5970;Quarry Road and 7th Street;41.678964;-91.5612976
+7001;US Post Office;41.6567475;-91.5347
+7002;Court Street  and Dubuque Street;41.6565501;-91.5333346
+7003;Court Street and Dubuque Street;41.65663;-91.5326785
+7004;Court Street Transportation Center;41.65663;-91.53346
+7005;Court Street  and Gilbert Street;41.65655;-91.5304428
+7006;Court Street  and Maiden Lane;41.65662;-91.5310534
+7007;Gilbert Street and Prentiss Street;41.6544878;-91.5303098
+7008;Gilbert Street and Bowery Street;41.6539983;-91.5301502
+7009;Gilbert Street and Benton Street;41.6511681;-91.5317006
+7010;Gilbert Street and Benton Street;41.6510004;-91.5316098
+7011;Gilbert Street and Kirkwood Avenue;41.64957;-91.53206
+7012;Gilbert Street and Kirkwood Avenue;41.6493396;-91.53194
+7013;Kirkwood Avenue and Gilbert Street;41.6493899;-91.5321959
+7014;Gilbert Street and 3rd Avenue;41.6463007;-91.5320799
+7015;Gilbert Street and 3rd Avenue;41.6463427;-91.53194
+7016;Highland Avenue and Gilbert Street;41.6458296;-91.5317848
+7017;Hy Vee;41.6422827;-91.5280598
+7018;Hy Vee;41.6427835;-91.5279598
+7019;Boyrum Street and Southgate Avenue;41.6408142;-91.5280899
+7020;Southgate Avenue and Boyrum Street;41.64071;-91.5278258
+7021;Southgate Avenue and Boyrum Street;41.64064;-91.5278639
+7022;Southgate Avenue and Waterfront Drive;41.64065;-91.5303352
+7023;Southgate Avenue and Gilbert Street;41.64065;-91.5331312
+7024;Gilbert Street and Stevens Drive;41.6430205;-91.5335999
+7025;Hills Bank, Aldi;41.6444502;-91.5330797
+7026;Southgate Avenue and Keokuk Street;41.6406101;-91.5251275
+7027;K-Mart;41.6406896;-91.5255028
+7028;Keokuk Street and Cross Park Avenue;41.6391536;-91.5249998
+7029;Keokuk Street and Cross Park Avenue;41.6384881;-91.5248801
+7030;Sandusky Drive and Hickory Court;41.63777;-91.5242062
+7031;Sandusky Drive and Keokuk Street;41.6378496;-91.5246994
+7032;Sandusky Drive and Broadway Street;41.6371782;-91.520747
+7033;Sandusky Drive and Broadway Street;41.6375792;-91.5207144
+7034;Crosspark Avenue #1;41.63904;-91.5225437
+7035;Crosspark Avenue and Broadway Street;41.6390301;-91.5206599
+7036;Broadway Street #1;41.640838;-91.5204177
+7037;Goodwill, Kmart;41.6412573;-91.5221991
+7038;Sandusky Drive and Taylor Drive;41.6369698;-91.5185133
+7039;Taylor Drive and Sandusky Drive;41.6369839;-91.518339
+7040;Taylor Drive and Hollywood Blvd.;41.640489;-91.5180105
+7041;Hollywood Blvd. Mid -block;41.6403599;-91.5147088
+7042;Hollywood Blvd. and Sycamore Street;41.6403;-91.51182
+7043;Hollywood Blvd. and Delwood Drive;41.6393197;-91.5104055
+7044;Hollywood Blvd. and Grantwood Street;41.639791;-91.5074436
+7045;Hollywood Blvd. and Fairmeadows Blvd.;41.6382393;-91.5041089
+7046;Hollywood Blvd. and Frontage Road;41.636355;-91.5010279
+7047;Dolphin Point Enclave;41.6360363;-91.4993494
+7048;Frontage Road and Lakeside Drive;41.6349047;-91.4975069
+7049;Lakeside Drive and Hwy6;41.6350333;-91.4978765
+7050;Frontage Road;41.6331678;-91.4944326
+7051;Riviera Drive and Frontage Road;41.6325852;-91.4936347
+7052;Lakeside Drive and Whispering Prairie Avenue;41.6334205;-91.4998562
+7053;Lakeside Drive and Nevada Avenue;41.63343;-91.5016023
+7054;Lakeside Drive and Miami Drive;41.6334599;-91.5044004
+7055;Miami Drive and California Avenue;41.635254;-91.5030567
+7056;California Avenue and Union Avenue;41.636309;-91.5048713
+7057;Grantwood Elementary;41.63633;-91.507284
+7058;California Avenue and Sycamore Street;41.6361802;-91.5114694
+7059;Burns Avenue and California Avenue;41.6360186;-91.5140922
+7060;Burns Avenue and Taylor Drive;41.6354857;-91.5182761
+7061;Sycamore Mall;41.6429927;-91.5115898
+7062;Kirkwood College - Sycamore St;41.6438843;-91.5115703
+7063;Kirkwood College - Highland Ave;41.6458299;-91.51215
+7064;Highland Avenue and Pine Street;41.6458299;-91.5134817
+7065;Highland Avenue and Franklin Street;41.64581;-91.5159339
+7066;Highland Avenue and Ridge;41.64582;-91.519071
+7067;Highland Avenue and Lukurk Street;41.64585;-91.5206804
+7068;Highland Avenue and Keokuk Street;41.64593;-91.52332
+7069;Highland Avenue and Boyrum Street;41.64584;-91.5277489
+7070;Highland Avenue and Gilbert Court;41.64582;-91.5303666
+7071;Benton Street and Clinton Street;41.65114;-91.53457
+7072;Benton Street and Capitol Street;41.6511599;-91.5360688
+7073;City Carton;41.6515475;-91.5362863
+7074;Capitol Street and Prentiss Street;41.654307;-91.53618
+7075;Capitol Street and Prentiss Street;41.6545395;-91.53626
+7076;Capitol Street and Harrison Street;41.655387;-91.53617
+7077;Court Street and Capitol Street;41.65659;-91.53642
+7078;Court Street and Madison Street;41.6566599;-91.5375097
+7079;UI Lindquist Center;41.6585444;-91.53764
+7080;UI Main Library;41.6595407;-91.53775
+7081;Madison Street and Washington Street;41.6599;-91.5376399
+7082;Washington Street and Madison Street;41.66015;-91.5374557
+7090;Iowa Avenue and Madison Street;41.6612397;-91.5378993
+7091;Dubuque Street and Market Street;41.6634525;-91.5330101
+7092;Dubuque Street and Davenport Street;41.665683;-91.5329801
+7093;Dubuque Street and Church Street;41.6678493;-91.53295
+7100;Bowery Street and Gilbert Street;41.65414;-91.5300188
+7101;Bowery Street and Van Buren Street;41.65413;-91.5286493
+7102;Bowery Street  and Johnson Street;41.6540899;-91.5274713
+7103;Bowery Street and Johnson Street;41.65413;-91.5271876
+7104;Bowery Street  and Dodge Street;41.65407;-91.52603
+7105;Dodge Street and Bowery Street;41.65422;-91.52584
+7106;Dodge Street and Walnut Street;41.6506464;-91.5261899
+7107;Dodge Street and Walnut Street;41.6506671;-91.5260799
+7108;Kirkwood Avenue and Dodge Street;41.64941;-91.5257941
+7109;Kirkwood Avenue and Dodge Street;41.6494699;-91.5259274
+7110;Kirkwood Avenue and Keokuk Street;41.64941;-91.5234773
+7111;Kirkwood Avenue and Keokuk Street;41.6494699;-91.5233102
+7112;Kirkwood Avenue and Howell Street;41.6494199;-91.5203052
+7113;Kirkwood Avenue and Summit Street;41.64947;-91.5208193
+7114;Kirkwood Avenue and Franklin Street;41.6494297;-91.5158479
+7115;Kirkwood Avenue and Franklin Street;41.649369;-91.5155587
+7116;Kirkwood Avenue and Roosevelt Street;41.64948;-91.5180611
+7117;Lower Muscatine Avenue and Pine Street;41.6476681;-91.5134477
+7118;Lower Muscatine Avenue and Pine Street;41.647751;-91.5136312
+7119;Mid American Energy;41.6461702;-91.5116902
+7120;Kirkwood Community College;41.64517;-91.51046
+7121;Kirkwood Community College;41.6450375;-91.5102369
+7122;Sycamore Mall;41.6441448;-91.5093058
+7123;Lower Muscatine Avenue and Mall Drive;41.6434348;-91.5082448
+7124;Iowa DOT, IC Fire Department;41.64186;-91.50537
+7125;Lower Muscatine Avenue and Fairmeadows Blvd.;41.6392088;-91.502878
+7126;Hwy 6 East and Heinze Road;41.6314852;-91.4903717
+7127;Heinz Road and Hwy 6 East;41.6320408;-91.4909793
+7128;Goodwill Warehouse;41.6303883;-91.4803201
+7129;ACT;41.6306694;-91.4826856
+7130;ACT;41.6307708;-91.4829
+7131;Systems Unlimited;41.6352909;-91.48281
+7132;Heinz Road and Scott Blvd.;41.63643;-91.4833155
+7133;United Natural Foods;41.6372925;-91.4895185
+7134;Eastdale Plaza, IC Fire Department;41.6417796;-91.5062395
+7135;Sycamore Mall Cinema Theater;41.64248;-91.51027
+7200;IC Library, Senior Center;41.66008;-91.5318697
+7201;Washington Street and Gilbert Street;41.6600195;-91.5303778
+7202;IC Civic Center;41.6598721;-91.5301201
+7203;College Street and Gilbert Street;41.6589899;-91.5299703
+7204;IC Recreaton Center;41.65889;-91.529881
+7205;Gilbert Street and Jefferson Street;41.6622158;-91.53009
+7206;Market Street and Linn Street;41.66359;-91.53143
+7207;Clinton Street and Jefferson Street;41.6626233;-91.5346399
+7208;College Street and Dodge Street;41.6588801;-91.5259583
+7209;College Street and Dodge Street;41.65894;-91.5256057
+7210;Dodge Street and College Street;41.6590304;-91.5258199
+7211;College Street and Summit Street;41.65884;-91.5213502
+7212;College Street and Summit Street;41.6589099;-91.5210598
+7213;College Street and Governor street;41.6589299;-91.5226999
+7214;Summit Street and Court Street;41.6568219;-91.52124
+7215;Summit Street and Bowery Street;41.6541956;-91.5212298
+7216;Longfellow Elementary;41.6522199;-91.5207456
+7217;Sheridan Street and Roosevelt Street;41.6522099;-91.5184271
+7218;Sheridan Street and Oakland Street;41.6522199;-91.5165544
+7219;Sheridan Street and Rundell Street;41.6522099;-91.5140662
+7220;Sheridan Street and 7th Avenue;41.6522099;-91.5117427
+7221;7th Avenue and F Street;41.650699;-91.5115801
+7222;F Street and 6th Avenue;41.65059;-91.5096081
+7223;F Street and Muscatine Avenue;41.65059;-91.5064124
+7224;Muscatine Avenue and 4th Avenue;41.6508265;-91.5062249
+7225;Muscatine Avenue and 4th Avenue;41.6509003;-91.5064404
+7226;Walgreens;41.6495199;-91.5035322
+7227;Walgreens;41.64957;-91.50331
+7228;Hy Vee;41.6501365;-91.50194
+7229;D Street and 3rd Avenue;41.6528;-91.504751
+7230;3rd Avenue and Friendship Street;41.6537064;-91.50485
+7231;Friendship Street and Third Avenue;41.6537006;-91.50485
+7232;Friendship Street and 5th Avenue;41.6539905;-91.5072818
+7233;Friendship Street and Garden Street;41.65473;-91.50982
+7234;Friendship Street and 7th Avenue;41.6551897;-91.5113589
+7235;7th Avenue and Court Street;41.6565787;-91.51157
+7236;Court Street and 7th Avenue;41.6567399;-91.5117401
+7237;Court Street and 7th Avenue;41.6567796;-91.5114363
+7238;City High School;41.6588601;-91.5121689
+7239;College Street and Fairview Street;41.65881;-91.5142692
+7240;College Street and Muscatine Avenue;41.65881;-91.5176629
+7241;Burlington Street and Johnson Street;41.6577799;-91.5274136
+7242;Burlington Street and Johnson Street;41.6578701;-91.5271287
+7243;IC Recreation Center;41.65791;-91.5299756
+7244;Burlington Street and Dubuque Street;41.65792;-91.5329157
+7245;Burlington Street and Lucas Street;41.65775;-91.5244529
+7246;Burlington Street and Lucas Street;41.6578502;-91.5242011
+7247;Burlington Street and Summit Street;41.65773;-91.5213631
+7248;Burlington Street and Summit Street;41.65784;-91.52103
+7249;Burlington Street and Muscatine Avenue;41.65777;-91.5165811
+7250;Muscatine Avenue and Burlington Street;41.6577217;-91.5162238
+7251;Muscatine Avenue and Rundell Street;41.6562484;-91.5142477
+7252;Muscatine Avenue and Court Street;41.6565274;-91.5145064
+7253;Muscatine Avenue and 7th Avenue;41.65448;-91.51169
+7254;Muscatine Avenue and 7th Avenue;41.65441;-91.51149
+7255;Muscatine Avenue and 5th Avenue;41.6518242;-91.5078161
+7256;Muscatine Avenue and 5th Avenue;41.6518376;-91.5077065
+7257;Muscatine Avenue and Wade Street;41.64953;-91.5008884
+7258;Hy Vee;41.6495899;-91.5010343
+7259;Towncrest Medical Offices;41.6484718;-91.4987699
+7260;South East Junior High;41.6475204;-91.49876
+7261;Wayne Avenue and Arthur Street;41.6474499;-91.4972837
+7262;Wayne Avenue and Dover Street;41.6474799;-91.4940426
+7263;Wayne Avenue and Village Road;41.6469395;-91.4911889
+7264;Village Road and Brighton Green;41.6477679;-91.4892561
+7265;Village Road and Village Green Blvd.;41.6480387;-91.4881356
+7266;Muscatine Avenue and Maplewood Lane;41.64975;-91.4881682
+7267;Autumn Park Apartments;41.6496999;-91.4910415
+7268;Muscatine Avenue and Dover Street;41.6496599;-91.4938321
+7269;Muscatine Avenue and Arthur Street;41.64962;-91.497866
+7301;Court Street and Muscatine Avenue;41.6567099;-91.5143601
+7302;Court Street and Muscatine Avenue;41.6567503;-91.5146037
+7303;Court Street and Morningside Drive;41.65674;-91.5083983
+7304;Court Street and Morningside Drive;41.65679;-91.5085523
+7306;City High School;41.6567599;-91.50645
+7307;City High School;41.6568099;-91.5062332
+7308;Hoover Elementary;41.6567502;-91.5035432
+7309;Court Street and 2nd Avenue;41.65682;-91.5032541
+7310;Court Street and 1st Avenue;41.65677;-91.50221
+7311;Court Street and 1st Avenue;41.6568303;-91.5017884
+7312;Court Street and Upland Avenue;41.6567899;-91.5003168
+7313;Upland Avenue and Court Street;41.6566733;-91.5001106
+7314;Court Street and Crestview Avenue;41.6568099;-91.4981113
+7315;Court Street and Linden Court;41.65684;-91.4948704
+7316;Court Street and Westminster Street;41.6568699;-91.4917713
+7317;Court Street and Dartmouth Street;41.6569351;-91.4879149
+7318;Court Street and Friendship Avenue;41.65697;-91.48487
+7319;Friendship Street and Court Street;41.6571235;-91.48471
+7321;Friendship Avenue and Arbor Street;41.6551999;-91.4869984
+7322;Friendship Avenue and Clover Street;41.6551888;-91.4905309
+7323;Friendship Avenue and Norwood Circle;41.6550905;-91.4929278
+7324;Friendship Avenue and Meadow Street;41.6537036;-91.4956332
+7325;Friendship Avenue and Terrace Road;41.6534396;-91.4978139
+7326;Upland Avenue and Crestview Avenue;41.6543067;-91.5003502
+7327;Court Street  and Peterson Street;41.6569799;-91.4830813
+7328;Court Street  and Elmira Street;41.6569806;-91.47926
+7329;Court Street  and Kenneth Drive;41.657152;-91.4736224
+7330;Court Street  and Camden Road;41.6575001;-91.4712667
+7331;Arlington Drive and Court Street;41.6569652;-91.4692094
+7332;Arlington Drive and Cumberland Lane;41.655645;-91.4692425
+7333;Huntington Drive and Arlington Drive;41.6544594;-91.4692674
+7334;Huntington Drive and Cardigan Lane;41.6552999;-91.46587
+7335;Huntington Drive and Court Street;41.6568734;-91.4655293
+7336;Court Street and Camden Road;41.6575802;-91.4710214
+7337;Ashford Place and Chadwick Place;41.6607643;-91.46885
+7338;Ashford Place and York Place;41.6622138;-91.46884
+7339;York Place and Brentwood Lane;41.6633197;-91.4719713
+7340;Brentwood and Camden Street;41.6603411;-91.472187
+7341;Camden Road and Ashford Place;41.6598133;-91.4706444
+7342;Court Street and Kenneth Drive;41.6572774;-91.4733598
+7343;Court Street and Lindeman Drive;41.65704;-91.4777502
+7344;Scott Park Drive and Elgin Drive;41.65782;-91.4802799
+7345;Regency Heights Apts.;41.6603606;-91.4808929
+7346;Scott Blvd. and Lower West Branch Road;41.6648865;-91.48291
+7347;Lower West Branch Road and Middlebury Road;41.6668442;-91.48291
+7400;Clinton Street and Jefferson Street;41.6623264;-91.5345378
+7401;Jefferson Street and Linn Street;41.66243;-91.5317913
+7402;Jefferson Street and Van Buren Street;41.6624099;-91.5288352
+7403;Jefferson Street and Dodge Street;41.6623799;-91.5258752
+7404;Jefferson Street and Governor Street;41.66236;-91.52296
+7405;Clapp Street and Hotz Avenue;41.6628768;-91.5194
+7406;Clapp Street and Rochester Avenue;41.663813;-91.5193701
+7407;Rochester Avenue and Elizabeth Street;41.6639499;-91.5195876
+7408;Rochester Avenue and Pleasant Street;41.6639;-91.5171905
+7409;Rochester Avenue and Pleasant Street;41.6639399;-91.5167398
+7410;Rochester Avenue and Memler Court;41.66388;-91.5150388
+7411;Rochester Avenue and Memler Court;41.66392;-91.5150392
+7412;Rochester Avenue and 7th Avenue;41.66388;-91.5119902
+7413;Rochester Avenue and 7th Avenue;41.66392;-91.51161
+7414;Rochester Avenue and Ashwood Drive;41.6636891;-91.5075384
+7415;Rochester Avenue and Windsor Court;41.6637403;-91.5083251
+7416;Rochester Avenue and Rita Lyn Court;41.6652527;-91.5043104
+7417;Rochester Avenue and Rita Lyn Court;41.6651998;-91.5044602
+7418;Regina Education Center;41.6659246;-91.5032799
+7419;Regina Education Center;41.6659891;-91.5032715
+7420;Rochester Avenue and 1st Avenue;41.6663904;-91.501428
+7421;Rochester Avenue and 1st Avenue;41.66646;-91.50147
+7422;Rochester Avenue and Post Road;41.6667798;-91.4998004
+7423;Rochester Avenue and Post Road;41.6668379;-91.499837
+7424;Rochester Avenue and Mount Vernon Drive;41.6671117;-91.4957327
+7425;Mount Vernon Drive and Rochester Avenue;41.6668158;-91.4955832
+7426;Rochester Avenue and Larch Lane;41.6664301;-91.4933717
+7427;Amhurst Street and Lower West Branch Road;41.6667883;-91.4870309
+7428;Amhurst Street and Tulane Avenue;41.6657882;-91.4872499
+7429;Amhurst Street and Hastings Avenue;41.6638674;-91.486
+7430;Lemme Elementary;41.6624568;-91.4860398
+7431;Amhurst Street and Oberlin Street;41.6610095;-91.4842388
+7432;Amhurst Street and Washington Street;41.6602918;-91.48391
+7433;Washington Street and Raven Street;41.6603404;-91.4853307
+7434;Lemme Elementary - Washington St;41.6610801;-91.488137
+7435;Washington Street and Westminster Street;41.6605704;-91.4922561
+7436;Washington Street and Green Mountain Drive;41.66055;-91.4952501
+7437;Washington Street and Mount Vernon Drive;41.66053;-91.4983333
+7438;Mount Vernon Drive and Concord Circle;41.6630904;-91.4972899
+7439;Mount Vernon Drive;41.6650967;-91.4965061
+7440;Market Street and Governor Street;41.6635298;-91.5225692
+7441;Market Street and Dodge Street;41.6635499;-91.5255773
+7442;North Dodge Street and Market Street;41.6639837;-91.5257699
+7443;Mercy Hospital;41.6635799;-91.5285389
+7444;Johnson Street and Bloomington Street;41.66448;-91.52716
+7445;Bloomington Street and Gilbert Street;41.6646899;-91.5299546
+7446;Gilbert Street and Fairchild Street;41.6667506;-91.5300601
+7447;Gilbert Street and Church Street;41.6678637;-91.5300598
+7448;Church Street and Linn Street;41.66801;-91.5314381
+7449;Church Street and Dubuque Street;41.66801;-91.5328591
+7450;Dubuque Street and Fairchild Street;41.6669994;-91.5331
+7451;Dubuque Street and Davenport Street;41.6659069;-91.5331
+7452;Dubuque Street and Bloomington Street;41.6648037;-91.5331099
+7453;Dubuque Street and Market Street;41.6637219;-91.5331299
+7454;IMU;41.66231;-91.53773
+7455;UI Main Library;41.6605266;-91.5377401
+7456;Washington Street and Van Buren Street;41.66002;-91.5288139
+7457;Washington Street and Dodge Street;41.65999;-91.5260422
+7458;Dodge Street and Burlington Street;41.6579426;-91.5258301
+7459;Dodge Street and Court Street;41.6566677;-91.52583
+7460;Dodge Street #4;41.6552413;-91.52584
+7500;Governor Street and Jefferson Street;41.6625892;-91.52278
+7501;Governor Street and Market Street;41.6633991;-91.52277
+7502;Governor Street and Davenport Street;41.6655946;-91.5227399
+7503;Governor Street and Church Street;41.6680959;-91.52271
+7504;Governor Street and Brown Street;41.6700253;-91.5226899
+7505;Governor Street;41.6724179;-91.5230391
+7506;Governor Street and North Dodge Street;41.67407;-91.52306
+7507;North Dodge Street and Summit Street;41.6751401;-91.5213896
+7508;Hy Vee;41.676809;-91.5168615
+7509;Hy Vee;41.67684;-91.51712
+7510;Iowa City Press Citizen;41.6798503;-91.5108492
+7511;Iowa City Press Citizen;41.6799478;-91.5108042
+7512;North Dodge Street and Scott Blvd.;41.68115;-91.50816
+7513;ACT #1;41.6800362;-91.5027658
+7514;ACT #2;41.6809567;-91.502181
+7515;ACT #3;41.6826;-91.503269
+7516;Northgate Drive #1;41.68996;-91.49446
+7517;Northgate Drive #2;41.6888233;-91.4935505
+7518;Pearson and Northgate Drive;41.6878624;-91.4925921
+7520;Northgate Drive #3;41.6883084;-91.4926036
+7521;Pearson Main Entrance;41.6893169;-91.4998994
+7522;Pearsons Drive and North Dodge Street;41.6902856;-91.497694
+7523;North Dodge Street and ACT Circle;41.6829789;-91.504722
+7524;North Dodge Street and Bristol Drive;41.6788485;-91.5130028
+7525;Prairie du Chien Road and North Dodge Street;41.6756896;-91.52115
+7526;Prairie du Chien Road and Caroline Court;41.6787393;-91.5211999
+7527;Caroline Avenue and Prairie du Chien Road;41.67969;-91.5217092
+7528;Whiting Avenue and Kimball Road;41.6784498;-91.5234648
+7529;Kimball Road and Kimball Court;41.6761577;-91.5236007
+7530;Governor Street and Kimball Road;41.6750739;-91.5239243
+7531;North Dodge Street #1;41.6731857;-91.5243042
+7532;North Dodge Street #2;41.671726;-91.5254457
+7533;North Dodge Street and Brown Street;41.6702277;-91.5256898
+7534;Horace Mann Elementary;41.6673679;-91.52573
+7600;Eastdale Plaza;41.6424999;-91.5047202
+7601;South East Junior High;41.6452482;-91.5019299
+7602;City High School;41.6589592;-91.50863
+7603;Arlington Drive and Canterbury Court;41.65346;-91.47007
+7604;Arlington Drive and American Legion Road;41.6478069;-91.4690811
+7605;American Legion Road and Scott Blvd.;41.6498299;-91.4825984
+7606;Wellington Drive and Scott Blvd.;41.6451;-91.48291
+7607;Scott Blvd. #1;41.6386427;-91.48289
+7608;Sycamore Street and Hollywood Blvd.;41.6403766;-91.5115766
+7609;Wellington Drive and Scott Blvd.;41.6451;-91.48291
+7700;Bon Aire Mobile Home Lodge;41.6314737;-91.4955207
+7701;Frontage Road and Lakeside Drive;41.6350322;-91.4976014
+7750;Kirkwood Avenue and Gilbert Street;41.6494799;-91.5321937
+8000;Hydraulics Lab, Boyd Law School;41.657276;-91.5417485
+8001;Hydraulics Lab, Boyd Law School;41.6578276;-91.5416894
+8002;Riverside Drive and Myrtle Avenue;41.6536266;-91.5405195
+8003;Riverside Drive and Myrtle Avenue;41.6536473;-91.5403695
+8004;Riverside Drive and Riverside Court;41.6550367;-91.540869
+8005;Benton Street and Riverside Drive;41.65039;-91.54083
+8006;Riverside Drive and Benton Street;41.6501898;-91.5400899
+8007;Benton Street and Giblin Drive;41.6503799;-91.5439389
+8008;Benton Street and Hudson Avenue;41.65037;-91.5454375
+8009;Miller Avenue and Hwy 1 West;41.6476311;-91.54654
+8010;Hwy 1 West and Miller Avenue;41.6473499;-91.546706
+8011;The Lodge Apartments;41.6474203;-91.5489878
+8012;Ruppert Road and Hwy 1 West;41.6468391;-91.5499
+8013;Westport Plaza 1;41.64513;-91.55362
+8014;Westport Plaza 2;41.644798;-91.5506468
+8015;Hwy 1 West and Slagers;41.6474;-91.54417
+8016;Gateway Center, Iowa City Transit;41.64656;-91.5402299
+8017;Gateway Center, Iowa City Transit;41.6457772;-91.540221
+8018;Riverside Drive and Ruppert Road;41.6452149;-91.5400814
+8019;South Riverside Drive and Ruppert Road;41.6445104;-91.5398717
+8020;Iowa City Airport;41.6396539;-91.5389617
+8021;Colonial Lanes;41.63105;-91.5426899
+8022;Riverside Drive/ Old Hwy 218 and South Riverside Drive;41.6282678;-91.5436008
+8023;Thatcher/Baculus Trailer Park;41.6316736;-91.5385303
+8024;South Riverside Drive and Commercial Drive;41.63394;-91.5392799
+8025;Moore;41.6364765;-91.5386307
+8050;VA Hospital - Woolf Ave;41.6638178;-91.54976
+8051;VA Hospital - Woolf Ave;41.6638148;-91.5498202
+8052;Woolf Avenue and Bayard Street;41.6656108;-91.5497099
+8053;Woolf  Avenue and Rider Street;41.6658541;-91.5497702
+8054;Woolf Avenue and River Street;41.6675067;-91.5496501
+8055;River Street and Woolf Avenue;41.66771;-91.5499082
+8056;River Street and Lee Street;41.6677896;-91.5512709
+8058;Lee Street and Highwood Street;41.6689069;-91.5511605
+8059;Lee Street and Highwood Street;41.6688752;-91.551239
+8060;Lee Street and Park Road;41.6712353;-91.5507807
+8061;Park Road and Normandy Drive;41.67138;-91.5498182
+8062;Park Road and Lexington Avenue;41.67132;-91.548463
+8063;Park Road and Lexington Avenue;41.67138;-91.5484406
+8064;Park Road and Magowen Avenue;41.67134;-91.5458909
+8066;Park Road and Beldon Avenue;41.67135;-91.5433176
+8067;Park Road and Beldon Avenue;41.6714;-91.5433276
+8068;Upper City Park;41.6713499;-91.54064
+8069;Upper City Park;41.6713999;-91.5402613
+8070;Lower City Park;41.6714398;-91.5354107
+8071;Lower City Park entrance;41.6715311;-91.535461
+8072;Dubuque Street and Kimball Road;41.6729497;-91.53257
+8073;Dubuque Street and Park Road;41.6719268;-91.532849
+8074;Mayflower Dorm;41.6768691;-91.5320302
+8075;Mayflower Dorm;41.6766171;-91.5324685
+8076;Dubuque Street and Ridge Road;41.6785238;-91.5321928
+8077;Dubuque Street and Taft Speedway;41.679555;-91.5334353
+8078;Foster Road and Dubuque Street;41.6809278;-91.5355468
+8079;Foster Road and Laura Drive;41.68114;-91.5377
+8080;Laura Drive and Foster Road;41.6813262;-91.5379936
+8081;Foster Road and Laura Drive;41.6810402;-91.5373319
+8082;Forest View Trailer Park;41.68426;-91.54052
+8083;Foster Road and Idyllwild Drive;41.6813994;-91.5399348
+8084;Foster Road and Idyllwild Drive;41.6813704;-91.540125
+8085;Foster Road and Algonquin Road;41.67998;-91.5483286
+8086;Foster Road and Algonquin Road;41.67993;-91.5481996
+8087;Foster Road and 900 Block;41.6794055;-91.5531359
+8088;Foster Road and Swisher Street;41.6771594;-91.5545713
+8089;Swisher Street and Foster Road;41.6770076;-91.5546703
+8090;Walker Circle and Moses Bloom Lane;41.6763123;-91.5565264
+8100;UI Hospital Emergency Entrance;41.6585899;-91.54532
+8101;UI Family Care;41.6569099;-91.5473631
+8102;UI Family Care;41.65681;-91.5471057
+8103;Melrose Avenue and South Grand Avenue;41.6567799;-91.5446784
+8104;Melrose Avenue and Hawkins Drive;41.65683;-91.5501474
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545606
+8106;Melrose Avenue and Koser Avenue;41.65687;-91.5542876
+8107;Melrose Avenue and George Street;41.6563803;-91.5571586
+8108;Melrose Avenue and George Street;41.6563801;-91.5568448
+8109;Sunset Street and Melrose Avenue;41.6554656;-91.5596903
+8110;Sunset Street and Melrose Avenue;41.6556071;-91.5596098
+8111;Sunset Street and Marietta Avenue;41.6534251;-91.5595898
+8112;Sunset Street and Marietta Avenue;41.6532441;-91.5595098
+8113;Sunset Street and Oakcrest Street;41.65191;-91.55954
+8114;Sunset Street and Oakcrest Street;41.6516781;-91.5594599
+8115;Oaknoll Retirement Center #1;41.6519082;-91.5563876
+8116;Oaknoll Retirement Center #2;41.6520404;-91.5543142
+8117;Oakcrest Street #3;41.6517799;-91.5526494
+8118;Oakcrest Street and Woodside Drive;41.65269;-91.55153
+8119;Oakcrest Street #5;41.6536401;-91.5503068
+8120;Woodside Place and Greenwood Drive;41.6523088;-91.5486397
+8121;Greenwood Drive and Benton Street;41.65054;-91.55033
+8122;Seville Apartments;41.6504699;-91.5524894
+8123;Benton Street and Oaknoll Drive;41.65049;-91.5545407
+8124;Benton Street and George Street;41.65048;-91.5567692
+8125;Benton Street and Streb Street;41.65047;-91.5582953
+8126;Sunset Street and Arbury Drive;41.6489166;-91.5594995
+8127;Sunset Street and Penfro Drive;41.6472665;-91.5590197
+8128;Sunset Street and Denbigh Drive;41.6455906;-91.5594197
+8129;Sunset Street and Aber Avenue;41.6433302;-91.5601499
+8150;Melrose Avenue and Sunset Street;41.6555345;-91.5602469
+8200;Dental College;41.6635701;-91.551241
+8201;Dental College;41.6634791;-91.5509854
+8202;Carver Hawkeye Arena;41.6630179;-91.554031
+8203;UI Main Hospital, Kinnick Stadium;41.65964;-91.5499899
+8204;UI Center for Disabilities, Dental College;41.6611018;-91.5506608
+8205;Hawkins Drive and Melrose Avenue;41.6570397;-91.54994
+8206;UI Main Hospital, Kinnick Stadium;41.6593028;-91.5498402
+8207;Ramp 2, Pappajohn& Pomerantz;41.6577486;-91.5498614
+8208;Melrose Avenue and Sunset Street;41.6558397;-91.5593809
+8209;Melrose Avenue and Emerald Street;41.6558202;-91.5645113
+8210;IC Fire Station;41.6555909;-91.5639963
+8211;Melrose Avenue and Westgate Street;41.6560301;-91.5663115
+8212;Westgate Street and Melrose Avenue;41.65578;-91.56659
+8213;Melrose Avenue and Macbride Road;41.6562701;-91.5690518
+8214;Melrose Avenue and MacBride Road;41.6560845;-91.5688992
+8215;Melrose Avenue and Finkbine Lane;41.6568702;-91.572452
+8216;Melrose Avenue and Finkbine Lane;41.6566895;-91.5724065
+8217;Melrose Avenue and Morman Trek Blvd.;41.6568654;-91.5743628
+8218;Morman Trek Blvd. and Melrose Avenue;41.6566652;-91.5738208
+8219;Melrose Avenue and Westwinds Drive;41.6571;-91.5774348
+8220;Melrose Avenue and Westwinds Drive;41.6569317;-91.5777847
+8221;Westwinds Drive and Melrose Avenue;41.6564157;-91.5775596
+8222;Westwinds Drive and Willowwind Place;41.6563641;-91.577639
+8223;Westwinds Drive and Hawaii Court;41.6554358;-91.5777415
+8224;Westwinds Drive and Roberts Road;41.6534527;-91.57821
+8226;Pheasant Ridge Neighborhood Center;41.65385;-91.57648
+8227;Bartelt Road and Morman Trek Blvd.;41.6541105;-91.5741867
+8228;Mormon Trek Blvd. and Cameron Way;41.6517381;-91.57408
+8229;Walden Plaza;41.6508803;-91.5755786
+8230;Westwinds Drive #2;41.6512397;-91.5774283
+8231;Westwinds Drive #3;41.6523463;-91.5782901
+8232;Benton Street and Spencer Drive;41.64962;-91.5707321
+8233;Benton Street and Keswick Drive;41.6496299;-91.5683054
+8234;Benton Street and Westgate Street;41.6496202;-91.5668748
+8235;Westgate Street and Benton Street;41.6497894;-91.5667699
+8236;Horn Elementary;41.64966;-91.5642657
+8237;Horn Elementary;41.6496003;-91.5640201
+8238;Denbigh Drive and Hafor Drive;41.6470127;-91.5638594
+8239;Denbigh Drive and Penkridge Drive;41.6455502;-91.5628925
+8240;Denbigh Drive and Sunset Street;41.6454738;-91.5596547
+8243;Sunset Street and Kineton Green;41.6467677;-91.558901
+8244;Crosspark Avenue and Broadway Street;41.6389878;-91.5204439
+8245;Sunset Street and Arbury Drive;41.6486378;-91.5593293
+8246;Benton Street and Sunset Street;41.6504999;-91.5603586
+8247;Sunset Street and Benton Street;41.6505891;-91.5595393
+8249;Westgate Street and Westgate Court;41.6503391;-91.56667
+8250;Westgate Street Midblock;41.651561;-91.56665
+8252;Westgate Street and Keswick Drive;41.6530949;-91.56665
+8253;Westgate Street and Keswick Drive;41.6529954;-91.5667394
+8254;Westgate Street and Gilmore Court;41.6550538;-91.5667398
+8270;Westside Drive and Earl Road;41.6387761;-91.5657602
+8271;Westside Drive and Jeffrey Street;41.64118;-91.56695
+8272;Westside Drive and Earl Road;41.6390832;-91.5682501
+8273;Westside Drive and Morman Trek Blvd.;41.6375193;-91.5680299
+8275;Morman Trek Blvd. and Gryn Drive;41.63971;-91.5722399
+8276;Gryn Drive and Plaen View Drive;41.6400471;-91.5718733
+8277;Plaen View Drive and Little Creek Lane;41.6403306;-91.5702894
+8278;Plaen View Drive;41.6418669;-91.5708636
+8279;Plean View Drive and Morman Trek Blvd.;41.64232;-91.5727949
+8281;Abbey Lane and Dolen Place;41.64336;-91.5734544
+8282;Abbey Lane and Cae Drive;41.6433696;-91.5719717
+8283;Cae Drive and Burry Drive;41.6449782;-91.5711678
+8284;Cae Drive and Cambria Court;41.6458099;-91.5728893
+8285;Cae Drive and Morman Trek Blvd.;41.64576;-91.5738998
+8286;Morman Trek Blvd. and Cae Drive;41.6455824;-91.5740799
+8290;Morman Trek Blvd. and Benton Street;41.6488641;-91.57402
+8291;Benton Street and Jema Court;41.6495998;-91.572994
+8300;Melrose Avenue and Hawkeye Drive;41.65713;-91.5830129
+8301;Melrose Avenue and Hawkeye Drive;41.65697;-91.5834883
+8302;Melrose Avenue and Dublin Drive;41.65714;-91.5858258
+8303;Melrose Avenue and Dublin Drive;41.65697;-91.5859022
+8304;Melrose Avenue and Kennedy Parkway;41.65716;-91.5885958
+8305;Melrose Avenue and Galway Drive;41.6569899;-91.5884579
+8306;Chatam Oaks Residential Facility;41.6566199;-91.6027
+8330;Mormon Trek Blvd. and Bartelt Road;41.6568701;-91.572451
+8331;Mormon Trek Blvd. and Rohret Road;41.6459023;-91.5741999
+8332;Coll Drive and Coll Court;41.64656;-91.57837
+8333;Jensen Street and Jensen Court;41.6485098;-91.5775492
+8334;Irving Avenue and Shannon Drive;41.6479133;-91.5810418
+8335;Shannon Drive and Rohret Road;41.6462626;-91.5807495
+8336;Rohret Road and Duck Creek Drive;41.6461897;-91.5856645
+8337;Deerfield Drive and Duck Creek Drive;41.6486956;-91.58976
+8338;Duck Creek Drive and Partridge Court;41.6494197;-91.5927839
+8339;Duck Creek Drive and Wild Prairie Drive;41.6495177;-91.5957547
+8340;Wild Prairie Drive and Prairie Grass Lane;41.6487013;-91.598228
+8341;Wild Prairie Drive and Laredo Drive;41.6473097;-91.5987397
+8342;Laredo Drive and Santa Fe Drive;41.6473785;-91.5998972
+8343;Santa Fe Drive and Phoenix Drive;41.6467691;-91.6014908
+8344;Phoenix Drive and Tuscon Place;41.6449337;-91.60088
+8345;Phoenix Drive and Rohret Road;41.64356;-91.60037
+8346;Irving Weber School;41.6440982;-91.5968
+8347;Rohret Road and Hunters Run;41.6453584;-91.5902466
+8348;Rohret Road and Duck Creek Drive;41.64613;-91.585688
+8349;Rohret Road and Shannon Drive;41.6460999;-91.5808182
+8350;Rohret Road and Ranier Drive;41.64608;-91.5786097
+9001;Scott Blvd. and Stuart Court;41.6699345;-91.5018777
+9100;Mall Drive #1;41.6434515;-91.5074548
+9101;Mall Drive #2;41.6438919;-91.5059627
+9102;Mall Drive #3;41.6446212;-91.5034901
+9103;Fairmeadows Blvd. and Hollywood Blvd.;41.6382717;-91.5038374
+9104;Hollywood Blvd. and Grantwood Street;41.6398594;-91.5074382
+9200;Downtown Interchange;41.6606;-91.53457

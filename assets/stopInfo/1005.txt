@@ -1,2 +1,2 @@
-Finals Week Interdorm,interdormfnls,uiowa
-Red,red,uiowa
+Finals Week Interdorm;interdormfnls;uiowa
+Red;red;uiowa

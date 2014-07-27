@@ -1,2 +1,2 @@
-Lantern Park,lantern,coralville
-Night/Saturday,nightsat,coralville
+Lantern Park;lantern;coralville
+Night/Saturday;nightsat;coralville

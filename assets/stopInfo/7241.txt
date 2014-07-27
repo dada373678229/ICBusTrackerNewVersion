@@ -1,2 +1,2 @@
-Court Hill,courthill,iowa-city
-Towncrest,towncrst,iowa-city
+Court Hill;courthill;iowa-city
+Towncrest;towncrst;iowa-city

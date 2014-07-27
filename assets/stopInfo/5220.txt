@@ -1,2 +1,2 @@
-AM Express,amexpress,coralville
-PM North Liberty,pmnorthlib,coralville
+AM Express;amexpress;coralville
+PM North Liberty;pmnorthlib;coralville

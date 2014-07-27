@@ -74,15 +74,15 @@ public class StopsDetailActivity extends Activity{
 		
 		//set up action bar
 		String stopTitle=getIntent().getExtras().getString("stopTitle");
-		stopId=stopTitle.split(",")[0];
-		stopName=stopTitle.split(",")[1];
+		stopId=stopTitle.split(";")[0];
+		stopName=stopTitle.split(";")[1];
 		ActionBar actionBar = getActionBar();
-		actionBar.setTitle(stopTitle.split(",")[1]);
+		actionBar.setTitle(stopTitle.split(";")[1]);
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		context=this;
 		
 		//check if this stop is in favorite
-		String stopKey=stopId+","+stopName;
+		String stopKey=stopId+";"+stopName;
 		favorite=settings.getStringSet("favorite", new HashSet<String>()).contains(stopKey);
 		
 		//check if auto-refresh or alarm is enabled
@@ -251,7 +251,7 @@ public class StopsDetailActivity extends Activity{
 		    //get item id, if it is favorite button, turn it to not favorite
         	//if it is not favorite button, turn it to favorite
         	//and save changes to settings
-        	String stopKey=stopId+","+stopName;
+        	String stopKey=stopId+";"+stopName;
 		    switch (item.getItemId()) {
 		    	//is currently favorite
 		        case R.id.stopDetail_favorite_icon:
@@ -331,14 +331,16 @@ public class StopsDetailActivity extends Activity{
 					errorCode=2;
 					return result;
 				}
+				
+				Log.d("mytag",p);
 				//if there is some bus predictions
-				String data[]=p.split(";");
+				String data[]=p.split("\\?");
 				for (int i=0; i<data.length;i++){		
 					//create card and card expand
 					routeListDetailCard temp=new routeListDetailCard(this);
 		            
 					//set values on card
-					String line[]=data[i].split(",");
+					String line[]=data[i].split(";");
 					temp.setContent(line[0],line[3],line[1]+"min");
 					temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
 					

@@ -1,46 +1,48 @@
-2,Downtown Interchange,41.66004,-91.53498
-7400,Clinton Street and Jefferson Street,41.6623264,-91.5345378
-7401,Jefferson Street and Linn Street,41.66243,-91.5317913
-7402,Jefferson Street and Van Buren Street,41.6624099,-91.5288352
-7403,Jefferson Street and Dodge Street,41.6623799,-91.5258752
-7404,Jefferson Street and Governor Street,41.66236,-91.52296
-7405,Clapp Street and Hotz Avenue,41.6628768,-91.5194
-7406,Clapp Street and Rochester Avenue,41.663813,-91.5193701
-7408,Rochester Avenue and Pleasant Street,41.6639,-91.5171905
-7410,Rochester Avenue and Memler Court,41.66388,-91.5150388
-7412,Rochester Avenue and 7th Avenue,41.66388,-91.5119902
-7414,Rochester Avenue and Ashwood Drive,41.66369,-91.5075298
-7416,Rochester Avenue and Rita Lyn Court,41.6652573,-91.5043038
-7418,Regina Education Center,41.6659285,-91.5032726
-7420,Rochester Avenue and 1st Avenue,41.6663903,-91.5014285
-7422,Rochester Avenue and Post Road,41.6667797,-91.4998008
-7424,Rochester Avenue and Mount Vernon Drive,41.6671118,-91.4957329
-7426,Rochester Avenue and Larch Lane,41.6664302,-91.4933722
-7427,Amhurst Street and Lower West Branch Road,41.66679,-91.48703
-7428,Amhurst Street and Tulane Avenue,41.6657894,-91.4872499
-7429,Amhurst Street and Hastings Avenue,41.6638685,-91.486
-7430,Lemme Elementary - Amhurst St,41.6624579,-91.4860398
-7431,Amhurst Street and Oberlin Street,41.6610104,-91.4842414
-7432,Amhurst Street and Washington Street,41.660293,-91.48391
-7433,Washington Street and Raven Street,41.6603404,-91.4853307
-7434,Lemme Elementary - Washington St,41.6610801,-91.488137
-7435,Washington Street and Westminster Street,41.6605704,-91.4922561
-7436,Washington Street and Green Mountain Drive,41.66055,-91.4952501
-7437,Washington Street and Mount Vernon Drive,41.66053,-91.4983333
-7438,Mount Vernon Drive and Concord Circle,41.6630904,-91.4972899
-7439,Mount Vernon Drive,41.6650967,-91.4965061
-7425,Mount Vernon Drive and Rochester Avenue,41.6668158,-91.4955832
-7423,Rochester Avenue and Post Road,41.6668385,-91.4998349
-7421,Rochester Avenue and 1st Avenue,41.6664589,-91.5014748
-7419,Regina Education Center,41.6659889,-91.5032719
-7417,Rochester Avenue and Rita Lyn Court,41.6651998,-91.5044602
-7415,Rochester Avenue and Windsor Court,41.6637403,-91.5083251
-7413,Rochester Avenue and 7th Avenue,41.66392,-91.51161
-7411,Rochester Avenue and Memler Court,41.66392,-91.5150392
-7409,Rochester Avenue and Pleasant Street,41.6639399,-91.5167398
-7407,Rochester Avenue and Elizabeth Street,41.6639499,-91.5195876
-7440,Market Street and Governor Street,41.6635298,-91.5225692
-7441,Market Street and Dodge Street,41.6635499,-91.5255773
-7443,Mercy Hospital,41.6635798,-91.528529
-7206,Market Street and Linn Street,41.66359,-91.5314302
-7207,Clinton Street and Jefferson Street,41.662629,-91.5346397
+Outbound
+2;Downtown Interchange;41.66004;-91.53498
+7400;Clinton Street and Jefferson Street;41.6623264;-91.5345378
+7401;Jefferson Street and Linn Street;41.66243;-91.5317913
+7402;Jefferson Street and Van Buren Street;41.6624099;-91.5288352
+7403;Jefferson Street and Dodge Street;41.6623799;-91.5258752
+7404;Jefferson Street and Governor Street;41.66236;-91.52296
+7405;Clapp Street and Hotz Avenue;41.6628768;-91.5194
+7406;Clapp Street and Rochester Avenue;41.663813;-91.5193701
+7408;Rochester Avenue and Pleasant Street;41.6639;-91.5171905
+7410;Rochester Avenue and Memler Court;41.66388;-91.5150388
+7412;Rochester Avenue and 7th Avenue;41.66388;-91.5119902
+7414;Rochester Avenue and Ashwood Drive;41.66369;-91.5075298
+7416;Rochester Avenue and Rita Lyn Court;41.6652573;-91.5043038
+7418;Regina Education Center;41.6659285;-91.5032726
+7420;Rochester Avenue and 1st Avenue;41.6663903;-91.5014285
+7422;Rochester Avenue and Post Road;41.6667797;-91.4998008
+7424;Rochester Avenue and Mount Vernon Drive;41.6671118;-91.4957329
+7426;Rochester Avenue and Larch Lane;41.6664302;-91.4933722
+7427;Amhurst Street and Lower West Branch Road;41.66679;-91.48703
+7428;Amhurst Street and Tulane Avenue;41.6657894;-91.4872499
+7429;Amhurst Street and Hastings Avenue;41.6638685;-91.486
+7430;Lemme Elementary - Amhurst St;41.6624579;-91.4860398
+7431;Amhurst Street and Oberlin Street;41.6610104;-91.4842414
+7432;Amhurst Street and Washington Street;41.660293;-91.48391
+7433;Washington Street and Raven Street;41.6603404;-91.4853307
+7434;Lemme Elementary - Washington St;41.6610801;-91.488137
+7435;Washington Street and Westminster Street;41.6605704;-91.4922561
+7436;Washington Street and Green Mountain Drive;41.66055;-91.4952501
+7437;Washington Street and Mount Vernon Drive;41.66053;-91.4983333
+7438;Mount Vernon Drive and Concord Circle;41.6630904;-91.4972899
+7439;Mount Vernon Drive;41.6650967;-91.4965061
+Inbound
+7425;Mount Vernon Drive and Rochester Avenue;41.6668158;-91.4955832
+7423;Rochester Avenue and Post Road;41.6668385;-91.4998349
+7421;Rochester Avenue and 1st Avenue;41.6664589;-91.5014748
+7419;Regina Education Center;41.6659889;-91.5032719
+7417;Rochester Avenue and Rita Lyn Court;41.6651998;-91.5044602
+7415;Rochester Avenue and Windsor Court;41.6637403;-91.5083251
+7413;Rochester Avenue and 7th Avenue;41.66392;-91.51161
+7411;Rochester Avenue and Memler Court;41.66392;-91.5150392
+7409;Rochester Avenue and Pleasant Street;41.6639399;-91.5167398
+7407;Rochester Avenue and Elizabeth Street;41.6639499;-91.5195876
+7440;Market Street and Governor Street;41.6635298;-91.5225692
+7441;Market Street and Dodge Street;41.6635499;-91.5255773
+7443;Mercy Hospital;41.6635798;-91.528529
+7206;Market Street and Linn Street;41.66359;-91.5314302
+7207;Clinton Street and Jefferson Street;41.662629;-91.5346397

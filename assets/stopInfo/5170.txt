@@ -1,2 +1,2 @@
-AM Express,amexpress,coralville
-Research Park,research,uiowa
+AM Express;amexpress;coralville
+Research Park;research;uiowa

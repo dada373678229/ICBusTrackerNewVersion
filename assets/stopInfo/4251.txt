@@ -1,1 +1,1 @@
-Night/Saturday,nightsat,coralville
+Night/Saturday;nightsat;coralville

@@ -82,8 +82,8 @@ public class HomeFragment extends Fragment{
     	}
     	for (String stop: favoriteStops){
     		stopListCard temp = new stopListCard(getActivity());
-    		String stopId=stop.split(",")[0];
-    		String stopName=stop.split(",")[1];
+    		String stopId=stop.split(";")[0];
+    		String stopName=stop.split(";")[1];
     		temp.setId(stop);
     		temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
     		temp.setContent(stopId, stopName);

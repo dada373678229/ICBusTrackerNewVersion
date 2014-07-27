@@ -1,34 +1,35 @@
-5900,2nd Avenue and 7th Street,41.67893,-91.56411
-4040,6th Street and 1st Avenue - Scotch Pine,41.67645,-91.5674483
-4050,6th Street and 4th Ave,41.6764,-91.5692396
-5910,6th Street and 5th Avenue - Coralville Central,41.6757894,-91.57251
-5920,6th Street and 6th Avenue,41.6758518,-91.5735747
-4080,7th Street and 7th Avenue,41.6781003,-91.574624
-4090,7th Street and 10th Avenue,41.6784201,-91.5779735
-4100,7th Street and 12th Avenue,41.6784599,-91.5802666
-4110,8th Street and 14th Avenue,41.6817801,-91.5822554
-5930,Northwest Jr. High,41.68182,-91.58438
-5940,8th Street and 18th Avenue,41.6820187,-91.5875558
-5950,18th Ave. and 20th Avenue,41.6838396,-91.5895747
-4162,20th Avenue and 10th Street,41.68672,-91.58963
-4151,10th Street and 19th Avenue,41.68679,-91.5879664
-4141,10th Street and 17th Avenue,41.68676,-91.5859327
-4131,10th Street and 14th Avenue,41.68671,-91.582351
-5222,10th Street and 12th Avenue,41.6867,-91.5816211
-5211,12th Avenue and Ozark Ridge,41.6913641,-91.5824314
-5201,12th Avenue and Holiday Road,41.6947681,-91.5827895
-5191,Holiday Road and Liberty Lane,41.6953853,-91.5864838
-5280,Holiday Road and Southridge Drive,41.69636,-91.5897736
-5960,Southridge Court,41.6938064,-91.5929851
-5290,Holiday Road and Waterford,41.69636,-91.5909443
-5120,Lynncrest Drive and Holiday Road,41.69656,-91.5923
-5130,Lynncrest Drive and North Ridge Drive,41.6986547,-91.5933573
-5140,North Ridge Drive and Waterford,41.6985906,-91.5911682
-5150,North Ridge Drive and Farrell Drive,41.69856,-91.5892651
-5160,North Ridge Drive and 12th Ave.,41.6999478,-91.5861747
-5202,12th Avenue and Holiday Road,41.6950111,-91.5829102
-350,Holiday Road and Oak Lake Park Road,41.6949603,-91.5808127
-354,Holiday Road and Westview,41.6934107,-91.5763845
-360,Holiday Road and High Country Road,41.6934889,-91.5733273
-366,Holiday Road and Lakewood Hills,41.69295,-91.56838
-5970,Quarry Road and 7th Street,41.678964,-91.5612976
+Outbound
+5900;2nd Avenue and 7th Street;41.67893;-91.5641099
+4040;6th Street and 1st Avenue - Scotch Pine;41.67645;-91.5674483
+4050;6th Street and 4th Ave;41.6764;-91.5692396
+5910;6th Street and 5th Avenue - Coralville Central;41.6757894;-91.57251
+5920;6th Street and 6th Avenue;41.6758518;-91.5735747
+4080;7th Street and 7th Avenue;41.6781003;-91.574624
+4090;7th Street and 10th Avenue;41.6784201;-91.5779735
+4100;7th Street and 12th Avenue;41.6784599;-91.5802666
+4110;8th Street and 14th Avenue;41.6817801;-91.5822554
+5930;Northwest Jr. High;41.68182;-91.58438
+5940;8th Street and 18th Avenue;41.6820187;-91.5875558
+5950;18th Ave. and 20th Avenue;41.6838396;-91.5895747
+4162;20th Avenue and 10th Street;41.6867199;-91.58963
+4151;10th Street and 19th Avenue;41.68679;-91.5879664
+4141;10th Street and 17th Avenue;41.68676;-91.5859327
+4131;10th Street and 14th Avenue;41.68671;-91.582351
+5222;10th Street and 12th Avenue;41.6867;-91.5816211
+5211;12th Avenue and Ozark Ridge;41.6913641;-91.5824314
+5201;12th Avenue and Holiday Road;41.6947681;-91.5827895
+5191;Holiday Road and Liberty Lane;41.6953853;-91.5864838
+5280;Holiday Road and Southridge Drive;41.69636;-91.5897736
+5290;Holiday Road and Waterford;41.69636;-91.5909443
+5120;Lynncrest Drive and Holiday Road;41.6965599;-91.5922999
+5130;Lynncrest Drive and North Ridge Drive;41.6986547;-91.5933573
+Inbound
+5140;North Ridge Drive and Waterford;41.6985906;-91.5911682
+5150;North Ridge Drive and Farrell Drive;41.69856;-91.5892651
+5160;North Ridge Drive and 12th Ave.;41.6999478;-91.5861747
+5202;12th Avenue and Holiday Road;41.6950111;-91.5829102
+350;Holiday Road and Oak Lake Park Road;41.6949603;-91.5808127
+354;Holiday Road and Westview;41.6934107;-91.5763845
+360;Holiday Road and High Country Road;41.6934889;-91.5733273
+366;Holiday Road and Lakewood Hills;41.69295;-91.56838
+5970;Quarry Road and 7th Street;41.678964;-91.5612976

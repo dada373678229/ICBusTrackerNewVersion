@@ -1,1 +1,1 @@
-East Side Loop SafeRide,esl,uiowa
+East Side Loop SafeRide;esl;uiowa

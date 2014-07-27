@@ -1,2 +1,2 @@
-Plaen View,plaenview,iowa-city
-Westside Hospital,westhosp,iowa-city
+Plaen View;plaenview;iowa-city
+Westside Hospital;westhosp;iowa-city

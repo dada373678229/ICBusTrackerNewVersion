@@ -1,8 +1,8 @@
-120,Macbride Hall,41.66246,-91.53579
-1030,Clinton & Iowa,41.6607706,-91.5346899
-1,Downtown Interchange - Schaeffer Hall,41.66017,-91.5358999
-1050,Main Library,41.6586058,-91.53775
-320,The Lodge,41.6474507,-91.5491329
-3200,Studio Arts Building,41.6415,-91.55676
-1051,Communications Center,41.6592585,-91.53765
-125,IMU,41.6623538,-91.53762
+Loop
+120;Macbride Hall;41.66246;-91.53579
+1030;Clinton & Iowa;41.6607706;-91.5346899
+1;Downtown Interchange - Schaeffer Hall;41.66017;-91.5358999
+1050;Main Library;41.6586058;-91.53775
+3200;Studio Arts Building;41.6415;-91.55676
+1051;Communications Center;41.6592585;-91.53765
+125;IMU;41.6623538;-91.53762

@@ -1,2 +1,2 @@
-AM Express,amexpress,coralville
-PM Special,pmspecial,coralville
+AM Express;amexpress;coralville
+PM Special;pmspecial;coralville

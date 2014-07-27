@@ -1,36 +1,38 @@
-1,Downtown Interchange,41.66017,-91.5359
-7082,Washington Street and Madison Street,41.66015,-91.5374557
-146,English Philosophy Building--IMU,41.66135,-91.5384996
-263,UI Student Health,41.6627106,-91.5435114
-257,Newton Road Ramp,41.6634,-91.5459966
-253,VA Hospital,41.6626701,-91.5486194
-8200,Dental College,41.6635701,-91.551241
-241,Carver Hawkeye Arena,41.6633887,-91.5538508
-8203,UI Main Hospital--Kinnick Stadium,41.65964,-91.5499899
-8205,Hawkins Drive and Melrose Avenue,41.6570397,-91.54994
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545606
-8107,Melrose Avenue and George Street,41.6563803,-91.5571586
-8208,Melrose Avenue and Sunset Street,41.6558397,-91.5593809
-8209,Melrose Avenue and Emerald Street,41.6558202,-91.5645113
-8211,Melrose Avenue and Westgate Street,41.6560301,-91.5663115
-8213,Melrose Avenue and Macbride Road,41.6562701,-91.5690518
-8215,Melrose Avenue and Finkbine Lane,41.6568702,-91.572452
-8219,Melrose Avenue and Westwinds Drive,41.6571,-91.5774348
-8300,Melrose Avenue and Hawkeye Drive,41.65713,-91.5830129
-8302,Melrose Avenue and Dublin Drive,41.65714,-91.5858258
-8304,Melrose Avenue and Kennedy Parkway,41.65716,-91.5885958
-8306,Chatam Oaks Residential Facility,41.6566199,-91.6027
-8305,Melrose Avenue and Galway Drive,41.6569899,-91.5884579
-8303,Melrose Avenue and Dublin Drive,41.65697,-91.5859022
-8301,Melrose Avenue and Hawkeye Drive,41.65697,-91.5834883
-8220,Melrose Avenue and Westwinds Drive,41.6569317,-91.5777847
-8217,Melrose Avenue and Morman Trek Blvd.,41.6568654,-91.5743628
-8216,Melrose Avenue and Finkbine Lane,41.6566895,-91.5724065
-8214,Melrose Avenue and MacBride Road,41.6560845,-91.5688992
-8210,IC Fire Station,41.6555909,-91.5639963
-8150,Melrose Avenue and Sunset Street,41.6555345,-91.5602469
-8108,Melrose Avenue and George Street,41.6563801,-91.5568448
-8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542876
-8104,Melrose Avenue and Hawkins Drive,41.65683,-91.5501474
-8102,UI Family Care,41.65681,-91.5471057
-8103,Melrose Avenue and South Grand Avenue,41.6567799,-91.5446784
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7082;Washington Street and Madison Street;41.66015;-91.5374557
+146;English Philosophy Building, IMU;41.66135;-91.5384996
+263;UI Student Health;41.6627106;-91.5435114
+257;Newton Road Ramp;41.6634;-91.5459966
+253;VA Hospital;41.6626701;-91.5486194
+8200;Dental College;41.6635701;-91.551241
+241;Carver Hawkeye Arena;41.6633887;-91.5538508
+8203;UI Main Hospital, Kinnick Stadium;41.65964;-91.5499899
+8205;Hawkins Drive and Melrose Avenue;41.6570397;-91.54994
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545606
+8107;Melrose Avenue and George Street;41.6563803;-91.5571586
+8208;Melrose Avenue and Sunset Street;41.6558397;-91.5593809
+8209;Melrose Avenue and Emerald Street;41.6558202;-91.5645113
+8211;Melrose Avenue and Westgate Street;41.6560301;-91.5663115
+8213;Melrose Avenue and Macbride Road;41.6562701;-91.5690518
+8215;Melrose Avenue and Finkbine Lane;41.6568702;-91.572452
+8219;Melrose Avenue and Westwinds Drive;41.6571;-91.5774348
+8300;Melrose Avenue and Hawkeye Drive;41.65713;-91.5830129
+8302;Melrose Avenue and Dublin Drive;41.65714;-91.5858258
+8304;Melrose Avenue and Kennedy Parkway;41.65716;-91.5885958
+Inbound
+8306;Chatam Oaks Residential Facility;41.6566199;-91.6027
+8305;Melrose Avenue and Galway Drive;41.6569899;-91.5884579
+8303;Melrose Avenue and Dublin Drive;41.65697;-91.5859022
+8301;Melrose Avenue and Hawkeye Drive;41.65697;-91.5834883
+8220;Melrose Avenue and Westwinds Drive;41.6569317;-91.5777847
+8217;Melrose Avenue and Morman Trek Blvd.;41.6568654;-91.5743628
+8216;Melrose Avenue and Finkbine Lane;41.6566895;-91.5724065
+8214;Melrose Avenue and MacBride Road;41.6560845;-91.5688992
+8210;IC Fire Station;41.6555909;-91.5639963
+8150;Melrose Avenue and Sunset Street;41.6555345;-91.5602469
+8108;Melrose Avenue and George Street;41.6563801;-91.5568448
+8106;Melrose Avenue and Koser Avenue;41.65687;-91.5542876
+8104;Melrose Avenue and Hawkins Drive;41.65683;-91.5501474
+8102;UI Family Care;41.65681;-91.5471057
+8103;Melrose Avenue and South Grand Avenue;41.6567799;-91.5446784

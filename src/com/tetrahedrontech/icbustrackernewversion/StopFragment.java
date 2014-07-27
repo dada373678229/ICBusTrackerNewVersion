@@ -69,9 +69,9 @@ public class StopFragment extends Fragment{
 				//get a single line and analyze stop infomation
 				while (line != null){
 					Card temp=new stopListCard(getActivity());
-					data=line.split(",");
+					data=line.split(";");
 					((stopListCard) temp).setContent(data[0],data[1]);
-					String stopTitle=data[0]+","+data[1];
+					String stopTitle=data[0]+";"+data[1];
 					temp.setId(stopTitle);
 					temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
 					result.add(temp);
@@ -95,7 +95,7 @@ public class StopFragment extends Fragment{
 				if(stopId.toLowerCase().contains(newText.toLowerCase()) | stopName.toLowerCase().contains(newText.toLowerCase())){
 					Card temp=new stopListCard(getActivity());
 					((stopListCard) temp).setContent(stopId,stopName);
-					String stopTitle=stopId+","+stopName;
+					String stopTitle=stopId+";"+stopName;
 					temp.setId(stopTitle);
 					result.add(temp);
 				}

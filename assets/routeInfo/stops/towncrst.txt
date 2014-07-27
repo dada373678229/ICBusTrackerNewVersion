@@ -1,0 +1,38 @@
+Outbound
+2;Downtown Interchange;41.66004;-91.53498
+7200;IC Library, Senior Center;41.66008;-91.5318679
+7201;Washington Street and Gilbert Street;41.6600195;-91.5303777
+7241;Burlington Street and Johnson Street;41.6577799;-91.5274155
+7245;Burlington Street and Lucas Street;41.65775;-91.5244548
+7247;Burlington Street and Summit Street;41.65773;-91.5213651
+7249;Burlington Street and Muscatine Avenue;41.65777;-91.5165807
+7251;Muscatine Avenue and Rundell Street;41.6562484;-91.5142477
+7253;Muscatine Avenue and 7th Avenue;41.65448;-91.51169
+7255;Muscatine Avenue and 5th Avenue;41.6518242;-91.5078161
+7225;Muscatine Avenue and 4th Avenue;41.6509003;-91.5064404
+7226;Walgreens;41.64952;-91.50353
+7257;Muscatine Avenue and Wade Street;41.64953;-91.5008884
+7259;Towncrest Medical Offices;41.6484717;-91.4987699
+7260;South East Junior High;41.6475203;-91.49876
+7261;Wayne Avenue and Arthur Street;41.6474499;-91.4972836
+7262;Wayne Avenue and Dover Street;41.6474799;-91.4940425
+7263;Wayne Avenue and Village Road;41.6469394;-91.4911887
+7264;Village Road and Brighton Green;41.6477679;-91.4892561
+Inbound
+7265;Village Road and Village Green Blvd.;41.6480387;-91.4881356
+7266;Muscatine Avenue and Maplewood Lane;41.6497499;-91.4881713
+7267;Autumn Park Apartments;41.6496999;-91.4910446
+7268;Muscatine Avenue and Dover Street;41.6496599;-91.4938352
+7269;Muscatine Avenue and Arthur Street;41.64962;-91.4978692
+7258;Hy Vee;41.6495899;-91.5010343
+7227;Walgreens;41.64957;-91.50331
+7224;Muscatine Avenue and 4th Avenue;41.6508265;-91.5062249
+7256;Muscatine Avenue and 5th Avenue;41.6518376;-91.5077065
+7254;Muscatine Avenue and 7th Avenue;41.65441;-91.51149
+7252;Muscatine Avenue and Court Street;41.6565274;-91.5145064
+7250;Muscatine Avenue and Burlington Street;41.6577193;-91.516219
+7248;Burlington Street and Summit Street;41.6578399;-91.5210263
+7246;Burlington Street and Lucas Street;41.65785;-91.5242015
+7242;Burlington Street and Johnson Street;41.6578701;-91.5271291
+7243;IC Recreation Center;41.65791;-91.529976
+7244;Burlington Street and Dubuque Street;41.65792;-91.5329135

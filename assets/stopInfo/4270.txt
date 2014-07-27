@@ -1,1 +1,1 @@
-10th Street,10thst,coralville
+10th Street;10thst;coralville

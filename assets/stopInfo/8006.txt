@@ -1,2 +1,2 @@
-Oakcrest Night & Weekend,oakcrstnw,iowa-city
-Westport,westport,iowa-city
+Oakcrest Night & Weekend;oakcrstnw;iowa-city
+Westport;westport;iowa-city

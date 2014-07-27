@@ -1,2 +1,2 @@
-Westwinds,westwinds,iowa-city
-Westwinds Night & Weekend,westwindsnw,iowa-city
+Westwinds;westwinds;iowa-city
+Westwinds Night & Weekend;westwindsnw;iowa-city

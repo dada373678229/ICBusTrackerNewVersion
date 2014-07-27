@@ -1,52 +1,54 @@
-2,Downtown Interchange,41.66004,-91.53498
-7001,US Post Office,41.6567475,-91.5347
-7002,Court Street  and Dubuque Street,41.6565501,-91.5333346
-7005,Court Street  and Gilbert Street,41.65655,-91.5304428
-7102,Bowery Street  and Johnson Street,41.6540899,-91.5274713
-7104,Bowery Street  and Dodge Street,41.65407,-91.52603
-7106,Dodge Street and Walnut Street,41.6506464,-91.5261899
-7108,Kirkwood Avenue and Dodge Street,41.64941,-91.5257941
-7110,Kirkwood Avenue and Keokuk Street,41.64941,-91.5234773
-7112,Kirkwood Avenue and Howell Street,41.6494199,-91.5203052
-7114,Kirkwood Avenue and Franklin Street,41.6494297,-91.5158479
-7118,Lower Muscatine Avenue and Pine Street,41.647751,-91.5136312
-7119,Mid American Energy,41.6461702,-91.5116902
-7120,Kirkwood Community College,41.64517,-91.51046
-7122,Sycamore Mall,41.6441448,-91.5093058
-7124,Iowa DOT--IC Fire Department,41.64186,-91.50537
-7125,Lower Muscatine Avenue and Fairmeadows Blvd.,41.6392088,-91.502878
-7126,Hwy 6 East and Heinze Road,41.631487,-91.4903758
-7128,Goodwill Warehouse,41.6303847,-91.4803203
-7129,ACT,41.6306693,-91.4826808
-7131,Systems Unlimited,41.6352873,-91.48281
-7132,Heinz Road and Scott Blvd.,41.63643,-91.4833103
-7133,United Natural Foods,41.6372925,-91.4895185
-7127,Heinz Road and Hwy 6 East,41.6320408,-91.4909793
-9100,Mall Drive #1,41.6434515,-91.5074548
-9101,Mall Drive #2,41.6438919,-91.5059627
-9102,Mall Drive #3,41.6446212,-91.5034901
-9103,Fairmeadows Blvd. and Hollywood Blvd.,41.6382717,-91.5038374
-9104,Hollywood Blvd. and Grantwood Street,41.6398594,-91.5074382
-7608,Sycamore Street and Hollywood Blvd.,41.6403734,-91.5115782
-7061,Sycamore Mall,41.6429899,-91.51159
-7134,Eastdale Plaza, IC Fire Department,41.6417796,-91.5062395
-7135,Sycamore Mall Cinema Theater,41.64248,-91.51027
-7123,Lower Muscatine Avenue and Mall Drive,41.6434348,-91.5082448
-7121,Kirkwood Community College,41.6450375,-91.5102369
-7117,Lower Muscatine Avenue and Pine Street,41.6476681,-91.5134477
-7115,Kirkwood Avenue and Franklin Street,41.649369,-91.5155587
-7116,Kirkwood Avenue and Roosevelt Street,41.64948,-91.5180611
-7113,Kirkwood Avenue and Summit Street,41.64947,-91.5208193
-7111,Kirkwood Avenue and Keokuk Street,41.6494699,-91.5233117
-7109,Kirkwood Avenue and Dodge Street,41.6494699,-91.525929
-7107,Dodge Street and Walnut Street,41.6506668,-91.5260799
-7105,Dodge Street and Bowery Street,41.6534382,-91.52579
-7103,Bowery Street  and Johnson Street,41.65413,-91.5271896
-7101,Bowery Street  and Van Buren Street,41.65413,-91.5286513
-7100,Bowery Street  and Gilbert Street,41.6541407,-91.5300231
-7006,Court Street  and Maiden Lane,41.65662,-91.5310542
-7003,Court Street  and Dubuque Street,41.65663,-91.5326793
-7004,Court Street Transportation Center,41.65663,-91.5334644
-7078,Court Street  and Madison Street,41.65666,-91.5375127
-7079,UI Lindquist Center,41.6585471,-91.53764
-7081,Madison Street and Washington Street,41.6599024,-91.537639
+Outbound
+2;Downtown Interchange;41.66004;-91.53498
+7001;US Post Office;41.6567475;-91.5347
+7002;Court Street  and Dubuque Street;41.6565501;-91.5333346
+7005;Court Street  and Gilbert Street;41.65655;-91.5304428
+7102;Bowery Street  and Johnson Street;41.6540899;-91.5274713
+7104;Bowery Street  and Dodge Street;41.65407;-91.52603
+7106;Dodge Street and Walnut Street;41.6506464;-91.5261899
+7108;Kirkwood Avenue and Dodge Street;41.64941;-91.5257941
+7110;Kirkwood Avenue and Keokuk Street;41.64941;-91.5234773
+7112;Kirkwood Avenue and Howell Street;41.6494199;-91.5203052
+7114;Kirkwood Avenue and Franklin Street;41.6494297;-91.5158479
+7118;Lower Muscatine Avenue and Pine Street;41.647751;-91.5136312
+7119;Mid American Energy;41.6461702;-91.5116902
+7120;Kirkwood Community College;41.64517;-91.51046
+7122;Sycamore Mall;41.6441448;-91.5093058
+7124;Iowa DOT, IC Fire Department;41.64186;-91.50537
+7125;Lower Muscatine Avenue and Fairmeadows Blvd.;41.6392088;-91.502878
+7126;Hwy 6 East and Heinze Road;41.631487;-91.4903758
+7128;Goodwill Warehouse;41.6303847;-91.4803203
+7129;ACT;41.6306693;-91.4826808
+7131;Systems Unlimited;41.6352873;-91.48281
+7132;Heinz Road and Scott Blvd.;41.63643;-91.4833103
+7133;United Natural Foods;41.6372925;-91.4895185
+7127;Heinz Road and Hwy 6 East;41.6320408;-91.4909793
+9100;Mall Drive #1;41.6434515;-91.5074548
+9101;Mall Drive #2;41.6438919;-91.5059627
+9102;Mall Drive #3;41.6446212;-91.5034901
+9103;Fairmeadows Blvd. and Hollywood Blvd.;41.6382717;-91.5038374
+9104;Hollywood Blvd. and Grantwood Street;41.6398594;-91.5074382
+7608;Sycamore Street and Hollywood Blvd.;41.6403734;-91.5115782
+7061;Sycamore Mall;41.6429899;-91.51159
+Inbound
+7134;Eastdale Plaza, IC Fire Department;41.6417796;-91.5062395
+7135;Sycamore Mall Cinema Theater;41.64248;-91.51027
+7123;Lower Muscatine Avenue and Mall Drive;41.6434348;-91.5082448
+7121;Kirkwood Community College;41.6450375;-91.5102369
+7117;Lower Muscatine Avenue and Pine Street;41.6476681;-91.5134477
+7115;Kirkwood Avenue and Franklin Street;41.649369;-91.5155587
+7116;Kirkwood Avenue and Roosevelt Street;41.64948;-91.5180611
+7113;Kirkwood Avenue and Summit Street;41.64947;-91.5208193
+7111;Kirkwood Avenue and Keokuk Street;41.6494699;-91.5233117
+7109;Kirkwood Avenue and Dodge Street;41.6494699;-91.525929
+7107;Dodge Street and Walnut Street;41.6506668;-91.5260799
+7105;Dodge Street and Bowery Street;41.6534382;-91.52579
+7103;Bowery Street  and Johnson Street;41.65413;-91.5271896
+7101;Bowery Street  and Van Buren Street;41.65413;-91.5286513
+7100;Bowery Street  and Gilbert Street;41.6541407;-91.5300231
+7006;Court Street  and Maiden Lane;41.65662;-91.5310542
+7003;Court Street  and Dubuque Street;41.65663;-91.5326793
+7004;Court Street Transportation Center;41.65663;-91.5334644
+7078;Court Street  and Madison Street;41.65666;-91.5375127
+7079;UI Lindquist Center;41.6585471;-91.53764
+7081;Madison Street and Washington Street;41.6599024;-91.537639

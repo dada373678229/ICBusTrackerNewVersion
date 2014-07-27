@@ -1,2 +1,2 @@
-Broadway,brdwy,iowa-city
-Broadway Night & Weekend,brdwynw,iowa-city
+Broadway;brdwy;iowa-city
+Broadway Night & Weekend;brdwynw;iowa-city

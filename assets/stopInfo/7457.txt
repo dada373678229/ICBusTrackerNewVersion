@@ -1,1 +1,1 @@
-Free Shuttle South,shuttles,iowa-city
+Free Shuttle South;shuttles;iowa-city

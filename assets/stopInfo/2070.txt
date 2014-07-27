@@ -1,2 +1,2 @@
-Hawkeye Interdorm,hawkdorm,uiowa
-Red,red,uiowa
+Hawkeye Interdorm;hawkdorm;uiowa
+Red;red;uiowa

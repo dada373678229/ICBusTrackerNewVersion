@@ -1,6 +1,7 @@
 package com.tetrahedrontech.icbustrackernewversion;
 
 import it.gmariotti.cardslib.library.internal.Card;
+
 import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
 import it.gmariotti.cardslib.library.view.CardListView;
 
@@ -73,8 +74,8 @@ public class RouteFragment extends Fragment{
   			//read data line by line
   			while (line != null){
   				Card temp=new routeListCard(getActivity());
-  				data=line.split(",");
-  				temp.setId(data[1]+","+data[2]+","+data[0]);
+  				data=line.split(";");
+  				temp.setId(data[1]+";"+data[2]+";"+data[0]);
   				temp.setBackgroundResourceId(HomeActivity.pressedCardBackground[HomeActivity.theme]);
   				
   				//find different agencies and put them into corresponding arraylists

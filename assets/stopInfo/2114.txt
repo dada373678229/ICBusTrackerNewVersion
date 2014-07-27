@@ -1,4 +1,4 @@
-Finals Week Interdorm,interdormfnls,uiowa
-Hospital via Hancher,hosphanch,uiowa
-Orientation Shuttle,orientation,uiowa
-Red,red,uiowa
+Finals Week Interdorm;interdormfnls;uiowa
+Hospital via Hancher;hosphanch;uiowa
+Orientation Shuttle;orientation;uiowa
+Red;red;uiowa

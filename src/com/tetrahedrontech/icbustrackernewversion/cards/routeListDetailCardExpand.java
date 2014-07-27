@@ -202,7 +202,7 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 		//check bus predictions in reversed order
 		for (int i=line.length-1;i>=0;i--){
 			//Log.i("mytag",line[i]);
-			String singlePre[]=line[i].split(",");
+			String singlePre[]=line[i].split(";");
 			//Log.i("mytag",String.valueOf(singlePre[0].equals(routeName)));
 			//Log.i("mytag",String.valueOf(Integer.valueOf(singlePre[1])<=upperBound));
 			
@@ -219,7 +219,7 @@ public class routeListDetailCardExpand extends CardExpand implements NumberPicke
 				//still need more time
 				else{
 					//Log.i("mytag","in second else");
-					upperBound=Integer.valueOf(line[i].split(",")[1]);
+					upperBound=Integer.valueOf(line[i].split(";")[1]);
 					return;
 				}
 			}

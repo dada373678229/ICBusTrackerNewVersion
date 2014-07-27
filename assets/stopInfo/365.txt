@@ -1,2 +1,2 @@
-PM North Liberty,pmnorthlib,coralville
-Research Park,research,uiowa
+PM North Liberty;pmnorthlib;coralville
+Research Park;research;uiowa

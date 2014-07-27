@@ -1,30 +1,32 @@
-1,Downtown Interchange,41.66017,-91.5359
-7080,UI Main Library,41.6595407,-91.53775
-8100,UI Hospital Emergency Entrance,41.6585899,-91.54532
-8101,UI Family Care,41.6569099,-91.5473631
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545608
-8107,Melrose Avenue and George Street,41.6563802,-91.5571588
-8109,Sunset Street and Melrose Avenue,41.6554656,-91.5596903
-8111,Sunset Street and Marietta Avenue,41.6534251,-91.5595898
-8113,Sunset Street and Oakcrest Street,41.65191,-91.55954
-8115,Oaknoll Retirement Center #1,41.6519082,-91.5563876
-8116,Oaknoll Retirement Center #2,41.6520404,-91.5543142
-8117,Oakcrest Street #3,41.6517799,-91.5526494
-8118,Oakcrest Street and Woodside Drive,41.65269,-91.55153
-8119,Oakcrest Street #5,41.6536401,-91.5503068
-8120,Woodside Place and Greenwood Drive,41.6523088,-91.5486397
-8121,Greenwood Drive and Benton Street,41.65054,-91.55033
-8122,Seville Apartments,41.6504699,-91.5524894
-8123,Benton Street and Oaknoll Drive,41.65049,-91.5545407
-8124,Benton Street and George Street,41.65048,-91.5567692
-8125,Benton Street and Streb Street,41.65047,-91.5582953
-8114,Sunset Street and Oakcrest Street,41.6516781,-91.5594599
-8112,Sunset Street and Marietta Avenue,41.6532441,-91.5595098
-8110,Sunset Street and Melrose Avenue,41.6556071,-91.5596098
-8108,Melrose Avenue and George Street,41.6563815,-91.5568335
-8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542762
-8104,Melrose Avenue and Hawkins Drive,41.65683,-91.5501361
-8102,UI Family Care,41.65681,-91.5471018
-8103,Melrose Avenue and South Grand Avenue,41.65678,-91.54468
-7079,UI Lindquist Center,41.6585444,-91.53764
-7081,Madison Street and Washington Street,41.6599,-91.5376399
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7080;UI Main Library;41.6595407;-91.53775
+8100;UI Hospital Emergency Entrance;41.6585899;-91.54532
+8101;UI Family Care;41.6569099;-91.5473631
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545608
+8107;Melrose Avenue and George Street;41.6563802;-91.5571588
+8109;Sunset Street and Melrose Avenue;41.6554656;-91.5596903
+8111;Sunset Street and Marietta Avenue;41.6534251;-91.5595898
+8113;Sunset Street and Oakcrest Street;41.65191;-91.55954
+8115;Oaknoll Retirement Center #1;41.6519082;-91.5563876
+8116;Oaknoll Retirement Center #2;41.6520404;-91.5543142
+8117;Oakcrest Street #3;41.6517799;-91.5526494
+8118;Oakcrest Street and Woodside Drive;41.65269;-91.55153
+8119;Oakcrest Street #5;41.6536401;-91.5503068
+Inbound
+8120;Woodside Place and Greenwood Drive;41.6523088;-91.5486397
+8121;Greenwood Drive and Benton Street;41.65054;-91.55033
+8122;Seville Apartments;41.6504699;-91.5524894
+8123;Benton Street and Oaknoll Drive;41.65049;-91.5545407
+8124;Benton Street and George Street;41.65048;-91.5567692
+8125;Benton Street and Streb Street;41.65047;-91.5582953
+8114;Sunset Street and Oakcrest Street;41.6516781;-91.5594599
+8112;Sunset Street and Marietta Avenue;41.6532441;-91.5595098
+8110;Sunset Street and Melrose Avenue;41.6556071;-91.5596098
+8108;Melrose Avenue and George Street;41.6563815;-91.5568335
+8106;Melrose Avenue and Koser Avenue;41.65687;-91.5542762
+8104;Melrose Avenue and Hawkins Drive;41.65683;-91.5501361
+8102;UI Family Care;41.65681;-91.5471018
+8103;Melrose Avenue and South Grand Avenue;41.65678;-91.54468
+7079;UI Lindquist Center;41.6585444;-91.53764
+7081;Madison Street and Washington Street;41.6599;-91.5376399

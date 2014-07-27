@@ -1,2 +1,2 @@
-Westside Hospital,westhosp,iowa-city
-Westwinds,westwinds,iowa-city
+Westside Hospital;westhosp;iowa-city
+Westwinds;westwinds;iowa-city

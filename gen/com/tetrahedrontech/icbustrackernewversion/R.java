@@ -567,12 +567,12 @@ containing a value of this type.
         /**  alarm 
  alarm 
          */
-        public static final int alarm_mode=0x7f080031;
-        public static final int alarm_mode_dialogTitle=0x7f080032;
-        public static final int alarm_mode_summary=0x7f080033;
-        public static final int alarm_summary_off=0x7f08002b;
-        public static final int alarm_summary_on=0x7f08002a;
-        public static final int alarm_title=0x7f080029;
+        public static final int alarm_mode=0x7f080030;
+        public static final int alarm_mode_dialogTitle=0x7f080031;
+        public static final int alarm_mode_summary=0x7f080032;
+        public static final int alarm_summary_off=0x7f08002a;
+        public static final int alarm_summary_on=0x7f080029;
+        public static final int alarm_title=0x7f080028;
         public static final int app_name=0x7f080000;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
@@ -597,14 +597,14 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f080016;
-        public static final int auto_refresh_summary_off=0x7f080026;
-        public static final int auto_refresh_summary_on=0x7f080025;
+        public static final int auto_refresh_summary_off=0x7f080025;
+        public static final int auto_refresh_summary_on=0x7f080024;
         /**  Settings 
  Settings 
          */
-        public static final int auto_refresh_title=0x7f080024;
-        public static final int bus_prediction_settings=0x7f08002c;
-        public static final int changeTheme=0x7f080021;
+        public static final int auto_refresh_title=0x7f080023;
+        public static final int bus_prediction_settings=0x7f08002b;
+        public static final int changeTheme=0x7f080033;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -676,18 +676,18 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f080015;
-        public static final int drawer_close=0x7f080023;
-        public static final int drawer_open=0x7f080022;
-        public static final int feet=0x7f080030;
+        public static final int drawer_close=0x7f080022;
+        public static final int drawer_open=0x7f080021;
+        public static final int feet=0x7f08002f;
         public static final int hello_world=0x7f08001c;
         /**  Undo Controller
          */
         public static final int list_card_undo_title=0x7f080001;
-        public static final int meter=0x7f08002f;
-        public static final int nearby_distance_unit=0x7f08002e;
-        public static final int nearby_settings=0x7f08002d;
-        public static final int off=0x7f080028;
-        public static final int on=0x7f080027;
+        public static final int meter=0x7f08002e;
+        public static final int nearby_distance_unit=0x7f08002d;
+        public static final int nearby_settings=0x7f08002c;
+        public static final int off=0x7f080027;
+        public static final int on=0x7f080026;
         public static final int title_activity_near_me=0x7f080020;
         public static final int title_activity_routes_detail=0x7f08001e;
         public static final int title_activity_stops_detail=0x7f08001f;

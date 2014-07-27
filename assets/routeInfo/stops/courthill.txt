@@ -1,38 +1,40 @@
-2,Downtown Interchange,41.66004,-91.53498
-7200,IC Library--Senior Center,41.66008,-91.5318697
-7201,Washington Street and Gilbert Street,41.6600191,-91.5303761
-7241,Burlington Street and Johnson Street,41.6577799,-91.5274136
-7245,Burlington Street and Lucas Street,41.65775,-91.5244529
-7247,Burlington Street and Summit Street,41.65773,-91.5213631
-7249,Burlington Street and Muscatine Avenue,41.65777,-91.5165811
-7301,Court Street and Muscatine Avenue,41.6567099,-91.5143601
-7236,Court Street and 7th Avenue,41.6567399,-91.5117401
-7303,Court Street and Morningside Drive,41.65674,-91.5083983
-7306,City High School,41.6567599,-91.50645
-7308,Hoover Elementary,41.6567502,-91.5035432
-7310,Court Street and 1st Avenue,41.65677,-91.50221
-7312,Court Street and Upland Avenue,41.6567899,-91.5003168
-7314,Court Street and Crestview Avenue,41.6568099,-91.4981113
-7315,Court Street and Linden Court,41.65684,-91.4948704
-7316,Court Street and Westminster Street,41.6568699,-91.4917713
-7317,Court Street and Dartmouth Street,41.6569351,-91.4879149
-7318,Court Street and Friendship Avenue,41.65697,-91.48487
-7321,Friendship Avenue and Arbor Street,41.6551999,-91.4869984
-7322,Friendship Avenue and Clover Street,41.6551888,-91.4905309
-7323,Friendship Avenue and Norwood Circle,41.6550905,-91.4929278
-7324,Friendship Avenue and Meadow Street,41.6537036,-91.4956332
-7325,Friendship Avenue and Terrace Road,41.6534396,-91.4978139
-7326,Upland Avenue and Crestview Avenue,41.6543067,-91.5003502
-7313,Upland Avenue and Court Street,41.6566733,-91.5001106
-7311,Court Street and 1st Avenue,41.6568303,-91.5017884
-7309,Court Street and 2nd Avenue,41.65682,-91.5032541
-7307,City High School,41.6568099,-91.5062332
-7304,Court Street and Morningside Drive,41.65679,-91.5085523
-7237,Court Street and 7th Avenue,41.6567796,-91.5114363
-7302,Court Street and Muscatine Avenue,41.6567503,-91.5146037
-7250,Muscatine Avenue and Burlington Street,41.6577217,-91.5162238
-7248,Burlington Street and Summit Street,41.65784,-91.52103
-7246,Burlington Street and Lucas Street,41.6578502,-91.5242011
-7242,Burlington Street and Johnson Street,41.6578701,-91.5271287
-7243,IC Recreation Center,41.65791,-91.5299756
-7244,Burlington Street and Dubuque Street,41.65792,-91.5329157
+Outbound
+2;Downtown Interchange;41.66004;-91.53498
+7200;IC Library, Senior Center;41.66008;-91.5318697
+7201;Washington Street and Gilbert Street;41.6600191;-91.5303761
+7241;Burlington Street and Johnson Street;41.6577799;-91.5274136
+7245;Burlington Street and Lucas Street;41.65775;-91.5244529
+7247;Burlington Street and Summit Street;41.65773;-91.5213631
+7249;Burlington Street and Muscatine Avenue;41.65777;-91.5165811
+7301;Court Street and Muscatine Avenue;41.6567099;-91.5143601
+7236;Court Street and 7th Avenue;41.6567399;-91.5117401
+7303;Court Street and Morningside Drive;41.65674;-91.5083983
+7306;City High School;41.6567599;-91.50645
+7308;Hoover Elementary;41.6567502;-91.5035432
+7310;Court Street and 1st Avenue;41.65677;-91.50221
+7312;Court Street and Upland Avenue;41.6567899;-91.5003168
+7314;Court Street and Crestview Avenue;41.6568099;-91.4981113
+7315;Court Street and Linden Court;41.65684;-91.4948704
+7316;Court Street and Westminster Street;41.6568699;-91.4917713
+7317;Court Street and Dartmouth Street;41.6569351;-91.4879149
+7318;Court Street and Friendship Avenue;41.65697;-91.48487
+Inbound
+7321;Friendship Avenue and Arbor Street;41.6551999;-91.4869984
+7322;Friendship Avenue and Clover Street;41.6551888;-91.4905309
+7323;Friendship Avenue and Norwood Circle;41.6550905;-91.4929278
+7324;Friendship Avenue and Meadow Street;41.6537036;-91.4956332
+7325;Friendship Avenue and Terrace Road;41.6534396;-91.4978139
+7326;Upland Avenue and Crestview Avenue;41.6543067;-91.5003502
+7313;Upland Avenue and Court Street;41.6566733;-91.5001106
+7311;Court Street and 1st Avenue;41.6568303;-91.5017884
+7309;Court Street and 2nd Avenue;41.65682;-91.5032541
+7307;City High School;41.6568099;-91.5062332
+7304;Court Street and Morningside Drive;41.65679;-91.5085523
+7237;Court Street and 7th Avenue;41.6567796;-91.5114363
+7302;Court Street and Muscatine Avenue;41.6567503;-91.5146037
+7250;Muscatine Avenue and Burlington Street;41.6577217;-91.5162238
+7248;Burlington Street and Summit Street;41.65784;-91.52103
+7246;Burlington Street and Lucas Street;41.6578502;-91.5242011
+7242;Burlington Street and Johnson Street;41.6578701;-91.5271287
+7243;IC Recreation Center;41.65791;-91.5299756
+7244;Burlington Street and Dubuque Street;41.65792;-91.5329157

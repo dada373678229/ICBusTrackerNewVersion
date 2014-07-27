@@ -1,56 +1,58 @@
-1,Downtown Interchange,41.66017,-91.5359
-7082,Washington Street and Madison Street,41.66015,-91.5374518
-146,English Philosophy Building--IMU,41.66135,-91.5384958
-263,UI Student Health,41.6627218,-91.5435109
-257,Newton Road Ramp,41.6634,-91.5459969
-253,VA Hospital,41.6626713,-91.5486163
-8200,Dental College,41.66357,-91.5512403
-241,Carver Hawkeye Arena,41.6633882,-91.5538512
-8203,UI Main Hospital--Kinnick Stadium,41.659639,-91.5499899
-8205,Hawkins Drive and Melrose Avenue,41.6570388,-91.5499402
-8105,Melrose Avenue and Golfview Avenue,41.65695,-91.5545619
-8107,Melrose Avenue and George Street,41.65638,-91.5571598
-8109,Sunset Street and Melrose Avenue,41.6554646,-91.5596902
-8111,Sunset Street and Marietta Avenue,41.6534279,-91.5595897
-8113,Sunset Street and Oakcrest Street,41.6519078,-91.55954
-8247,Sunset Street and Benton Street,41.6505891,-91.5595393
-8126,Sunset Street and Arbury Drive,41.6489149,-91.5594992
-8127,Sunset Street and Penfro Drive,41.6472649,-91.5590196
-8128,Sunset Street and Denbigh Drive,41.64559,-91.55942
-8129,Sunset Street and Aber Avenue,41.6433286,-91.5601497
-8270,Westside Drive and Earl Road,41.6387761,-91.5657602
-8271,Westside Drive and Jeffrey Street,41.64118,-91.56695
-8272,Westside Drive and Earl Road,41.6390832,-91.5682501
-8273,Westside Drive and Morman Trek Blvd.,41.6375193,-91.5680299
-8275,Morman Trek Blvd. and Gryn Drive,41.63971,-91.5722399
-8276,Gryn Drive and Plaen View Drive,41.6400471,-91.5718733
-8277,Plaen View Drive and Little Creek Lane,41.6403306,-91.5702894
-8278,Plaen View Drive,41.6418669,-91.5708636
-8279,Plean View Drive and Morman Trek Blvd.,41.64232,-91.5727949
-8281,Abbey Lane and Dolen Place,41.64336,-91.5734544
-8282,Abbey Lane and Cae Drive,41.6433696,-91.5719717
-8283,Cae Drive and Burry Drive,41.6449782,-91.5711678
-8284,Cae Drive and Cambria Court,41.6458099,-91.5728893
-8285,Cae Drive and Morman Trek Blvd.,41.64576,-91.5738998
-8290,Morman Trek Blvd. and Benton Street,41.6488641,-91.57402
-8229,Walden Plaza,41.6508803,-91.5755786
-8230,Westwinds Drive #2,41.6512397,-91.5774283
-8231,Westwinds Drive #3,41.6523463,-91.5782901
-8223,Westwinds Drive and Hawaii Court,41.6554358,-91.5777415
-8221,Westwinds Drive and Melrose Avenue,41.6564157,-91.5775596
-8217,Melrose Avenue and Morman Trek Blvd.,41.6568697,-91.574355
-8216,Melrose Avenue and Finkbine Lane,41.6566898,-91.572399
-8214,Melrose Avenue and MacBride Road,41.6560802,-91.5688927
-8210,IC Fire Station,41.6555899,-91.5639892
-8150,Melrose Avenue and Sunset Street,41.6555395,-91.5602416
-8108,Melrose Avenue and George Street,41.6563809,-91.5568359
-8106,Melrose Avenue and Koser Avenue,41.65687,-91.5542787
-8207,Ramp 2--Pappajohn& Pomerantz,41.6577486,-91.5498614
-8206,UI Main Hospital--Kinnick Stadium,41.6593028,-91.5498402
-8204,UI Center for Disabilities--Dental College,41.6611018,-91.5506608
-8202,Carver Hawkeye Arena,41.6630179,-91.554031
-8201,Dental College,41.6634791,-91.5509854
-254,VA Hospital,41.662671,-91.5483781
-256,MERF,41.66328,-91.5450199
-145,English Philosophy Building--IMU,41.6612,-91.5403504
-7090,Iowa Avenue and Madison Street,41.6612397,-91.5378993
+Outbound
+1;Downtown Interchange;41.66017;-91.5359
+7082;Washington Street and Madison Street;41.66015;-91.5374518
+146;English Philosophy Building, IMU;41.66135;-91.5384958
+263;UI Student Health;41.6627218;-91.5435109
+257;Newton Road Ramp;41.6634;-91.5459969
+253;VA Hospital;41.6626713;-91.5486163
+8200;Dental College;41.66357;-91.5512403
+241;Carver Hawkeye Arena;41.6633882;-91.5538512
+8203;UI Main Hospital, Kinnick Stadium;41.659639;-91.5499899
+8205;Hawkins Drive and Melrose Avenue;41.6570388;-91.5499402
+8105;Melrose Avenue and Golfview Avenue;41.65695;-91.5545619
+8107;Melrose Avenue and George Street;41.65638;-91.5571598
+8109;Sunset Street and Melrose Avenue;41.6554646;-91.5596902
+8111;Sunset Street and Marietta Avenue;41.6534279;-91.5595897
+8113;Sunset Street and Oakcrest Street;41.6519078;-91.55954
+8247;Sunset Street and Benton Street;41.6505891;-91.5595393
+8126;Sunset Street and Arbury Drive;41.6489149;-91.5594992
+8127;Sunset Street and Penfro Drive;41.6472649;-91.5590196
+8128;Sunset Street and Denbigh Drive;41.64559;-91.55942
+8129;Sunset Street and Aber Avenue;41.6433286;-91.5601497
+8270;Westside Drive and Earl Road;41.6387761;-91.5657602
+8271;Westside Drive and Jeffrey Street;41.64118;-91.56695
+8272;Westside Drive and Earl Road;41.6390832;-91.5682501
+8273;Westside Drive and Morman Trek Blvd.;41.6375193;-91.5680299
+8275;Morman Trek Blvd. and Gryn Drive;41.63971;-91.5722399
+8276;Gryn Drive and Plaen View Drive;41.6400471;-91.5718733
+8277;Plaen View Drive and Little Creek Lane;41.6403306;-91.5702894
+8278;Plaen View Drive;41.6418669;-91.5708636
+8279;Plean View Drive and Morman Trek Blvd.;41.64232;-91.5727949
+8281;Abbey Lane and Dolen Place;41.64336;-91.5734544
+8282;Abbey Lane and Cae Drive;41.6433696;-91.5719717
+8283;Cae Drive and Burry Drive;41.6449782;-91.5711678
+8284;Cae Drive and Cambria Court;41.6458099;-91.5728893
+8285;Cae Drive and Morman Trek Blvd.;41.64576;-91.5738998
+8290;Morman Trek Blvd. and Benton Street;41.6488641;-91.57402
+8229;Walden Plaza;41.6508803;-91.5755786
+Inbound
+8230;Westwinds Drive #2;41.6512397;-91.5774283
+8231;Westwinds Drive #3;41.6523463;-91.5782901
+8223;Westwinds Drive and Hawaii Court;41.6554358;-91.5777415
+8221;Westwinds Drive and Melrose Avenue;41.6564157;-91.5775596
+8217;Melrose Avenue and Morman Trek Blvd.;41.6568697;-91.574355
+8216;Melrose Avenue and Finkbine Lane;41.6566898;-91.572399
+8214;Melrose Avenue and MacBride Road;41.6560802;-91.5688927
+8210;IC Fire Station;41.6555899;-91.5639892
+8150;Melrose Avenue and Sunset Street;41.6555395;-91.5602416
+8108;Melrose Avenue and George Street;41.6563809;-91.5568359
+8106;Melrose Avenue and Koser Avenue;41.65687;-91.5542787
+8207;Ramp 2, Pappajohn& Pomerantz;41.6577486;-91.5498614
+8206;UI Main Hospital, Kinnick Stadium;41.6593028;-91.5498402
+8204;UI Center for Disabilities, Dental College;41.6611018;-91.5506608
+8202;Carver Hawkeye Arena;41.6630179;-91.554031
+8201;Dental College;41.6634791;-91.5509854
+254;VA Hospital;41.662671;-91.5483781
+256;MERF;41.66328;-91.5450199
+145;English Philosophy Building, IMU;41.6612;-91.5403504
+7090;Iowa Avenue and Madison Street;41.6612397;-91.5378993

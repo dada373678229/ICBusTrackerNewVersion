@@ -90,9 +90,9 @@ public class RoutesDetailActivity extends Activity {
 					busLocationMarkers.clear();
 					
 					//to keep track of all bus location markers, store it in an arraylist
-					String[] temp=result[0].split(";");
+					String[] temp=result[0].split("\\?");
 					for (int i=0; i<temp.length;i++){
-						String[] temp1=temp[i].split(",");
+						String[] temp1=temp[i].split(";");
 						LatLng busLocation=new LatLng(Float.parseFloat(temp1[1]),Float.parseFloat(temp1[2]));
 						busLocationMarkers.add(map.addMarker(new MarkerOptions().anchor((float)0.5, (float)0.5).flat(true).title("BUS").snippet(temp1[0]).position(busLocation).icon(BitmapDescriptorFactory.fromAsset("busIcon.png")).rotation(Integer.parseInt(temp1[3]))));
 					}
@@ -113,9 +113,11 @@ public class RoutesDetailActivity extends Activity {
 		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 		
 		//get the route name and route agency from intent
-		routeName=((String) getIntent().getExtras().get("route")).split(",")[0];
-		routeAgency=((String) getIntent().getExtras().get("route")).split(",")[1];
-		routeDisplayName=((String) getIntent().getExtras().get("route")).split(",")[2];
+		
+		routeName=((String) getIntent().getExtras().get("route")).split(";")[0];
+		//Log.i("mytag",routeName);
+		routeAgency=((String) getIntent().getExtras().get("route")).split(";")[1];
+		routeDisplayName=((String) getIntent().getExtras().get("route")).split(";")[2];
 		
 		//set up action bar
 		getActionBar().setTitle(routeDisplayName);
@@ -215,9 +217,11 @@ public class RoutesDetailActivity extends Activity {
 	        String[] rawData;
 	        while (line != null){
 	        	Log.i("mytag",line);
-	            rawData=line.split(",");
+	            rawData=line.split(";");
 	            //add marker
-	            map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(rawData[2]), Double.parseDouble(rawData[3]))).title(rawData[0]).snippet(rawData[1]).icon(BitmapDescriptorFactory.defaultMarker(200)).alpha(0.7f));
+	            if (rawData.length != 1){
+	            	map.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(rawData[2]), Double.parseDouble(rawData[3]))).title(rawData[0]).snippet(rawData[1]).icon(BitmapDescriptorFactory.defaultMarker(200)).alpha(0.7f));
+	            }
 	            line=br.readLine();
 	        }
 	        is.close();
@@ -265,7 +269,7 @@ public class RoutesDetailActivity extends Activity {
 	            	//if the marker clicked is not a bus marker
 	            	if (!marker.getTitle().equals("BUS")){
 	            		Intent i = new Intent(context,StopsDetailActivity.class);
-	            		i.putExtra("stopTitle", marker.getTitle()+","+marker.getSnippet());
+	            		i.putExtra("stopTitle", marker.getTitle()+";"+marker.getSnippet());
 	            		context.startActivity(i);
 	            		overridePendingTransition(R.anim.slide_in_from_right, R.anim.slide_out_to_left);
 	            	}       
@@ -286,7 +290,7 @@ public class RoutesDetailActivity extends Activity {
 	        map.setMyLocationEnabled(true);
 		}
 		catch (Exception e){
-			Log.i("mytag","shouldn't be here");
+			Log.i("mytag",e.toString());
 		}
 	}
 	
