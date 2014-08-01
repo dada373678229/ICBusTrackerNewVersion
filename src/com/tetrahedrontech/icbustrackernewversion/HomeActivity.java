@@ -220,6 +220,10 @@ public class HomeActivity extends Activity{
         case 5:
             fragment = new SettingsFragment();
             break;
+            
+        case 6:
+        	fragment = new AboutFragment();
+        	break;
  		
         default:
             break;

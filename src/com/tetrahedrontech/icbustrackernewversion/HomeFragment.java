@@ -48,7 +48,7 @@ public class HomeFragment extends Fragment{
     @Override
     public void onActivityCreated(Bundle savedInstanceState){
     	super.onActivityCreated(savedInstanceState);
-    	
+    	/*
     	Card weather=new Card(getActivity());
     	CardHeader title=new CardHeader(getActivity());
     	title.setTitle("weather card");
@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment{
             }
         });
     	CardView cardView = (CardView) getActivity().findViewById(R.id.favoriteWeatherCard);
-        cardView.setCard(weather);
+        cardView.setCard(weather);*/
         
     	mCardArrayAdapter = new CardArrayAdapter(getActivity(),cards);
     	mCardArrayAdapter.setEnableUndo(true);

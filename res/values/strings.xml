@@ -36,14 +36,14 @@
     
     <!-- Settings -->
     <string name="auto_refresh_title">Auto-Refresh</string>
-    <string name="auto_refresh_summary_on">Bus arrival times will be updated frequently. Auto-Refresh may increase your data usage.</string>
-    <string name="auto_refresh_summary_off">Bus arrival times will not be updated. To turn on, Bus Arrival Alarm should be off.</string>
+    <string name="auto_refresh_summary_on">Bus arrival times will be updated frequently. This may increase your data usage.</string>
+    <string name="auto_refresh_summary_off">Bus arrival times won\'t be updated automatically. To turn on, Bus Arrival Alarm should be off.</string>
     <string name="on">On</string>
     <string name="off">Off</string>
-    <string name="alarm_title">Bus Arrival Alarm (beta)</string>
-    <string name="alarm_summary_on">You can set an alarm on an upcoming bus.</string>
-    <string name="alarm_summary_off">You are not able to set an alarm on an upcoming bus. To turn on, Auto_Refresh should be off.</string>
-    <string name="bus_prediction_settings">Bus Predictions Settings</string>
+    <string name="alarm_title">Bus Arrival Alarm</string>
+    <string name="alarm_summary_on">You can set an alarm when a bus is coming.</string>
+    <string name="alarm_summary_off">You won\'t be notified when a bus is coming. To turn on, Auto_Refresh should be off.</string>
+    <string name="bus_prediction_settings">Bus Prediction Settings (beta)</string>
     <string name="nearby_settings">Nearby Settings</string>
     <string name="nearby_distance_unit">Unit of Distance</string>
     <string name="meter">Meter</string>
@@ -70,8 +70,11 @@
     <string name="alarm_mode_dialogTitle">Type of Alarm</string>
     <string name="alarm_mode_summary">Set alarm\'s behaviour when times up</string>
     
+    <!-- about -->
+    <string name="about_us">Bongo City is developed by a group of enthusiastic University of Iowa undergraduates who want to use mobile technology to improve people\'s living experience.\n\nBongo City is the first Android App we wrote. It has a modern Google card UI and changable themes. There are some functions still being developed and tested, including Auto-Refresh and Bus Arrival Alarm.\n\nTeam Members\:\nProject Lead: Joey Zheng\nProgrammer: Joey Zheng, Yanhao Hu, Zeyi Tao\nGraphical Design: Xi Jin, Yijia Tang\nTester: Joey Zheng\n\nAny comments or bug reports will be much appreciated, please contact Joey Zheng at\:\nzhaowei-zheng@uiowa.edu\n\nAll of the data for Bongo is copyrighted by the University of Iowa, the City of Iowa City and/or the City of Coralville.</string>
+    
     <plurals name="list_card_undo_items">
-        <item quantity="one">Stop removed. Regret?</item>
+        <item quantity="one">Stop removed. Mistake?</item>
     </plurals>
 
 </resources>

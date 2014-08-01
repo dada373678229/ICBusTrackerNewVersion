@@ -12,6 +12,7 @@
         android:id="@+id/favorite_linear"
         android:orientation="vertical">
         
+        <!-- 
         <it.gmariotti.cardslib.library.view.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +20,7 @@
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:id="@+id/favoriteWeatherCard"/>
+        android:id="@+id/favoriteWeatherCard"/> -->
         
         <it.gmariotti.cardslib.library.view.CardListView
         android:layout_below="@id/favorite_linear"
