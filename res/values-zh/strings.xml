@@ -71,7 +71,7 @@
     <string name="alarm_mode_summary">设置闹钟提醒模式</string>
     
     <plurals name="list_card_undo_items">
-        <item quantity="one">成功删除。反悔了？</item>
+        <item quantity="one">成功删除。删错了？</item>
     </plurals>
 
 </resources>
