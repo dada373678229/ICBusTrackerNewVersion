@@ -27,7 +27,7 @@
         <item>@drawable/ic_route</item>
         <item>@drawable/ic_near_me</item>
         <item>@drawable/ic_themes</item>
-        <item>@drawable/ic_themes</item>
+        <item>@drawable/ic_setting</item>
         <item>@drawable/ic_about</item>
     </array>
     
@@ -71,7 +71,7 @@
     <string name="alarm_mode_summary">Set alarm\'s behaviour when times up</string>
     
     <!-- about -->
-    <string name="about_us">Bongo City is developed by a group of enthusiastic University of Iowa undergraduates who want to use mobile technology to improve people\'s living experience.\n\nBongo City is the first Android App we wrote. It has a modern Google card UI and changable themes. There are some functions still being developed and tested, including Auto-Refresh and Bus Arrival Alarm.\n\nTeam Members\:\nProject Lead: Joey Zheng\nProgrammer: Joey Zheng, Yanhao Hu, Zeyi Tao\nGraphical Design: Xi Jin, Yijia Tang\nTester: Joey Zheng\n\nAny comments or bug reports will be much appreciated, please contact Joey Zheng at\:\nzhaowei-zheng@uiowa.edu\n\nAll of the data for Bongo is copyrighted by the University of Iowa, the City of Iowa City and/or the City of Coralville.</string>
+    <string name="about_us">Bongo City is developed by a group of enthusiastic University of Iowa undergraduates who want to improve Iowa City Bongo experience. \n\nTeam Members\:\nLead: Joey Zheng\nProgrammer: Joey Zheng, Yanhao Hu, Zeyi Tao\nGraphical Design: Xi Jin\nTester: Joey Zheng\n\nAny comments or bug reports will be much appreciated, please contact Joey Zheng at\:\nzhaowei-zheng@uiowa.edu\n\nAll of the data for Bongo is copyrighted by the University of Iowa, the City of Iowa City and/or the City of Coralville.</string>
     
     <plurals name="list_card_undo_items">
         <item quantity="one">Stop removed. Mistake?</item>

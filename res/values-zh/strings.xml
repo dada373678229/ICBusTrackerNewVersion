@@ -6,7 +6,6 @@
     <string name="title_activity_routes_detail">RoutesDetailActivity</string>
     <string name="title_activity_stops_detail">StopsDetailActivity</string>
     <string name="title_activity_near_me">NearMeActivity</string>
-    <string name="changeTheme">Choose theme by pressing following cards:</string>
     
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
